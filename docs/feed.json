@@ -1,0 +1,1160 @@
+{
+ "generated_at": "2026-09-23T07:21:57Z",
+ "model": "deepseek-v4-flash",
+ "modules": [
+  {
+   "id": "llm4or",
+   "label": "LLM4OR / L2O",
+   "items": [
+    {
+     "id": "p:httparxivorgabs260923739",
+     "kind": "paper",
+     "date": "**2026-09-20**",
+     "title": "Contextual Distributionally Robust Chance-Constrained Programs: Exact Reformulations and Valid Inequalities",
+     "authors": "Hanbin Yang et.al.",
+     "url": "http://arxiv.org/abs/2609.23739",
+     "topic": "Solver Intelligence",
+     "topics": [
+      "Solver Intelligence"
+     ],
+     "importance": 8.0,
+     "summary": "给出上下文分布鲁棒机会约束规划的精确重构与有效不等式。",
+     "tags": [
+      "分布鲁棒",
+      "机会约束",
+      "有效不等式"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260924260",
+     "kind": "paper",
+     "date": "**2026-09-21**",
+     "title": "Adversarially Robust PAC Learning with Optimal VC Rates",
+     "authors": "Steve Hanneke et.al.",
+     "url": "http://arxiv.org/abs/2609.24260",
+     "topic": "L2O / Learning to Optimize",
+     "topics": [
+      "L2O / Learning to Optimize"
+     ],
+     "importance": 8.0,
+     "summary": "建立对抗鲁棒PAC学习的最优VC速率界。",
+     "tags": [
+      "PAC学习",
+      "对抗鲁棒",
+      "VC维"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260923716",
+     "kind": "paper",
+     "date": "**2026-09-20**",
+     "title": "STEVE: Stabilizing Textual Gradient-Based Prompt Optimization via Error-Driven Refinement and Regularized Verification",
+     "authors": "Yifan Xu et.al.",
+     "url": "http://arxiv.org/abs/2609.23716",
+     "topic": "LLM Auto-Formulation",
+     "topics": [
+      "LLM Auto-Formulation"
+     ],
+     "importance": 7.0,
+     "summary": "STEVE通过误差驱动精炼与正则验证稳定文本梯度提示优化。",
+     "tags": [
+      "提示优化",
+      "文本梯度",
+      "LLM"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260923695",
+     "kind": "paper",
+     "date": "**2026-09-20**",
+     "title": "PhysAI-Bench: A Benchmark for LLM-Based Agentic Decision-Making in Autonomous UAV-Centric Physical AI",
+     "authors": "Mohamed Amine Ferrag et.al.",
+     "url": "http://arxiv.org/abs/2609.23695",
+     "topic": "LLM Auto-Formulation",
+     "topics": [
+      "LLM Auto-Formulation"
+     ],
+     "importance": 7.0,
+     "summary": "提出PhysAI-Bench基准评测LLM智能体在无人机物理AI决策。",
+     "tags": [
+      "基准",
+      "LLM智能体",
+      "无人机"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260923461",
+     "kind": "paper",
+     "date": "**2026-09-20**",
+     "title": "A Combinatorial Benders Decomposition Framework for Two-Dimensional Irregular Bin Packing Problems with Convex Polygons",
+     "authors": "Jianming Wang et.al.",
+     "url": "http://arxiv.org/abs/2609.23461",
+     "topic": "Solver Intelligence",
+     "topics": [
+      "Solver Intelligence"
+     ],
+     "importance": 7.0,
+     "summary": "提出组合Benders分解框架求解凸多边形二维不规则装箱。",
+     "tags": [
+      "Benders分解",
+      "不规则装箱",
+      "组合优化"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260924605",
+     "kind": "paper",
+     "date": "**2026-09-21**",
+     "title": "Scalable Dynamic Pricing of Substitutable Products through Structure-Guided Policy Learning",
+     "authors": "Yue Su et.al.",
+     "url": "http://arxiv.org/abs/2609.24605",
+     "topic": "L2O / Learning to Optimize",
+     "topics": [
+      "L2O / Learning to Optimize"
+     ],
+     "importance": 7.0,
+     "summary": "通过结构引导策略学习实现可替代产品可扩展动态定价。",
+     "tags": [
+      "动态定价",
+      "策略学习",
+      "可替代产品"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260924105",
+     "kind": "paper",
+     "date": "**2026-09-21**",
+     "title": "DCL-GPGLS: Dynamic Curriculum Learning for Genetic Programming Guided Local Search in Large-Scale Vehicle Routing",
+     "authors": "Saining Liu et.al.",
+     "url": "http://arxiv.org/abs/2609.24105",
+     "topic": "VRP / Combinatorial Solving",
+     "topics": [
+      "VRP / Combinatorial Solving"
+     ],
+     "importance": 7.0,
+     "summary": "用动态课程学习引导遗传规划局部搜索求解大规模VRP。",
+     "tags": [
+      "遗传规划",
+      "课程学习",
+      "VRP"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260924104",
+     "kind": "paper",
+     "date": "**2026-09-21**",
+     "title": "Genetic Programming with Behaviour-based Niching for Learning Guided Local Search in Vehicle Routing Problems",
+     "authors": "Saining Liu et.al.",
+     "url": "http://arxiv.org/abs/2609.24104",
+     "topic": "VRP / Combinatorial Solving",
+     "topics": [
+      "VRP / Combinatorial Solving"
+     ],
+     "importance": 7.0,
+     "summary": "基于行为小生境遗传规划学习VRP引导局部搜索。",
+     "tags": [
+      "遗传规划",
+      "小生境",
+      "VRP"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260925594",
+     "kind": "paper",
+     "date": "**2026-09-22**",
+     "title": "Optimal Operation Method for Computing Power-Electric Power Coordination Considering End-to-End Completion Latency of Computing Tasks",
+     "authors": "Yize Liu et.al.",
+     "url": "http://arxiv.org/abs/2609.25594",
+     "topic": "LLM Auto-Formulation",
+     "topics": [
+      "LLM Auto-Formulation"
+     ],
+     "importance": 7.0,
+     "summary": "面向算力-电力协同优化，考虑计算任务端到端完成时延。",
+     "tags": [
+      "算力网络",
+      "电力协同",
+      "优化调度"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260922350",
+     "kind": "paper",
+     "date": "**2026-09-22**",
+     "title": "Recasting the Destroy Step of Large Neighborhood Search as Dense Segmentation",
+     "authors": "Yang Liu et.al.",
+     "url": "http://arxiv.org/abs/2609.22350",
+     "topic": "VRP / Combinatorial Solving",
+     "topics": [
+      "VRP / Combinatorial Solving"
+     ],
+     "importance": 7.0,
+     "summary": "将大邻域搜索的破坏步骤重构为稠密分割问题。",
+     "tags": [
+      "LNS",
+      "稠密分割",
+      "组合优化"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260923188",
+     "kind": "paper",
+     "date": "**2026-09-19**",
+     "title": "A General Multicriteria Optimization Perspective on Resilience",
+     "authors": "Stephan Helfrich et.al.",
+     "url": "http://arxiv.org/abs/2609.23188",
+     "topic": "LLM Auto-Formulation",
+     "topics": [
+      "LLM Auto-Formulation"
+     ],
+     "importance": 6.0,
+     "summary": "从多准则优化视角综述韧性建模与优化。",
+     "tags": [
+      "多准则优化",
+      "韧性",
+      "综述"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260924291",
+     "kind": "paper",
+     "date": "**2026-09-21**",
+     "title": "New lower bounds for CDS and $f$-routing",
+     "authors": "Atsuya Hasegawa et.al.",
+     "url": "http://arxiv.org/abs/2609.24291",
+     "topic": "VRP / Combinatorial Solving",
+     "topics": [
+      "VRP / Combinatorial Solving"
+     ],
+     "importance": 6.0,
+     "summary": "给出CDS与f-routing问题的新下界。",
+     "tags": [
+      "下界",
+      "CDS",
+      "f-routing"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260926238",
+     "kind": "paper",
+     "date": "**2026-09-22**",
+     "title": "Manipulation of Deformable Linear Objects Using Model Predictive Path Integral Control with Bidirectional Long Short-Term Memory Learning",
+     "authors": "Lukas Zeh et.al.",
+     "url": "http://arxiv.org/abs/2609.26238",
+     "topic": "L2O / Learning to Optimize",
+     "topics": [
+      "L2O / Learning to Optimize"
+     ],
+     "importance": 6.0,
+     "summary": "用MPPI结合双向LSTM学习控制可变形线性物体操作。",
+     "tags": [
+      "MPPI",
+      "BiLSTM",
+      "可变形物体"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260925831",
+     "kind": "paper",
+     "date": "**2026-09-22**",
+     "title": "Sometimes You Gotta Run Before You Can Walk: Run-then-Walk Scheduling Strategy for VLM Autonomous Driving",
+     "authors": "Yuqi Ye et.al.",
+     "url": "http://arxiv.org/abs/2609.25831",
+     "topic": "L2O / Learning to Optimize",
+     "topics": [
+      "L2O / Learning to Optimize"
+     ],
+     "importance": 6.0,
+     "summary": "提出先跑后走调度策略用于VLM自动驾驶。",
+     "tags": [
+      "自动驾驶",
+      "VLM",
+      "调度策略"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260926556",
+     "kind": "paper",
+     "date": "**2026-09-22**",
+     "title": "Neutral-Atom-based Quantum Optimization for Resource Allocation in NOMA Networks",
+     "authors": "Patatchona Keyela et.al.",
+     "url": "http://arxiv.org/abs/2609.26556",
+     "topic": "Solver Intelligence",
+     "topics": [
+      "Solver Intelligence"
+     ],
+     "importance": 6.0,
+     "summary": "基于中性原子量子优化求解NOMA网络资源分配。",
+     "tags": [
+      "量子优化",
+      "NOMA",
+      "资源分配"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260924249",
+     "kind": "paper",
+     "date": "**2026-09-21**",
+     "title": "Reinforcement Learning Inspired Black-box Adversarial Attacks for Computer Vision",
+     "authors": "Florian Krone et.al.",
+     "url": "http://arxiv.org/abs/2609.24249",
+     "topic": "L2O / Learning to Optimize",
+     "topics": [
+      "L2O / Learning to Optimize"
+     ],
+     "importance": 5.0,
+     "summary": "受强化学习启发的黑盒对抗攻击方法用于计算机视觉。",
+     "tags": [
+      "对抗攻击",
+      "黑盒",
+      "强化学习"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260925911",
+     "kind": "paper",
+     "date": "**2026-09-22**",
+     "title": "When Should Dependency Updates Invoke Repair Agents? A Lightweight Routing Study",
+     "authors": "Liheng Fan et.al.",
+     "url": "http://arxiv.org/abs/2609.25911",
+     "topic": "VRP / Combinatorial Solving",
+     "topics": [
+      "VRP / Combinatorial Solving"
+     ],
+     "importance": 5.0,
+     "summary": "研究依赖更新何时应触发修复代理的轻量路由方法。",
+     "tags": [
+      "依赖更新",
+      "修复代理",
+      "路由"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260926540",
+     "kind": "paper",
+     "date": "**2026-09-22**",
+     "title": "Bespoke: Generating MOOC-Quality Industry-Personalized Lecture Videos at Scale",
+     "authors": "Romain Puech et.al.",
+     "url": "http://arxiv.org/abs/2609.26540",
+     "topic": "L2O / Learning to Optimize",
+     "topics": [
+      "L2O / Learning to Optimize"
+     ],
+     "importance": 4.0,
+     "summary": "提出Bespoke方法规模化生成MOOC级行业个性化讲座视频。",
+     "tags": [
+      "教育AI",
+      "视频生成",
+      "个性化"
+     ],
+     "module": "llm4or"
+    }
+   ]
+  },
+  {
+   "id": "agentic",
+   "label": "Agentic AI",
+   "items": [
+    {
+     "id": "p:httparxivorgabs260925611",
+     "kind": "paper",
+     "date": "**2026-09-22**",
+     "title": "Qwen3.8-Omni: Towards Native Omni-Modal Agents",
+     "authors": "Qwen Team et.al.",
+     "url": "http://arxiv.org/abs/2609.25611",
+     "topic": "Agent Loop / Harness",
+     "topics": [
+      "Agent Loop / Harness",
+      "Memory / Context"
+     ],
+     "importance": 9.0,
+     "summary": "Qwen3.8-Omni迈向原生全模态智能体",
+     "tags": [
+      "omni-modal",
+      "foundation-model",
+      "agent"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs260926781",
+     "kind": "paper",
+     "date": "**2026-09-22**",
+     "title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
+     "authors": "Zhihao Zhan et.al.",
+     "url": "http://arxiv.org/abs/2609.26781",
+     "topic": "Agent Loop / Harness",
+     "topics": [
+      "Agent Loop / Harness",
+      "A2A / Multi-Agent Orchestration"
+     ],
+     "importance": 8.0,
+     "summary": "提出将组织智能扩展至1024个智能体的Agensh框架",
+     "tags": [
+      "multi-agent",
+      "scaling",
+      "organizational-intellige"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs260926760",
+     "kind": "paper",
+     "date": "**2026-09-22**",
+     "title": "Grow the Harness, Not the Context: From Strategy-Free Scaffolds to Reusable Specialist Agents",
+     "authors": "Laizhen Li et.al.",
+     "url": "http://arxiv.org/abs/2609.26760",
+     "topic": "Agent Loop / Harness",
+     "topics": [
+      "Agent Loop / Harness",
+      "MCP / Tool Protocols",
+      "Planning / Self-Evolution"
+     ],
+     "importance": 8.0,
+     "summary": "主张扩展工具框架而非上下文，构建可复用专家智能体",
+     "tags": [
+      "agent-scaffold",
+      "context-engineering",
+      "reusable-agents"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs260926048",
+     "kind": "paper",
+     "date": "**2026-09-22**",
+     "title": "FIRE: Failure-Informed Runtime Engineering for Reliable Language-Model Agents",
+     "authors": "Nikita Agarwal et.al.",
+     "url": "http://arxiv.org/abs/2609.26048",
+     "topic": "Agent Loop / Harness",
+     "topics": [
+      "Agent Loop / Harness"
+     ],
+     "importance": 8.0,
+     "summary": "基于失败信息的运行时工程提升语言模型智能体可靠性",
+     "tags": [
+      "reliability",
+      "runtime-engineering",
+      "failure-informed"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs260926761",
+     "kind": "paper",
+     "date": "**2026-09-22**",
+     "title": "A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem",
+     "authors": "Laizhen Li et.al.",
+     "url": "http://arxiv.org/abs/2609.26761",
+     "topic": "MCP / Tool Protocols",
+     "topics": [
+      "MCP / Tool Protocols"
+     ],
+     "importance": 8.0,
+     "summary": "MCP生态中基于轨迹优化的智能体劫持攻击",
+     "tags": [
+      "MCP",
+      "agent-hijacking",
+      "security"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs260926693",
+     "kind": "paper",
+     "date": "**2026-09-22**",
+     "title": "Measuring the Serving Stack Instead of the Model: Hidden Confounds in Local Tool-Use Evaluation",
+     "authors": "Lijuan Tang et.al.",
+     "url": "http://arxiv.org/abs/2609.26693",
+     "topic": "MCP / Tool Protocols",
+     "topics": [
+      "MCP / Tool Protocols"
+     ],
+     "importance": 8.0,
+     "summary": "揭示本地工具使用评估中服务栈的隐藏混淆因素",
+     "tags": [
+      "evaluation",
+      "tool-use",
+      "confounds"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs260926293",
+     "kind": "paper",
+     "date": "**2026-09-22**",
+     "title": "Dual-Frontier: When Can an Agent Trust Its World Model?",
+     "authors": "Huatai Zhu et.al.",
+     "url": "http://arxiv.org/abs/2609.26293",
+     "topic": "MCP / Tool Protocols",
+     "topics": [
+      "MCP / Tool Protocols"
+     ],
+     "importance": 8.0,
+     "summary": "探讨智能体何时能信任其世界模型的双前沿问题",
+     "tags": [
+      "world-model",
+      "trust",
+      "agent"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs260926661",
+     "kind": "paper",
+     "date": "**2026-09-22**",
+     "title": "Autonomous Quantum Transport Measurements of 2D Semiconductors by an AI Agent",
+     "authors": "Brandon Bauer et.al.",
+     "url": "http://arxiv.org/abs/2609.26661",
+     "topic": "Agent Loop / Harness",
+     "topics": [
+      "Agent Loop / Harness"
+     ],
+     "importance": 7.0,
+     "summary": "AI智能体自主完成二维半导体量子输运测量",
+     "tags": [
+      "autonomous-experiment",
+      "quantum-transport",
+      "AI-for-science"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs260926499",
+     "kind": "paper",
+     "date": "**2026-09-22**",
+     "title": "Generalizing Manipulation Skills with a Local Coding Agent",
+     "authors": "Raman Talwar et.al.",
+     "url": "http://arxiv.org/abs/2609.26499",
+     "topic": "Agent Loop / Harness",
+     "topics": [
+      "Agent Loop / Harness"
+     ],
+     "importance": 7.0,
+     "summary": "用本地编码智能体泛化机器人操作技能",
+     "tags": [
+      "manipulation",
+      "coding-agent",
+      "skill-generalization"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs260925991",
+     "kind": "paper",
+     "date": "**2026-09-22**",
+     "title": "Knowledge-as-Skill: A Structural Design for Autonomous Knowledge-Base Use by LLM Agents",
+     "authors": "Jiangxu Wu et.al.",
+     "url": "http://arxiv.org/abs/2609.25991",
+     "topic": "Agent Loop / Harness",
+     "topics": [
+      "Agent Loop / Harness",
+      "MCP / Tool Protocols",
+      "Planning / Self-Evolution"
+     ],
+     "importance": 7.0,
+     "summary": "提出知识即技能的结构化设计供LLM智能体使用知识库",
+     "tags": [
+      "knowledge-base",
+      "LLM-agent",
+      "skill-design"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs260925956",
+     "kind": "paper",
+     "date": "**2026-09-22**",
+     "title": "Governed AI-Agent Coordination for Dementia Care: Architecture, Safety Contracts, and Evidence-Derived Workflow Verification",
+     "authors": "Francesca Medda et.al.",
+     "url": "http://arxiv.org/abs/2609.25956",
+     "topic": "MCP / Tool Protocols",
+     "topics": [
+      "MCP / Tool Protocols"
+     ],
+     "importance": 7.0,
+     "summary": "面向痴呆症护理的受治理AI智能体协调架构与安全契约",
+     "tags": [
+      "AI-governance",
+      "healthcare",
+      "safety-contracts"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs260925873",
+     "kind": "paper",
+     "date": "**2026-09-22**",
+     "title": "AgenticSizing: A Large Language Model-based Multi-Agent Framework for Analog Circuit Sizing",
+     "authors": "Yijia Hao et.al.",
+     "url": "http://arxiv.org/abs/2609.25873",
+     "topic": "Agent Loop / Harness",
+     "topics": [
+      "Agent Loop / Harness"
+     ],
+     "importance": 6.0,
+     "summary": "基于LLM多智能体的模拟电路尺寸设计框架",
+     "tags": [
+      "multi-agent",
+      "analog-circuit",
+      "LLM"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs260925821",
+     "kind": "paper",
+     "date": "**2026-09-22**",
+     "title": "CogenPVG: Cognitive-Enhanced Reflective Multi-Agent Framework for Persuasive Video Generation",
+     "authors": "Yuntian Xiao et.al.",
+     "url": "http://arxiv.org/abs/2609.25821",
+     "topic": "Agent Loop / Harness",
+     "topics": [
+      "Agent Loop / Harness"
+     ],
+     "importance": 6.0,
+     "summary": "认知增强反思式多智能体框架用于说服性视频生成",
+     "tags": [
+      "multi-agent",
+      "video-generation",
+      "reflection"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs260925652",
+     "kind": "paper",
+     "date": "**2026-09-22**",
+     "title": "GameDirector: Decoupling Gameplay Logic from Rendering for Player-Configurable Game World Models",
+     "authors": "Zijun Lin et.al.",
+     "url": "http://arxiv.org/abs/2609.25652",
+     "topic": "Agent Loop / Harness",
+     "topics": [
+      "Agent Loop / Harness"
+     ],
+     "importance": 6.0,
+     "summary": "解耦游戏逻辑与渲染以支持玩家可配置游戏世界模型",
+     "tags": [
+      "game-agent",
+      "world-model",
+      "rendering"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs260926352",
+     "kind": "paper",
+     "date": "**2026-09-22**",
+     "title": "HYDRA: Proactive Android Malware Drift Adaptation via Hierarchical Graph Contrastive Learning",
+     "authors": "Han Chen et.al.",
+     "url": "http://arxiv.org/abs/2609.26352",
+     "topic": "MCP / Tool Protocols",
+     "topics": [
+      "MCP / Tool Protocols"
+     ],
+     "importance": 4.0,
+     "summary": "基于层次图对比学习的Android恶意软件漂移自适应",
+     "tags": [
+      "malware",
+      "graph-learning",
+      "drift-adaptation"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs260926445",
+     "kind": "paper",
+     "date": "**2026-09-22**",
+     "title": "A Practical Guide on Graphical Model Validation",
+     "authors": "Mario V. Wüthrich et.al.",
+     "url": "http://arxiv.org/abs/2609.26445",
+     "topic": "MCP / Tool Protocols",
+     "topics": [
+      "MCP / Tool Protocols"
+     ],
+     "importance": 3.0,
+     "summary": "图模型验证的实用指南",
+     "tags": [
+      "graphical-model",
+      "validation",
+      "tutorial"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs260926517",
+     "kind": "paper",
+     "date": "**2026-09-22**",
+     "title": "Gravitational-Susceptibility Dip Behind DESI's results: Addressing the Phantom Crossing by Local limit of Nonlocal Gravity",
+     "authors": "Aria Hemmatian et.al.",
+     "url": "http://arxiv.org/abs/2609.26517",
+     "topic": "MCP / Tool Protocols",
+     "topics": [
+      "MCP / Tool Protocols"
+     ],
+     "importance": 2.0,
+     "summary": "非局域引力局域极限解释DESI幻影交叉结果",
+     "tags": [
+      "cosmology",
+      "gravity",
+      "DESI"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs260926459",
+     "kind": "paper",
+     "date": "**2026-09-22**",
+     "title": "Fast Karhunen-Loève Expansions via FFT-Accelerated Toeplitz Operators",
+     "authors": "Nils Wildt et.al.",
+     "url": "http://arxiv.org/abs/2609.26459",
+     "topic": "MCP / Tool Protocols",
+     "topics": [
+      "MCP / Tool Protocols"
+     ],
+     "importance": 2.0,
+     "summary": "基于FFT加速Toeplitz算子的快速KL展开",
+     "tags": [
+      "Karhunen-Loeve",
+      "FFT",
+      "Toeplitz"
+     ],
+     "module": "agentic"
+    }
+   ]
+  }
+ ],
+ "hot": {
+  "academic": [
+   {
+    "title": "LLM智能体可靠性",
+    "summary": "多篇论文聚焦智能体运行时容错、失败修复与可信世界模型，推动可靠部署。",
+    "keywords": [
+     "FIRE",
+     "Agent",
+     "Reliability"
+    ]
+   },
+   {
+    "title": "智能体协同与扩展",
+    "summary": "从千级智能体组织到多智能体电路设计，规模化协同成为落地关键。",
+    "keywords": [
+     "Agensh",
+     "Multi-Agent",
+     "Coordination"
+    ]
+   },
+   {
+    "title": "LLM优化与提示学习",
+    "summary": "文本梯度提示优化、策略学习等用大模型直接做优化，方法热度持续上升。",
+    "keywords": [
+     "Prompt Optimization",
+     "Policy Learning",
+     "LLM"
+    ]
+   },
+   {
+    "title": "车辆路径与组合优化",
+    "summary": "遗传规划、邻域搜索等学习型启发式在VRP和装箱问题上密集出现。",
+    "keywords": [
+     "Vehicle Routing",
+     "Local Search",
+     "Genetic Programming"
+    ]
+   },
+   {
+    "title": "智能体基准与评测",
+    "summary": "面向无人机决策、工具调用等场景的基准与评测揭示隐藏偏差。",
+    "keywords": [
+     "Benchmark",
+     "Tool-Use",
+     "Agentic"
+    ]
+   }
+  ],
+  "industry": [
+   {
+    "title": "智谱股价大跌",
+    "summary": "智谱跌超10%，引发市场对AI大模型公司估值与商业化前景的担忧，成为行业关注焦点。",
+    "keywords": [
+     "智谱",
+     "跌超10%"
+    ]
+   },
+   {
+    "title": "AI大模型行业动态",
+    "summary": "百度热搜、微博、知乎等平台AI与大模型话题持续升温，反映行业竞争与舆论高度活跃。",
+    "keywords": [
+     "百度热搜",
+     "微博",
+     "知乎"
+    ]
+   },
+   {
+    "title": "教育政策密集调整",
+    "summary": "学位跟着人口走、2115排进课表、教师发展国家行动等政策集中发布，教育领域迎来重大变革。",
+    "keywords": [
+     "教育部",
+     "学位",
+     "十五五"
+    ]
+   },
+   {
+    "title": "社会安全事件频发",
+    "summary": "杭州火灾、叉车碾压、精神病砍人等事件引发公众对公共安全与社会治理的广泛讨论。",
+    "keywords": [
+     "杭州火灾",
+     "叉车碾压"
+    ]
+   },
+   {
+    "title": "健康养生话题受关注",
+    "summary": "吃素排毒致瘫痪、外卖致肾损伤、0添加是否更安全等话题引发公众对健康生活方式的反思。",
+    "keywords": [
+     "排毒",
+     "0添加",
+     "肾损伤"
+    ]
+   }
+  ]
+ },
+ "news": [
+  {
+   "id": "n:3346470962",
+   "kind": "news",
+   "title": "百度热搜",
+   "url": "",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:9853074552",
+   "kind": "news",
+   "title": "微博",
+   "url": "",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:3730859710",
+   "kind": "news",
+   "title": "知乎",
+   "url": "",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:2689166940",
+   "kind": "news",
+   "title": "买重疾险10年后确诊结肠癌被拒赔",
+   "url": "https://www.baidu.com/s?wd=%E4%B9%B0%E9%87%8D%E7%96%BE%E9%99%A910%E5%B9%B4%E5%90%8E%E7%A1%AE%E8%AF%8A%E7%BB%93%E8%82%A0%E7%99%8C%E8%A2%AB%E6%8B%92%E8%B5%94",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:8487514552",
+   "kind": "news",
+   "title": "教育部：学位跟着人口走",
+   "url": "https://www.baidu.com/s?wd=%E6%95%99%E8%82%B2%E9%83%A8%EF%BC%9A%E5%AD%A6%E4%BD%8D%E8%B7%9F%E7%9D%80%E4%BA%BA%E5%8F%A3%E8%B5%B0",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:3984888245",
+   "kind": "news",
+   "title": "男子边走边看手机遭叉车碾压",
+   "url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E8%BE%B9%E8%B5%B0%E8%BE%B9%E7%9C%8B%E6%89%8B%E6%9C%BA%E9%81%AD%E5%8F%89%E8%BD%A6%E7%A2%BE%E5%8E%8B",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:3535023810",
+   "kind": "news",
+   "title": "敬一丹个人账号“节气”系列继续更新",
+   "url": "https://www.baidu.com/s?wd=%E6%95%AC%E4%B8%80%E4%B8%B9%E4%B8%AA%E4%BA%BA%E8%B4%A6%E5%8F%B7%E2%80%9C%E8%8A%82%E6%B0%94%E2%80%9D%E7%B3%BB%E5%88%97%E7%BB%A7%E7%BB%AD%E6%9B%B4%E6%96%B0",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:8648930366",
+   "kind": "news",
+   "title": "男子称因超龄被当赠品卖进电诈园区",
+   "url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E7%A7%B0%E5%9B%A0%E8%B6%85%E9%BE%84%E8%A2%AB%E5%BD%93%E8%B5%A0%E5%93%81%E5%8D%96%E8%BF%9B%E7%94%B5%E8%AF%88%E5%9B%AD%E5%8C%BA",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:8876359504",
+   "kind": "news",
+   "title": "今日秋分",
+   "url": "https://www.baidu.com/s?wd=%E4%BB%8A%E6%97%A5%E7%A7%8B%E5%88%86",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:6662098922",
+   "kind": "news",
+   "title": "伊朗总统抵达纽约出席联合国大会",
+   "url": "https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E6%80%BB%E7%BB%9F%E6%8A%B5%E8%BE%BE%E7%BA%BD%E7%BA%A6%E5%87%BA%E5%B8%AD%E8%81%94%E5%90%88%E5%9B%BD%E5%A4%A7%E4%BC%9A",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:9665815130",
+   "kind": "news",
+   "title": "叔侄同校只差五岁 课间小叔总去串门",
+   "url": "https://www.baidu.com/s?wd=%E5%8F%94%E4%BE%84%E5%90%8C%E6%A0%A1%E5%8F%AA%E5%B7%AE%E4%BA%94%E5%B2%81+%E8%AF%BE%E9%97%B4%E5%B0%8F%E5%8F%94%E6%80%BB%E5%8E%BB%E4%B8%B2%E9%97%A8",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:2915866939",
+   "kind": "news",
+   "title": "23岁女子吃完外卖后肾损伤",
+   "url": "https://www.baidu.com/s?wd=23%E5%B2%81%E5%A5%B3%E5%AD%90%E5%90%83%E5%AE%8C%E5%A4%96%E5%8D%96%E5%90%8E%E8%82%BE%E6%8D%9F%E4%BC%A4",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:4974496858",
+   "kind": "news",
+   "title": "小狗争骨头一只生气一只吃",
+   "url": "https://www.baidu.com/s?wd=%E5%B0%8F%E7%8B%97%E4%BA%89%E9%AA%A8%E5%A4%B4%E4%B8%80%E5%8F%AA%E7%94%9F%E6%B0%94%E4%B8%80%E5%8F%AA%E5%90%83",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:9171922797",
+   "kind": "news",
+   "title": "台当局称小红书文化侵略 国台办回应",
+   "url": "https://www.baidu.com/s?wd=%E5%8F%B0%E5%BD%93%E5%B1%80%E7%A7%B0%E5%B0%8F%E7%BA%A2%E4%B9%A6%E6%96%87%E5%8C%96%E4%BE%B5%E7%95%A5+%E5%9B%BD%E5%8F%B0%E5%8A%9E%E5%9B%9E%E5%BA%94",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:618517706",
+   "kind": "news",
+   "title": "安徽、河南、福建省委书记调整",
+   "url": "https://www.baidu.com/s?wd=%E5%AE%89%E5%BE%BD%E3%80%81%E6%B2%B3%E5%8D%97%E3%80%81%E7%A6%8F%E5%BB%BA%E7%9C%81%E5%A7%94%E4%B9%A6%E8%AE%B0%E8%B0%83%E6%95%B4",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:9603405734",
+   "kind": "news",
+   "title": "陪看U23国足vsU23阿联酋",
+   "url": "https://www.baidu.com/s?wd=%E9%99%AA%E7%9C%8BU23%E5%9B%BD%E8%B6%B3vsU23%E9%98%BF%E8%81%94%E9%85%8B",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:5148920486",
+   "kind": "news",
+   "title": "女子称父亲离世6亿遗产都归了继母",
+   "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E7%A7%B0%E7%88%B6%E4%BA%B2%E7%A6%BB%E4%B8%966%E4%BA%BF%E9%81%97%E4%BA%A7%E9%83%BD%E5%BD%92%E4%BA%86%E7%BB%A7%E6%AF%8D",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:5379157178",
+   "kind": "news",
+   "title": "女子为“排毒”吃素3年差点瘫痪",
+   "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E4%B8%BA%E2%80%9C%E6%8E%92%E6%AF%92%E2%80%9D%E5%90%83%E7%B4%A03%E5%B9%B4%E5%B7%AE%E7%82%B9%E7%98%AB%E7%97%AA",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:8593671802",
+   "kind": "news",
+   "title": "日本女排颁奖仪式上全员黑脸",
+   "url": "https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E5%A5%B3%E6%8E%92%E9%A2%81%E5%A5%96%E4%BB%AA%E5%BC%8F%E4%B8%8A%E5%85%A8%E5%91%98%E9%BB%91%E8%84%B8",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:2084252643",
+   "kind": "news",
+   "title": "2026央视中秋晚会阵容",
+   "url": "https://www.baidu.com/s?wd=2026%E5%A4%AE%E8%A7%86%E4%B8%AD%E7%A7%8B%E6%99%9A%E4%BC%9A%E9%98%B5%E5%AE%B9",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:4445077813",
+   "kind": "news",
+   "title": "创业板指缩量调整跌0.6%",
+   "url": "https://www.baidu.com/s?wd=%E5%88%9B%E4%B8%9A%E6%9D%BF%E6%8C%87%E7%BC%A9%E9%87%8F%E8%B0%83%E6%95%B4%E8%B7%8C0.6%25",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:9462071600",
+   "kind": "news",
+   "title": "每周至少半天校外实践将在全国推行",
+   "url": "https://www.baidu.com/s?wd=%E6%AF%8F%E5%91%A8%E8%87%B3%E5%B0%91%E5%8D%8A%E5%A4%A9%E6%A0%A1%E5%A4%96%E5%AE%9E%E8%B7%B5%E5%B0%86%E5%9C%A8%E5%85%A8%E5%9B%BD%E6%8E%A8%E8%A1%8C",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:4863256054",
+   "kind": "news",
+   "title": "0添加等于更安全、更健康吗",
+   "url": "https://www.baidu.com/s?wd=0%E6%B7%BB%E5%8A%A0%E7%AD%89%E4%BA%8E%E6%9B%B4%E5%AE%89%E5%85%A8%E3%80%81%E6%9B%B4%E5%81%A5%E5%BA%B7%E5%90%97",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:3765517893",
+   "kind": "news",
+   "title": "智谱跌超10%",
+   "url": "https://www.baidu.com/s?wd=%E6%99%BA%E8%B0%B1%E8%B7%8C%E8%B6%8510%25",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:3089858032",
+   "kind": "news",
+   "title": "好日子里品丰收",
+   "url": "https://www.baidu.com/s?wd=%E5%A5%BD%E6%97%A5%E5%AD%90%E9%87%8C%E5%93%81%E4%B8%B0%E6%94%B6",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:9609306336",
+   "kind": "news",
+   "title": "“老屋枣树今犹在 孩童早已去无踪”",
+   "url": "https://www.baidu.com/s?wd=%E2%80%9C%E8%80%81%E5%B1%8B%E6%9E%A3%E6%A0%91%E4%BB%8A%E7%8A%B9%E5%9C%A8+%E5%AD%A9%E7%AB%A5%E6%97%A9%E5%B7%B2%E5%8E%BB%E6%97%A0%E8%B8%AA%E2%80%9D",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:2307889217",
+   "kind": "news",
+   "title": "核载31吨装了123吨 司机叫冤",
+   "url": "https://www.baidu.com/s?wd=%E6%A0%B8%E8%BD%BD31%E5%90%A8%E8%A3%85%E4%BA%86123%E5%90%A8+%E5%8F%B8%E6%9C%BA%E5%8F%AB%E5%86%A4",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:132357486",
+   "kind": "news",
+   "title": "闲鱼公布涉黄调查结果",
+   "url": "https://www.baidu.com/s?wd=%E9%97%B2%E9%B1%BC%E5%85%AC%E5%B8%83%E6%B6%89%E9%BB%84%E8%B0%83%E6%9F%A5%E7%BB%93%E6%9E%9C",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:8025227419",
+   "kind": "news",
+   "title": "教育部：督促学校把“2115”排进课表",
+   "url": "https://www.baidu.com/s?wd=%E6%95%99%E8%82%B2%E9%83%A8%EF%BC%9A%E7%9D%A3%E4%BF%83%E5%AD%A6%E6%A0%A1%E6%8A%8A%E2%80%9C2115%E2%80%9D%E6%8E%92%E8%BF%9B%E8%AF%BE%E8%A1%A8",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:2915104313",
+   "kind": "news",
+   "title": "女子过敏就诊被护士公主抱进抢救室",
+   "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E8%BF%87%E6%95%8F%E5%B0%B1%E8%AF%8A%E8%A2%AB%E6%8A%A4%E5%A3%AB%E5%85%AC%E4%B8%BB%E6%8A%B1%E8%BF%9B%E6%8A%A2%E6%95%91%E5%AE%A4",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:7949357317",
+   "kind": "news",
+   "title": "“十五五”教师发展国家行动来了",
+   "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%8D%81%E4%BA%94%E4%BA%94%E2%80%9D%E6%95%99%E5%B8%88%E5%8F%91%E5%B1%95%E5%9B%BD%E5%AE%B6%E8%A1%8C%E5%8A%A8%E6%9D%A5%E4%BA%86",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:8719305456",
+   "kind": "news",
+   "title": "“黑老大”黄大发被判死刑立即执行",
+   "url": "https://www.baidu.com/s?wd=%E2%80%9C%E9%BB%91%E8%80%81%E5%A4%A7%E2%80%9D%E9%BB%84%E5%A4%A7%E5%8F%91%E8%A2%AB%E5%88%A4%E6%AD%BB%E5%88%91%E7%AB%8B%E5%8D%B3%E6%89%A7%E8%A1%8C",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:2450649311",
+   "kind": "news",
+   "title": "年轻人开始花钱找“替身”",
+   "url": "https://www.baidu.com/s?wd=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%BC%80%E5%A7%8B%E8%8A%B1%E9%92%B1%E6%89%BE%E2%80%9C%E6%9B%BF%E8%BA%AB%E2%80%9D",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:3043083986",
+   "kind": "news",
+   "title": "才发现眼药水其实是这样用的",
+   "url": "https://s.weibo.com/weibo?q=%E6%89%8D%E5%8F%91%E7%8E%B0%E7%9C%BC%E8%8D%AF%E6%B0%B4%E5%85%B6%E5%AE%9E%E6%98%AF%E8%BF%99%E6%A0%B7%E7%94%A8%E7%9A%84",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:5651726975",
+   "kind": "news",
+   "title": "十个勤天红毯",
+   "url": "https://s.weibo.com/weibo?q=%E5%8D%81%E4%B8%AA%E5%8B%A4%E5%A4%A9%E7%BA%A2%E6%AF%AF",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:240034308",
+   "kind": "news",
+   "title": "家境不好的人普遍不太会索取",
+   "url": "https://s.weibo.com/weibo?q=%E5%AE%B6%E5%A2%83%E4%B8%8D%E5%A5%BD%E7%9A%84%E4%BA%BA%E6%99%AE%E9%81%8D%E4%B8%8D%E5%A4%AA%E4%BC%9A%E7%B4%A2%E5%8F%96",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:6010192848",
+   "kind": "news",
+   "title": "杭州火灾",
+   "url": "https://s.weibo.com/weibo?q=%E6%9D%AD%E5%B7%9E%E7%81%AB%E7%81%BE",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:9892644291",
+   "kind": "news",
+   "title": "文化中国行秋分节气",
+   "url": "https://s.weibo.com/weibo?q=%23%E6%96%87%E5%8C%96%E4%B8%AD%E5%9B%BD%E8%A1%8C%E7%A7%8B%E5%88%86%E8%8A%82%E6%B0%94%23",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:4657272695",
+   "kind": "news",
+   "title": "宋亚轩说刘耀文是帅气的文哥",
+   "url": "https://s.weibo.com/weibo?q=%E5%AE%8B%E4%BA%9A%E8%BD%A9%E8%AF%B4%E5%88%98%E8%80%80%E6%96%87%E6%98%AF%E5%B8%85%E6%B0%94%E7%9A%84%E6%96%87%E5%93%A5",
+   "source": "",
+   "extra": ""
+  },
+  {
+   "id": "n:9685787462",
+   "kind": "news",
+   "title": "精神病男子砍死2女子认误杀罪",
+   "url": "https://s.weibo.com/weibo?q=%23%E7%B2%BE%E7%A5%9E%E7%97%85%E7%94%B7%E5%AD%90%E7%A0%8D%E6%AD%BB2%E5%A5%B3%E5%AD%90%E8%AE%A4%E8%AF%AF%E6%9D%80%E7%BD%AA%23",
+   "source": "",
+   "extra": ""
+  }
+ ]
+}
