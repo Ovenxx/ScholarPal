@@ -175,6 +175,7 @@ def load_news():
                     continue
                 kept += 1
                 clean = re.sub(r"<[^>]+>", " ", summary or "")
+                clean = re.sub(r"(Article|Comments) URL:\\s*\\S+", " ", clean)
                 clean = re.sub(r"\\s+", " ", clean).strip()
                 out.append({
                     "id": "n:" + str(abs(hash(title)) % (10 ** 10)),
@@ -276,6 +277,7 @@ def main():
         sc = news_scores.get(it["id"], {})
         it["importance"] = sc.get("importance", 0.0)
         it["tags"] = sc.get("tags", [])
+        it["summary"] = (sc.get("summary") or it.get("summary") or "")[:220]
         it["module"] = "news"
 
     feed = {
