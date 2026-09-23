@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T07:37:20Z",
+ "generated_at": "2026-09-23T07:42:33Z",
  "model": "deepseek-v4-flash",
  "modules": [
   {
@@ -389,7 +389,28 @@
      "tags": [
       "omni-modal",
       "Qwen",
-      "agent"
+      "foundation-model"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs260926781",
+     "kind": "paper",
+     "date": "2026-09-22",
+     "title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
+     "authors": "Zhihao Zhan et.al.",
+     "url": "http://arxiv.org/abs/2609.26781",
+     "topic": "Agent Loop / Harness",
+     "topics": [
+      "Agent Loop / Harness",
+      "A2A / Multi-Agent Orchestration"
+     ],
+     "importance": 8.0,
+     "summary": "提出将组织智能扩展至1024个智能体的Agensh框架",
+     "tags": [
+      "multi-agent",
+      "scaling",
+      "organization"
      ],
      "module": "agentic"
     },
@@ -410,8 +431,8 @@
      "summary": "主张扩展工具框架而非上下文，构建可复用专家智能体",
      "tags": [
       "agent-scaffold",
-      "reusability",
-      "context"
+      "context",
+      "specialist-agent"
      ],
      "module": "agentic"
     },
@@ -450,28 +471,8 @@
      "summary": "MCP生态中基于轨迹优化的智能体劫持攻击",
      "tags": [
       "MCP",
-      "agent-hijacking",
-      "security"
-     ],
-     "module": "agentic"
-    },
-    {
-     "id": "p:httparxivorgabs260926693",
-     "kind": "paper",
-     "date": "2026-09-22",
-     "title": "Measuring the Serving Stack Instead of the Model: Hidden Confounds in Local Tool-Use Evaluation",
-     "authors": "Lijuan Tang et.al.",
-     "url": "http://arxiv.org/abs/2609.26693",
-     "topic": "MCP / Tool Protocols",
-     "topics": [
-      "MCP / Tool Protocols"
-     ],
-     "importance": 8.0,
-     "summary": "本地工具使用评估中服务栈而非模型的隐藏混淆",
-     "tags": [
-      "evaluation",
-      "tool-use",
-      "confounds"
+      "security",
+      "agent-hijacking"
      ],
      "module": "agentic"
     },
@@ -487,32 +488,11 @@
       "MCP / Tool Protocols"
      ],
      "importance": 8.0,
-     "summary": "双前沿：智能体何时能信任其世界模型",
+     "summary": "探讨智能体何时可信任其世界模型的双前沿问题",
      "tags": [
       "world-model",
       "trust",
       "agent"
-     ],
-     "module": "agentic"
-    },
-    {
-     "id": "p:httparxivorgabs260926781",
-     "kind": "paper",
-     "date": "2026-09-22",
-     "title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
-     "authors": "Zhihao Zhan et.al.",
-     "url": "http://arxiv.org/abs/2609.26781",
-     "topic": "Agent Loop / Harness",
-     "topics": [
-      "Agent Loop / Harness",
-      "A2A / Multi-Agent Orchestration"
-     ],
-     "importance": 7.0,
-     "summary": "提出将组织智能扩展至1024个智能体的Agensh框架",
-     "tags": [
-      "multi-agent",
-      "scaling",
-      "organization"
      ],
      "module": "agentic"
     },
@@ -552,7 +532,7 @@
      "tags": [
       "manipulation",
       "coding-agent",
-      "robotics"
+      "robot"
      ],
      "module": "agentic"
     },
@@ -579,6 +559,26 @@
      "module": "agentic"
     },
     {
+     "id": "p:httparxivorgabs260926693",
+     "kind": "paper",
+     "date": "2026-09-22",
+     "title": "Measuring the Serving Stack Instead of the Model: Hidden Confounds in Local Tool-Use Evaluation",
+     "authors": "Lijuan Tang et.al.",
+     "url": "http://arxiv.org/abs/2609.26693",
+     "topic": "MCP / Tool Protocols",
+     "topics": [
+      "MCP / Tool Protocols"
+     ],
+     "importance": 7.0,
+     "summary": "揭示本地工具使用评估中服务栈的隐藏混淆因素",
+     "tags": [
+      "evaluation",
+      "tool-use",
+      "benchmark"
+     ],
+     "module": "agentic"
+    },
+    {
      "id": "p:httparxivorgabs260925956",
      "kind": "paper",
      "date": "2026-09-22",
@@ -594,7 +594,7 @@
      "tags": [
       "healthcare",
       "safety",
-      "multi-agent"
+      "agent-coordination"
      ],
      "module": "agentic"
     },
@@ -670,11 +670,11 @@
       "MCP / Tool Protocols"
      ],
      "importance": 4.0,
-     "summary": "HYDRA：层次图对比学习实现Android恶意软件漂移适应",
+     "summary": "基于层次图对比学习的Android恶意软件漂移适应",
      "tags": [
       "malware",
       "graph-learning",
-      "drift"
+      "Android"
      ],
      "module": "agentic"
     },
@@ -733,7 +733,7 @@
      "tags": [
       "Karhunen-Loeve",
       "FFT",
-      "Toeplitz"
+      "numerical"
      ],
      "module": "agentic"
     }
@@ -743,35 +743,35 @@
  "hot": {
   "academic": [
    {
-    "title": "智能体可靠性与安全",
-    "summary": "多篇论文聚焦LLM智能体的运行时容错、故障修复、劫持攻击与信任评估，是当前落地最紧迫的瓶颈。",
+    "title": "LLM智能体可靠性",
+    "summary": "多篇论文聚焦语言模型智能体的运行时容错、失败修复与可信世界模型，推动智能体从演示走向可靠部署。",
     "keywords": [
      "FIRE",
-     "Agent Hijacking",
-     "World Model"
+     "Agent",
+     "Runtime Engineering"
     ]
    },
    {
-    "title": "多智能体协同扩展",
-    "summary": "从组织智能扩展到千级智能体、电路设计与视频生成，多智能体框架正快速向大规模协作演进。",
+    "title": "智能体架构与扩展",
+    "summary": "从千级智能体组织到可复用专家智能体，研究如何扩展智能体系统而非上下文，成为工程落地核心议题。",
     "keywords": [
-     "1,024 Agents",
-     "Multi-Agent",
-     "Coordination"
+     "Agensh",
+     "Specialist Agents",
+     "Scaffolds"
     ]
    },
    {
-    "title": "LLM智能体决策基准",
-    "summary": "面向无人机、工具调用等场景的智能体决策评测基准涌现，推动能力度量与隐藏偏差研究。",
+    "title": "智能体决策与基准",
+    "summary": "面向无人机、电路设计、说服视频等场景的智能体决策基准与多智能体框架集中涌现，评估需求迫切。",
     "keywords": [
      "PhysAI-Bench",
-     "Tool-Use Evaluation",
-     "Agentic Decision-Making"
+     "Agentic Decision-Making",
+     "Multi-Agent"
     ]
    },
    {
-    "title": "大模型驱动组合优化",
-    "summary": "遗传编程、大邻域搜索与Benders分解结合学习策略，用于车辆路径与装箱等大规模组合优化。",
+    "title": "组合优化与启发式学习",
+    "summary": "遗传编程、大邻域搜索与Benders分解结合学习策略，求解车辆路径与装箱等大规模组合优化问题。",
     "keywords": [
      "Genetic Programming",
      "Large Neighborhood Searc",
@@ -779,30 +779,30 @@
     ]
    },
    {
-    "title": "提示优化与文本梯度",
-    "summary": "STEVE等工作用误差驱动细化与正则验证稳定文本梯度提示优化，提升LLM优化可靠性。",
+    "title": "鲁棒与随机优化理论",
+    "summary": "分布鲁棒机会约束、对抗鲁棒PAC学习等理论研究给出精确重构与最优速率，夯实优化理论根基。",
     "keywords": [
-     "Prompt Optimization",
-     "Textual Gradient",
-     "STEVE"
+     "Chance-Constrained",
+     "Adversarially Robust",
+     "VC Rates"
     ]
    }
   ],
   "industry": [
    {
-    "title": "AI订阅取消争议",
-    "summary": "Grammarly被曝取消订阅会向用户发失控消息，引发对AI服务霸王条款和用户权益的广泛担忧。",
+    "title": "AI取消订阅风波",
+    "summary": "Grammarly被曝取消订阅会向用户群发失控消息，引发隐私与用户权益担忧，成为热议焦点。",
     "keywords": [
      "Grammarly",
      "取消订阅",
-     "用户权益"
+     "用户消息"
     ]
    }
   ]
  },
  "news": [
   {
-   "id": "n:6060774160",
+   "id": "n:9760287158",
    "kind": "news",
    "title": "Grammarly will send unhinged messages to all your users if you try to cancel",
    "url": "https://www.reddit.com/r/sysadmin/comments/1wjdpgx/psa_grammarly_will_send_unhinged_messages_to_all/",
