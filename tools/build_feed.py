@@ -155,41 +155,39 @@ def load_news():
             if "rss_items" not in tables:
                 con.close()
                 continue
+            feeds = {}
             if "rss_feeds" in tables:
-                q = ("SELECT i.title, i.url, i.summary, i.published_at, f.name, f.feed_url "
-                     "FROM rss_items i LEFT JOIN rss_feeds f ON i.feed_id = f.id "
-                     "WHERE (f.feed_url IS NULL OR f.feed_url NOT LIKE '%arxiv%') "
-                     "ORDER BY i.published_at DESC LIMIT ?")
-            else:
-                q = "SELECT title, url, summary, published_at, '', '' FROM rss_items ORDER BY published_at DESC LIMIT ?"
-            rows = con.execute(q, (NEWS_MAX * 4,)).fetchall()
-            try:
-                for nm, cnt, st in con.execute(
-                        "SELECT f.name, COUNT(i.id), COALESCE(f.last_fetch_status,'') "
-                        "FROM rss_feeds f LEFT JOIN rss_items i ON i.feed_id=f.id GROUP BY f.id"):
-                    log("    feed: " + str(nm) + " items=" + str(cnt) + " status=" + str(st))
-            except Exception:
-                pass
+                for fid, nm, furl in con.execute("SELECT id, name, COALESCE(feed_url,'') FROM rss_feeds"):
+                    feeds[fid] = (str(nm or ""), str(furl or ""))
+            log("  feeds=" + repr({v[0]: v[1] for v in feeds.values()}))
+            rows = con.execute(
+                "SELECT title, url, COALESCE(summary,''), COALESCE(published_at,''), feed_id "
+                "FROM rss_items ORDER BY published_at DESC LIMIT ?",
+                (NEWS_MAX * 20,)).fetchall()
             log("  rss_items rows=" + str(len(rows)))
-            for title, url, summary, published, feed, feed_url in rows:
+            kept = 0
+            for title, url, summary, published, fid in rows:
                 title = (title or "").strip()
                 if not title:
                     continue
-                if "arxiv" in (str(feed or "") + " " + str(feed_url or "")).lower():
+                fname, furl = feeds.get(fid, ("", ""))
+                if "arxiv" in (fname + " " + furl).lower():
                     continue
+                kept += 1
                 clean = re.sub(r"<[^>]+>", " ", summary or "")
-                clean = re.sub(r"\s+", " ", clean).strip()
+                clean = re.sub(r"\\s+", " ", clean).strip()
                 out.append({
                     "id": "n:" + str(abs(hash(title)) % (10 ** 10)),
                     "kind": "news",
                     "title": title,
                     "url": (url or "").strip(),
-                    "source": (feed or "").strip(),
+                    "source": fname.strip(),
                     "date": (published or "")[:10],
                     "summary": clean[:220],
                     "tags": [],
                     "extra": "",
                 })
+            log("  kept (non-arxiv): " + str(kept))
             con.close()
         except Exception as e:
             log(f"sqlite read failed for {db}: {e}")
