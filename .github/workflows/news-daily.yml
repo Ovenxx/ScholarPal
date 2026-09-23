@@ -75,17 +75,17 @@ jobs:
 
       - name: Publish report
         run: |
-          mkdir -p news/report
+          mkdir -p docs
           SRC=$(find .news -name '*.html' -not -path '*/.git/*' -not -path '*/.venv/*' -printf '%s\t%p\n' | sort -rn | head -1 | cut -f2)
           if [ -z "$SRC" ]; then echo "ERROR: TrendRadar produced no HTML report"; exit 1; fi
           echo "publishing $SRC ($(wc -c < "$SRC") bytes)"
-          cp "$SRC" news/report/index.html
+          cp "$SRC" docs/index.html
 
       - name: Commit report
         run: |
           git config user.name  "ScholarPal Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add news/report
+          git add docs/index.html
           if git diff --cached --quiet; then
             echo "no changes"
           else

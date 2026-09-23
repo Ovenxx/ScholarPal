@@ -4,7 +4,7 @@
 
 - **配置**：`config/config.yaml`（自上游完整配置派生，只改开关与订阅源）、`config/frequency_words.txt`
 - **运行**：`.github/workflows/news-daily.yml`，每日 06:30（北京时间）
-- **产物**：`report/index.html`
+- **产物**：`docs/index.html`（网页入口）
 - **引擎**：运行时按固定版本拉取上游，不复制进本仓库
 
 ## 当前开关状态

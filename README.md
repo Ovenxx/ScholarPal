@@ -9,7 +9,7 @@
 |---|---|---|
 | **A · LLM4OR / L2O** | 用大模型做优化：自动算法设计（FunSearch / ReEvo / 进化式启发式）、自动建模、学习型优化器、车辆路径与组合优化求解、求解器智能 | [`docs/llm4or/README.md`](docs/llm4or/README.md) |
 | **B · Agentic AI** | 智能体循环、上下文工程、工具协议、多智能体编排、记忆、规划与自我进化 | [`docs/agentic/README.md`](docs/agentic/README.md) |
-| **C · 行业资讯** | 论文之外的动态：模型与智能体的行业进展、开源生态、协议演进（按关键词从订阅源筛选） | [`news/report/index.html`](news/report/index.html) |
+| **C · 行业资讯** | 论文之外的动态：模型与智能体的行业进展、开源生态、协议演进（按关键词从订阅源筛选） | [网页报告](https://ovenxx.github.io/ScholarPal/) |
 
 模块 A/B 每天 06:00、06:20（北京时间）产出论文清单；模块 C 每天 06:30 产出资讯报告。全部自动提交到本仓库。
 
@@ -44,7 +44,11 @@ arXiv ──┐
 | B · Agentic AI | 06:20 | Actions → `ScholarPal - Module B (Agentic AI) daily` |
 | C · 行业资讯 | 06:30 | Actions → `ScholarPal - Module C (News / Industry) daily` |
 
-手动重跑模块 C 后，报告更新在 `news/report/index.html`。
+## 入口
+
+- **网页版行业动态报告**：<https://ovenxx.github.io/ScholarPal/> （每日自动更新）
+- **两份论文清单**：[LLM4OR / L2O](docs/llm4or/README.md) · [Agentic AI](docs/agentic/README.md)
+- **网页版源码**：`docs/index.html`（由模块 C 每日覆盖）
 
 ## 目录结构
 
@@ -57,6 +61,7 @@ ScholarPal/
 │  ├─ llm4or.yml
 │  └─ agentic.yml
 ├─ docs/
+│  ├─ index.html              # 模块 C 产物（网页入口）
 │  ├─ llm4or/                 # 模块 A 产物
 │  └─ agentic/                # 模块 B 产物
 ├─ news/                      # 模块 C
@@ -64,7 +69,6 @@ ScholarPal/
 │  ├─ config/
 │  │  ├─ config.yaml
 │  │  └─ frequency_words.txt
-│  └─ report/index.html       # 模块 C 产物
 └─ .github/workflows/
    ├─ llm4or-daily.yml
    ├─ agentic-daily.yml
