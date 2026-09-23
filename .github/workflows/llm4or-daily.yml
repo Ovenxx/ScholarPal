@@ -25,7 +25,7 @@ jobs:
           python-version: "3.10"
 
       - name: Install dependencies
-        run: pip install arxiv requests pyyaml
+        run: pip install "arxiv==1.4.8" requests pyyaml
 
       # The engine is fetched at run time and never committed to this repo.
       - name: Fetch pinned upstream engine
@@ -49,3 +49,4 @@ jobs:
             git commit -m "chore(llm4or): daily digest"
             git push
           fi
+
