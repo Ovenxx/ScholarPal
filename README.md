@@ -1,132 +1,132 @@
 # ScholarPal
 
-> 每天一份列表、一份资讯、一个入口 —— 自动追踪 **LLM4OR / L2O** 与 **Agentic AI** 两个方向的最新进展。
-> 用已有开源项目拼装而成，不自建爬虫与聚合引擎。
+> One list, one digest, one place — a daily tracker for **LLM4OR / L2O** and **Agentic AI**.
+> Assembled from existing open-source projects. No crawler or aggregation engine written from scratch.
 
-**打开即用 → <https://ovenxx.github.io/ScholarPal/>**
+**Open it → <https://ovenxx.github.io/ScholarPal/>**
 
 ---
 
-## 你会看到什么
+## What you get
 
-一个两栏界面：
+A two-pane web app:
 
-**左栏 · 热搜**
-- **学术界热搜** —— 从当天全部候选论文里提炼出的主题，附中文说明
-- **工业界热搜** —— 从行业信息流里提炼出的主题
+**Left pane — trending topics**
+- **Academic** — themes distilled from the day's candidate papers, each with a short explanation
+- **Industry** — themes distilled from the day's industry feeds
 
-**右栏 · 信息流**，三个标签页：
+**Right pane — feed**, three tabs:
 
-| 标签页 | 内容 |
+| Tab | Scope |
 |---|---|
-| `LLM4OR / L2O` | 用大模型做优化：自动算法设计（FunSearch / ReEvo / 进化式启发式）、自动建模、学习型优化器、车辆路径与组合优化求解、求解器智能 |
-| `Agentic AI` | 智能体循环、上下文工程、工具协议、多智能体编排、记忆、规划与自我进化 |
-| `行业动态` | 论文之外的工程与产业动态（行业信息源，已排除论文源避免重复） |
+| `LLM4OR / L2O` | LLMs for optimization: automatic algorithm design (FunSearch / ReEvo / evolutionary heuristics), auto-formulation, learned optimizers, vehicle routing and combinatorial solving, solver intelligence |
+| `Agentic AI` | Agent loops, context engineering, tool protocols, multi-agent orchestration, memory, planning and self-evolution |
+| `Industry` | Engineering and industry news beyond papers (paper feeds are excluded here to avoid duplication) |
 
-每张卡片包含：**模型判断的重要性**、**一句话中文摘要**、技术标签、原文链接，以及 **👍 感兴趣 / 👎 不感兴趣 / 💬 评论**。
+Every card carries a **model-assigned importance score**, a **one-line summary**, tags, a link to the source, and **Like / Dislike / Comment** actions.
 
-**个性化**：点赞与评论会沉淀为"长期记忆"，显示在左栏顶部，并把相关研究排到前面并高亮。第一次打开有一次十几秒的勾选引导，用于冷启动。评论是私密的，只有你自己能看到。
+**Personalization.** Likes and comments accumulate into a long-term interest profile, shown at the top of the left pane, which pushes relevant work to the top and highlights it. A short guided onboarding runs on first visit to solve the cold start. Comments are private — only you can see them.
 
-每天北京时间 **06:00 起自动更新**，无需任何操作。
+Everything refreshes automatically **from 06:00 Asia/Shanghai daily**. Nothing to run by hand.
 
 ---
 
-## 三个数据模块
+## The three data modules
 
-| 模块 | 内容 | 产物 |
+| Module | Content | Output |
 |---|---|---|
-| **A · LLM4OR / L2O** | 关键词过滤后的论文清单 | [`docs/llm4or/README.md`](docs/llm4or/README.md) |
-| **B · Agentic AI** | 关键词过滤后的论文清单 | [`docs/agentic/README.md`](docs/agentic/README.md) |
-| **C · 行业动态 + 站点构建** | 行业资讯、热搜提炼、卡片评分与摘要、网页生成 | `docs/news.html` · `docs/feed.json` |
+| **A · LLM4OR / L2O** | Keyword-filtered paper list | [`docs/llm4or/README.md`](docs/llm4or/README.md) |
+| **B · Agentic AI** | Keyword-filtered paper list | [`docs/agentic/README.md`](docs/agentic/README.md) |
+| **C · Industry + site build** | Industry feeds, trending-topic extraction, card scoring and summaries, page generation | `docs/news.html` · `docs/feed.json` |
 
-模块 C 在同一个任务里完成资讯抓取与站点构建 —— 因为它需要直接读取资讯引擎运行期产出的数据。
+Module C does the news crawl and the site build in the same job, because it needs direct access to the data the news engine produces at run time.
 
 ---
 
-## 架构：组合了什么，没自建什么
+## Architecture: what we compose, what we don't build
 
 ```
-        ┌──────────── ScholarPal（本仓库）────────────────┐
-arXiv ──┤  config/*.yml ──► docs/llm4or/  docs/agentic/   │
-        │                                                  │
-RSS ────┤  news/config/* ──► (资讯引擎) ──► docs/news.html  │
-        │                        │                         │
-        │                        ▼                         │
-        │              tools/build_feed.py ──► docs/feed.json
-        │                        │                         │
-        │                        ▼                         │
-        │              docs/index.html（网页应用）           │
-        └──────────────────────────────────────────────────┘
-                                 │
-                    私有记忆库 ScholarPal-memory
+        +------------ ScholarPal (this repo) -------------+
+arXiv --+  config/*.yml ----> docs/llm4or/  docs/agentic/ |
+        |                                                 |
+RSS ----+  news/config/* ---> (news engine) -> docs/news.html
+        |                          |                      |
+        |                          v                      |
+        |                tools/build_feed.py -> docs/feed.json
+        |                          |                      |
+        |                          v                      |
+        |                docs/index.html (the app)        |
+        +-------------------------------------------------+
+                              |
+                  private store: ScholarPal-memory
 ```
 
-| 层 | 用的现成项目 | 我们做了什么 |
+| Layer | Existing project used | What we actually wrote |
 |---|---|---|
-| **论文引擎** | [Vincentqyw/cv-arxiv-daily](https://github.com/Vincentqyw/cv-arxiv-daily)（Apache-2.0） | 两份关键词配置。引擎**运行时按固定版本拉取，不入库** |
-| **资讯引擎** | [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar)（GPL-3.0） | 一份派生配置 + 关键词。引擎同样**运行时拉取，不入库** |
-| **热搜 / 评分 / 摘要** | DeepSeek `deepseek-v4-flash` | 一个两百余行的生成脚本 `tools/build_feed.py` |
-| **网页应用** | 无依赖的原生页面 | `docs/index.html` 一个文件 |
-| **记忆存储** | 一个私有 GitHub 仓库 | 点赞 / 评论的跨设备同步 |
+| **Paper engine** | [Vincentqyw/cv-arxiv-daily](https://github.com/Vincentqyw/cv-arxiv-daily) (Apache-2.0) | Two keyword configs. The engine is **fetched at a pinned revision at run time, never vendored** |
+| **News engine** | [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar) (GPL-3.0) | One derived config plus a keyword file. Also **fetched at run time, never vendored** |
+| **Topics / scoring / summaries** | DeepSeek `deepseek-v4-flash` | One ~250-line build script, `tools/build_feed.py` |
+| **Web app** | none — dependency-free vanilla page | A single file, `docs/index.html` |
+| **Memory store** | A private GitHub repository | Cross-device sync of likes and comments |
 
 ---
 
-## 开启跨设备记忆（可选，一次性）
+## Cross-device memory (optional, one-time setup)
 
-不配置也能用，只是点赞与评论只留在当前浏览器。要跨设备同步，需要给网页一个读写权限受限的令牌：
+The app works without this; likes and comments simply stay in that one browser. To sync across devices, give the page a narrowly scoped token:
 
-1. 打开 <https://github.com/settings/personal-access-tokens/new>
-2. **Repository access** → `Only select repositories` → 勾选 **ScholarPal-memory**
-3. **Permissions → Repository permissions → Contents** 设为 **Read and write**
-4. 生成并复制令牌
-5. 打开网页 → 右上角 **「连接记忆」** → 粘贴
+1. Open <https://github.com/settings/personal-access-tokens/new>
+2. **Repository access** → `Only select repositories` → select **ScholarPal-memory**
+3. **Permissions → Repository permissions → Contents** → set to **Read and write**
+4. Generate and copy the token
+5. Open the app → **"Connect memory"** in the top-right → paste it
 
-令牌只保存在该设备的浏览器本地，不会写入网页源码。每个设备各粘贴一次。
+The token is stored only in that device's browser storage; it never appears in the page source. Repeat once per device.
 
 ---
 
-## 运行
+## Schedule
 
-| 任务 | 时间（北京时间） | 手动触发名 |
+| Job | Time (Asia/Shanghai) | Manual trigger name |
 |---|---|---|
-| 模块 A · LLM4OR / L2O | 06:00 | `ScholarPal - Module A (LLM4OR/L2O) daily` |
-| 模块 B · Agentic AI | 06:20 | `ScholarPal - Module B (Agentic AI) daily` |
-| 模块 C · 资讯 + 站点构建 | 06:30 | `ScholarPal - Module C (News + Site build) daily` |
+| Module A · LLM4OR / L2O | 06:00 | `ScholarPal - Module A (LLM4OR/L2O) daily` |
+| Module B · Agentic AI | 06:20 | `ScholarPal - Module B (Agentic AI) daily` |
+| Module C · News + site build | 06:30 | `ScholarPal - Module C (News + Site build) daily` |
 
-三个任务共用一个并发组，串行执行，因此不会互相覆盖提交。
+All three share one concurrency group and therefore run serially, so their commits cannot race.
 
-**本地复现生成脚本**（需要 `AI_API_KEY` 环境变量）：
+**Reproducing the build locally** (requires an `AI_API_KEY` environment variable):
 
 ```bash
-pip install arxiv requests pyyaml    # 论文引擎依赖
+pip install arxiv requests pyyaml    # dependencies of the paper engine
 AI_API_KEY=... python tools/build_feed.py
 ```
 
 ---
 
-## 目录结构
+## Repository layout
 
 ```
 ScholarPal/
 ├─ README.md
-├─ ATTRIBUTION.md              # 上游归属
+├─ ATTRIBUTION.md              # upstream credits
 ├─ LICENSE                     # GPL-3.0
-├─ config/                     # 模块 A / B 关键词
+├─ config/                     # module A / B keywords
 │  ├─ llm4or.yml
 │  └─ agentic.yml
 ├─ news/
-│  ├─ README.md                # 资讯层说明
+│  ├─ README.md                # news layer notes
 │  └─ config/
-│     ├─ config.yaml           # 自上游完整配置派生
-│     └─ frequency_words.txt   # 资讯关键词
+│     ├─ config.yaml           # derived from the upstream full config
+│     └─ frequency_words.txt   # news keywords
 ├─ tools/
-│  └─ build_feed.py            # 热搜提炼 + 打分 + 摘要
+│  └─ build_feed.py            # topic extraction, scoring, summaries
 ├─ docs/
-│  ├─ index.html               # 网页应用（手写，不被覆盖）
-│  ├─ feed.json                # 每日生成的数据
-│  ├─ news.html                # 资讯引擎原始报告
-│  ├─ llm4or/                  # 模块 A 产物
-│  └─ agentic/                 # 模块 B 产物
+│  ├─ index.html               # the web app (hand-written, never overwritten)
+│  ├─ feed.json                # generated daily
+│  ├─ news.html                # raw report from the news engine
+│  ├─ llm4or/                  # module A output
+│  └─ agentic/                 # module B output
 └─ .github/workflows/
    ├─ llm4or-daily.yml
    ├─ agentic-daily.yml
@@ -135,29 +135,29 @@ ScholarPal/
 
 ---
 
-## 技术取舍
+## Design decisions
 
-**成本。** 一天只调用 5 次模型：候选先按关键词粗筛，每栏只把 18 条送进模型精评；同时关闭模型内部推理（同一问题从 201 tokens 降到 38，约省五倍）。
+**Cost.** Five model calls a day. Candidates are filtered by keyword first, then only the top 18 per column reach the model; reasoning is disabled, which cuts the same request from 201 tokens to 38 — roughly a 5x saving.
 
-**个性化放在浏览器，而不是服务端。** 网页是静态的、公开的；兴趣画像在本地计算并即时重排，云端只负责分类与摘要。记忆存在**私有**仓库里，因此评论不会公开。
+**Personalization lives in the browser, not on a server.** The site is static and public, so the interest profile is computed locally and re-ranking happens at view time; the cloud only classifies and summarizes. The memory itself sits in a **private** repository, which is why comments stay private.
 
-**为什么不接第三方后端。** 跨设备同步只需要一个凭证，用你已有的 GitHub 账号即可，不必再注册新服务。
-
----
-
-## 已知限制
-
-- **热搜是每日快照，不是实时榜。** 静态站点没有常驻服务；真做滚动更新需要一台服务器。
-- **资讯关键词按标题匹配**，正文相关但标题不含关键词的条目会漏掉。开启资讯引擎的 AI 筛选可缓解。
-- **论文引擎的产物会持续累积**（上游把历史合并进 `data.json`），文件逐日变大；`Code` 列恒为 `null`，因为上游已弃用相关接口。
-- **资讯引擎要求热榜开关保持开启**，否则会整体短路、连订阅源也不抓。这一点已写在 `news/README.md` 里。
+**Why not a third-party backend.** Cross-device sync needs exactly one credential, and you already have a GitHub account — no new service to sign up for.
 
 ---
 
-## 许可
+## Known limitations
 
-本项目以 **GPL-3.0** 发布，见 [`LICENSE`](LICENSE)。
+- **Trending topics are a daily snapshot, not a live board.** A static site has no running server; true rolling updates would require one.
+- **News keywords match on titles only.** Items whose body is relevant but whose title lacks the keyword will be missed. Enabling the news engine's AI filter mitigates this.
+- **The paper engine's output accumulates.** It merges history into `data.json`, so the generated files grow daily. The `Code` column is always `null` because upstream retired the related API.
+- **The news engine requires its hot-list switch to stay on.** Turning it off makes the whole pipeline short-circuit and skip even the RSS feeds. This is documented in `news/README.md`.
 
-之所以选 GPL-3.0 而非更宽松的许可：本项目并入的资讯引擎采用 GPL-3.0，其条款要求衍生作品沿用同一许可。这是"合并为单一平台"时所接受的取舍。
+---
 
-上游项目的作者与许可见 [`ATTRIBUTION.md`](ATTRIBUTION.md)。本仓库不包含任何上游源码。
+## License
+
+Released under **GPL-3.0**; see [`LICENSE`](LICENSE).
+
+GPL-3.0 rather than a more permissive license because the news engine this project incorporates is GPL-3.0, whose terms require derivative works to carry the same license. That was the trade-off accepted when choosing to merge everything into a single platform.
+
+Upstream authors and licenses are listed in [`ATTRIBUTION.md`](ATTRIBUTION.md). This repository contains no upstream source code.
