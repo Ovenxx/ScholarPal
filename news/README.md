@@ -11,13 +11,19 @@
 
 | 功能 | 状态 | 说明 |
 |---|---|---|
-| 热榜平台 | 关闭 | 本模块只跟踪研究/行业信息流 |
+| 热榜平台 | **开启（必须）** | 见下方说明；已裁剪到知乎 / 微博 / 百度热搜 |
 | RSS 订阅 | 开启 | arXiv cs.AI / cs.MA / cs.LG / math.OC + Hacker News |
 | 关键词筛选 | 开启 | 见 `config/frequency_words.txt`，不消耗 AI 额度 |
 | AI 分析 / 翻译 | 关闭 | 需要 AI 接口密钥 |
 | 消息推送 | 关闭 | 未配置推送渠道 |
 
-## 开启 AI 分析与翻译
+## ⚠️ 关键坑：热榜平台必须保持开启
+
+上游引擎在 `platforms.enabled: false` 时会**直接短路**——加载完配置即退出，连 RSS 都不抓、不生成报告。已实测确认。
+
+因此 `config.yaml` 里该开关必须为 `true`。为降低无关噪音，已把平台列表裁剪到三个中文平台；报告展示侧 `display.regions.hotlist` 仍为 `false`，热榜内容只在被关键词命中时出现。
+
+## 想开启 AI 分析与翻译
 
 1. 仓库 Settings → Secrets and variables → Actions 添加 `AI_API_KEY`
 2. 把 `config/config.yaml` 里 `ai_analysis.enabled`、`ai_translation.enabled` 改为 `true`

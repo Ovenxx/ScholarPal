@@ -62,47 +62,20 @@ schedule:
 #     只要 api_url 不是你自己部署的实例，都推荐配置 expected_domain
 # ===============================================================
 platforms:
-  enabled: true                         # 测试：确认是否因关闭热榜导致流程短路
+  enabled: true                         # 必须保持 true：关闭后上游引擎会直接短路，连 RSS 都不跑
   api_url: ""                            # 热榜数据 API 地址（留空使用默认地址）
                                         # 如果你自行部署了 newsnow，填入你的地址，如: https://your-domain.com/api/s
   sources:
-    - id: "toutiao"
-      name: "今日头条"
-      expected_domain: "toutiao.com"
-    - id: "baidu"
-      name: "百度热搜"
-      expected_domain: "baidu.com"
-    - id: "wallstreetcn-hot"
-      name: "华尔街见闻"
-      expected_domain: "wallstreetcn.com"
-    - id: "thepaper"
-      name: "澎湃新闻"
-      expected_domain: "thepaper.cn"
-    - id: "bilibili-hot-search"
-      name: "bilibili 热搜"
-      expected_domain: "bilibili.com"
-    - id: "cls-hot"
-      name: "财联社热门"
-      expected_domain: "cls.cn"
-    - id: "ifeng"
-      name: "凤凰网"
-      expected_domain: "ifeng.com"
-    - id: "tieba"
-      name: "贴吧"
-      expected_domain: "baidu.com"
-    - id: "weibo"
-      name: "微博"
-      expected_domain: "weibo.com"
-    - id: "douyin"
-      name: "抖音"
-      expected_domain: "douyin.com"
     - id: "zhihu"
       name: "知乎"
       expected_domain: "zhihu.com"
+    - id: "weibo"
+      name: "微博"
+      expected_domain: "weibo.com"
+    - id: "baidu"
+      name: "百度热搜"
+      expected_domain: "baidu.com"
 
-
-
-# ===============================================================
 # 3. 数据源 - RSS 订阅
 #
 # 与热榜数据分开存储，按时间流展示
@@ -455,7 +428,7 @@ ai_translation:
 # 11. 高级设置（一般无需修改）
 # ===============================================================
 advanced:
-  debug: true                        # 调试模式（true=开启详细日志, false=正常模式）
+  debug: false                        # 调试模式（true=开启详细日志, false=正常模式）
 
   # 版本检查
   version_check_url: "https://raw.githubusercontent.com/sansan0/TrendRadar/refs/heads/master/version"
