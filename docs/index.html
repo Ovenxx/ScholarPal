@@ -393,6 +393,9 @@ async function boot(){
   }
   document.getElementById("gen").textContent =
     "更新于 " + (FEED.generated_at||"?").replace("T"," ").replace("Z"," UTC") + " · 模型 " + (FEED.model||"?");
+  if(FEED.news && FEED.news.length){
+    FEED.modules.push({id:"news", label:"行业动态", items: FEED.news});
+  }
   TAB = FEED.modules[0] && FEED.modules[0].id;
   recomputeInterests();
   renderInterests(); renderHot(); renderTabs(); renderFeed(); renderOnboard();

@@ -135,7 +135,13 @@ NEWS_COLS = ("title", "name", "keyword", "platform", "source", "url", "link", "r
 
 
 def load_news():
-    """Best-effort export from TrendRadar's SQLite store (schema not assumed)."""
+    """Industry-facing items from TrendRadar's RSS store.
+
+    Two deliberate exclusions:
+      * arXiv feeds - those papers already arrive, richer, via modules A/B.
+      * the hot-search tables (news_items) - general-interest noise, not AI/OR signal.
+    What remains is practitioner-facing material (e.g. Hacker News).
+    """
     dbs = glob.glob(".news/output/**/*.db", recursive=True) + glob.glob(".news/output/**/*.sqlite*", recursive=True)
     if not dbs:
         log("no TrendRadar sqlite found under .news/output/")
@@ -146,40 +152,39 @@ def load_news():
             con = sqlite3.connect(f"file:{db}?mode=ro", uri=True)
             tables = [r[0] for r in con.execute("SELECT name FROM sqlite_master WHERE type='table'")]
             log(f"{os.path.basename(db)} tables: {tables}")
-            for t in tables:
-                cols = [c[1] for c in con.execute(f"PRAGMA table_info('{t}')")]
-                log(f"  {t} cols: {cols}")
-                lower = [c.lower() for c in cols]
-                if "title" not in lower:
+            if "rss_items" not in tables:
+                con.close()
+                continue
+            if "rss_feeds" in tables:
+                q = ("SELECT i.title, i.url, i.summary, i.published_at, f.name, f.feed_url "
+                     "FROM rss_items i LEFT JOIN rss_feeds f ON i.feed_id = f.id "
+                     "ORDER BY i.published_at DESC LIMIT ?")
+            else:
+                q = "SELECT title, url, summary, published_at, '', '' FROM rss_items ORDER BY published_at DESC LIMIT ?"
+            rows = con.execute(q, (NEWS_MAX * 4,)).fetchall()
+            log("  rss_items rows=" + str(len(rows)))
+            for title, url, summary, published, feed, feed_url in rows:
+                title = (title or "").strip()
+                if not title:
                     continue
-                use = [c for c in cols if c.lower() in NEWS_COLS]
-                if not use:
+                if "arxiv" in (str(feed or "") + " " + str(feed_url or "")).lower():
                     continue
-                rows = con.execute(f"SELECT {','.join(use)} FROM {t} ORDER BY rowid DESC LIMIT ?", (NEWS_MAX * 4,)).fetchall()
-                batch = []
-                for r in rows:
-                    d = {k.lower(): ("" if v is None else str(v)) for k, v in zip(use, r)}
-                    title = (d.get("title") or "").strip()
-                    if not title:
-                        continue
-                    batch.append({
-                        "id": "n:" + str(abs(hash(title)) % (10 ** 10)),
-                        "kind": "news",
-                        "title": title,
-                        "url": d.get("url") or d.get("link") or "",
-                        "source": d.get("platform") or d.get("source") or "",
-                        "extra": d.get("keyword") or "",
-                    })
-                matched = [x for x in batch if x.get("extra")]
-                log(f"  {t}: rows={len(batch)} keyword-matched={len(matched)}")
-                if matched:
-                    out.extend(matched)
-                elif not out:
-                    out.extend(batch)
+                clean = re.sub(r"<[^>]+>", " ", summary or "")
+                clean = re.sub(r"\s+", " ", clean).strip()
+                out.append({
+                    "id": "n:" + str(abs(hash(title)) % (10 ** 10)),
+                    "kind": "news",
+                    "title": title,
+                    "url": (url or "").strip(),
+                    "source": (feed or "").strip(),
+                    "date": (published or "")[:10],
+                    "summary": clean[:220],
+                    "tags": [],
+                    "extra": "",
+                })
             con.close()
-        except Exception as e:  # noqa: BLE001
+        except Exception as e:
             log(f"sqlite read failed for {db}: {e}")
-    # dedupe by title
     seen, uniq = set(), []
     for it in out:
         k = it["title"].lower()
@@ -187,8 +192,9 @@ def load_news():
             continue
         seen.add(k)
         uniq.append(it)
-    log(f"news items: {len(uniq)}")
+    log("industry items: " + str(len(uniq)) + " (with summary: " + str(sum(1 for x in uniq if x["summary"])) + ")")
     return uniq[:NEWS_MAX]
+
 
 
 def score_items(module_label, items):
@@ -259,6 +265,12 @@ def main():
         papers_by_module[mid] = items[:TOP_N]
 
     news = load_news()
+    news_scores = score_items("工业界 / AI 行业动态", news)
+    for it in news:
+        sc = news_scores.get(it["id"], {})
+        it["importance"] = sc.get("importance", 0.0)
+        it["tags"] = sc.get("tags", [])
+        it["module"] = "news"
 
     feed = {
         "generated_at": datetime.datetime.utcnow().replace(microsecond=0).isoformat() + "Z",
