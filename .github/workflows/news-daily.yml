@@ -1,9 +1,9 @@
-name: ScholarPal - Module C (News / Industry) daily
+name: ScholarPal - Module C (News + Site build) daily
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 22 * * *"   # 06:30 Asia/Shanghai
+    - cron: "30 22 * * *"   # 06:30 Asia/Shanghai, after modules A (22:00) and B (22:20)
 
 # Shared with modules A/B so their pushes cannot race.
 concurrency:
@@ -20,7 +20,7 @@ env:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
 
@@ -39,12 +39,12 @@ jobs:
           git -C .news checkout -q FETCH_HEAD
 
       # Upstream ships a previously generated index.html. Remove every existing
-      # HTML so that anything we find after the run was produced by THIS run.
+      # HTML so anything found after the run was produced by THIS run.
       - name: Clear stale upstream artefacts
         run: |
           find .news -name '*.html' -not -path '*/.git/*' -delete
           rm -rf .news/output
-          echo "cleared; remaining html:"; find .news -name '*.html' -not -path '*/.git/*' | wc -l
+          echo "cleared"
 
       - name: Overlay our config
         run: |
@@ -54,42 +54,50 @@ jobs:
       - name: Run TrendRadar
         env:
           GITHUB_ACTIONS: "true"
-          AI_API_KEY: ${{ secrets.AI_API_KEY }}
-          AI_MODEL: ${{ secrets.AI_MODEL }}
         run: |
           cd .news
           uv sync --frozen --no-dev
           set +e
           uv run python -m trendradar > /tmp/tr.log 2>&1
-          rc=$?
+          echo "trendradar exit code: $?"
           set -e
-          echo "trendradar exit code: $rc"
-          echo "=== trendradar own output ==="
-          tail -n 60 /tmp/tr.log
-          echo "=== top-level of .news ==="
-          ls -la .
-          echo "=== output dir ==="
-          ls -laR output 2>/dev/null | head -40
-          echo "=== html outside .venv/.git ==="
-          find . -name '*.html' -not -path './.git/*' -not -path './.venv/*' -printf '%s\t%p\n' | sort -rn | head -20
+          echo "=== artefacts ==="
+          ls -la output 2>/dev/null | head -20
+          find . -name '*.db' -not -path './.git/*' -not -path './.venv/*' -printf '%s\t%p\n'
 
-      - name: Publish report
+      # TrendRadar keeps its own page; the app owns docs/index.html.
+      - name: Publish TrendRadar report
         run: |
-          mkdir -p docs
           SRC=$(find .news -name '*.html' -not -path '*/.git/*' -not -path '*/.venv/*' -printf '%s\t%p\n' | sort -rn | head -1 | cut -f2)
           if [ -z "$SRC" ]; then echo "ERROR: TrendRadar produced no HTML report"; exit 1; fi
-          echo "publishing $SRC ($(wc -c < "$SRC") bytes)"
-          cp "$SRC" docs/index.html
+          echo "publishing $SRC -> docs/news.html"
+          cp "$SRC" docs/news.html
 
-      - name: Commit report
+      # Coarse -> fine: keyword-filtered candidates from modules A/B plus the news
+      # rows TrendRadar just collected, scored and summarised in a few LLM calls.
+      - name: Build feed for the web app
+        env:
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          TOP_N: "18"
+          NEWS_MAX: "40"
+        run: |
+          set +e
+          python tools/build_feed.py
+          rc=$?
+          set -e
+          echo "build_feed exit code: $rc"
+          ls -la docs/feed.json || true
+          if [ $rc -ne 0 ]; then echo "ERROR: feed build failed"; exit 1; fi
+
+      - name: Commit
         run: |
           git config user.name  "ScholarPal Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/index.html
+          git add docs/news.html docs/feed.json
           if git diff --cached --quiet; then
             echo "no changes"
           else
-            git commit -m "chore(news): daily report"
+            git commit -m "chore(news): daily report + feed"
             git pull --rebase --autostash origin main
             git push
           fi
