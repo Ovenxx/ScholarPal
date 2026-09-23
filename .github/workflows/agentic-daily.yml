@@ -30,19 +30,25 @@ jobs:
         run: pip install "arxiv==1.4.8" requests pyyaml
 
       # arxiv 1.x still queries http://export.arxiv.org, which arXiv now
-      # 301-redirects. We patch the INSTALLED LIBRARY to https and leave the
-      # upstream engine code untouched. The assert makes a silent no-op fail loudly.
+      # 301-redirects. Patch the INSTALLED LIBRARY to https; the upstream
+      # engine code is deliberately left untouched. The final assert makes a
+      # silent no-op fail loudly instead of producing an empty digest.
       - name: Patch arxiv endpoint to https
         run: |
           python - <<'PY'
           import pathlib, arxiv
-          p = pathlib.Path(arxiv.__file__)
-          s = p.read_text()
-          n = s.count("http://export.arxiv.org/api/query")
-          assert n > 0, "PATCH FAILED: pattern not found in " + str(p)
-          p.write_text(s.replace("http://export.arxiv.org/api/query",
-                                 "https://export.arxiv.org/api/query"))
-          print("patched", n, "occurrence(s) in", p)
+          pkg = pathlib.Path(arxiv.__file__).parent
+          total = 0
+          for f in sorted(pkg.glob("*.py")):
+              s = f.read_text()
+              n = s.count("http://export.arxiv.org/api/query")
+              if n:
+                  f.write_text(s.replace("http://export.arxiv.org/api/query",
+                                         "https://export.arxiv.org/api/query"))
+                  print("patched", n, "occurrence(s) in", f.name)
+                  total += n
+          assert total > 0, "PATCH FAILED: pattern not found under " + str(pkg)
+          print("total patched:", total)
           PY
 
       # The engine is fetched at run time and never committed to this repo.
