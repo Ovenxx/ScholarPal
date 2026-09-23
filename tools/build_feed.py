@@ -158,10 +158,18 @@ def load_news():
             if "rss_feeds" in tables:
                 q = ("SELECT i.title, i.url, i.summary, i.published_at, f.name, f.feed_url "
                      "FROM rss_items i LEFT JOIN rss_feeds f ON i.feed_id = f.id "
+                     "WHERE (f.feed_url IS NULL OR f.feed_url NOT LIKE '%arxiv%') "
                      "ORDER BY i.published_at DESC LIMIT ?")
             else:
                 q = "SELECT title, url, summary, published_at, '', '' FROM rss_items ORDER BY published_at DESC LIMIT ?"
             rows = con.execute(q, (NEWS_MAX * 4,)).fetchall()
+            try:
+                for nm, cnt, st in con.execute(
+                        "SELECT f.name, COUNT(i.id), COALESCE(f.last_fetch_status,'') "
+                        "FROM rss_feeds f LEFT JOIN rss_items i ON i.feed_id=f.id GROUP BY f.id"):
+                    log("    feed: " + str(nm) + " items=" + str(cnt) + " status=" + str(st))
+            except Exception:
+                pass
             log("  rss_items rows=" + str(len(rows)))
             for title, url, summary, published, feed, feed_url in rows:
                 title = (title or "").strip()
