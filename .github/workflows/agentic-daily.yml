@@ -1,4 +1,4 @@
-﻿name: ScholarPal - Module B (Agentic AI) daily
+name: ScholarPal - Module B (Agentic AI) daily
 
 on:
   workflow_dispatch:

@@ -1,4 +1,4 @@
-﻿# ScholarPal - Module B: Agentic AI
+# ScholarPal - Module B: Agentic AI
 # Passed to the engine via:  python <engine>/daily_arxiv.py --config_path config/agentic.yml
 # Engine: Vincentqyw/cv-arxiv-daily (Apache-2.0), fetched at run time, NOT vendored here.
 #

@@ -1,4 +1,4 @@
-﻿name: ScholarPal - Module A (LLM4OR/L2O) daily
+name: ScholarPal - Module A (LLM4OR/L2O) daily
 
 on:
   workflow_dispatch:
