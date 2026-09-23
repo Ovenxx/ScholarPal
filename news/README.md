@@ -1,32 +1,43 @@
-# 资讯层（第三个模块）
+# News layer (module C)
 
-由 [TrendRadar](https://github.com/sansan0/TrendRadar) 驱动，跟踪论文之外的行业动态。
+Driven by [TrendRadar](https://github.com/sansan0/TrendRadar). Tracks AI and large-model developments beyond papers.
 
-- **配置**：`config/config.yaml`（自上游完整配置派生，只改开关与订阅源）、`config/frequency_words.txt`
-- **运行**：`.github/workflows/news-daily.yml`，每日 06:30（北京时间）
-- **产物**：`docs/index.html`（网页入口）
-- **引擎**：运行时按固定版本拉取上游，不复制进本仓库
+- **Config**: `config/config.yaml` (derived from the upstream full config — only switches and the feed list changed) and `config/frequency_words.txt`
+- **Runs**: `.github/workflows/news-daily.yml`, daily at 06:30 Asia/Shanghai
+- **Consumed by**: `tools/build_feed.py`, which reads the engine's SQLite store at run time and writes `docs/feed.json`
+- **Engine**: fetched at a pinned revision at run time; never copied into this repository
 
-## 当前开关状态
+## Switch states
 
-| 功能 | 状态 | 说明 |
+| Feature | State | Note |
 |---|---|---|
-| 热榜平台 | **开启（必须）** | 见下方说明；已裁剪到知乎 / 微博 / 百度热搜 |
-| RSS 订阅 | 开启 | arXiv cs.AI / cs.MA / cs.LG / math.OC + Hacker News |
-| 关键词筛选 | 开启 | 见 `config/frequency_words.txt`，不消耗 AI 额度 |
-| AI 分析 / 翻译 | 关闭 | 需要 AI 接口密钥 |
-| 消息推送 | 关闭 | 未配置推送渠道 |
+| Hot-search platforms | **On (required)** | See the gotcha below; trimmed to three Chinese platforms |
+| RSS feeds | On | arXiv cs.AI / cs.MA / cs.LG / math.OC, plus Hacker News |
+| Keyword filter | On | Defined in `config/frequency_words.txt`; costs no model tokens |
+| AI filter / translation | Off | Requires an API key |
+| Push notifications | Off | No channel configured |
 
-## ⚠️ 关键坑：热榜平台必须保持开启
+## Gotcha: the hot-search switch must stay on
 
-上游引擎在 `platforms.enabled: false` 时会**直接短路**——加载完配置即退出，连 RSS 都不抓、不生成报告。已实测确认。
+Upstream **short-circuits** when `platforms.enabled: false`: it loads the config and exits without fetching even the RSS feeds, and produces no report at all. This was confirmed by experiment.
 
-因此 `config.yaml` 里该开关必须为 `true`。为降低无关噪音，已把平台列表裁剪到三个中文平台；报告展示侧 `display.regions.hotlist` 仍为 `false`，热榜内容只在被关键词命中时出现。
+That switch therefore has to remain `true` in `config.yaml`. To limit unrelated noise the platform list was trimmed; on the display side `display.regions.hotlist` stays `false`, so hot-search items only surface when one of our keywords matches.
 
-## 想开启 AI 分析与翻译
+## Which part of the store we read
 
-1. 仓库 Settings → Secrets and variables → Actions 添加 `AI_API_KEY`
-2. 把 `config/config.yaml` 里 `ai_analysis.enabled`、`ai_translation.enabled` 改为 `true`
-3. 模型默认 `deepseek/deepseek-v4-flash`，可在同文件 `ai.model` 更换
+The engine writes two separate sets of tables:
 
-开启后 TrendRadar 会对内容做智能筛选、翻译与简报——这是它相对"纯关键词匹配"的主要增量。
+- `news_items` — hot-search entries from the Chinese platforms. **Deliberately ignored**: general-interest material rather than AI/OR signal.
+- `rss_items` — feed entries with summary and publication time. **This is what we read**, excluding arXiv feeds, because those papers already arrive in far richer form through modules A and B.
+
+## Why the raw engine report is not published
+
+The engine only emits a Chinese-language HTML page, while the public site is English-only. That report is therefore not published; the app's **Industry** tab carries the same material with English summaries.
+
+## Enabling the engine's own AI filter and translation
+
+1. Add `AI_API_KEY` under Settings → Secrets and variables → Actions
+2. Set `ai_analysis.enabled` and `ai_translation.enabled` to `true` in `config/config.yaml`
+3. The model defaults to `deepseek/deepseek-v4-flash`; change it under `ai.model`
+
+With those enabled the engine filters, translates and summarizes its own content — its main advantage over pure keyword matching. Note that this affects only the engine's own report, not `docs/feed.json`.

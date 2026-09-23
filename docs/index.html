@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -88,31 +88,31 @@
 <body>
 <header>
   <h1>ScholarPal</h1>
-  <span class="meta" id="gen">加载中…</span>
+  <span class="meta" id="gen">Loading...</span>
   <span class="spacer"></span>
-  <button class="btn ghost" id="btnRefresh">刷新</button>
-  <button class="btn" id="btnSync">连接记忆</button>
+  <button class="btn ghost" id="btnRefresh">Refresh</button>
+  <button class="btn" id="btnSync">Connect memory</button>
 </header>
 <div id="syncbar" class="syncbar" style="display:none"></div>
 <div class="wrap">
   <aside>
     <div class="card" id="interestCard" style="margin-bottom:14px">
-      <h2>我的兴趣（长期记忆）</h2>
-      <div id="interests" class="muted">还没有记录。点赞或评论后会自动学习。</div>
+      <h2>My interests (long-term memory)</h2>
+      <div id="interests" class="muted">Nothing yet. Like or comment and this will start learning.</div>
     </div>
     <div class="card" style="margin-bottom:14px">
-      <h2>学术界热搜</h2>
-      <div id="hotA" class="empty">加载中…</div>
+      <h2>Academic trending</h2>
+      <div id="hotA" class="empty">Loading...</div>
     </div>
     <div class="card">
-      <h2>工业界热搜</h2>
-      <div id="hotI" class="empty">加载中…</div>
+      <h2>Industry trending</h2>
+      <div id="hotI" class="empty">Loading...</div>
     </div>
   </aside>
   <main>
     <div id="onboard"></div>
     <div class="tabs" id="tabs"></div>
-    <div id="feed" class="empty">加载中…</div>
+    <div id="feed" class="empty">Loading...</div>
   </main>
 </div>
 <script>
@@ -177,9 +177,9 @@ function renderInterests(){
   const box = document.getElementById("interests");
   const top = topInterests(12);
   box.innerHTML = "";
-  if(!top.length){ box.className="muted"; box.textContent="还没有记录。点赞或评论后会自动学习。"; return; }
+  if(!top.length){ box.className="muted"; box.textContent="Nothing yet. Like or comment and this will start learning."; return; }
   box.className = "";
-  const p = el("div","muted","由你的点赞与评论自动学习得出，用于把相关研究排到前面：");
+  const p = el("div","muted","Learned automatically from your likes and comments; used to rank relevant work higher:");
   box.appendChild(p);
   const wrap = el("div","intlist");
   top.forEach(([t,v])=>{ const c=el("span","chip", t+" "+(v>0?"+":"")+ (Math.round(v*10)/10)); wrap.appendChild(c); });
@@ -189,7 +189,7 @@ function renderInterests(){
 function renderHot(){
   const paint = (node, arr, kind) => {
     node.innerHTML = "";
-    if(!arr || !arr.length){ node.className="empty"; node.textContent = "今天暂无（需要 AI 密钥才有总结）"; return; }
+    if(!arr || !arr.length){ node.className="empty"; node.textContent = "Nothing today (topic summaries require an AI key)"; return; }
     node.className = "";
     arr.forEach((h,i)=>{
       const d = el("div","hot-item");
@@ -213,8 +213,8 @@ function itemCard(it){
 
   const r1 = el("div","row1");
   r1.appendChild(el("span","title", it.title));
-  if(it.kind === "news") r1.appendChild(el("span","badge news","资讯"));
-  if((it.importance||0) >= 7) r1.appendChild(el("span","badge hot","重要 "+Math.round(it.importance)));
+  if(it.kind === "news") r1.appendChild(el("span","badge news","News"));
+  if((it.importance||0) >= 7) r1.appendChild(el("span","badge hot","Important "+Math.round(it.importance)));
   c.appendChild(r1);
 
   if(it.summary) c.appendChild(el("div","sum", it.summary));
@@ -236,23 +236,23 @@ function itemCard(it){
   const rec = MEM.items[it.id] || {};
   const acts = el("div","acts");
 
-  const like = el("span","act"+(rec.like===1?" on":""), "👍 感兴趣");
+  const like = el("span","act"+(rec.like===1?" on":""), "👍 Interested");
   like.onclick = ()=>{ setLike(it, rec.like===1?0:1); };
   acts.appendChild(like);
 
-  const dis = el("span","act"+(rec.like===-1?" dis":""), "👎 不感兴趣");
+  const dis = el("span","act"+(rec.like===-1?" dis":""), "👎 Not interested");
   dis.onclick = ()=>{ setLike(it, rec.like===-1?0:-1); };
   acts.appendChild(dis);
 
-  const cm = el("span","act"+(rec.comment?" on":""), "💬 评论");
+  const cm = el("span","act"+(rec.comment?" on":""), "💬 Comment");
   cm.onclick = ()=>{ const n=c.querySelector(".note"); n.style.display = n.style.display==="none"?"block":"none"; };
   acts.appendChild(cm);
 
-  if(it.url){ const a=el("a","act","↗ 原文"); a.href=it.url; a.target="_blank"; a.rel="noopener"; acts.appendChild(a); }
+  if(it.url){ const a=el("a","act","↗ Source"); a.href=it.url; a.target="_blank"; a.rel="noopener"; acts.appendChild(a); }
   c.appendChild(acts);
 
   const note = el("div","note"); note.style.display = rec.comment ? "block" : "none";
-  const ta = el("textarea"); ta.value = rec.comment||""; ta.placeholder="写点你的想法（只有你自己能看到）…";
+  const ta = el("textarea"); ta.value = rec.comment||""; ta.placeholder="Your notes (only you can see these)...";
   let timer=null;
   ta.oninput = ()=>{ clearTimeout(timer); timer=setTimeout(()=>{ setComment(it, ta.value); }, 900); };
   const saved = el("div","saved","");
@@ -276,9 +276,9 @@ function renderFeed(){
   const box = document.getElementById("feed");
   box.className = ""; box.innerHTML = "";
   const mod = FEED.modules.find(m=>m.id===TAB) || FEED.modules[0];
-  if(!mod){ box.className="empty"; box.textContent="没有数据"; return; }
+  if(!mod){ box.className="empty"; box.textContent="No data"; return; }
   const items = mod.items.slice().sort((a,b)=>score(b)-score(a));
-  if(!items.length){ box.className="empty"; box.textContent="这个板块今天没有内容"; return; }
+  if(!items.length){ box.className="empty"; box.textContent="Nothing in this section today"; return; }
   items.forEach(it=>box.appendChild(itemCard(it)));
 }
 
@@ -299,19 +299,19 @@ function renderOnboard(){
   FEED.modules.forEach(m=>m.items.slice(0,8).forEach(it=>pool.push(it)));
   if(!pool.length) return;
   const card = el("div","onb");
-  card.appendChild(el("div",null,"👋 第一次来：勾几条你感兴趣的，我立刻就能学会你的口味（随时可跳过）"));
-  card.appendChild(el("div","muted","只需十几秒，之后推荐会明显变准。"));
+  card.appendChild(el("div",null,"👋 First visit: tick a few you care about and recommendations improve right away (skippable)"));
+  card.appendChild(el("div","muted","Takes about ten seconds and noticeably sharpens the ranking."));
   pool.slice(0,16).forEach(it=>{
     const row = el("div","onbrow");
     row.appendChild(el("div","t", it.title.length>70?it.title.slice(0,70)+"…":it.title));
     const bs = el("div","bs");
-    const y = el("button","y","感兴趣"); const n = el("button","n","跳过");
+    const y = el("button","y","Interested"); const n = el("button","n","Skip");
     y.onclick = ()=>{ setLike(it,1); initOnboardPool(pool); };
     n.onclick = ()=>{ setLike(it,-1); initOnboardPool(pool); };
     bs.appendChild(y); bs.appendChild(n); row.appendChild(bs);
     card.appendChild(row);
   });
-  const done = el("button","btn primary","完成，开始看"); done.style.marginTop="12px";
+  const done = el("button","btn primary","Done, start reading"); done.style.marginTop="12px";
   done.onclick = ()=>{ MEM.onboarded = true; saveMem(); renderOnboard(); renderFeed(); };
   card.appendChild(done);
   box.appendChild(card);
@@ -346,8 +346,8 @@ async function push(){
     const cur = await ghGet();
     const merged = mergeMem(cur.data, MEM);
     lastSha = await ghPut(merged, cur.sha);
-    setBar("ok","已同步到记忆库 · " + new Date().toLocaleTimeString());
-  }catch(e){ setBar("","同步失败：" + e.message); }
+    setBar("ok","Synced · " + new Date().toLocaleTimeString());
+  }catch(e){ setBar("","Sync failed: " + e.message); }
 }
 function mergeMem(a, b){
   const out = {version:1, onboarded: !!(a.onboarded||b.onboarded), interests:{}, items:{}, updated:new Date().toISOString()};
@@ -366,19 +366,19 @@ async function pull(){
     const cur = await ghGet();
     MEM = mergeMem(cur.data, MEM); lastSha = cur.sha;
     recomputeInterests(); localStorage.setItem(LS_MEM, JSON.stringify(MEM));
-    renderInterests(); setBar("ok","已载入记忆库 · " + (cur.data.updated||""));
+    renderInterests(); setBar("ok","Loaded · " + (cur.data.updated||""));
     return true;
-  }catch(e){ setBar("","载入失败：" + e.message); return false; }
+  }catch(e){ setBar("","Load failed: " + e.message); return false; }
 }
 function setBar(kind, msg){
   const b = document.getElementById("syncbar");
   b.style.display="flex"; b.className = "syncbar" + (kind==="ok"?" ok":"");
   b.innerHTML=""; b.appendChild(el("span",null,msg));
   if(kind!=="ok"){
-    const i=document.createElement("input"); i.placeholder="粘贴访问令牌（只保存在本机浏览器）"; i.value=token();
-    const s=el("button","btn primary","保存并连接");
-    s.onclick=()=>{ localStorage.setItem(LS_TOK, i.value.trim()); setBar("","已保存，正在连接…"); (async()=>{ if(await pull()){ renderFeed(); renderInterests(); renderOnboard(); } })(); };
-    const c=el("button","btn ghost","稍后"); c.onclick=()=>b.style.display="none";
+    const i=document.createElement("input"); i.placeholder="Paste access token (stored only in this browser)"; i.value=token();
+    const s=el("button","btn primary","Save and connect");
+    s.onclick=()=>{ localStorage.setItem(LS_TOK, i.value.trim()); setBar("","Saved, connecting..."); (async()=>{ if(await pull()){ renderFeed(); renderInterests(); renderOnboard(); } })(); };
+    const c=el("button","btn ghost","Later"); c.onclick=()=>b.style.display="none";
     b.appendChild(i); b.appendChild(s); b.appendChild(c);
   }
 }
@@ -389,22 +389,22 @@ async function boot(){
     const r = await fetch("feed.json?t="+Date.now(), {cache:"no-store"});
     FEED = await r.json();
   }catch(e){
-    document.getElementById("feed").textContent = "feed.json 读取失败：" + e.message; return;
+    document.getElementById("feed").textContent = "Failed to load feed.json: " + e.message; return;
   }
   document.getElementById("gen").textContent =
-    "更新于 " + (FEED.generated_at||"?").replace("T"," ").replace("Z"," UTC") + " · 模型 " + (FEED.model||"?");
+    "Updated " + (FEED.generated_at||"?").replace("T"," ").replace("Z"," UTC") + " · model " + (FEED.model||"?");
   if(FEED.news && FEED.news.length){
-    FEED.modules.push({id:"news", label:"行业动态", items: FEED.news});
+    FEED.modules.push({id:"news", label:"Industry", items: FEED.news});
   }
   TAB = FEED.modules[0] && FEED.modules[0].id;
   recomputeInterests();
   renderInterests(); renderHot(); renderTabs(); renderFeed(); renderOnboard();
 
   if(token()){ if(await pull()){ renderFeed(); renderInterests(); renderOnboard(); } }
-  else setBar("","记忆尚未连接：点赞与评论目前只存在本机。连接后可跨设备同步。");
+  else setBar("","Memory not connected: likes and comments stay on this device. Connect to sync across devices.");
 }
 document.getElementById("btnRefresh").onclick = ()=>location.reload();
-document.getElementById("btnSync").onclick = ()=>setBar("","粘贴访问令牌以连接记忆库（只保存在本机浏览器）");
+document.getElementById("btnSync").onclick = ()=>setBar("","Paste an access token to connect the memory store (stored only in this browser)");
 boot();
 </script>
 </body>

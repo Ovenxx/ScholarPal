@@ -1,40 +1,37 @@
-# 归属与许可
+# Attribution and licensing
 
-本仓库**不包含**任何上游项目的源码，二者均在运行时按固定版本拉取（克隆目录已在 `.gitignore` 中排除）。
+This repository **contains no upstream source code**. Both upstream projects are fetched at run time at a pinned revision; the clone directories are excluded via `.gitignore`.
 
 ## Vincentqyw/cv-arxiv-daily
 
-- 用途：模块 A / B 的论文日更引擎
-- 许可：Apache License 2.0
-- 地址：https://github.com/Vincentqyw/cv-arxiv-daily
-- 固定版本：`2c6fa8569db604f448adb82124a2e352c78da6b0`
-- 引用方式：由 `.github/workflows/{llm4or,agentic}-daily.yml` 在运行时拉取到 `.engine/`
-- 我们对它的改动：**无源码改动**。仅通过 `config/*.yml` 传入关键词与输出路径。
-  另外在 workflow 中对其**依赖**做了一行兼容处理（`arxiv` 2.x 移除了引擎调用的接口），属依赖适配，不涉及上游代码。
+- **Role**: daily paper engine for modules A / B
+- **License**: Apache License 2.0
+- **Source**: <https://github.com/Vincentqyw/cv-arxiv-daily>
+- **Pinned revision**: `2c6fa8569db604f448adb82124a2e352c78da6b0`
+- **How it is used**: fetched into `.engine/` at run time by `.github/workflows/{llm4or,agentic}-daily.yml`
+- **Our changes to it**: **none to its source.** Keywords and output paths are supplied through `config/*.yml`. The workflows additionally apply a one-line compatibility shim to its **dependency** (`arxiv` 2.x removed the API the engine calls); that is a dependency adaptation, not a modification of upstream code.
 
 ## sansan0/TrendRadar
 
-- 用途：模块 C 的资讯聚合引擎
-- 许可：**GNU GPL-3.0**
-- 地址：https://github.com/sansan0/TrendRadar
-- 固定版本：`792bcc3928b1617bba09df34989fd5675c159b86`
-- 引用方式：由 `.github/workflows/news-daily.yml` 在运行时拉取到 `.news/`
-- 我们对它的改动：**无源码改动**。仅覆盖两个配置文件（`news/config/` 下的 `config.yaml` 与 `frequency_words.txt`），
-  其中 `config.yaml` 自上游完整配置派生，只改开关与订阅源。
-- 备注：上游在其 Actions 流程中设有 7 天签到机制，并建议长期使用改用 Docker 部署。
-  本项目自建流程并以**每日一次**的低频调度运行，属轻量使用。
+- **Role**: news aggregation engine for module C
+- **License**: **GNU GPL-3.0**
+- **Source**: <https://github.com/sansan0/TrendRadar>
+- **Pinned revision**: `792bcc3928b1617bba09df34989fd5675c159b86`
+- **How it is used**: fetched into `.news/` at run time by `.github/workflows/news-daily.yml`
+- **Our changes to it**: **none to its source.** Two config files are overlaid from `news/config/` — `config.yaml`, derived from the upstream full config with only switches and the feed list changed, and `frequency_words.txt`.
+- **Note**: upstream ships a 7-day check-in mechanism inside its own Actions workflow and recommends a Docker deployment for long-term use. This project uses its own workflow on a low-frequency, once-daily schedule.
 
-## GPL-3.0 的传递
+## GPL-3.0 propagation
 
-由于并入 TrendRadar，本仓库整体以 GPL-3.0 发布。这是"合并为单一平台"这一选择对应的许可取舍。
+Because TrendRadar is incorporated, this repository as a whole is released under GPL-3.0. That is the licensing trade-off implied by the decision to merge everything into a single platform.
 
-## 参考清单（仅链接，未复制内容）
+## Reference lists (linked only; no content copied)
 
-- https://github.com/xianchaoxiu/LLM4OR
-- https://github.com/punkpeye/awesome-mcp-servers
-- https://github.com/a2aproject/A2A
-- https://github.com/e2b-dev/awesome-ai-agents
+- <https://github.com/xianchaoxiu/LLM4OR>
+- <https://github.com/punkpeye/awesome-mcp-servers>
+- <https://github.com/a2aproject/A2A>
+- <https://github.com/e2b-dev/awesome-ai-agents>
 
-## 数据来源
+## Data sources
 
-论文元数据来自 arXiv；资讯来自各订阅源。均遵循相应来源的使用条款。
+Paper metadata comes from arXiv; news items come from the configured feeds. Both are used under their respective terms of service.

@@ -65,13 +65,14 @@ jobs:
           ls -la output 2>/dev/null | head -20
           find . -name '*.db' -not -path './.git/*' -not -path './.venv/*' -printf '%s\t%p\n'
 
-      # TrendRadar keeps its own page; the app owns docs/index.html.
-      - name: Publish TrendRadar report
+      # We read the engine's SQLite store directly. Its own HTML report is
+      # Chinese-only, so it is deliberately not published.
+      - name: Verify engine output
         run: |
-          SRC=$(find .news -name '*.html' -not -path '*/.git/*' -not -path '*/.venv/*' -printf '%s\t%p\n' | sort -rn | head -1 | cut -f2)
-          if [ -z "$SRC" ]; then echo "ERROR: TrendRadar produced no HTML report"; exit 1; fi
-          echo "publishing $SRC -> docs/news.html"
-          cp "$SRC" docs/news.html
+          if ! find .news/output -name '*.db' | grep -q .; then
+            echo "ERROR: news engine produced no database"; exit 1
+          fi
+          echo "engine database present"
 
       # Coarse -> fine: keyword-filtered candidates from modules A/B plus the news
       # rows TrendRadar just collected, scored and summarised in a few LLM calls.
@@ -93,7 +94,7 @@ jobs:
         run: |
           git config user.name  "ScholarPal Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/news.html docs/feed.json
+          git add docs/feed.json
           if git diff --cached --quiet; then
             echo "no changes"
           else

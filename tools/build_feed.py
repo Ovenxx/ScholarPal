@@ -212,10 +212,10 @@ def score_items(module_label, items):
     for i, it in enumerate(items):
         lines.append(f"{i}. {it['title']}")
     prompt = (
-        f"你是学术情报分析师。下面是当天抓取到的「{module_label}」方向的候选标题。\n"
-        f"请对每一条给出：importance（0-10，代表这条对研究者的重要性/新颖性）、"
-        f"summary（一句话中文概括，不超过40字）、tags（1-3个中文或英文技术标签）。\n"
-        f"只输出 JSON 数组，每项形如 {{\"i\": 序号, \"importance\": 数字, \"summary\": \"...\", \"tags\": [\"...\"]}}，不要任何解释。\n\n"
+        f"You are a research intelligence analyst. Below are the candidate titles collected today for the \"{module_label}\" track.\n"
+        f"For each item give: importance (0-10, how important or novel it is for a researcher), "
+        f"summary (one sentence, at most 30 words, in English), tags (1-3 short technical tags, preferably English).\n"
+        f"Output only a JSON array, each element like {{\"i\": index, \"importance\": number, \"summary\": \"...\", \"tags\": [\"...\"]}}, with no commentary.\n\n"
         + "\n".join(lines)
     )
     parsed = extract_json(llm(prompt, max_tokens=3000))
@@ -233,7 +233,7 @@ def score_items(module_label, items):
         if 0 <= idx < len(items):
             out[items[idx]["id"]] = {
                 "importance": max(0.0, min(10.0, float(row.get("importance") or 0))),
-                "summary": str(row.get("summary") or "").strip()[:120],
+                "summary": str(row.get("summary") or "").strip()[:200],
                 "tags": [str(t).strip()[:24] for t in (row.get("tags") or []) if str(t).strip()][:3],
             }
     log(f"  scored {len(out)}/{len(items)} for {module_label}")
@@ -245,11 +245,11 @@ def hot_topics(label, titles, n=5):
     if not titles:
         return []
     prompt = (
-        f"下面是今天抓取的「{label}」相关标题。请提炼出 {n} 个最热的主题。\n"
-        f"每个主题给出：title（不超过14字的中文主题名）、summary（不超过60字的中文说明，讲清为什么热）、"
-        f"keywords（1-3个原文关键词）。\n"
-        f"按热度从高到低排序。只输出 JSON 数组，形如 "
-        f"[{{\"title\":\"...\",\"summary\":\"...\",\"keywords\":[\"...\"]}}]，不要任何解释。\n\n"
+        f"Below are today's collected titles related to \"{label}\". Distil the {n} hottest themes.\n"
+        f"For each theme give: title (at most 8 words, in English), summary (at most 40 words, in English, saying why it is hot), "
+        f"keywords (1-3 source keywords).\n"
+        f"Sort by heat, hottest first. Output only a JSON array of the form "
+        f"[{{\"title\":\"...\",\"summary\":\"...\",\"keywords\":[\"...\"]}}], with no commentary.\n\n"
         + "\n".join(f"- {t}" for t in titles[:150])
     )
     parsed = extract_json(llm(prompt, max_tokens=1600))
@@ -257,8 +257,8 @@ def hot_topics(label, titles, n=5):
         log(f"  hot-topic parse failed for {label}")
         return []
     return [{
-        "title": str(x.get("title") or "").strip()[:40],
-        "summary": str(x.get("summary") or "").strip()[:160],
+        "title": str(x.get("title") or "").strip()[:60],
+        "summary": str(x.get("summary") or "").strip()[:240],
         "keywords": [str(k).strip()[:24] for k in (x.get("keywords") or []) if str(k).strip()][:3],
     } for x in parsed if isinstance(x, dict) and x.get("title")]
 
@@ -272,7 +272,7 @@ def main():
         papers_by_module[mid] = items[:TOP_N]
 
     news = load_news()
-    news_scores = score_items("工业界 / AI 行业动态", news)
+    news_scores = score_items("Industry / applied AI", news)
     for it in news:
         sc = news_scores.get(it["id"], {})
         it["importance"] = sc.get("importance", 0.0)
@@ -303,8 +303,8 @@ def main():
     feed["news"] = news[:NEWS_MAX]
 
     acad_titles = [it["title"] for mid, _l, _p in MODULES for it in papers_by_module[mid]]
-    feed["hot"]["academic"] = hot_topics("学术界（用大模型做优化 + 智能体）", acad_titles)
-    feed["hot"]["industry"] = hot_topics("工业界（AI 与大模型行业动态）", [n["title"] for n in news])
+    feed["hot"]["academic"] = hot_topics("academic (LLMs for optimization + agents)", acad_titles)
+    feed["hot"]["industry"] = hot_topics("industry (applied AI and large-model practice)", [n["title"] for n in news])
 
     os.makedirs("docs", exist_ok=True)
     with open("docs/feed.json", "w", encoding="utf-8") as f:
