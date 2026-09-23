@@ -60,13 +60,19 @@ jobs:
           cd .news
           uv sync --frozen --no-dev
           uv run python -m trendradar
-          echo "=== html produced by this run ==="
-          find . -name '*.html' -not -path './.git/*' -printf '%s\t%p\n' | sort -rn | head -20
+          rc=$?
+          echo "trendradar exit code: $rc"
+          echo "=== top-level of .news ==="
+          ls -la .
+          echo "=== output dir ==="
+          ls -laR output 2>/dev/null | head -40
+          echo "=== html outside .venv/.git ==="
+          find . -name '*.html' -not -path './.git/*' -not -path './.venv/*' -printf '%s\t%p\n' | sort -rn | head -20
 
       - name: Publish report
         run: |
           mkdir -p news/report
-          SRC=$(find .news -name '*.html' -not -path '*/.git/*' -printf '%s\t%p\n' | sort -rn | head -1 | cut -f2)
+          SRC=$(find .news -name '*.html' -not -path '*/.git/*' -not -path '*/.venv/*' -printf '%s\t%p\n' | sort -rn | head -1 | cut -f2)
           if [ -z "$SRC" ]; then echo "ERROR: TrendRadar produced no HTML report"; exit 1; fi
           echo "publishing $SRC ($(wc -c < "$SRC") bytes)"
           cp "$SRC" news/report/index.html
