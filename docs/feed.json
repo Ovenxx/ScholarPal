@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T10:36:27Z",
+ "generated_at": "2026-09-23T10:43:07Z",
  "model": "deepseek-v4-flash",
  "modules": [
   {
@@ -18,7 +18,7 @@
       "LLM Auto-Formulation"
      ],
      "importance": 7.0,
-     "summary": "Benchmark evaluates LLM-based agentic decision-making for autonomous UAV-centric physical AI tasks.",
+     "summary": "Introduces a benchmark for LLM-based agentic decision-making in autonomous UAV-centric physical AI tasks.",
      "tags": [
       "benchmark",
       "LLM-agents",
@@ -38,31 +38,11 @@
       "Solver Intelligence"
      ],
      "importance": 7.0,
-     "summary": "Provides exact reformulations and valid inequalities for contextual distributionally robust chance-constrained programs.",
+     "summary": "Derives exact reformulations and valid inequalities for contextual distributionally robust chance-constrained programs.",
      "tags": [
       "distributionally-robust",
       "chance-constraints",
       "optimization"
-     ],
-     "module": "llm4or"
-    },
-    {
-     "id": "p:httparxivorgabs260923461",
-     "kind": "paper",
-     "date": "2026-09-20",
-     "title": "A Combinatorial Benders Decomposition Framework for Two-Dimensional Irregular Bin Packing Problems with Convex Polygons",
-     "authors": "Jianming Wang et.al.",
-     "url": "http://arxiv.org/abs/2609.23461",
-     "topic": "Solver Intelligence",
-     "topics": [
-      "Solver Intelligence"
-     ],
-     "importance": 7.0,
-     "summary": "Combinatorial Benders decomposition tackles two-dimensional irregular bin packing with convex polygons.",
-     "tags": [
-      "bin-packing",
-      "Benders-decomposition",
-      "cutting-packing"
      ],
      "module": "llm4or"
     },
@@ -78,9 +58,9 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 7.0,
-     "summary": "Structure-guided policy learning enables scalable dynamic pricing of substitutable products with combinatorial structure.",
+     "summary": "Learns scalable dynamic pricing policies for substitutable products using structure-guided policy learning.",
      "tags": [
-      "dynamic-pricing",
+      "pricing",
       "policy-learning",
       "revenue-management"
      ],
@@ -98,51 +78,11 @@
       "VRP / Combinatorial Solving"
      ],
      "importance": 7.0,
-     "summary": "Dynamic curriculum learning enhances genetic programming guided local search for large-scale vehicle routing.",
+     "summary": "Introduces dynamic curriculum learning for genetic programming guided local search on large-scale vehicle routing.",
      "tags": [
-      "vehicle-routing",
+      "curriculum-learning",
       "genetic-programming",
-      "curriculum-learning"
-     ],
-     "module": "llm4or"
-    },
-    {
-     "id": "p:httparxivorgabs260924104",
-     "kind": "paper",
-     "date": "2026-09-21",
-     "title": "Genetic Programming with Behaviour-based Niching for Learning Guided Local Search in Vehicle Routing Problems",
-     "authors": "Saining Liu et.al.",
-     "url": "http://arxiv.org/abs/2609.24104",
-     "topic": "VRP / Combinatorial Solving",
-     "topics": [
-      "VRP / Combinatorial Solving"
-     ],
-     "importance": 7.0,
-     "summary": "Behaviour-based niching in genetic programming learns improved guided local search heuristics for vehicle routing.",
-     "tags": [
-      "vehicle-routing",
-      "genetic-programming",
-      "metaheuristics"
-     ],
-     "module": "llm4or"
-    },
-    {
-     "id": "p:httparxivorgabs260925594",
-     "kind": "paper",
-     "date": "2026-09-22",
-     "title": "Optimal Operation Method for Computing Power-Electric Power Coordination Considering End-to-End Completion Latency of Computing Tasks",
-     "authors": "Yize Liu et.al.",
-     "url": "http://arxiv.org/abs/2609.25594",
-     "topic": "LLM Auto-Formulation",
-     "topics": [
-      "LLM Auto-Formulation"
-     ],
-     "importance": 7.0,
-     "summary": "Optimizes joint computing-power and electric-power scheduling while accounting for end-to-end task completion latency in data centers.",
-     "tags": [
-      "resource-allocation",
-      "scheduling",
-      "energy-systems"
+      "VRP"
      ],
      "module": "llm4or"
     },
@@ -161,8 +101,8 @@
      "summary": "Reformulates the destroy step of large neighborhood search as dense segmentation, enabling learned neural destroy operators.",
      "tags": [
       "LNS",
-      "learning-to-optimize",
-      "segmentation"
+      "segmentation",
+      "learning-to-optimize"
      ],
      "module": "llm4or"
     },
@@ -178,11 +118,31 @@
       "LLM Auto-Formulation"
      ],
      "importance": 6.0,
-     "summary": "STEVE stabilizes textual gradient prompt optimization via error-driven refinement and regularized verification.",
+     "summary": "Stabilizes textual gradient-based prompt optimization via error-driven refinement and regularized verification.",
      "tags": [
       "prompt-optimization",
       "LLM",
       "textual-gradients"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260923461",
+     "kind": "paper",
+     "date": "2026-09-20",
+     "title": "A Combinatorial Benders Decomposition Framework for Two-Dimensional Irregular Bin Packing Problems with Convex Polygons",
+     "authors": "Jianming Wang et.al.",
+     "url": "http://arxiv.org/abs/2609.23461",
+     "topic": "Solver Intelligence",
+     "topics": [
+      "Solver Intelligence"
+     ],
+     "importance": 6.0,
+     "summary": "Proposes combinatorial Benders decomposition for two-dimensional irregular bin packing with convex polygons.",
+     "tags": [
+      "Benders",
+      "bin-packing",
+      "cutting-stock"
      ],
      "module": "llm4or"
     },
@@ -198,11 +158,51 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 6.0,
-     "summary": "Establishes adversarially robust PAC learning bounds matching optimal VC rates, tightening learning-theoretic guarantees.",
+     "summary": "Establishes adversarially robust PAC learning bounds matching optimal VC rates.",
      "tags": [
-      "learning-theory",
       "PAC-learning",
-      "robustness"
+      "robustness",
+      "learning-theory"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260924104",
+     "kind": "paper",
+     "date": "2026-09-21",
+     "title": "Genetic Programming with Behaviour-based Niching for Learning Guided Local Search in Vehicle Routing Problems",
+     "authors": "Saining Liu et.al.",
+     "url": "http://arxiv.org/abs/2609.24104",
+     "topic": "VRP / Combinatorial Solving",
+     "topics": [
+      "VRP / Combinatorial Solving"
+     ],
+     "importance": 6.0,
+     "summary": "Uses behaviour-based niching in genetic programming to learn guided local search heuristics for vehicle routing.",
+     "tags": [
+      "genetic-programming",
+      "niching",
+      "VRP"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260925594",
+     "kind": "paper",
+     "date": "2026-09-22",
+     "title": "Optimal Operation Method for Computing Power-Electric Power Coordination Considering End-to-End Completion Latency of Computing Tasks",
+     "authors": "Yize Liu et.al.",
+     "url": "http://arxiv.org/abs/2609.25594",
+     "topic": "LLM Auto-Formulation",
+     "topics": [
+      "LLM Auto-Formulation"
+     ],
+     "importance": 6.0,
+     "summary": "Optimizes joint computing-power and electric-power scheduling while accounting for end-to-end task completion latency in data centers.",
+     "tags": [
+      "scheduling",
+      "energy",
+      "optimization"
      ],
      "module": "llm4or"
     },
@@ -218,31 +218,11 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 6.0,
-     "summary": "Combines MPPI control with BiLSTM learning to manipulate deformable linear objects like cables and ropes.",
+     "summary": "Combines model predictive path integral control with BiLSTM learning to manipulate deformable linear objects.",
      "tags": [
-      "MPC",
-      "deformable-objects",
-      "learning-control"
-     ],
-     "module": "llm4or"
-    },
-    {
-     "id": "p:httparxivorgabs260925831",
-     "kind": "paper",
-     "date": "2026-09-22",
-     "title": "Sometimes You Gotta Run Before You Can Walk: Run-then-Walk Scheduling Strategy for VLM Autonomous Driving",
-     "authors": "Yuqi Ye et.al.",
-     "url": "http://arxiv.org/abs/2609.25831",
-     "topic": "L2O / Learning to Optimize",
-     "topics": [
-      "L2O / Learning to Optimize"
-     ],
-     "importance": 6.0,
-     "summary": "Proposes run-then-walk scheduling for VLM-based autonomous driving, prioritizing fast inference before refined planning.",
-     "tags": [
-      "VLM",
-      "autonomous-driving",
-      "scheduling"
+      "MPPI",
+      "LSTM",
+      "robotics"
      ],
      "module": "llm4or"
     },
@@ -261,7 +241,7 @@
      "summary": "Applies neutral-atom quantum optimization to resource allocation in NOMA wireless networks.",
      "tags": [
       "quantum-optimization",
-      "wireless",
+      "NOMA",
       "resource-allocation"
      ],
      "module": "llm4or"
@@ -278,11 +258,11 @@
       "LLM Auto-Formulation"
      ],
      "importance": 5.0,
-     "summary": "Frames resilience as a general multicriteria optimization problem, offering a unified perspective.",
+     "summary": "Presents a general multicriteria optimization perspective on resilience modeling and analysis.",
      "tags": [
+      "multicriteria",
       "resilience",
-      "multicriteria-optimizati",
-      "theory"
+      "optimization"
      ],
      "module": "llm4or"
     },
@@ -298,11 +278,31 @@
       "VRP / Combinatorial Solving"
      ],
      "importance": 5.0,
-     "summary": "Derives new lower bounds for connected dominating sets and f-routing problems in graph theory.",
+     "summary": "Proves new lower bounds for connected dominating sets and f-routing problems in graph theory.",
      "tags": [
-      "graph-theory",
       "lower-bounds",
+      "graph-theory",
       "routing"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260925831",
+     "kind": "paper",
+     "date": "2026-09-22",
+     "title": "Sometimes You Gotta Run Before You Can Walk: Run-then-Walk Scheduling Strategy for VLM Autonomous Driving",
+     "authors": "Yuqi Ye et.al.",
+     "url": "http://arxiv.org/abs/2609.25831",
+     "topic": "L2O / Learning to Optimize",
+     "topics": [
+      "L2O / Learning to Optimize"
+     ],
+     "importance": 5.0,
+     "summary": "Proposes run-then-walk scheduling for VLM-based autonomous driving, prioritizing fast inference before refined planning.",
+     "tags": [
+      "VLM",
+      "scheduling",
+      "autonomous-driving"
      ],
      "module": "llm4or"
     },
@@ -318,11 +318,11 @@
       "VRP / Combinatorial Solving"
      ],
      "importance": 5.0,
-     "summary": "Lightweight routing study deciding when dependency updates should trigger repair agents versus simpler fixes.",
+     "summary": "Studies lightweight routing to decide when dependency updates should trigger repair agents, balancing cost and reliability.",
      "tags": [
-      "LLM-agents",
-      "software-engineering",
-      "routing"
+      "routing",
+      "agents",
+      "software-engineering"
      ],
      "module": "llm4or"
     },
@@ -338,7 +338,7 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 4.0,
-     "summary": "Uses reinforcement learning to guide black-box adversarial attacks on computer vision models.",
+     "summary": "Develops reinforcement-learning-inspired black-box adversarial attacks for computer vision models.",
      "tags": [
       "adversarial-attacks",
       "RL",
@@ -358,11 +358,11 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 4.0,
-     "summary": "Pipeline generates industry-personalized MOOC-quality lecture videos at scale, likely using LLM-driven content synthesis.",
+     "summary": "Generates industry-personalized MOOC-quality lecture videos at scale, likely using LLM-driven content synthesis pipelines.",
      "tags": [
-      "video-generation",
+      "LLM",
       "education",
-      "LLM-agents"
+      "generation"
      ],
      "module": "llm4or"
     }
@@ -373,43 +373,24 @@
    "label": "Agentic AI",
    "items": [
     {
-     "id": "p:httparxivorgabs260926781",
+     "id": "p:httparxivorgabs260926760",
      "kind": "paper",
      "date": "2026-09-22",
-     "title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
-     "authors": "Zhihao Zhan et.al.",
-     "url": "http://arxiv.org/abs/2609.26781",
+     "title": "Grow the Harness, Not the Context: From Strategy-Free Scaffolds to Reusable Specialist Agents",
+     "authors": "Laizhen Li et.al.",
+     "url": "http://arxiv.org/abs/2609.26760",
      "topic": "Agent Loop / Harness",
      "topics": [
       "Agent Loop / Harness",
-      "A2A / Multi-Agent Orchestration"
+      "MCP / Tool Protocols",
+      "Planning / Self-Evolution"
      ],
      "importance": 8.0,
-     "summary": "Scales organizational agentic intelligence to 1,024 cooperating agents, probing coordination limits at large scale.",
+     "summary": "Argues for growing reusable specialist agent harnesses rather than expanding context, shifting scaffold design strategy.",
      "tags": [
-      "multi-agent",
-      "scaling",
-      "coordination"
-     ],
-     "module": "agentic"
-    },
-    {
-     "id": "p:httparxivorgabs260926661",
-     "kind": "paper",
-     "date": "2026-09-22",
-     "title": "Autonomous Quantum Transport Measurements of 2D Semiconductors by an AI Agent",
-     "authors": "Brandon Bauer et.al.",
-     "url": "http://arxiv.org/abs/2609.26661",
-     "topic": "Agent Loop / Harness",
-     "topics": [
-      "Agent Loop / Harness"
-     ],
-     "importance": 8.0,
-     "summary": "AI agent autonomously performs quantum transport measurements on 2D semiconductors, advancing lab automation.",
-     "tags": [
-      "lab-automation",
-      "scientific-agents",
-      "quantum"
+      "agent-harness",
+      "specialist-agents",
+      "scaffolding"
      ],
      "module": "agentic"
     },
@@ -466,7 +447,7 @@
       "MCP / Tool Protocols"
      ],
      "importance": 8.0,
-     "summary": "A2M demonstrates trace-optimized agent hijacking in the MCP ecosystem, exposing tool-use security risks.",
+     "summary": "A2M demonstrates trace-optimized agent hijacking in MCP ecosystems, exposing security vulnerabilities.",
      "tags": [
       "security",
       "MCP",
@@ -486,33 +467,52 @@
       "MCP / Tool Protocols"
      ],
      "importance": 8.0,
-     "summary": "Dual-Frontier probes when an agent can trust its learned world model, addressing reliability boundaries.",
+     "summary": "Dual-Frontier examines when an agent can trust its learned world model, addressing reliability of model-based agents.",
      "tags": [
       "world-models",
       "trust",
-      "reliability"
+      "model-based"
      ],
      "module": "agentic"
     },
     {
-     "id": "p:httparxivorgabs260926760",
+     "id": "p:httparxivorgabs260926781",
      "kind": "paper",
      "date": "2026-09-22",
-     "title": "Grow the Harness, Not the Context: From Strategy-Free Scaffolds to Reusable Specialist Agents",
-     "authors": "Laizhen Li et.al.",
-     "url": "http://arxiv.org/abs/2609.26760",
+     "title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
+     "authors": "Zhihao Zhan et.al.",
+     "url": "http://arxiv.org/abs/2609.26781",
      "topic": "Agent Loop / Harness",
      "topics": [
       "Agent Loop / Harness",
-      "MCP / Tool Protocols",
-      "Planning / Self-Evolution"
+      "A2A / Multi-Agent Orchestration"
      ],
      "importance": 7.0,
-     "summary": "Argues for growing reusable specialist agent harnesses rather than expanding context, shifting scaffold design strategy.",
+     "summary": "Scales organizational agentic intelligence to 1,024 cooperating agents, probing coordination limits at large scale.",
      "tags": [
-      "agent-harness",
-      "specialization",
-      "scaffolding"
+      "multi-agent",
+      "scaling",
+      "coordination"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs260926661",
+     "kind": "paper",
+     "date": "2026-09-22",
+     "title": "Autonomous Quantum Transport Measurements of 2D Semiconductors by an AI Agent",
+     "authors": "Brandon Bauer et.al.",
+     "url": "http://arxiv.org/abs/2609.26661",
+     "topic": "Agent Loop / Harness",
+     "topics": [
+      "Agent Loop / Harness"
+     ],
+     "importance": 7.0,
+     "summary": "AI agent autonomously performs quantum transport measurements on 2D semiconductors, demonstrating lab automation.",
+     "tags": [
+      "lab-automation",
+      "scientific-agents",
+      "quantum"
      ],
      "module": "agentic"
     },
@@ -559,26 +559,6 @@
      "module": "agentic"
     },
     {
-     "id": "p:httparxivorgabs260925873",
-     "kind": "paper",
-     "date": "2026-09-22",
-     "title": "AgenticSizing: A Large Language Model-based Multi-Agent Framework for Analog Circuit Sizing",
-     "authors": "Yijia Hao et.al.",
-     "url": "http://arxiv.org/abs/2609.25873",
-     "topic": "Agent Loop / Harness",
-     "topics": [
-      "Agent Loop / Harness"
-     ],
-     "importance": 7.0,
-     "summary": "Multi-agent LLM framework automates analog circuit sizing, targeting a specialized engineering design task.",
-     "tags": [
-      "multi-agent",
-      "circuit-design",
-      "EDA"
-     ],
-     "module": "agentic"
-    },
-    {
      "id": "p:httparxivorgabs260926693",
      "kind": "paper",
      "date": "2026-09-22",
@@ -590,7 +570,7 @@
       "MCP / Tool Protocols"
      ],
      "importance": 7.0,
-     "summary": "Shows local tool-use evaluation confounds serving stack with model, urging measurement of infrastructure.",
+     "summary": "Shows local tool-use evaluation confounds model quality with serving stack, urging stack-level measurement.",
      "tags": [
       "evaluation",
       "tool-use",
@@ -614,7 +594,27 @@
      "tags": [
       "healthcare",
       "safety",
-      "coordination"
+      "governance"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs260925873",
+     "kind": "paper",
+     "date": "2026-09-22",
+     "title": "AgenticSizing: A Large Language Model-based Multi-Agent Framework for Analog Circuit Sizing",
+     "authors": "Yijia Hao et.al.",
+     "url": "http://arxiv.org/abs/2609.25873",
+     "topic": "Agent Loop / Harness",
+     "topics": [
+      "Agent Loop / Harness"
+     ],
+     "importance": 6.0,
+     "summary": "Multi-agent LLM framework automates analog circuit sizing, applying agentic methods to EDA.",
+     "tags": [
+      "EDA",
+      "multi-agent",
+      "circuit-design"
      ],
      "module": "agentic"
     },
@@ -630,7 +630,7 @@
       "Agent Loop / Harness"
      ],
      "importance": 6.0,
-     "summary": "Cognitive-enhanced reflective multi-agent framework generates persuasive videos with iterative self-reflection.",
+     "summary": "Cognitive reflective multi-agent framework generates persuasive videos with enhanced reasoning.",
      "tags": [
       "multi-agent",
       "video-generation",
@@ -710,7 +710,7 @@
       "MCP / Tool Protocols"
      ],
      "importance": 3.0,
-     "summary": "Practical guide on graphical model validation, offering methodology for probabilistic model assessment.",
+     "summary": "Practical guide for validating graphical models, offering methodological guidance for probabilistic modeling.",
      "tags": [
       "graphical-models",
       "validation",
@@ -745,54 +745,72 @@
   "academic": [
    {
     "title": "LLM Agents for Autonomous Decision-Making",
-    "summary": "Benchmarks and frameworks for agentic decision-making in UAVs, circuits, and physical AI are proliferating, signaling a push toward reliable autonomous agents in real-world optimization tasks.",
+    "summary": "Benchmarks and frameworks push LLM agents into UAV control, circuit sizing, and scientific measurement, making agentic autonomy a dominant hot theme.",
     "keywords": [
-     "agentic decision-making",
-     "benchmark",
-     "autonomous systems"
+     "LLM agents",
+     "autonomous decision-maki",
+     "benchmark"
     ]
    },
    {
-    "title": "Reliable and Robust LLM Agent Systems",
-    "summary": "Work on runtime engineering, world-model trust, and failure-informed design addresses the critical gap between agent capability and deployment reliability, a top concern for scaling agents.",
+    "title": "Reliable and Safe Agent Engineering",
+    "summary": "Failure-informed runtime, safety contracts, and trust in world models address reliability gaps as agents deploy in high-stakes domains like care and tool use.",
     "keywords": [
      "reliability",
-     "runtime engineering",
-     "agent trust"
+     "safety",
+     "agent engineering"
     ]
    },
    {
-    "title": "Multi-Agent Coordination and Scaling",
-    "summary": "Scaling to 1,024 agents, governed coordination for care, and multi-agent frameworks for circuit sizing and video generation show intense interest in orchestrating many agents effectively.",
+    "title": "Scaling Multi-Agent Organizational Intelligence",
+    "summary": "Work on scaling to 1,024 agents, reusable specialist scaffolds, and multi-agent persuasion shows rapid movement toward coordinated agent organizations.",
     "keywords": [
      "multi-agent",
-     "coordination",
-     "scaling"
+     "scaling",
+     "coordination"
     ]
    },
    {
     "title": "LLM-Driven Optimization and Search",
-    "summary": "Textual gradient prompt optimization, genetic programming for vehicle routing, and large neighborhood search recast as segmentation highlight LLMs and learning methods transforming combinatorial optimization.",
+    "summary": "Textual gradient prompt optimization, genetic programming for routing, and learned local search show LLMs reshaping combinatorial optimization pipelines.",
     "keywords": [
+     "optimization",
      "prompt optimization",
-     "genetic programming",
-     "vehicle routing"
+     "local search"
     ]
    },
    {
-    "title": "Agentic Tool Use and Evaluation",
-    "summary": "Studies on dependency-update repair agents, MCP hijacking, local tool-use evaluation, and knowledge-as-skill reveal growing focus on secure, measurable agent-tool interactions.",
+    "title": "Robust and Structured Optimization Theory",
+    "summary": "Distributionally robust chance constraints, Benders decomposition, and PAC learning bounds advance rigorous optimization foundations amid applied LLM enthusiasm.",
     "keywords": [
-     "tool use",
-     "evaluation",
-     "security"
+     "robust optimization",
+     "decomposition",
+     "learning theory"
     ]
    }
   ],
   "industry": [
    {
-    "title": "Jev and Typed Decision Models",
-    "summary": "Multiple posts on Jev, JevBench, and OpenAI fast-following signal a hot new paradigm for typed, reproducible decision models in applied AI.",
+    "title": "Claude Opus 5.5 Launch and Analysis",
+    "summary": "Multiple posts cover Claude Opus 5.5's intelligence, performance, and pricing, signaling a major frontier-model release that reshapes competitive positioning in applied AI.",
+    "keywords": [
+     "Claude Opus 5.5",
+     "frontier models",
+     "benchmarks"
+    ]
+   },
+   {
+    "title": "GPT-6 Variants and Capabilities",
+    "summary": "GPT-6 Sol, Luna, and Astra announcements, including breaking a long-unsolved Enigma message, highlight rapid capability jumps and intensifying hype around next-gen large models.",
+    "keywords": [
+     "GPT-6",
+     "OpenAI",
+     "capabilities"
+    ]
+   },
+   {
+    "title": "Jev Emerges as Hot New Model",
+    "summary": "Jev appears across posts—Python demos, OpenAI fast-follow commentary, and JevBench—indicating a fast-rising model or framework drawing intense practitioner attention.",
     "keywords": [
      "Jev",
      "JevBench",
@@ -800,67 +818,53 @@
     ]
    },
    {
-    "title": "Claude Opus 5.5 Launch Analysis",
-    "summary": "Claude Opus 5.5 and its intelligence, performance, and price analysis dominate discussion, reflecting intense competition in frontier model releases.",
-    "keywords": [
-     "Claude Opus 5.5",
-     "Anthropic"
-    ]
-   },
-   {
-    "title": "GPT-6 Capabilities and Breakthroughs",
-    "summary": "GPT-6 Sol, Luna, and Astra breaking a long-unsolved Enigma message highlight rapid capability jumps and cryptographic reasoning in large models.",
-    "keywords": [
-     "GPT-6",
-     "OpenAI"
-    ]
-   },
-   {
     "title": "Open-Model Power Balance Shifts",
-    "summary": "Analysis of the current balance of power in open models is trending as open-weight releases reshape competitive dynamics against closed frontier labs.",
+    "summary": "Discussion of the current balance of power in open models reflects ongoing competition among open-weight releases and their impact on industry adoption and strategy.",
     "keywords": [
      "open models",
-     "balance of power"
+     "competition",
+     "ecosystem"
     ]
    },
    {
-    "title": "AI Overreliance Causes Real Harm",
-    "summary": "Pentagon linking AI overreliance to a missile strike on an Iran school spotlights urgent safety, accountability, and deployment risks in applied AI.",
+    "title": "AI Reliability and Security Risks",
+    "summary": "Pentagon AI overreliance in a missile strike, FBI hack claims, and WordPress RCE show growing concern over AI and software security failures in real deployments.",
     "keywords": [
-     "Pentagon",
-     "AI overreliance"
+     "AI risk",
+     "security",
+     "reliability"
     ]
    }
   ]
  },
  "news": [
   {
-   "id": "n:4385386377",
+   "id": "n:8150355679",
    "kind": "news",
    "title": "Jev in 25 Lines of Python",
    "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
    "source": "Hacker News",
    "date": "2026-09-23",
-   "summary": "Minimal Python implementation of Jev, a typed decision model, showing how little code is needed to reproduce it.",
+   "summary": "A minimal 25-line Python implementation of Jev, likely a typed decision model or agent framework.",
    "tags": [
-    "decision-models",
     "python",
-    "minimal-implementation"
+    "minimal-implementation",
+    "decision-models"
    ],
    "extra": "",
    "importance": 6.0,
    "module": "news"
   },
   {
-   "id": "n:7862406250",
+   "id": "n:8302289704",
    "kind": "news",
    "title": "How often do you think about the 1893 World's Fair?",
    "url": "https://www.thebirthofacapital.info/chicago-worlds-fair-tataria-ware-larsen/",
    "source": "Hacker News",
    "date": "2026-09-23",
-   "summary": "Cultural reflection piece on the 1893 World's Fair, unrelated to applied AI research.",
+   "summary": "A reflective essay or trivia piece about the 1893 World's Fair, unrelated to applied AI.",
    "tags": [
-    "culture",
+    "non-technical",
     "history"
    ],
    "extra": "",
@@ -868,7 +872,7 @@
    "module": "news"
   },
   {
-   "id": "n:2308795430",
+   "id": "n:9612889400",
    "kind": "news",
    "title": "Grammarly will send unhinged messages to all your users if you try to cancel",
    "url": "https://www.reddit.com/r/sysadmin/comments/1wjdpgx/psa_grammarly_will_send_unhinged_messages_to_all/",
@@ -876,16 +880,16 @@
    "date": "2026-09-23",
    "summary": "Report on Grammarly's aggressive retention tactics sending messages to users' contacts upon cancellation.",
    "tags": [
-    "product-ethics",
-    "saas",
-    "privacy"
+    "product-behavior",
+    "privacy",
+    "ux"
    ],
    "extra": "",
    "importance": 3.0,
    "module": "news"
   },
   {
-   "id": "n:7469765684",
+   "id": "n:5544573514",
    "kind": "news",
    "title": "Data-only attacks are easier than you think (2024)",
    "url": "https://www.usenix.org/publications/loginonline/data-only-attacks-are-easier-you-think",
@@ -898,84 +902,83 @@
     "threat-model"
    ],
    "extra": "",
-   "importance": 5.0,
+   "importance": 7.0,
    "module": "news"
   },
   {
-   "id": "n:6552406712",
+   "id": "n:5252381598",
    "kind": "news",
    "title": "Transit rewards",
    "url": "https://waymo.com/blog/2026/09/transit-rewards/",
    "source": "Hacker News",
    "date": "2026-09-23",
-   "summary": "Piece on transit reward programs, likely tangential to applied AI research.",
+   "summary": "A piece on transit rewards programs, likely unrelated to applied AI research.",
    "tags": [
-    "transit",
-    "incentives"
+    "non-technical",
+    "transit"
    ],
    "extra": "",
    "importance": 2.0,
    "module": "news"
   },
   {
-   "id": "n:7115391535",
+   "id": "n:3311133644",
    "kind": "news",
    "title": "The current balance of power in open models",
    "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
    "source": "Hacker News",
    "date": "2026-09-22",
-   "summary": "Survey of the current competitive landscape and balance of power among open-weight language models.",
+   "summary": "Survey of the current competitive landscape and power balance among open-weight language models.",
    "tags": [
     "open-models",
     "landscape",
     "llm"
    ],
    "extra": "",
-   "importance": 7.0,
+   "importance": 8.0,
    "module": "news"
   },
   {
-   "id": "n:9462282502",
+   "id": "n:9410854779",
    "kind": "news",
    "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
    "url": "https://foxscript.org/",
    "source": "Hacker News",
    "date": "2026-09-22",
-   "summary": "Nostalgic revival of Microsoft FoxPro, a discontinued database language, as an open project.",
+   "summary": "A nostalgic revival of Microsoft FoxPro, a discontinued database language, with no AI relevance.",
    "tags": [
-    "foxpro",
     "legacy-software",
-    "revival"
+    "foxpro"
    ],
    "extra": "",
-   "importance": 3.0,
+   "importance": 2.0,
    "module": "news"
   },
   {
-   "id": "n:7299346359",
+   "id": "n:2615028354",
    "kind": "news",
    "title": "Obscura: VPN that can't log your activity",
    "url": "https://obscura.com/#faq-technical",
    "source": "Hacker News",
    "date": "2026-09-22",
-   "summary": "Obscura presents a VPN architecture designed to be unable to log user activity.",
+   "summary": "Obscura is a VPN architecture designed to be unable to log user activity even if compelled.",
    "tags": [
     "vpn",
     "privacy",
-    "no-logs"
+    "zero-log"
    ],
    "extra": "",
    "importance": 5.0,
    "module": "news"
   },
   {
-   "id": "n:8019418649",
+   "id": "n:1097616787",
    "kind": "news",
    "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
    "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
    "source": "Hacker News",
    "date": "2026-09-22",
-   "summary": "Pentagon report attributes a deadly missile strike on an Iranian school partly to overreliance on AI systems.",
+   "summary": "Pentagon report attributes a missile strike on an Iranian school partly to overreliance on AI targeting.",
    "tags": [
     "ai-safety",
     "military-ai",
@@ -986,30 +989,30 @@
    "module": "news"
   },
   {
-   "id": "n:323098955",
+   "id": "n:6749847212",
    "kind": "news",
    "title": "SAML: A fractal of bad design",
    "url": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
    "source": "Hacker News",
    "date": "2026-09-22",
-   "summary": "Critique arguing SAML's design is fundamentally flawed and fractal in its complexity.",
+   "summary": "Critique arguing SAML's design is fundamentally flawed, with security and complexity pitfalls.",
    "tags": [
     "saml",
     "security",
     "protocol-design"
    ],
    "extra": "",
-   "importance": 4.0,
+   "importance": 6.0,
    "module": "news"
   },
   {
-   "id": "n:9130623126",
+   "id": "n:55394054",
    "kind": "news",
    "title": "Unreal Agent",
    "url": "https://unreallabs.ai/blog/unreal-agent/",
    "source": "Hacker News",
    "date": "2026-09-22",
-   "summary": "Unreal Agent appears to be an agent framework or tool, though details are sparse.",
+   "summary": "Unreal Agent appears to be an agent framework or tool, possibly for game or simulation environments.",
    "tags": [
     "agents",
     "framework"
@@ -1019,30 +1022,30 @@
    "module": "news"
   },
   {
-   "id": "n:9987620503",
+   "id": "n:6743821390",
    "kind": "news",
    "title": "GPT-6 Sol and Luna",
    "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
    "source": "Hacker News",
    "date": "2026-09-22",
-   "summary": "Speculative or rumored release information about GPT-6 variants named Sol and Luna.",
+   "summary": "Announcement or discussion of GPT-6 Sol and Luna, likely new OpenAI model variants.",
    "tags": [
     "gpt-6",
     "openai",
-    "rumor"
+    "model-release"
    ],
    "extra": "",
-   "importance": 6.0,
+   "importance": 7.0,
    "module": "news"
   },
   {
-   "id": "n:8553654768",
+   "id": "n:7293709958",
    "kind": "news",
    "title": "'We hacked the FBI:' Hackers say they have data on all FBI employees",
    "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
    "source": "Hacker News",
    "date": "2026-09-22",
-   "summary": "Hackers claim to have exfiltrated data on all FBI employees, raising major security concerns.",
+   "summary": "Hackers claim to have exfiltrated data on all FBI employees, highlighting persistent breach risks.",
    "tags": [
     "security-breach",
     "fbi",
@@ -1053,7 +1056,7 @@
    "module": "news"
   },
   {
-   "id": "n:8193142899",
+   "id": "n:9540150982",
    "kind": "news",
    "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
    "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
@@ -1063,48 +1066,48 @@
    "tags": [
     "claude",
     "benchmark",
-    "evaluation"
+    "price-performance"
    ],
    "extra": "",
    "importance": 7.0,
    "module": "news"
   },
   {
-   "id": "n:2256051635",
+   "id": "n:5474103812",
    "kind": "news",
    "title": "WordPress: Unauthenticated path traversal leading to conditional RCE",
    "url": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp",
    "source": "Hacker News",
    "date": "2026-09-22",
-   "summary": "WordPress vulnerability disclosure covering unauthenticated path traversal leading to conditional remote code execution.",
+   "summary": "WordPress vulnerability allowing unauthenticated path traversal that can lead to conditional remote code execution.",
    "tags": [
     "wordpress",
-    "vulnerability",
-    "rce"
-   ],
-   "extra": "",
-   "importance": 6.0,
-   "module": "news"
-  },
-  {
-   "id": "n:5816167963",
-   "kind": "news",
-   "title": "Claude Opus 5.5",
-   "url": "https://www.anthropic.com/claude-opus-5-5",
-   "source": "Hacker News",
-   "date": "2026-09-22",
-   "summary": "Release announcement for Claude Opus 5.5, a new frontier model from Anthropic.",
-   "tags": [
-    "claude",
-    "llm",
-    "release"
+    "rce",
+    "path-traversal"
    ],
    "extra": "",
    "importance": 7.0,
    "module": "news"
   },
   {
-   "id": "n:4213435096",
+   "id": "n:6604312714",
+   "kind": "news",
+   "title": "Claude Opus 5.5",
+   "url": "https://www.anthropic.com/claude-opus-5-5",
+   "source": "Hacker News",
+   "date": "2026-09-22",
+   "summary": "Release or announcement of Claude Opus 5.5, a new frontier model from Anthropic.",
+   "tags": [
+    "claude",
+    "anthropic",
+    "model-release"
+   ],
+   "extra": "",
+   "importance": 8.0,
+   "module": "news"
+  },
+  {
+   "id": "n:2818379595",
    "kind": "news",
    "title": "OpenAI is well positioned to fast-follow Jev",
    "url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
@@ -1121,30 +1124,30 @@
    "module": "news"
   },
   {
-   "id": "n:7668234312",
+   "id": "n:8445469549",
    "kind": "news",
    "title": "Apple has added persistent 'ads' to iOS, and it's driving users crazy",
    "url": "https://www.techradar.com/phones/iphone/i-wish-apple-would-just-stop-that-crap-apple-has-added-persistent-ads-to-ios-and-its-driving-users-crazy",
    "source": "Hacker News",
    "date": "2026-09-22",
-   "summary": "Report on Apple adding persistent advertisements to iOS, provoking user backlash.",
+   "summary": "Report on Apple adding persistent ads to iOS, causing user frustration and privacy concerns.",
    "tags": [
     "apple",
-    "ios",
-    "ads"
+    "ads",
+    "ios"
    ],
    "extra": "",
    "importance": 4.0,
    "module": "news"
   },
   {
-   "id": "n:8180877145",
+   "id": "n:9314084251",
    "kind": "news",
    "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
    "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
    "source": "Hacker News",
    "date": "2026-09-22",
-   "summary": "Claim that OpenAI's GPT-6 Astra solved a long-standing Enigma cipher message unsolved since 2005.",
+   "summary": "OpenAI's GPT-6 Astra reportedly solves a long-standing Enigma cipher message unsolved since 2005.",
    "tags": [
     "gpt-6",
     "cryptanalysis",
@@ -1155,13 +1158,13 @@
    "module": "news"
   },
   {
-   "id": "n:6725893085",
+   "id": "n:8109981899",
    "kind": "news",
    "title": "Show HN: JevBench, a reproducible benchmark for typed decision models",
    "url": "https://benchmarkheaven.com/jev-models",
    "source": "Hacker News",
    "date": "2026-09-22",
-   "summary": "JevBench offers a reproducible benchmark for evaluating typed decision models, aiding comparability.",
+   "summary": "JevBench is a reproducible benchmark for evaluating typed decision models, aiding comparability.",
    "tags": [
     "benchmark",
     "decision-models",
