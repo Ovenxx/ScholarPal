@@ -5,6 +5,11 @@ on:
   schedule:
     - cron: "0 22 * * *"   # 06:00 Asia/Shanghai
 
+# Shared with module B: serialises the two digests so their pushes cannot race.
+concurrency:
+  group: scholarpal-digest
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -37,9 +42,9 @@ jobs:
           git -C .engine fetch -q --depth 1 origin "$UPSTREAM_SHA"
           git -C .engine checkout -q FETCH_HEAD
 
-      # arxiv 2.x removed Search.results(); the engine still calls it. This is a
-      # one-line compatibility shim on our throwaway clone (never committed).
-      # The grep fails the step loudly if the shim did not apply.
+      # arxiv 2.x removed Search.results(); the engine still calls it. One-line
+      # compatibility shim on our throwaway clone (never committed). The grep
+      # fails the step loudly if the shim did not apply.
       - name: Shim engine for arxiv 2.x
         run: |
           sed -i 's/search_engine\.results()/arxiv.Client().results(search_engine)/' .engine/daily_arxiv.py
@@ -57,5 +62,6 @@ jobs:
             echo "no changes"
           else
             git commit -m "chore(llm4or): daily digest"
+            git pull --rebase --autostash origin main
             git push
           fi
