@@ -59,9 +59,13 @@ jobs:
         run: |
           cd .news
           uv sync --frozen --no-dev
-          uv run python -m trendradar
+          set +e
+          uv run python -m trendradar > /tmp/tr.log 2>&1
           rc=$?
+          set -e
           echo "trendradar exit code: $rc"
+          echo "=== trendradar own output ==="
+          tail -n 60 /tmp/tr.log
           echo "=== top-level of .news ==="
           ls -la .
           echo "=== output dir ==="
