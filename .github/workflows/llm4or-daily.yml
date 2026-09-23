@@ -24,8 +24,16 @@ jobs:
         with:
           python-version: "3.10"
 
+      # arxiv is pinned to 1.x because the engine calls Search.results(),
+      # which arxiv 2.x removed.
       - name: Install dependencies
         run: pip install "arxiv==1.4.8" requests pyyaml
+
+      # arxiv 1.x still queries http://export.arxiv.org, which arXiv now
+      # 301-redirects. Patch the INSTALLED LIBRARY to https; upstream engine
+      # code is deliberately left untouched.
+      - name: Patch arxiv endpoint to https
+        run: python -c "import pathlib,arxiv,sys; p=pathlib.Path(arxiv.__file__); s=p.read_text(); n=s.count('http://export.arxiv.org/api/query'); sys.exit('PATCH FAILED: pattern not found') if n==0 else None; p.write_text(s.replace('http://export.arxiv.org/api/query','https://export.arxiv.org/api/query')); print('patched',n,'occurrence(s)')"
 
       # The engine is fetched at run time and never committed to this repo.
       - name: Fetch pinned upstream engine
@@ -49,4 +57,3 @@ jobs:
             git commit -m "chore(llm4or): daily digest"
             git push
           fi
-
