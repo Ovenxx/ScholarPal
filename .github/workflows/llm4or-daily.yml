@@ -24,32 +24,10 @@ jobs:
         with:
           python-version: "3.10"
 
-      # arxiv is pinned to 1.x because the engine calls Search.results(),
-      # which arxiv 2.x removed.
+      # arxiv 1.x is unusable: it queries http:// and its User-Agent is now
+      # rejected by arXiv (301 then 406). Use the maintained 2.x line.
       - name: Install dependencies
-        run: pip install "arxiv==1.4.8" requests pyyaml
-
-      # arxiv 1.x still queries http://export.arxiv.org, which arXiv now
-      # 301-redirects. Patch the INSTALLED LIBRARY to https; the upstream
-      # engine code is deliberately left untouched. The final assert makes a
-      # silent no-op fail loudly instead of producing an empty digest.
-      - name: Patch arxiv endpoint to https
-        run: |
-          python - <<'PY'
-          import pathlib, arxiv
-          pkg = pathlib.Path(arxiv.__file__).parent
-          total = 0
-          for f in sorted(pkg.glob("*.py")):
-              s = f.read_text()
-              n = s.count("http://export.arxiv.org/api/query")
-              if n:
-                  f.write_text(s.replace("http://export.arxiv.org/api/query",
-                                         "https://export.arxiv.org/api/query"))
-                  print("patched", n, "occurrence(s) in", f.name)
-                  total += n
-          assert total > 0, "PATCH FAILED: pattern not found under " + str(pkg)
-          print("total patched:", total)
-          PY
+        run: pip install "arxiv>=2,<3" requests pyyaml
 
       # The engine is fetched at run time and never committed to this repo.
       - name: Fetch pinned upstream engine
@@ -58,6 +36,14 @@ jobs:
           git -C .engine remote add origin "$UPSTREAM_REPO"
           git -C .engine fetch -q --depth 1 origin "$UPSTREAM_SHA"
           git -C .engine checkout -q FETCH_HEAD
+
+      # arxiv 2.x removed Search.results(); the engine still calls it. This is a
+      # one-line compatibility shim on our throwaway clone (never committed).
+      # The grep fails the step loudly if the shim did not apply.
+      - name: Shim engine for arxiv 2.x
+        run: |
+          sed -i 's/search_engine\.results()/arxiv.Client().results(search_engine)/' .engine/daily_arxiv.py
+          grep -n "arxiv.Client().results(search_engine)" .engine/daily_arxiv.py
 
       - name: Render module A digest
         run: python .engine/daily_arxiv.py --config_path config/llm4or.yml
