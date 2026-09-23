@@ -42,7 +42,7 @@ keywords:
                   "constraint modeling"]
     "L2O / Learning to Optimize":
         filters: ["learning to optimize", "neural combinatorial optimization",
-                  "learning-based branch and bound", "predict-then-optimize"]
+                  "learning-based branch and bound", "decision-focused learning"]
     "VRP / Combinatorial Solving":
         filters: ["vehicle routing", "routing problem",
                   "large neighborhood search", "combinatorial optimization solver"]

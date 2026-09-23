@@ -33,7 +33,7 @@ keywords:
                   "tool use", "tool learning"]
     "A2A / Multi-Agent Orchestration":
         filters: ["multi-agent system", "agent collaboration",
-                  "multi-agent orchestration", "agent-to-agent",
+                  "multi-agent orchestration", "agent interoperability",
                   "agent communication"]
     "Memory / Context":
         filters: ["agent memory", "long-term memory", "context compression",
