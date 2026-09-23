@@ -1,0 +1,13 @@
+# ScholarPal - 资讯层关键词
+# 语法：/正则/ => 显示名 | !排除词 | +必须词 | @条数上限；词组之间空行分隔
+
+[GLOBAL_FILTER]
+
+[LLM4OR / 优化]
+/LLM4OR|operations research|combinatorial optimization|mixed[- ]integer|MILP|vehicle routing|\bVRP\b|heuristic design|FunSearch|ReEvo|auto-?formulation|learning to optimize|combinatorial solver|Gurobi|OR-Tools/i
+
+[Agentic AI]
+/agentic|multi[- ]agent|Model Context Protocol|\bMCP\b|\bA2A\b|tool calling|context engineering|agent memory|LLM agent|agent harness|agent framework/i
+
+[基础模型 / 行业]
+/\bOpenAI\b|\bAnthropic\b|\bDeepSeek\b|\bGemini\b|\bClaude\b|大模型|智能体/i

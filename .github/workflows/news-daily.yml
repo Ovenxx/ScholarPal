@@ -1,0 +1,77 @@
+name: ScholarPal - Module C (News / Industry) daily
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 22 * * *"   # 06:30 Asia/Shanghai
+
+# Shared with modules A/B so their pushes cannot race.
+concurrency:
+  group: scholarpal-digest
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  TREND_REPO: https://github.com/sansan0/TrendRadar.git
+  TREND_SHA: 792bcc3928b1617bba09df34989fd5675c159b86
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: astral-sh/setup-uv@v7
+
+      # Upstream engine is fetched at run time and never committed here.
+      - name: Fetch pinned TrendRadar
+        run: |
+          git init -q .news
+          git -C .news remote add origin "$TREND_REPO"
+          git -C .news fetch -q --depth 1 origin "$TREND_SHA"
+          git -C .news checkout -q FETCH_HEAD
+
+      - name: Overlay our config
+        run: |
+          cp news/config/config.yaml .news/config/config.yaml
+          cp news/config/frequency_words.txt .news/config/frequency_words.txt
+
+      - name: Run TrendRadar
+        env:
+          GITHUB_ACTIONS: "true"
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_MODEL: ${{ secrets.AI_MODEL }}
+        run: |
+          cd .news
+          uv sync --frozen --no-dev
+          uv run python -m trendradar
+
+      - name: Publish report
+        run: |
+          mkdir -p news/report
+          if [ -f .news/index.html ]; then
+            cp .news/index.html news/report/index.html
+            echo "report published: $(wc -c < news/report/index.html) bytes"
+          else
+            echo "ERROR: .news/index.html not produced"; exit 1
+          fi
+
+      - name: Commit report
+        run: |
+          git config user.name  "ScholarPal Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add news/report
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "chore(news): daily report"
+            git pull --rebase --autostash origin main
+            git push
+          fi
