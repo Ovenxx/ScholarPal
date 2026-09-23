@@ -106,6 +106,7 @@ def load_papers(path):
             if not m:
                 continue
             date, title, author, _key, url, _code = (x.strip() for x in m.groups())
+            date = date.replace("**", "").strip()
             title = title.replace("**", "").strip()
             author = author.replace("**", "").strip()
             if not title:
@@ -148,18 +149,20 @@ def load_news():
             for t in tables:
                 cols = [c[1] for c in con.execute(f"PRAGMA table_info('{t}')")]
                 log(f"  {t} cols: {cols}")
-                if not any(c.lower() in [x.lower() for x in cols] for c in ("title", "name")):
+                lower = [c.lower() for c in cols]
+                if "title" not in lower:
                     continue
                 use = [c for c in cols if c.lower() in NEWS_COLS]
                 if not use:
                     continue
-                rows = con.execute(f"SELECT {','.join(use)} FROM {t} ORDER BY rowid DESC LIMIT ?", (NEWS_MAX,)).fetchall()
+                rows = con.execute(f"SELECT {','.join(use)} FROM {t} ORDER BY rowid DESC LIMIT ?", (NEWS_MAX * 4,)).fetchall()
+                batch = []
                 for r in rows:
                     d = {k.lower(): ("" if v is None else str(v)) for k, v in zip(use, r)}
-                    title = (d.get("title") or d.get("name") or "").strip()
+                    title = (d.get("title") or "").strip()
                     if not title:
                         continue
-                    out.append({
+                    batch.append({
                         "id": "n:" + str(abs(hash(title)) % (10 ** 10)),
                         "kind": "news",
                         "title": title,
@@ -167,6 +170,12 @@ def load_news():
                         "source": d.get("platform") or d.get("source") or "",
                         "extra": d.get("keyword") or "",
                     })
+                matched = [x for x in batch if x.get("extra")]
+                log(f"  {t}: rows={len(batch)} keyword-matched={len(matched)}")
+                if matched:
+                    out.extend(matched)
+                elif not out:
+                    out.extend(batch)
             con.close()
         except Exception as e:  # noqa: BLE001
             log(f"sqlite read failed for {db}: {e}")
