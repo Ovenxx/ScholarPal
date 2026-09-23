@@ -38,6 +38,14 @@ jobs:
           git -C .news fetch -q --depth 1 origin "$TREND_SHA"
           git -C .news checkout -q FETCH_HEAD
 
+      # Upstream ships a previously generated index.html. Remove every existing
+      # HTML so that anything we find after the run was produced by THIS run.
+      - name: Clear stale upstream artefacts
+        run: |
+          find .news -name '*.html' -not -path '*/.git/*' -delete
+          rm -rf .news/output
+          echo "cleared; remaining html:"; find .news -name '*.html' -not -path '*/.git/*' | wc -l
+
       - name: Overlay our config
         run: |
           cp news/config/config.yaml .news/config/config.yaml
@@ -52,16 +60,16 @@ jobs:
           cd .news
           uv sync --frozen --no-dev
           uv run python -m trendradar
+          echo "=== html produced by this run ==="
+          find . -name '*.html' -not -path './.git/*' -printf '%s\t%p\n' | sort -rn | head -20
 
       - name: Publish report
         run: |
           mkdir -p news/report
-          if [ -f .news/index.html ]; then
-            cp .news/index.html news/report/index.html
-            echo "report published: $(wc -c < news/report/index.html) bytes"
-          else
-            echo "ERROR: .news/index.html not produced"; exit 1
-          fi
+          SRC=$(find .news -name '*.html' -not -path '*/.git/*' -printf '%s\t%p\n' | sort -rn | head -1 | cut -f2)
+          if [ -z "$SRC" ]; then echo "ERROR: TrendRadar produced no HTML report"; exit 1; fi
+          echo "publishing $SRC ($(wc -c < "$SRC") bytes)"
+          cp "$SRC" news/report/index.html
 
       - name: Commit report
         run: |
