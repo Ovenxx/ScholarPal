@@ -1,0 +1,44 @@
+﻿# ScholarPal - Module B: Agentic AI
+# Passed to the engine via:  python <engine>/daily_arxiv.py --config_path config/agentic.yml
+# Engine: Vincentqyw/cv-arxiv-daily (Apache-2.0), fetched at run time, NOT vendored here.
+#
+# See the header of config/llm4or.yml for the verified upstream-behaviour notes
+# (show_badge must be False; docs/agentic/data.json must pre-exist).
+
+user_name: "ScholarPal"
+repo_name: "ScholarPal"
+base_url: "https://arxiv.paperswithcode.com/api/v0/papers/"
+show_authors: True
+show_links: True
+show_badge: False
+max_results: 10
+
+publish_readme: True
+publish_gitpage: False
+publish_wechat: False
+
+json_readme_path: './docs/agentic/data.json'
+json_gitpage_path: './docs/agentic/web.json'
+json_wechat_path: './docs/agentic/wechat.json'
+md_readme_path: './docs/agentic/README.md'
+md_gitpage_path: './docs/agentic/index.md'
+md_wechat_path: './docs/agentic/wechat.md'
+
+keywords:
+    "Agent Loop / Harness":
+        filters: ["agent loop", "agent harness", "context engineering",
+                  "context management", "agent framework"]
+    "MCP / Tool Protocols":
+        filters: ["Model Context Protocol", "tool calling", "function calling",
+                  "tool use", "tool learning"]
+    "A2A / Multi-Agent Orchestration":
+        filters: ["multi-agent system", "agent collaboration",
+                  "multi-agent orchestration", "agent-to-agent",
+                  "agent communication"]
+    "Memory / Context":
+        filters: ["agent memory", "long-term memory", "context compression",
+                  "memory management"]
+    "Planning / Self-Evolution":
+        filters: ["agent planning", "self-evolving agent",
+                  "agentic reinforcement learning", "long-horizon task",
+                  "LLM agent"]

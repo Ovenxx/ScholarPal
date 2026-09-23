@@ -1,0 +1,51 @@
+﻿# ScholarPal - Module A: LLM4OR / L2O
+# Passed to the engine via:  python <engine>/daily_arxiv.py --config_path config/llm4or.yml
+# Engine: Vincentqyw/cv-arxiv-daily (Apache-2.0), fetched at run time, NOT vendored here.
+# See ATTRIBUTION.md.
+#
+# NOTE on upstream behaviour (verified against daily_arxiv.py):
+#   * show_badge: False is REQUIRED. When True the engine hard-codes the UPSTREAM
+#     repo's shields.io badges into our generated markdown.
+#   * user_name / repo_name / base_url are NOT read by the engine in this revision.
+#     They are kept only for schema compatibility with upstream's config.yaml.
+#   * docs/llm4or/data.json MUST exist before the first run: update_json_file()
+#     opens it with mode "r" and crashes if it is missing. An empty file is fine.
+
+user_name: "ScholarPal"
+repo_name: "ScholarPal"
+base_url: "https://arxiv.paperswithcode.com/api/v0/papers/"
+show_authors: True
+show_links: True
+show_badge: False
+max_results: 10
+
+publish_readme: True
+publish_gitpage: False
+publish_wechat: False
+
+# All outputs stay under docs/llm4or/ so the two modules never overwrite each other.
+json_readme_path: './docs/llm4or/data.json'
+json_gitpage_path: './docs/llm4or/web.json'
+json_wechat_path: './docs/llm4or/wechat.json'
+md_readme_path: './docs/llm4or/README.md'
+md_gitpage_path: './docs/llm4or/index.md'
+md_wechat_path: './docs/llm4or/wechat.md'
+
+keywords:
+    "Automatic Algorithm Design / Hyper-heuristics":
+        filters: ["automatic heuristic design", "evolution of heuristics",
+                  "large language model hyper-heuristic", "FunSearch",
+                  "reflective evolution", "automatic algorithm design"]
+    "LLM Auto-Formulation":
+        filters: ["optimization modeling", "auto-formulation",
+                  "natural language to optimization", "MILP formulation",
+                  "constraint modeling"]
+    "L2O / Learning to Optimize":
+        filters: ["learning to optimize", "neural combinatorial optimization",
+                  "learning-based branch and bound", "predict-then-optimize"]
+    "VRP / Combinatorial Solving":
+        filters: ["vehicle routing", "routing problem",
+                  "large neighborhood search", "combinatorial optimization solver"]
+    "Solver Intelligence":
+        filters: ["solver configuration", "cutting plane selection",
+                  "branching strategy learning", "mixed integer programming"]

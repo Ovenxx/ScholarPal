@@ -1,0 +1,51 @@
+﻿name: ScholarPal - Module B (Agentic AI) daily
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 22 * * *"   # 06:00 Asia/Shanghai
+
+permissions:
+  contents: write
+
+env:
+  # Upstream engine is PINNED. Do not track main: an upstream change would
+  # silently alter our output. Bump UPSTREAM_SHA deliberately.
+  UPSTREAM_REPO: https://github.com/Vincentqyw/cv-arxiv-daily.git
+  UPSTREAM_SHA: 2c6fa8569db604f448adb82124a2e352c78da6b0
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: pip install arxiv requests pyyaml
+
+      # The engine is fetched at run time and never committed to this repo.
+      - name: Fetch pinned upstream engine
+        run: |
+          git init -q .engine
+          git -C .engine remote add origin "$UPSTREAM_REPO"
+          git -C .engine fetch -q --depth 1 origin "$UPSTREAM_SHA"
+          git -C .engine checkout -q FETCH_HEAD
+
+      - name: Render module B digest
+        run: python .engine/daily_arxiv.py --config_path config/agentic.yml
+
+      - name: Commit digest
+        run: |
+          git config user.name  "ScholarPal Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/agentic
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "chore(agentic): daily digest"
+            git push
+          fi
