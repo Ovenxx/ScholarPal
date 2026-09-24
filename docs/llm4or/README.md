@@ -1,4 +1,4 @@
-## Updated on 2026.09.23
+## Updated on 2026.09.24
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -27,7 +27,7 @@
 |**2026-07-29**|**FunL2O: LLM-Guided Feature Function Design for Learning to Optimize**|Bingheng Li et.al.|[2607.27389](http://arxiv.org/abs/2607.27389)|null|
 |**2026-07-13**|**RefineEvo: Planning-Guided Heuristic Evolution with Bidirectional Experience**|Yang Wu et.al.|[2607.11358](http://arxiv.org/abs/2607.11358)|null|
 
-<p align=right>(<a href=#updated-on-20260923>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260924>back to top</a>)</p>
 
 ## LLM Auto-Formulation
 
@@ -44,7 +44,7 @@
 |**2026-09-16**|**From Corridor Selection to Earthwork: A Multi-Stage Framework for Automated Road Design via Steiner Trees and Convex Optimization**|Paavai Manimaran Vanjeenathammal et.al.|[2609.19350](http://arxiv.org/abs/2609.19350)|null|
 |**2026-09-16**|**Evidence-Grounded Agentic Formulation Development in an Autonomous Laboratory**|Michael M. Craig et.al.|[2609.19099](http://arxiv.org/abs/2609.19099)|null|
 
-<p align=right>(<a href=#updated-on-20260923>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260924>back to top</a>)</p>
 
 ## L2O / Learning to Optimize
 
@@ -61,7 +61,7 @@
 |**2026-09-17**|**MATCH: Model-Aware Tool Learning with Curriculum Scheduling and Hierarchically Gated Rewards**|Shihao Liu et.al.|[2609.20082](http://arxiv.org/abs/2609.20082)|null|
 |**2026-09-16**|**STUART: Sequence Triage and qUAntification of Read Transcripts for Rapid Ionizing Radiation Exposure Assessment**|Tomasz Strzoda et.al.|[2609.19139](http://arxiv.org/abs/2609.19139)|null|
 
-<p align=right>(<a href=#updated-on-20260923>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260924>back to top</a>)</p>
 
 ## VRP / Combinatorial Solving
 
@@ -78,7 +78,7 @@
 |**2026-09-16**|**APGEM: Adaptive Policy-Guided Error Mitigation for Quantum Reinforcement Learning on a Real-World CVRP Case Study**|Shabir Ahmad Sofi et.al.|[2609.18219](http://arxiv.org/abs/2609.18219)|null|
 |**2026-09-15**|**Data-Driven Stress Testing of Intermodal Freight Networks Using GAN-Generated Disruption Scenarios**|Xudong Wang et.al.|[2609.17373](http://arxiv.org/abs/2609.17373)|null|
 
-<p align=right>(<a href=#updated-on-20260923>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260924>back to top</a>)</p>
 
 ## Solver Intelligence
 
@@ -95,5 +95,5 @@
 |**2026-09-09**|**Economic Evaluation of V2G-Enabled Fast Charging Stations Under Endogenous EV Adoption Dynamics**|Mingjian Tuo et.al.|[2609.10388](http://arxiv.org/abs/2609.10388)|null|
 |**2026-09-07**|**A New Perspective on Clustering: A Mixed-norm Model and its Solution by Progressive Integer Programming**|Junyi Liu et.al.|[2609.08002](http://arxiv.org/abs/2609.08002)|null|
 
-<p align=right>(<a href=#updated-on-20260923>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260924>back to top</a>)</p>
 
