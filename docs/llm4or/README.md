@@ -1,4 +1,4 @@
-## Updated on 2026.09.24
+## Updated on 2026.09.25
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -17,7 +17,7 @@
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
 |**2026-09-10**|**T-GADE: Thermodynamical Generative-AI-Driven Evolution of LLM Artifacts**|Kyoko Ogawa et.al.|[2609.12286](http://arxiv.org/abs/2609.12286)|null|
-|**2026-09-02**|**RideSkill: A Hierarchical Algorithm for Generalized Ride Sharing with LLM-Driven Automatic Evolution**|Zijian Zhao et.al.|[2609.02250](http://arxiv.org/abs/2609.02250)|null|
+|**2026-09-23**|**RideSkill: A Hierarchical Algorithm for Generalized Ride Sharing with LLM-Driven Automatic Evolution**|Zijian Zhao et.al.|[2609.02250](http://arxiv.org/abs/2609.02250)|null|
 |**2026-08-26**|**ES-AHD: An Evolution Strategy Framework for Automatic Heuristic Design**|Yutao Lai et.al.|[2609.00023](http://arxiv.org/abs/2609.00023)|null|
 |**2026-08-21**|**Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minimal GPU Requirements**|Zhi Zheng et.al.|[2608.17310](http://arxiv.org/abs/2608.17310)|null|
 |**2026-08-12**|**$\varepsilon$ -MemEvo: Adaptive Cross-Task Memory Transfer for LLM Program Evolution**|Aofan Liu et.al.|[2608.12522](http://arxiv.org/abs/2608.12522)|null|
@@ -27,12 +27,14 @@
 |**2026-07-29**|**FunL2O: LLM-Guided Feature Function Design for Learning to Optimize**|Bingheng Li et.al.|[2607.27389](http://arxiv.org/abs/2607.27389)|null|
 |**2026-07-13**|**RefineEvo: Planning-Guided Heuristic Evolution with Bidirectional Experience**|Yang Wu et.al.|[2607.11358](http://arxiv.org/abs/2607.11358)|null|
 
-<p align=right>(<a href=#updated-on-20260924>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260925>back to top</a>)</p>
 
 ## LLM Auto-Formulation
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-23**|**Amplify: A Lightweight Library for Reproducible Nonlinear Programming Problems in Robotics**|Nelson Rosa et.al.|[2609.28377](http://arxiv.org/abs/2609.28377)|null|
+|**2026-09-22**|**A Leakage-Aware Multimodal Evaluation Framework for Early Intraoperative Acute Kidney Injury Prediction**|Quang Minh Nguyen et.al.|[2609.26848](http://arxiv.org/abs/2609.26848)|null|
 |**2026-09-22**|**Optimal Operation Method for Computing Power-Electric Power Coordination Considering End-to-End Completion Latency of Computing Tasks**|Yize Liu et.al.|[2609.25594](http://arxiv.org/abs/2609.25594)|null|
 |**2026-09-20**|**STEVE: Stabilizing Textual Gradient-Based Prompt Optimization via Error-Driven Refinement and Regularized Verification**|Yifan Xu et.al.|[2609.23716](http://arxiv.org/abs/2609.23716)|null|
 |**2026-09-20**|**PhysAI-Bench: A Benchmark for LLM-Based Agentic Decision-Making in Autonomous UAV-Centric Physical AI**|Mohamed Amine Ferrag et.al.|[2609.23695](http://arxiv.org/abs/2609.23695)|null|
@@ -44,12 +46,13 @@
 |**2026-09-16**|**From Corridor Selection to Earthwork: A Multi-Stage Framework for Automated Road Design via Steiner Trees and Convex Optimization**|Paavai Manimaran Vanjeenathammal et.al.|[2609.19350](http://arxiv.org/abs/2609.19350)|null|
 |**2026-09-16**|**Evidence-Grounded Agentic Formulation Development in an Autonomous Laboratory**|Michael M. Craig et.al.|[2609.19099](http://arxiv.org/abs/2609.19099)|null|
 
-<p align=right>(<a href=#updated-on-20260924>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260925>back to top</a>)</p>
 
 ## L2O / Learning to Optimize
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-23**|**The Past Frames the Future: Memory for Autoregressive Video Generation**|Harold Haodong Chen et.al.|[2609.28466](http://arxiv.org/abs/2609.28466)|null|
 |**2026-09-22**|**Bespoke: Generating MOOC-Quality Industry-Personalized Lecture Videos at Scale**|Romain Puech et.al.|[2609.26540](http://arxiv.org/abs/2609.26540)|null|
 |**2026-09-22**|**Manipulation of Deformable Linear Objects Using Model Predictive Path Integral Control with Bidirectional Long Short-Term Memory Learning**|Lukas Zeh et.al.|[2609.26238](http://arxiv.org/abs/2609.26238)|null|
 |**2026-09-22**|**Sometimes You Gotta Run Before You Can Walk: Run-then-Walk Scheduling Strategy for VLM Autonomous Driving**|Yuqi Ye et.al.|[2609.25831](http://arxiv.org/abs/2609.25831)|null|
@@ -61,7 +64,7 @@
 |**2026-09-17**|**MATCH: Model-Aware Tool Learning with Curriculum Scheduling and Hierarchically Gated Rewards**|Shihao Liu et.al.|[2609.20082](http://arxiv.org/abs/2609.20082)|null|
 |**2026-09-16**|**STUART: Sequence Triage and qUAntification of Read Transcripts for Rapid Ionizing Radiation Exposure Assessment**|Tomasz Strzoda et.al.|[2609.19139](http://arxiv.org/abs/2609.19139)|null|
 
-<p align=right>(<a href=#updated-on-20260924>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260925>back to top</a>)</p>
 
 ## VRP / Combinatorial Solving
 
@@ -78,7 +81,7 @@
 |**2026-09-16**|**APGEM: Adaptive Policy-Guided Error Mitigation for Quantum Reinforcement Learning on a Real-World CVRP Case Study**|Shabir Ahmad Sofi et.al.|[2609.18219](http://arxiv.org/abs/2609.18219)|null|
 |**2026-09-15**|**Data-Driven Stress Testing of Intermodal Freight Networks Using GAN-Generated Disruption Scenarios**|Xudong Wang et.al.|[2609.17373](http://arxiv.org/abs/2609.17373)|null|
 
-<p align=right>(<a href=#updated-on-20260924>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260925>back to top</a>)</p>
 
 ## Solver Intelligence
 
@@ -95,5 +98,5 @@
 |**2026-09-09**|**Economic Evaluation of V2G-Enabled Fast Charging Stations Under Endogenous EV Adoption Dynamics**|Mingjian Tuo et.al.|[2609.10388](http://arxiv.org/abs/2609.10388)|null|
 |**2026-09-07**|**A New Perspective on Clustering: A Mixed-norm Model and its Solution by Progressive Integer Programming**|Junyi Liu et.al.|[2609.08002](http://arxiv.org/abs/2609.08002)|null|
 
-<p align=right>(<a href=#updated-on-20260924>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260925>back to top</a>)</p>
 
