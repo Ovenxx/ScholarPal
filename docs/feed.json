@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T00:45:29Z",
+ "generated_at": "2026-09-27T00:45:35Z",
  "model": "deepseek-v4-flash",
  "modules": [
   {
@@ -18,11 +18,11 @@
       "VRP / Combinatorial Solving"
      ],
      "importance": 7.0,
-     "summary": "Recasts the destroy step of large neighborhood search as dense segmentation, bridging combinatorial optimization and deep learning.",
+     "summary": "Recasts the destroy step of large neighborhood search as dense segmentation, bridging combinatorial optimization and learning.",
      "tags": [
-      "large-neighborhood-searc",
+      "LNS",
       "segmentation",
-      "learning-to-optimize"
+      "combinatorial-optimizati"
      ],
      "module": "llm4or"
     },
@@ -38,7 +38,7 @@
       "Automatic Algorithm Design / Hyper-heuristics"
      ],
      "importance": 7.0,
-     "summary": "Combines hierarchical algorithms with LLM-driven evolution for generalized ride-sharing, integrating learning with combinatorial optimization.",
+     "summary": "Combines hierarchical algorithms with LLM-driven evolution for generalized ride-sharing optimization.",
      "tags": [
       "ride-sharing",
       "LLM",
@@ -59,31 +59,11 @@
       "Solver Intelligence"
      ],
      "importance": 7.0,
-     "summary": "Develops safe receding horizon mixed-integer differentiable predictive control for degradation-aware battery dispatch, merging learning and control.",
+     "summary": "Develops safe receding horizon mixed-integer differentiable predictive control for degradation-aware battery dispatch.",
      "tags": [
       "predictive-control",
       "differentiable-optimizat",
-      "battery-dispatch"
-     ],
-     "module": "llm4or"
-    },
-    {
-     "id": "p:httparxivorgabs260930148",
-     "kind": "paper",
-     "date": "2026-09-24",
-     "title": "Proper Agnostic Learning of Matrix Product States and Tree Tensor Networks",
-     "authors": "Constantin Cedillo Vayson de Pradenne et.al.",
-     "url": "http://arxiv.org/abs/2609.30148",
-     "topic": "L2O / Learning to Optimize",
-     "topics": [
-      "L2O / Learning to Optimize"
-     ],
-     "importance": 7.0,
-     "summary": "Develops proper agnostic learning algorithms for matrix product states and tree tensor networks with provable guarantees.",
-     "tags": [
-      "tensor-networks",
-      "learning-theory",
-      "agnostic-learning"
+      "battery"
      ],
      "module": "llm4or"
     },
@@ -99,7 +79,7 @@
       "LLM Auto-Formulation"
      ],
      "importance": 6.0,
-     "summary": "Optimizes computing power and electric power coordination considering end-to-end task completion latency in distributed systems.",
+     "summary": "Optimizes computing power and electric power coordination considering end-to-end task completion latency.",
      "tags": [
       "resource-allocation",
       "latency",
@@ -119,31 +99,11 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 6.0,
-     "summary": "Controls deformable linear objects using model predictive path integral control with bidirectional LSTM learning for dynamics modeling.",
+     "summary": "Controls deformable linear objects using model predictive path integral with bidirectional LSTM learning.",
      "tags": [
       "MPPI",
-      "deformable-objects",
-      "LSTM"
-     ],
-     "module": "llm4or"
-    },
-    {
-     "id": "p:httparxivorgabs260925911",
-     "kind": "paper",
-     "date": "2026-09-22",
-     "title": "When Should Dependency Updates Invoke Repair Agents? A Lightweight Routing Study",
-     "authors": "Liheng Fan et.al.",
-     "url": "http://arxiv.org/abs/2609.25911",
-     "topic": "VRP / Combinatorial Solving",
-     "topics": [
-      "VRP / Combinatorial Solving"
-     ],
-     "importance": 6.0,
-     "summary": "Studies when dependency updates should invoke repair agents, proposing a lightweight routing approach for automated program repair.",
-     "tags": [
-      "program-repair",
-      "dependency-updates",
-      "routing"
+      "LSTM",
+      "deformable-objects"
      ],
      "module": "llm4or"
     },
@@ -159,7 +119,7 @@
       "Solver Intelligence"
      ],
      "importance": 6.0,
-     "summary": "Applies neutral-atom-based quantum optimization to resource allocation in NOMA networks, exploring quantum advantages for wireless problems.",
+     "summary": "Applies neutral-atom quantum optimization to resource allocation in NOMA networks.",
      "tags": [
       "quantum-optimization",
       "NOMA",
@@ -168,62 +128,22 @@
      "module": "llm4or"
     },
     {
-     "id": "p:httparxivorgabs260928377",
-     "kind": "paper",
-     "date": "2026-09-23",
-     "title": "Amplify: A Lightweight Library for Reproducible Nonlinear Programming Problems in Robotics",
-     "authors": "Nelson Rosa et.al.",
-     "url": "http://arxiv.org/abs/2609.28377",
-     "topic": "LLM Auto-Formulation",
-     "topics": [
-      "LLM Auto-Formulation"
-     ],
-     "importance": 6.0,
-     "summary": "Introduces Amplify, a lightweight library for reproducible nonlinear programming problems in robotics, aiding benchmarking and reproducibility.",
-     "tags": [
-      "nonlinear-programming",
-      "robotics",
-      "reproducibility"
-     ],
-     "module": "llm4or"
-    },
-    {
-     "id": "p:httparxivorgabs260929219",
+     "id": "p:httparxivorgabs260930148",
      "kind": "paper",
      "date": "2026-09-24",
-     "title": "Schedules Are Solvable Symbols: Tuning-Free Compilation of Tile Programs on Dataflow Architectures",
-     "authors": "Heru Wang et.al.",
-     "url": "http://arxiv.org/abs/2609.29219",
-     "topic": "LLM Auto-Formulation",
-     "topics": [
-      "LLM Auto-Formulation"
-     ],
-     "importance": 6.0,
-     "summary": "Presents tuning-free compilation of tile programs on dataflow architectures by treating schedules as solvable symbols, reducing autotuning overhead.",
-     "tags": [
-      "compiler",
-      "dataflow",
-      "autotuning"
-     ],
-     "module": "llm4or"
-    },
-    {
-     "id": "p:httparxivorgabs260926540",
-     "kind": "paper",
-     "date": "2026-09-22",
-     "title": "Bespoke: Generating MOOC-Quality Industry-Personalized Lecture Videos at Scale",
-     "authors": "Romain Puech et.al.",
-     "url": "http://arxiv.org/abs/2609.26540",
+     "title": "Proper Agnostic Learning of Matrix Product States and Tree Tensor Networks",
+     "authors": "Constantin Cedillo Vayson de Pradenne et.al.",
+     "url": "http://arxiv.org/abs/2609.30148",
      "topic": "L2O / Learning to Optimize",
      "topics": [
       "L2O / Learning to Optimize"
      ],
-     "importance": 5.0,
-     "summary": "Generates MOOC-quality industry-personalized lecture videos at scale using automated content creation techniques.",
+     "importance": 6.0,
+     "summary": "Develops proper agnostic learning algorithms for matrix product states and tree tensor networks.",
      "tags": [
-      "video-generation",
-      "education",
-      "personalization"
+      "tensor-networks",
+      "learning-theory",
+      "agnostic-learning"
      ],
      "module": "llm4or"
     },
@@ -239,7 +159,7 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 5.0,
-     "summary": "Proposes a run-then-walk scheduling strategy for VLM-based autonomous driving, balancing speed and safety.",
+     "summary": "Proposes a run-then-walk scheduling strategy for VLM-based autonomous driving.",
      "tags": [
       "autonomous-driving",
       "VLM",
@@ -248,42 +168,22 @@
      "module": "llm4or"
     },
     {
-     "id": "p:httparxivorgabs260928466",
+     "id": "p:httparxivorgabs260928377",
      "kind": "paper",
      "date": "2026-09-23",
-     "title": "The Past Frames the Future: Memory for Autoregressive Video Generation",
-     "authors": "Harold Haodong Chen et.al.",
-     "url": "http://arxiv.org/abs/2609.28466",
-     "topic": "L2O / Learning to Optimize",
+     "title": "Amplify: A Lightweight Library for Reproducible Nonlinear Programming Problems in Robotics",
+     "authors": "Nelson Rosa et.al.",
+     "url": "http://arxiv.org/abs/2609.28377",
+     "topic": "LLM Auto-Formulation",
      "topics": [
-      "L2O / Learning to Optimize"
+      "LLM Auto-Formulation"
      ],
      "importance": 5.0,
-     "summary": "Explores memory mechanisms for autoregressive video generation, using past frames to improve future prediction quality.",
+     "summary": "Provides a lightweight library for reproducible nonlinear programming problems in robotics.",
      "tags": [
-      "video-generation",
-      "autoregressive",
-      "memory"
-     ],
-     "module": "llm4or"
-    },
-    {
-     "id": "p:httparxivorgabs260928977",
-     "kind": "paper",
-     "date": "2026-09-24",
-     "title": "Deep-learning-aided dismantling of interdependent networks",
-     "authors": "Weiwei Gu et.al.",
-     "url": "http://arxiv.org/abs/2609.28977",
-     "topic": "L2O / Learning to Optimize",
-     "topics": [
-      "L2O / Learning to Optimize"
-     ],
-     "importance": 5.0,
-     "summary": "Applies deep learning to efficiently dismantle interdependent networks, addressing a hard combinatorial optimization problem.",
-     "tags": [
-      "network-dismantling",
-      "deep-learning",
-      "combinatorial-optimizati"
+      "NLP",
+      "robotics",
+      "reproducibility"
      ],
      "module": "llm4or"
     },
@@ -299,11 +199,111 @@
       "VRP / Combinatorial Solving"
      ],
      "importance": 5.0,
-     "summary": "Introduces one-shot routing for quantum networks, enabling efficient entanglement distribution without iterative optimization.",
+     "summary": "Addresses one-shot routing in quantum networks, enabling efficient entanglement distribution without retries.",
      "tags": [
       "quantum-networks",
       "routing",
       "one-shot"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260926540",
+     "kind": "paper",
+     "date": "2026-09-22",
+     "title": "Bespoke: Generating MOOC-Quality Industry-Personalized Lecture Videos at Scale",
+     "authors": "Romain Puech et.al.",
+     "url": "http://arxiv.org/abs/2609.26540",
+     "topic": "L2O / Learning to Optimize",
+     "topics": [
+      "L2O / Learning to Optimize"
+     ],
+     "importance": 4.0,
+     "summary": "Generates MOOC-quality industry-personalized lecture videos at scale using automated methods.",
+     "tags": [
+      "video-generation",
+      "education",
+      "personalization"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260925911",
+     "kind": "paper",
+     "date": "2026-09-22",
+     "title": "When Should Dependency Updates Invoke Repair Agents? A Lightweight Routing Study",
+     "authors": "Liheng Fan et.al.",
+     "url": "http://arxiv.org/abs/2609.25911",
+     "topic": "VRP / Combinatorial Solving",
+     "topics": [
+      "VRP / Combinatorial Solving"
+     ],
+     "importance": 4.0,
+     "summary": "Studies when dependency updates should invoke repair agents via a lightweight routing approach.",
+     "tags": [
+      "dependency-updates",
+      "repair-agents",
+      "routing"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260928466",
+     "kind": "paper",
+     "date": "2026-09-23",
+     "title": "The Past Frames the Future: Memory for Autoregressive Video Generation",
+     "authors": "Harold Haodong Chen et.al.",
+     "url": "http://arxiv.org/abs/2609.28466",
+     "topic": "L2O / Learning to Optimize",
+     "topics": [
+      "L2O / Learning to Optimize"
+     ],
+     "importance": 4.0,
+     "summary": "Explores memory mechanisms for autoregressive video generation, leveraging past frames to improve future predictions.",
+     "tags": [
+      "video-generation",
+      "autoregressive",
+      "memory"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260929219",
+     "kind": "paper",
+     "date": "2026-09-24",
+     "title": "Schedules Are Solvable Symbols: Tuning-Free Compilation of Tile Programs on Dataflow Architectures",
+     "authors": "Heru Wang et.al.",
+     "url": "http://arxiv.org/abs/2609.29219",
+     "topic": "LLM Auto-Formulation",
+     "topics": [
+      "LLM Auto-Formulation"
+     ],
+     "importance": 4.0,
+     "summary": "Presents tuning-free compilation of tile programs on dataflow architectures using schedule symbols.",
+     "tags": [
+      "compiler",
+      "dataflow",
+      "scheduling"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260928977",
+     "kind": "paper",
+     "date": "2026-09-24",
+     "title": "Deep-learning-aided dismantling of interdependent networks",
+     "authors": "Weiwei Gu et.al.",
+     "url": "http://arxiv.org/abs/2609.28977",
+     "topic": "L2O / Learning to Optimize",
+     "topics": [
+      "L2O / Learning to Optimize"
+     ],
+     "importance": 4.0,
+     "summary": "Uses deep learning to dismantle interdependent networks more effectively than classical methods.",
+     "tags": [
+      "network-dismantling",
+      "deep-learning",
+      "interdependent-networks"
      ],
      "module": "llm4or"
     },
@@ -318,12 +318,12 @@
      "topics": [
       "LLM Auto-Formulation"
      ],
-     "importance": 4.0,
-     "summary": "Presents a leakage-aware multimodal evaluation framework for early intraoperative acute kidney injury prediction, addressing data leakage in clinical ML.",
+     "importance": 3.0,
+     "summary": "Proposes a leakage-aware multimodal framework for early intraoperative acute kidney injury prediction.",
      "tags": [
-      "clinical-ML",
       "multimodal",
-      "evaluation"
+      "healthcare",
+      "prediction"
      ],
      "module": "llm4or"
     },
@@ -338,8 +338,8 @@
      "topics": [
       "LLM Auto-Formulation"
      ],
-     "importance": 4.0,
-     "summary": "Proposes a smooth information criterion for variable selection in generalized linear models, improving selection stability and computational tractability.",
+     "importance": 3.0,
+     "summary": "Proposes a smooth information criterion for variable selection in generalized linear models, improving selection stability.",
      "tags": [
       "variable-selection",
       "GLM",
@@ -358,8 +358,8 @@
      "topics": [
       "VRP / Combinatorial Solving"
      ],
-     "importance": 4.0,
-     "summary": "Proposes scene-aware routing fusion for robust camera-LiDAR 3D object detection, improving multimodal perception under challenging conditions.",
+     "importance": 3.0,
+     "summary": "Introduces scene-aware routing fusion for robust camera-LiDAR 3D object detection.",
      "tags": [
       "3D-detection",
       "sensor-fusion",
@@ -406,31 +406,11 @@
       "Planning / Self-Evolution"
      ],
      "importance": 8.0,
-     "summary": "Shows instrumental monitor evasion emerges under ordinary task pressure, revealing alignment failure modes.",
+     "summary": "Shows instrumental monitor evasion emerges under ordinary task pressure, raising safety concerns for agentic systems.",
      "tags": [
-      "alignment",
-      "monitoring",
-      "evasion"
-     ],
-     "module": "agentic"
-    },
-    {
-     "id": "p:httparxivorgabs260930249",
-     "kind": "paper",
-     "date": "2026-09-24",
-     "title": "RAPID: Robot Agentic Programming from Demonstrations",
-     "authors": "Yuyao Liu et.al.",
-     "url": "http://arxiv.org/abs/2609.30249",
-     "topic": "Agent Loop / Harness",
-     "topics": [
-      "Agent Loop / Harness"
-     ],
-     "importance": 7.0,
-     "summary": "Presents RAPID, a framework enabling robots to learn manipulation skills from demonstrations via agentic programming.",
-     "tags": [
-      "robot-learning",
-      "imitation",
-      "agentic"
+      "monitor-evasion",
+      "safety",
+      "alignment"
      ],
      "module": "agentic"
     },
@@ -455,23 +435,22 @@
      "module": "agentic"
     },
     {
-     "id": "p:httparxivorgabs260929454",
+     "id": "p:httparxivorgabs260929921",
      "kind": "paper",
      "date": "2026-09-24",
-     "title": "Demystifying Agent Skills for Smart Contract Auditing: Design, Effectiveness, Behavioral Impact",
-     "authors": "Cuifeng Gao et.al.",
-     "url": "http://arxiv.org/abs/2609.29454",
+     "title": "Who Holds the Pen? Let Specifications, Not Agents, Sign Off",
+     "authors": "Haiqing Li et.al.",
+     "url": "http://arxiv.org/abs/2609.29921",
      "topic": "Agent Loop / Harness",
      "topics": [
-      "Agent Loop / Harness",
-      "MCP / Tool Protocols"
+      "Agent Loop / Harness"
      ],
      "importance": 7.0,
-     "summary": "Analyzes agent skills for smart contract auditing, examining design, effectiveness, and behavioral impact.",
+     "summary": "Argues specifications, not agents, should authorize actions, addressing accountability in agentic systems.",
      "tags": [
-      "smart-contracts",
-      "auditing",
-      "agent-skills"
+      "accountability",
+      "specifications",
+      "governance"
      ],
      "module": "agentic"
     },
@@ -487,7 +466,7 @@
       "Agent Loop / Harness"
      ],
      "importance": 7.0,
-     "summary": "Introduces RACaP, unifying reasoning, acting, and coding as policies for evolvable robot learning.",
+     "summary": "Unifies reasoning, acting, and coding as policies for evolvable robot learning in RACaP.",
      "tags": [
       "robot-learning",
       "policy",
@@ -507,7 +486,7 @@
       "MCP / Tool Protocols"
      ],
      "importance": 7.0,
-     "summary": "Introduces ExplorationBench to measure AI systems' exploration capabilities in verifiable alien worlds.",
+     "summary": "Introduces ExplorationBench to measure AI systems' exploration in verifiable alien worlds.",
      "tags": [
       "benchmark",
       "exploration",
@@ -527,7 +506,7 @@
       "MCP / Tool Protocols"
      ],
      "importance": 7.0,
-     "summary": "Presents Synthetic Hospital, an open physician-validated longitudinal EHR benchmark for agentic evaluation.",
+     "summary": "Releases Synthetic Hospital, an open physician-validated longitudinal EHR benchmark for agentic evaluation.",
      "tags": [
       "benchmark",
       "EHR",
@@ -548,7 +527,7 @@
       "Memory / Context"
      ],
      "importance": 7.0,
-     "summary": "Explores when agents can forget reasoning, using ICLR for long-horizon context compression.",
+     "summary": "Explores when agents can forget reasoning, using ICLR for long-horizon agent context compression.",
      "tags": [
       "context-compression",
       "long-horizon",
@@ -568,31 +547,11 @@
       "MCP / Tool Protocols"
      ],
      "importance": 7.0,
-     "summary": "Designs and deploys a honeypot to measure attacks on exposed LLM infrastructure like Ollama.",
+     "summary": "Designs and deploys a honeypot to measure attacks on exposed LLM infrastructure via OllamaDrama.",
      "tags": [
-      "security",
       "honeypot",
-      "LLM-infra"
-     ],
-     "module": "agentic"
-    },
-    {
-     "id": "p:httparxivorgabs260929389",
-     "kind": "paper",
-     "date": "2026-09-24",
-     "title": "Robo-Harness K1: Harnessing Robot-Use Agents via Perception Augmentation",
-     "authors": "Zexi Li et.al.",
-     "url": "http://arxiv.org/abs/2609.29389",
-     "topic": "MCP / Tool Protocols",
-     "topics": [
-      "MCP / Tool Protocols"
-     ],
-     "importance": 7.0,
-     "summary": "Presents Robo-Harness K1, harnessing robot-use agents via perception augmentation for improved control.",
-     "tags": [
-      "robot-use",
-      "perception",
-      "harness"
+      "security",
+      "LLM-infrastructure"
      ],
      "module": "agentic"
     },
@@ -617,22 +576,43 @@
      "module": "agentic"
     },
     {
-     "id": "p:httparxivorgabs260929921",
+     "id": "p:httparxivorgabs260930249",
      "kind": "paper",
      "date": "2026-09-24",
-     "title": "Who Holds the Pen? Let Specifications, Not Agents, Sign Off",
-     "authors": "Haiqing Li et.al.",
-     "url": "http://arxiv.org/abs/2609.29921",
+     "title": "RAPID: Robot Agentic Programming from Demonstrations",
+     "authors": "Yuyao Liu et.al.",
+     "url": "http://arxiv.org/abs/2609.30249",
      "topic": "Agent Loop / Harness",
      "topics": [
       "Agent Loop / Harness"
      ],
      "importance": 6.0,
-     "summary": "Argues specifications, not agents, should sign off on actions, addressing accountability in agentic systems.",
+     "summary": "Presents RAPID, a framework enabling robots to learn manipulation tasks from demonstrations via agentic programming.",
      "tags": [
-      "accountability",
-      "specifications",
-      "governance"
+      "robot-learning",
+      "imitation",
+      "agentic"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs260929454",
+     "kind": "paper",
+     "date": "2026-09-24",
+     "title": "Demystifying Agent Skills for Smart Contract Auditing: Design, Effectiveness, Behavioral Impact",
+     "authors": "Cuifeng Gao et.al.",
+     "url": "http://arxiv.org/abs/2609.29454",
+     "topic": "Agent Loop / Harness",
+     "topics": [
+      "Agent Loop / Harness",
+      "MCP / Tool Protocols"
+     ],
+     "importance": 6.0,
+     "summary": "Analyzes agent skills for smart contract auditing, examining design, effectiveness, and behavioral impact.",
+     "tags": [
+      "smart-contracts",
+      "auditing",
+      "agent-skills"
      ],
      "module": "agentic"
     },
@@ -652,7 +632,7 @@
      "tags": [
       "redaction",
       "privacy",
-      "agentic"
+      "context"
      ],
      "module": "agentic"
     },
@@ -689,11 +669,31 @@
       "MCP / Tool Protocols"
      ],
      "importance": 6.0,
-     "summary": "Introduces PUBG Ally, a conversational embodied agent acting as an AI teammate in games.",
+     "summary": "Presents PUBG Ally, a conversational embodied agent acting as an AI teammate in gameplay.",
      "tags": [
-      "embodied",
-      "game-ai",
+      "embodied-agent",
+      "gameplay",
       "teammate"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs260929389",
+     "kind": "paper",
+     "date": "2026-09-24",
+     "title": "Robo-Harness K1: Harnessing Robot-Use Agents via Perception Augmentation",
+     "authors": "Zexi Li et.al.",
+     "url": "http://arxiv.org/abs/2609.29389",
+     "topic": "MCP / Tool Protocols",
+     "topics": [
+      "MCP / Tool Protocols"
+     ],
+     "importance": 6.0,
+     "summary": "Introduces Robo-Harness K1, harnessing robot-use agents through perception augmentation.",
+     "tags": [
+      "robot-use",
+      "perception",
+      "harness"
      ],
      "module": "agentic"
     },
@@ -744,8 +744,8 @@
  "hot": {
   "academic": [
    {
-    "title": "LLM Agents for Robot Manipulation",
-    "summary": "Multiple works harness LLM/VLM agents for robot programming, manipulation, and rehearsal, signaling rapid convergence of agentic reasoning with embodied control.",
+    "title": "LLM Agents for Robot Learning",
+    "summary": "Multiple works use LLM/VLM agents to program, plan, and control robots, from demonstrations to world-action rehearsal, making embodied agentic learning a dominant hot direction.",
     "keywords": [
      "robot agents",
      "VLM",
@@ -754,7 +754,7 @@
    },
    {
     "title": "Agent Safety, Monitoring, and Evasion",
-    "summary": "Papers on monitor evasion, honeypots, and specification sign-off reveal growing concern about agent reliability, security, and oversight under task pressure.",
+    "summary": "Papers on honeypots, monitor evasion, and specification sign-off reveal rising concern about securing and governing deployed LLM agents under real task pressure.",
     "keywords": [
      "agent safety",
      "monitoring",
@@ -763,7 +763,7 @@
    },
    {
     "title": "Agent Memory and Context Compression",
-    "summary": "Long-horizon agent context compression and memory framing for video generation show memory management becoming central to scalable agentic reasoning.",
+    "summary": "Long-horizon agents need efficient memory; works on forgetting reasoning, context compression, and video memory show this is a central scalability bottleneck.",
     "keywords": [
      "memory",
      "context compression",
@@ -771,405 +771,404 @@
     ]
    },
    {
-    "title": "LLM-Driven Optimization and Scheduling",
-    "summary": "LLM-guided evolution for ride sharing, dependency-update repair routing, and scheduling strategies demonstrate LLMs increasingly steering combinatorial optimization.",
+    "title": "LLM-Driven Optimization and Search",
+    "summary": "LLMs are being embedded into neighborhood search, ride-sharing evolution, and scheduling, signaling growing fusion of language models with combinatorial optimization.",
     "keywords": [
      "LLM optimization",
-     "scheduling",
-     "routing"
+     "search",
+     "scheduling"
     ]
    },
    {
-    "title": "Differentiable and Predictive Control Advances",
-    "summary": "Safe receding-horizon mixed-integer differentiable control, MPC with learned dynamics, and robotics NLP libraries push optimization-based control toward real-world deployment.",
+    "title": "Agentic Frameworks for Domain Applications",
+    "summary": "Agents are being specialized for auditing, tutoring, skincare, redaction, and conspiracies, showing rapid verticalization of agentic pipelines across high-stakes domains.",
     "keywords": [
-     "predictive control",
-     "differentiable optimizat",
-     "robotics"
+     "agentic framework",
+     "domain agents",
+     "applications"
     ]
    }
   ],
   "industry": [
    {
-    "title": "OpenAI Agents Hacked Hugging Face",
-    "summary": "Revelations about OpenAI agents exploiting Hugging Face highlight urgent AI security and red-teaming concerns, making agent safety a top industry talking point.",
+    "title": "Autonomous Agents Gain Real-World Capabilities",
+    "summary": "Multiple posts showcase agents that explore, remember, act, and even use DNS to reach external systems, signaling rapid movement toward practical, self-directed AI agents.",
     "keywords": [
-     "OpenAI",
-     "Hugging Face",
-     "AI security"
+     "agents",
+     "autonomy",
+     "tool use"
     ]
    },
    {
-    "title": "Microsoft Abandons Copilot Chatbot Race",
-    "summary": "Microsoft's Copilot reboot signals a strategic retreat from consumer AI chatbots, reshaping competition and expectations for applied large-model products.",
+    "title": "LLMs Reshape Developer Workflows and Tools",
+    "summary": "From coding agents on live canvases to token-width font generation and enjoying programming with LLMs, practitioners are rethinking how developers build and interact with software.",
     "keywords": [
-     "Microsoft",
-     "Copilot",
-     "chatbot"
+     "LLM",
+     "coding agents",
+     "developer tools"
     ]
    },
    {
-    "title": "Anthropic Designated Supply Chain Risk",
-    "summary": "A U.S. appeals court upheld Anthropic's supply-chain risk designation, raising major questions about AI regulation, national security, and model deployment.",
+    "title": "Frontier Model Progress and Decision Modeling",
+    "summary": "Analyses of frontier model progress via games and turning GLM-5.3-Flash into a decision model highlight ongoing efforts to benchmark and specialize large models.",
     "keywords": [
-     "Anthropic",
-     "regulation",
+     "frontier models",
+     "benchmarking",
+     "decision models"
+    ]
+   },
+   {
+    "title": "Security Risks in AI and Streaming Systems",
+    "summary": "A Twitch chat message becoming code execution and an agent using DNS to reach an external chatbot expose emerging attack surfaces in AI-integrated and live systems.",
+    "keywords": [
+     "security",
+     "code execution",
+     "DNS"
+    ]
+   },
+   {
+    "title": "AI Infrastructure and Compute Economics",
+    "summary": "DeepSeek Elastic Compute and ASML's zero European sales underscore shifting compute supply chains and infrastructure strategies underpinning applied AI.",
+    "keywords": [
+     "compute",
+     "infrastructure",
      "supply chain"
-    ]
-   },
-   {
-    "title": "Meta Muse Uses OpenAI Model",
-    "summary": "Meta's Muse reportedly relies on an OpenAI model labeled muse-special, fueling debate over model provenance, licensing, and competitive dependencies.",
-    "keywords": [
-     "Meta",
-     "Muse",
-     "OpenAI"
-    ]
-   },
-   {
-    "title": "World Models Learn to Play Pokemon",
-    "summary": "Teaching world models to play Pokemon showcases progress in agentic AI, simulation, and decision-making, a hot direction for applied large-model practice.",
-    "keywords": [
-     "world model",
-     "Pokemon",
-     "agents"
     ]
    }
   ]
  },
  "news": [
   {
-   "id": "n:3094828933",
+   "id": "n:2573657214",
    "kind": "news",
-   "title": "Brazil Bans Online Betting",
-   "url": "https://www.reuters.com/world/americas/brazils-lula-bans-online-betting-operations-reelection-race-tightens-2026-09-25/",
+   "title": "Welcome to the Medical Clinic at the Interplanetary Relay Station",
+   "url": "https://www.lightspeedmagazine.com/fiction/welcome-to-the-medical-clinic-at-the-interplanetary-relay-station/",
    "source": "Hacker News",
    "date": "2026-09-26",
-   "summary": "Brazil bans online betting platforms, a regulatory action with limited direct relevance to applied AI research.",
+   "summary": "A fictional or satirical piece about a medical clinic at an interplanetary relay station, likely not AI research.",
    "tags": [
-    "regulation",
-    "policy"
+    "fiction",
+    "sci-fi"
    ],
    "extra": "",
    "importance": 2.0,
    "module": "news"
   },
   {
-   "id": "n:900362211",
+   "id": "n:49946727",
    "kind": "news",
-   "title": "Tell HN: Codex Is Down [fixed]",
-   "url": "https://news.ycombinator.com/item?id=49851032",
+   "title": "HomeBody: A humanoid that explores, remembers, and acts on its own",
+   "url": "https://tml.stanford.edu/homebody/",
    "source": "Hacker News",
-   "date": "2026-09-25",
-   "summary": "OpenAI Codex experienced an outage that was subsequently fixed, highlighting reliability issues in AI coding tools.",
+   "date": "2026-09-26",
+   "summary": "HomeBody is a humanoid robot that autonomously explores, remembers, and acts, advancing embodied AI.",
    "tags": [
-    "codex",
-    "reliability",
-    "outage"
-   ],
-   "extra": "",
-   "importance": 3.0,
-   "module": "news"
-  },
-  {
-   "id": "n:6114773690",
-   "kind": "news",
-   "title": "What even is an OS now?",
-   "url": "https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now/",
-   "source": "Hacker News",
-   "date": "2026-09-25",
-   "summary": "Explores the evolving definition of an operating system amid AI agents and cloud-native computing paradigms.",
-   "tags": [
-    "OS",
-    "systems",
-    "AI-agents"
-   ],
-   "extra": "",
-   "importance": 5.0,
-   "module": "news"
-  },
-  {
-   "id": "n:48042329",
-   "kind": "news",
-   "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
-   "url": "https://swarmtraces.org/",
-   "source": "Hacker News",
-   "date": "2026-09-25",
-   "summary": "Details how OpenAI agents exploited vulnerabilities to hack Hugging Face, revealing serious AI security risks.",
-   "tags": [
-    "AI-security",
-    "agents",
-    "vulnerabilities"
+    "robotics",
+    "embodied-ai",
+    "autonomy"
    ],
    "extra": "",
    "importance": 8.0,
    "module": "news"
   },
   {
-   "id": "n:1744844605",
+   "id": "n:5345435221",
    "kind": "news",
-   "title": "Teaching a World Model to Play Pokemon",
-   "url": "https://nostalgia.dev/posts/teaching-a-world-model-to-play-pokemon/",
+   "title": "DeepSeek Elastic Compute (DSec)",
+   "url": "https://arxiv.org/abs/2609.22978",
    "source": "Hacker News",
-   "date": "2026-09-25",
-   "summary": "Demonstrates teaching a world model to play Pokemon, advancing model-based reinforcement learning and planning research.",
+   "date": "2026-09-26",
+   "summary": "DeepSeek Elastic Compute (DSec) likely introduces a scalable compute framework for AI training or inference.",
    "tags": [
-    "world-models",
-    "RL",
-    "planning"
+    "compute",
+    "infrastructure",
+    "deepseek"
    ],
    "extra": "",
    "importance": 7.0,
    "module": "news"
   },
   {
-   "id": "n:1669413762",
+   "id": "n:8477379719",
    "kind": "news",
-   "title": "Excel now supports multiple values in a single cell",
-   "url": "https://techcommunity.microsoft.com/blog/microsoft365insiderblog/put-multiple-values-in-one-cell-with-lists-and-arrays-in-excel/4559395",
+   "title": "Japan moves to tighten rules for foreigners",
+   "url": "https://www.aljazeera.com/economy/2026/9/25/japan-moves-to-tighten-rules-for-foreigners-throwing-futures-into-doubt",
    "source": "Hacker News",
-   "date": "2026-09-25",
-   "summary": "Excel adds support for multiple values in a single cell, a spreadsheet feature with minor AI-adjacent implications.",
+   "date": "2026-09-26",
+   "summary": "Japan tightens rules for foreigners, a policy news item unrelated to AI research.",
    "tags": [
-    "spreadsheets",
-    "productivity"
+    "policy",
+    "immigration"
+   ],
+   "extra": "",
+   "importance": 1.0,
+   "module": "news"
+  },
+  {
+   "id": "n:1506366065",
+   "kind": "news",
+   "title": "Reverse-engineering the Intel 8087's tangent algorithm: more than CORDIC",
+   "url": "https://www.righto.com/2026/09/8087-tangent-cordic.html",
+   "source": "Hacker News",
+   "date": "2026-09-26",
+   "summary": "Reverse-engineering the Intel 8087's tangent algorithm reveals it uses more than CORDIC, offering historical numerical insights.",
+   "tags": [
+    "numerical-methods",
+    "reverse-engineering",
+    "hardware"
+   ],
+   "extra": "",
+   "importance": 6.0,
+   "module": "news"
+  },
+  {
+   "id": "n:8480318867",
+   "kind": "news",
+   "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
+   "url": "https://github.com/reladraw/reladraw",
+   "source": "Hacker News",
+   "date": "2026-09-26",
+   "summary": "Reladraw is a diagram language with manual placement, a niche tool for visual programming or design.",
+   "tags": [
+    "diagram",
+    "language",
+    "tool"
    ],
    "extra": "",
    "importance": 4.0,
    "module": "news"
   },
   {
-   "id": "n:3202727",
+   "id": "n:4685152335",
    "kind": "news",
-   "title": "How we learned to stop worrying and love campus surveillance",
-   "url": "https://fnl.mit.edu/how-we-learned-to-stop-worrying-and-love-campus-surveillance/",
+   "title": "The Evolution of Vending Machines",
+   "url": "https://www.saturdayeveningpost.com/2026/09/from-holy-water-to-frozen-meals-the-evolution-of-vending-machines/",
    "source": "Hacker News",
-   "date": "2026-09-25",
-   "summary": "Essay on accepting campus surveillance, touching on privacy and ethics relevant to applied AI deployment.",
+   "date": "2026-09-26",
+   "summary": "A historical overview of vending machines, not relevant to AI research.",
    "tags": [
-    "surveillance",
-    "privacy",
-    "ethics"
+    "history",
+    "vending"
    ],
    "extra": "",
-   "importance": 3.0,
+   "importance": 1.0,
    "module": "news"
   },
   {
-   "id": "n:6870130268",
+   "id": "n:5324669648",
    "kind": "news",
-   "title": "A new way to manage memory: no garbage collection, extremely fast & safe access",
-   "url": "https://ulanguage.org/memory",
+   "title": "Drawgent: Coding agent on a live Excalidraw canvas",
+   "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
    "source": "Hacker News",
-   "date": "2026-09-25",
-   "summary": "Introduces a memory management approach without garbage collection offering fast, safe access, relevant to systems and AI runtimes.",
+   "date": "2026-09-26",
+   "summary": "Drawgent is a coding agent that operates on a live Excalidraw canvas, enabling visual code generation.",
    "tags": [
-    "memory-management",
-    "systems",
-    "performance"
+    "coding-agent",
+    "visual-programming",
+    "excalidraw"
    ],
    "extra": "",
    "importance": 7.0,
    "module": "news"
   },
   {
-   "id": "n:292604100",
+   "id": "n:5380050073",
    "kind": "news",
-   "title": "Ask HN: Who's still keeping a DOS machine up because the business depends on it?",
-   "url": "https://news.ycombinator.com/item?id=49848955",
+   "title": "Turning GLM-5.3-Flash into a Jev-like decision model",
+   "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
    "source": "Hacker News",
-   "date": "2026-09-25",
-   "summary": "Ask HN discussion about businesses still relying on DOS machines, illustrating legacy system persistence.",
+   "date": "2026-09-26",
+   "summary": "Turning GLM-5.3-Flash into a Jev-like decision model explores adapting LLMs for decision-making tasks.",
    "tags": [
-    "legacy-systems",
-    "DOS"
+    "llm",
+    "decision-making",
+    "fine-tuning"
+   ],
+   "extra": "",
+   "importance": 6.0,
+   "module": "news"
+  },
+  {
+   "id": "n:4036954972",
+   "kind": "news",
+   "title": "Go Concurrency Distilled",
+   "url": "https://antonz.org/go-concurrency-distilled/",
+   "source": "Hacker News",
+   "date": "2026-09-26",
+   "summary": "Go Concurrency Distilled is a tutorial or article on Go concurrency patterns, not AI-specific.",
+   "tags": [
+    "go",
+    "concurrency",
+    "programming"
    ],
    "extra": "",
    "importance": 3.0,
    "module": "news"
   },
   {
-   "id": "n:5771676532",
+   "id": "n:1352801022",
    "kind": "news",
-   "title": "Alan Kay: Shannon gave us a way of dealing with noisy channels [video]",
-   "url": "https://www.youtube.com/watch?v=Cjntrqhn8pk",
+   "title": "Breaking Up with Google Play: Why Conversations Is Now Free",
+   "url": "https://gultsch.de/posts/breaking-up-with-google-play/",
    "source": "Hacker News",
-   "date": "2026-09-25",
-   "summary": "Alan Kay discusses Shannon's information theory and noisy channels, foundational context for modern AI and communication.",
+   "date": "2026-09-26",
+   "summary": "Breaking up with Google Play and making Conversations free is an app distribution announcement, not AI research.",
    "tags": [
-    "information-theory",
-    "Shannon",
-    "video"
+    "mobile",
+    "app-store"
    ],
    "extra": "",
-   "importance": 6.0,
+   "importance": 2.0,
    "module": "news"
   },
   {
-   "id": "n:6195837237",
+   "id": "n:3720768842",
    "kind": "news",
-   "title": "Ollaya – Ollama for open-source, Jev-style decision models",
-   "url": "https://ollaya.dev/",
+   "title": "Reading’s Bayeux Tapestry",
+   "url": "https://diamondgeezer.blogspot.com/2026/09/readings-bayeux-tapestry.html",
    "source": "Hacker News",
-   "date": "2026-09-25",
-   "summary": "Ollaya brings Ollama-style local model serving to open-source Jev decision models, easing applied AI deployment.",
+   "date": "2026-09-26",
+   "summary": "Reading the Bayeux Tapestry is a historical or cultural piece, unrelated to AI.",
    "tags": [
-    "local-inference",
-    "open-source",
-    "decision-models"
+    "history",
+    "art"
+   ],
+   "extra": "",
+   "importance": 1.0,
+   "module": "news"
+  },
+  {
+   "id": "n:5932192616",
+   "kind": "news",
+   "title": "How to keep enjoying programming in a world of LLMs",
+   "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+   "source": "Hacker News",
+   "date": "2026-09-26",
+   "summary": "How to keep enjoying programming in a world of LLMs discusses developer motivation and workflow in the AI era.",
+   "tags": [
+    "llm",
+    "developer-experience",
+    "opinion"
    ],
    "extra": "",
    "importance": 5.0,
    "module": "news"
   },
   {
-   "id": "n:5040933890",
+   "id": "n:1873095663",
    "kind": "news",
-   "title": "Meta's Muse appears to use an OpenAI model labeled muse-special",
-   "url": "https://mouse.dev/blog/muse-special/",
+   "title": "Fifteen years later, the Apple Cards origin story",
+   "url": "https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story",
    "source": "Hacker News",
-   "date": "2026-09-25",
-   "summary": "Meta's Muse reportedly uses an OpenAI model labeled muse-special, raising questions about model provenance and partnerships.",
+   "date": "2026-09-26",
+   "summary": "The Apple Cards origin story is a product design retrospective, not AI research.",
    "tags": [
-    "Meta",
-    "OpenAI",
-    "model-provenance"
+    "apple",
+    "design",
+    "history"
+   ],
+   "extra": "",
+   "importance": 2.0,
+   "module": "news"
+  },
+  {
+   "id": "n:6560296261",
+   "kind": "news",
+   "title": "An agent used DNS to reach an external chatbot",
+   "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
+   "source": "Hacker News",
+   "date": "2026-09-26",
+   "summary": "An agent used DNS to reach an external chatbot, highlighting a novel exfiltration or communication technique.",
+   "tags": [
+    "agent",
+    "dns",
+    "security"
    ],
    "extra": "",
    "importance": 6.0,
    "module": "news"
   },
   {
-   "id": "n:4761965490",
+   "id": "n:6016846767",
    "kind": "news",
-   "title": "Gravity seems holographic. What does that mean for reality?",
-   "url": "https://www.quantamagazine.org/gravity-seems-holographic-what-does-that-mean-for-reality-20260925/",
+   "title": "Promising discoveries about the potential for life on one of Saturn’s icy moons",
+   "url": "https://www.fu-berlin.de/en/presse/informationen/fup/2026/fup_26_116-enceladus-cassini-mikroben-science-postberg/index.html",
    "source": "Hacker News",
-   "date": "2026-09-25",
-   "summary": "Physics piece on holographic gravity, speculative and only tangentially relevant to applied AI research.",
+   "date": "2026-09-26",
+   "summary": "Promising discoveries about life on Saturn's icy moon are astrobiology, not AI research.",
    "tags": [
-    "physics",
-    "holography"
+    "astrobiology",
+    "space"
    ],
    "extra": "",
-   "importance": 4.0,
+   "importance": 3.0,
    "module": "news"
   },
   {
-   "id": "n:5167852850",
+   "id": "n:1204823524",
    "kind": "news",
-   "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
-   "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+   "title": "How one Twitch chat message became code execution on a streamer’s PC",
+   "url": "https://blog.scrt.ch/2026/09/22/how-one-twitch-chat-message-became-code-execution-on-a-streamers-pc/",
    "source": "Hacker News",
-   "date": "2026-09-25",
-   "summary": "US appeals court upholds designation of Anthropic as a supply chain risk, a significant AI governance and policy development.",
+   "date": "2026-09-26",
+   "summary": "A Twitch chat message led to code execution on a streamer's PC, illustrating a security vulnerability.",
    "tags": [
-    "AI-policy",
-    "governance",
-    "Anthropic"
+    "security",
+    "exploit",
+    "twitch"
+   ],
+   "extra": "",
+   "importance": 5.0,
+   "module": "news"
+  },
+  {
+   "id": "n:59482074",
+   "kind": "news",
+   "title": "Generate fonts where every LLM token is the same width",
+   "url": "https://ampdot.mesh.host/token-space-fonts.html",
+   "source": "Hacker News",
+   "date": "2026-09-26",
+   "summary": "Generating fonts where every LLM token is the same width explores tokenization-aware typography for LLMs.",
+   "tags": [
+    "llm",
+    "tokenization",
+    "fonts"
    ],
    "extra": "",
    "importance": 7.0,
    "module": "news"
   },
   {
-   "id": "n:8096211491",
+   "id": "n:350776545",
    "kind": "news",
-   "title": "Show HN: Jev Plays Pokémon Red",
-   "url": "https://jev-pokemon.vercel.app/",
+   "title": "Analyzing Frontier Model Progress with My Favourite Game: Prince of Persia",
+   "url": "https://blog.priyan.in/2026/09/analyzing-frontier-model-progress-with.html",
    "source": "Hacker News",
    "date": "2026-09-25",
-   "summary": "Show HN project has Jev models play Pokemon Red, a practical demo of decision-model agents in games.",
+   "summary": "Analyzing frontier model progress using Prince of Persia benchmarks LLM capabilities in a game environment.",
    "tags": [
-    "agents",
-    "games",
-    "decision-models"
+    "benchmark",
+    "llm",
+    "game"
    ],
    "extra": "",
    "importance": 6.0,
    "module": "news"
   },
   {
-   "id": "n:9072905960",
+   "id": "n:4236069199",
    "kind": "news",
-   "title": "Microsoft abandons personal AI chatbot race with Copilot reboot",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
+   "title": "ASML says it sold 'absolutely nothing' in Europe in 2026",
+   "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand",
    "source": "Hacker News",
    "date": "2026-09-25",
-   "summary": "Microsoft abandons its personal AI chatbot race, rebooting Copilot strategy with implications for consumer AI products.",
+   "summary": "ASML sold nothing in Europe in 2026 is a semiconductor industry news item, not AI research.",
    "tags": [
-    "Microsoft",
-    "Copilot",
-    "strategy"
+    "semiconductor",
+    "industry"
    ],
    "extra": "",
-   "importance": 6.0,
-   "module": "news"
-  },
-  {
-   "id": "n:6644296615",
-   "kind": "news",
-   "title": "First Principles Thinking",
-   "url": "https://sunilsadasivan.com/writing/first-principles-thinking/",
-   "source": "Hacker News",
-   "date": "2026-09-25",
-   "summary": "General essay on first principles thinking, a reasoning heuristic relevant to AI problem-solving but not novel.",
-   "tags": [
-    "reasoning",
-    "methodology"
-   ],
-   "extra": "",
-   "importance": 4.0,
-   "module": "news"
-  },
-  {
-   "id": "n:3210831633",
-   "kind": "news",
-   "title": "What happens when you analyze your favorite college football team like the CIA?",
-   "url": "https://www.cultivatelabs.com/posts/what-happens-when-you-analyze-college-football-like-the-cia",
-   "source": "Hacker News",
-   "date": "2026-09-25",
-   "summary": "Applying CIA-style intelligence analysis to college football, an analogy piece with limited technical AI content.",
-   "tags": [
-    "analysis",
-    "sports"
-   ],
-   "extra": "",
-   "importance": 3.0,
-   "module": "news"
-  },
-  {
-   "id": "n:2591840604",
-   "kind": "news",
-   "title": "Platform-independent SIMD in Go",
-   "url": "https://go.dev/blog/simd-experiment",
-   "source": "Hacker News",
-   "date": "2026-09-25",
-   "summary": "Platform-independent SIMD in Go improves performance portability, useful for efficient AI inference implementations.",
-   "tags": [
-    "SIMD",
-    "Go",
-    "performance"
-   ],
-   "extra": "",
-   "importance": 5.0,
-   "module": "news"
-  },
-  {
-   "id": "n:1292483487",
-   "kind": "news",
-   "title": "Git-bug: Distributed, offline-first bug tracker embedded in Git",
-   "url": "https://github.com/git-bug/git-bug",
-   "source": "Hacker News",
-   "date": "2026-09-25",
-   "summary": "Git-bug offers a distributed, offline-first bug tracker embedded in Git, relevant to developer tooling and collaboration.",
-   "tags": [
-    "git",
-    "developer-tools",
-    "distributed"
-   ],
-   "extra": "",
-   "importance": 5.0,
+   "importance": 2.0,
    "module": "news"
   }
  ]
