@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T01:01:00Z",
+ "generated_at": "2026-09-29T02:10:18Z",
  "model": "deepseek-v4-flash",
  "modules": [
   {
@@ -7,22 +7,22 @@
    "label": "LLM4OR / L2O",
    "items": [
     {
-     "id": "p:httparxivorgabs260922350",
+     "id": "p:httparxivorgabs260931179",
      "kind": "paper",
-     "date": "2026-09-22",
-     "title": "Recasting the Destroy Step of Large Neighborhood Search as Dense Segmentation",
-     "authors": "Yang Liu et.al.",
-     "url": "http://arxiv.org/abs/2609.22350",
+     "date": "2026-09-25",
+     "title": "SPO: Discovering Adaptive Large Neighborhood Search Operators via Stackelberg Program Optimization",
+     "authors": "Xinyi Ke et.al.",
+     "url": "http://arxiv.org/abs/2609.31179",
      "topic": "VRP / Combinatorial Solving",
      "topics": [
       "VRP / Combinatorial Solving"
      ],
      "importance": 8.0,
-     "summary": "Recasts the destroy step of large neighborhood search as dense segmentation, bridging combinatorial optimization and deep learning.",
+     "summary": "Discovers adaptive large neighborhood search operators via Stackelberg program optimization, automating metaheuristic design.",
      "tags": [
-      "LNS",
-      "segmentation",
-      "neural-combinatorial"
+      "ALNS",
+      "program-optimization",
+      "metaheuristics"
      ],
      "module": "llm4or"
     },
@@ -37,93 +37,12 @@
      "topics": [
       "Automatic Algorithm Design / Hyper-heuristics"
      ],
-     "importance": 8.0,
-     "summary": "Combines hierarchical ride-sharing algorithms with LLM-driven automatic evolution for generalized ride-sharing optimization.",
+     "importance": 7.0,
+     "summary": "Hierarchical algorithm for generalized ride sharing with LLM-driven automatic evolution of heuristics.",
      "tags": [
       "ride-sharing",
-      "LLM",
+      "LLM-evolution",
       "hierarchical-optimizatio"
-     ],
-     "module": "llm4or"
-    },
-    {
-     "id": "p:httparxivorgabs260928698",
-     "kind": "paper",
-     "date": "2026-09-23",
-     "title": "Safe Receding Horizon Mixed-Integer Differentiable Predictive Control for Degradation-Aware Battery Dispatch",
-     "authors": "Eshagh Safarzadeh Ravajiri et.al.",
-     "url": "http://arxiv.org/abs/2609.28698",
-     "topic": "L2O / Learning to Optimize",
-     "topics": [
-      "L2O / Learning to Optimize",
-      "Solver Intelligence"
-     ],
-     "importance": 8.0,
-     "summary": "Develops safe receding horizon mixed-integer differentiable predictive control for degradation-aware battery dispatch optimization.",
-     "tags": [
-      "predictive-control",
-      "differentiable-optimizat",
-      "battery-dispatch"
-     ],
-     "module": "llm4or"
-    },
-    {
-     "id": "p:httparxivorgabs260925594",
-     "kind": "paper",
-     "date": "2026-09-22",
-     "title": "Optimal Operation Method for Computing Power-Electric Power Coordination Considering End-to-End Completion Latency of Computing Tasks",
-     "authors": "Yize Liu et.al.",
-     "url": "http://arxiv.org/abs/2609.25594",
-     "topic": "LLM Auto-Formulation",
-     "topics": [
-      "LLM Auto-Formulation"
-     ],
-     "importance": 7.0,
-     "summary": "Optimizes computing-power and electric-power coordination considering end-to-end task completion latency in distributed systems.",
-     "tags": [
-      "resource-allocation",
-      "latency",
-      "coordination"
-     ],
-     "module": "llm4or"
-    },
-    {
-     "id": "p:httparxivorgabs260926238",
-     "kind": "paper",
-     "date": "2026-09-22",
-     "title": "Manipulation of Deformable Linear Objects Using Model Predictive Path Integral Control with Bidirectional Long Short-Term Memory Learning",
-     "authors": "Lukas Zeh et.al.",
-     "url": "http://arxiv.org/abs/2609.26238",
-     "topic": "L2O / Learning to Optimize",
-     "topics": [
-      "L2O / Learning to Optimize"
-     ],
-     "importance": 7.0,
-     "summary": "Controls deformable linear objects via model predictive path integral control with bidirectional LSTM learning.",
-     "tags": [
-      "MPPI",
-      "deformable-objects",
-      "LSTM"
-     ],
-     "module": "llm4or"
-    },
-    {
-     "id": "p:httparxivorgabs260926556",
-     "kind": "paper",
-     "date": "2026-09-22",
-     "title": "Neutral-Atom-based Quantum Optimization for Resource Allocation in NOMA Networks",
-     "authors": "Patatchona Keyela et.al.",
-     "url": "http://arxiv.org/abs/2609.26556",
-     "topic": "Solver Intelligence",
-     "topics": [
-      "Solver Intelligence"
-     ],
-     "importance": 7.0,
-     "summary": "Applies neutral-atom quantum optimization to resource allocation in NOMA networks, exploring quantum advantage for wireless scheduling.",
-     "tags": [
-      "quantum-optimization",
-      "NOMA",
-      "resource-allocation"
      ],
      "module": "llm4or"
     },
@@ -139,7 +58,7 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 7.0,
-     "summary": "Develops proper agnostic learning algorithms for matrix product states and tree tensor networks with theoretical guarantees.",
+     "summary": "Provides proper agnostic learning guarantees for matrix product states and tree tensor networks, advancing tensor-network learning theory.",
      "tags": [
       "tensor-networks",
       "learning-theory",
@@ -148,42 +67,122 @@
      "module": "llm4or"
     },
     {
-     "id": "p:httparxivorgabs260925911",
+     "id": "p:httparxivorgabs260931905",
      "kind": "paper",
-     "date": "2026-09-22",
-     "title": "When Should Dependency Updates Invoke Repair Agents? A Lightweight Routing Study",
-     "authors": "Liheng Fan et.al.",
-     "url": "http://arxiv.org/abs/2609.25911",
-     "topic": "VRP / Combinatorial Solving",
+     "date": "2026-09-25",
+     "title": "End-to-end QP-based policies: A unified perspective on robust control and robot learning",
+     "authors": "Fausto Vega et.al.",
+     "url": "http://arxiv.org/abs/2609.31905",
+     "topic": "LLM Auto-Formulation",
      "topics": [
-      "VRP / Combinatorial Solving"
+      "LLM Auto-Formulation"
      ],
-     "importance": 6.0,
-     "summary": "Studies when dependency updates should invoke repair agents, proposing a lightweight routing strategy for maintenance automation.",
+     "importance": 7.0,
+     "summary": "Unifies robust control and robot learning via end-to-end QP-based policies, connecting optimization layers with control theory.",
      "tags": [
-      "dependency-updates",
-      "repair-agents",
-      "routing"
+      "QP-layers",
+      "robot-learning",
+      "robust-control"
      ],
      "module": "llm4or"
     },
     {
-     "id": "p:httparxivorgabs260928377",
+     "id": "p:httparxivorgabs260932465",
      "kind": "paper",
-     "date": "2026-09-23",
-     "title": "Amplify: A Lightweight Library for Reproducible Nonlinear Programming Problems in Robotics",
-     "authors": "Nelson Rosa et.al.",
-     "url": "http://arxiv.org/abs/2609.28377",
+     "date": "2026-09-26",
+     "title": "PolyStepOR: Learning to Decide Without Optimal Decisions",
+     "authors": "Viet The Nguyen et.al.",
+     "url": "http://arxiv.org/abs/2609.32465",
+     "topic": "L2O / Learning to Optimize",
+     "topics": [
+      "L2O / Learning to Optimize"
+     ],
+     "importance": 7.0,
+     "summary": "Learns decision policies for optimization without relying on optimal decisions, bridging L2O and imperfect supervision.",
+     "tags": [
+      "learning-to-optimize",
+      "decision-focused-learnin",
+      "OR"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260930456",
+     "kind": "paper",
+     "date": "2026-09-24",
+     "title": "Spectral Feedback for Test-Time Alignment of Protein Diffusion Models",
+     "authors": "Shai Dickman et.al.",
+     "url": "http://arxiv.org/abs/2609.30456",
+     "topic": "L2O / Learning to Optimize",
+     "topics": [
+      "L2O / Learning to Optimize"
+     ],
+     "importance": 6.0,
+     "summary": "Uses spectral feedback for test-time alignment of protein diffusion models, improving sample quality without retraining.",
+     "tags": [
+      "diffusion-models",
+      "protein-design",
+      "test-time-alignment"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260931972",
+     "kind": "paper",
+     "date": "2026-09-25",
+     "title": "TaiJi: State-Conditional Adaptive Combination of Machine-Learning and Physics-Based Global Weather Forecasts",
+     "authors": "Jiale Wang et.al.",
+     "url": "http://arxiv.org/abs/2609.31972",
      "topic": "LLM Auto-Formulation",
      "topics": [
       "LLM Auto-Formulation"
      ],
      "importance": 6.0,
-     "summary": "Presents Amplify, a lightweight library for reproducible nonlinear programming problems in robotics research.",
+     "summary": "State-conditional adaptive blending of ML and physics-based weather forecasts, improving accuracy across regimes.",
      "tags": [
-      "NLP-library",
-      "robotics",
-      "reproducibility"
+      "weather-forecasting",
+      "hybrid-modeling",
+      "adaptive-combination"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260931559",
+     "kind": "paper",
+     "date": "2026-09-25",
+     "title": "Online Learning via Learned Latent Bayesian Tracking",
+     "authors": "Guy Gerson et.al.",
+     "url": "http://arxiv.org/abs/2609.31559",
+     "topic": "LLM Auto-Formulation",
+     "topics": [
+      "LLM Auto-Formulation"
+     ],
+     "importance": 6.0,
+     "summary": "Online learning method using learned latent Bayesian tracking to adapt to nonstationary environments efficiently.",
+     "tags": [
+      "online-learning",
+      "Bayesian-tracking",
+      "latent-state"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260932521",
+     "kind": "paper",
+     "date": "2026-09-26",
+     "title": "MemAgent: Learning to Manage Heterogeneous Memory Providers for LLM Agents",
+     "authors": "Yongxian Wei et.al.",
+     "url": "http://arxiv.org/abs/2609.32521",
+     "topic": "VRP / Combinatorial Solving",
+     "topics": [
+      "VRP / Combinatorial Solving"
+     ],
+     "importance": 6.0,
+     "summary": "Trains LLM agents to select and manage heterogeneous memory providers adaptively for improved long-horizon task performance.",
+     "tags": [
+      "LLM-agents",
+      "memory-management",
+      "tool-use"
      ],
      "module": "llm4or"
     },
@@ -198,92 +197,12 @@
      "topics": [
       "LLM Auto-Formulation"
      ],
-     "importance": 6.0,
-     "summary": "Presents tuning-free compilation of tile programs on dataflow architectures by treating schedules as solvable symbols.",
+     "importance": 5.0,
+     "summary": "Treats schedules as solvable symbols for tuning-free compilation of tile programs on dataflow architectures.",
      "tags": [
       "compiler",
       "dataflow",
-      "scheduling"
-     ],
-     "module": "llm4or"
-    },
-    {
-     "id": "p:httparxivorgabs260929752",
-     "kind": "paper",
-     "date": "2026-09-24",
-     "title": "One-shot Routing in Quantum Networks",
-     "authors": "Nadav Lavi et.al.",
-     "url": "http://arxiv.org/abs/2609.29752",
-     "topic": "VRP / Combinatorial Solving",
-     "topics": [
-      "VRP / Combinatorial Solving"
-     ],
-     "importance": 6.0,
-     "summary": "Addresses one-shot routing in quantum networks, enabling efficient path selection without repeated entanglement probing.",
-     "tags": [
-      "quantum-networks",
-      "routing",
-      "one-shot"
-     ],
-     "module": "llm4or"
-    },
-    {
-     "id": "p:httparxivorgabs260926540",
-     "kind": "paper",
-     "date": "2026-09-22",
-     "title": "Bespoke: Generating MOOC-Quality Industry-Personalized Lecture Videos at Scale",
-     "authors": "Romain Puech et.al.",
-     "url": "http://arxiv.org/abs/2609.26540",
-     "topic": "L2O / Learning to Optimize",
-     "topics": [
-      "L2O / Learning to Optimize"
-     ],
-     "importance": 5.0,
-     "summary": "Generates MOOC-quality industry-personalized lecture videos at scale using automated content synthesis techniques.",
-     "tags": [
-      "video-generation",
-      "education",
-      "personalization"
-     ],
-     "module": "llm4or"
-    },
-    {
-     "id": "p:httparxivorgabs260925831",
-     "kind": "paper",
-     "date": "2026-09-22",
-     "title": "Sometimes You Gotta Run Before You Can Walk: Run-then-Walk Scheduling Strategy for VLM Autonomous Driving",
-     "authors": "Yuqi Ye et.al.",
-     "url": "http://arxiv.org/abs/2609.25831",
-     "topic": "L2O / Learning to Optimize",
-     "topics": [
-      "L2O / Learning to Optimize"
-     ],
-     "importance": 5.0,
-     "summary": "Proposes run-then-walk scheduling for VLM-based autonomous driving, balancing speed and safety in decision-making.",
-     "tags": [
-      "autonomous-driving",
-      "VLM",
-      "scheduling"
-     ],
-     "module": "llm4or"
-    },
-    {
-     "id": "p:httparxivorgabs260928466",
-     "kind": "paper",
-     "date": "2026-09-23",
-     "title": "The Past Frames the Future: Memory for Autoregressive Video Generation",
-     "authors": "Harold Haodong Chen et.al.",
-     "url": "http://arxiv.org/abs/2609.28466",
-     "topic": "L2O / Learning to Optimize",
-     "topics": [
-      "L2O / Learning to Optimize"
-     ],
-     "importance": 5.0,
-     "summary": "Explores memory mechanisms for autoregressive video generation, using past frames to improve future prediction quality.",
-     "tags": [
-      "video-generation",
-      "autoregressive",
-      "memory"
+      "tiling"
      ],
      "module": "llm4or"
     },
@@ -299,7 +218,7 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 5.0,
-     "summary": "Uses deep learning to guide dismantling of interdependent networks, improving disruption efficiency over heuristic methods.",
+     "summary": "Applies deep learning to dismantle interdependent networks, improving robustness analysis of coupled infrastructures.",
      "tags": [
       "network-dismantling",
       "deep-learning",
@@ -308,22 +227,82 @@
      "module": "llm4or"
     },
     {
-     "id": "p:httparxivorgabs260926848",
+     "id": "p:httparxivorgabs260929752",
      "kind": "paper",
-     "date": "2026-09-22",
-     "title": "A Leakage-Aware Multimodal Evaluation Framework for Early Intraoperative Acute Kidney Injury Prediction",
-     "authors": "Quang Minh Nguyen et.al.",
-     "url": "http://arxiv.org/abs/2609.26848",
-     "topic": "LLM Auto-Formulation",
+     "date": "2026-09-24",
+     "title": "One-shot Routing in Quantum Networks",
+     "authors": "Nadav Lavi et.al.",
+     "url": "http://arxiv.org/abs/2609.29752",
+     "topic": "VRP / Combinatorial Solving",
      "topics": [
-      "LLM Auto-Formulation"
+      "VRP / Combinatorial Solving"
      ],
-     "importance": 4.0,
-     "summary": "Proposes a leakage-aware multimodal framework for early intraoperative acute kidney injury prediction in clinical settings.",
+     "importance": 5.0,
+     "summary": "Develops one-shot routing protocols for quantum networks, addressing entanglement distribution efficiency.",
      "tags": [
-      "multimodal",
-      "clinical-prediction",
-      "leakage-aware"
+      "quantum-networks",
+      "routing",
+      "entanglement"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260931370",
+     "kind": "paper",
+     "date": "2026-09-25",
+     "title": "Adaptive Dissipative State Preparation through Reinforcement Learning",
+     "authors": "Nathan M. Myers et.al.",
+     "url": "http://arxiv.org/abs/2609.31370",
+     "topic": "L2O / Learning to Optimize",
+     "topics": [
+      "L2O / Learning to Optimize"
+     ],
+     "importance": 5.0,
+     "summary": "Uses reinforcement learning to design adaptive protocols for dissipative quantum state preparation.",
+     "tags": [
+      "reinforcement-learning",
+      "quantum-control",
+      "state-preparation"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260931066",
+     "kind": "paper",
+     "date": "2026-09-25",
+     "title": "Modeling quantum neural network gradient with reinforcement learning",
+     "authors": "Nhan Trong Luu et.al.",
+     "url": "http://arxiv.org/abs/2609.31066",
+     "topic": "L2O / Learning to Optimize",
+     "topics": [
+      "L2O / Learning to Optimize"
+     ],
+     "importance": 5.0,
+     "summary": "Models quantum neural network gradients via reinforcement learning, offering a new training paradigm for QNNs.",
+     "tags": [
+      "quantum-neural-networks",
+      "reinforcement-learning",
+      "gradient-estimation"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260932458",
+     "kind": "paper",
+     "date": "2026-09-26",
+     "title": "Streamlined Reflective Evolution for Task-Adaptive Self-Refinement Pipelines",
+     "authors": "Xiaofan Zhou et.al.",
+     "url": "http://arxiv.org/abs/2609.32458",
+     "topic": "Automatic Algorithm Design / Hyper-heuristics",
+     "topics": [
+      "Automatic Algorithm Design / Hyper-heuristics"
+     ],
+     "importance": 5.0,
+     "summary": "Proposes streamlined reflective evolution to build task-adaptive self-refinement pipelines for LLM agents with reduced overhead.",
+     "tags": [
+      "self-refinement",
+      "LLM-agents",
+      "evolutionary-prompting"
      ],
      "module": "llm4or"
     },
@@ -339,7 +318,7 @@
       "LLM Auto-Formulation"
      ],
      "importance": 4.0,
-     "summary": "Proposes a smooth information criterion for variable selection in generalized linear models, improving selection stability and computational tractability.",
+     "summary": "Introduces a smooth information criterion for variable selection in generalized linear models, improving stability.",
      "tags": [
       "variable-selection",
       "GLM",
@@ -359,11 +338,31 @@
       "VRP / Combinatorial Solving"
      ],
      "importance": 4.0,
-     "summary": "Introduces scene-aware routing fusion for camera-LiDAR 3D object detection, improving robustness in autonomous driving.",
+     "summary": "Proposes scene-aware routing fusion for robust camera-LiDAR 3D object detection in autonomous driving.",
      "tags": [
       "3D-detection",
       "sensor-fusion",
       "autonomous-driving"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs260930723",
+     "kind": "paper",
+     "date": "2026-09-25",
+     "title": "Concurrent Parameter Learning and Current Control for Large-scale Grid-following Inverter-based Resources",
+     "authors": "Satish Vedula et.al.",
+     "url": "http://arxiv.org/abs/2609.30723",
+     "topic": "L2O / Learning to Optimize",
+     "topics": [
+      "L2O / Learning to Optimize"
+     ],
+     "importance": 4.0,
+     "summary": "Jointly learns parameters and current control for large-scale grid-following inverter resources, improving stability.",
+     "tags": [
+      "power-systems",
+      "control",
+      "parameter-learning"
      ],
      "module": "llm4or"
     }
@@ -385,7 +384,7 @@
       "Agent Loop / Harness"
      ],
      "importance": 8.0,
-     "summary": "Investigates where exactly-once semantics live across model, harness, and tool contracts in LLM agents.",
+     "summary": "Investigates where exactly-once semantics fail in LLM agents, analyzing model, harness, and tool-contract effects.",
      "tags": [
       "exactly-once",
       "side-effects",
@@ -406,11 +405,11 @@
       "Planning / Self-Evolution"
      ],
      "importance": 8.0,
-     "summary": "Shows instrumental monitor evasion emerges under ordinary task pressure, raising safety concerns for agentic systems.",
+     "summary": "Shows instrumental monitor evasion emerges in agents under ordinary task pressure, raising safety concerns.",
      "tags": [
-      "monitor-evasion",
-      "safety",
-      "alignment"
+      "monitoring",
+      "evasion",
+      "safety"
      ],
      "module": "agentic"
     },
@@ -527,7 +526,7 @@
       "Memory / Context"
      ],
      "importance": 7.0,
-     "summary": "Explores when agents can forget reasoning, using ICLR for long-horizon agent context compression.",
+     "summary": "Explores when agents can forget reasoning, using ICLR for long-horizon context compression.",
      "tags": [
       "context-compression",
       "long-horizon",
@@ -671,8 +670,8 @@
      "importance": 6.0,
      "summary": "Presents PUBG Ally, a conversational embodied agent acting as an AI teammate in gameplay.",
      "tags": [
-      "embodied-agent",
-      "gameplay",
+      "embodied",
+      "game-agent",
       "teammate"
      ],
      "module": "agentic"
@@ -689,7 +688,7 @@
       "MCP / Tool Protocols"
      ],
      "importance": 6.0,
-     "summary": "Introduces Robo-Harness K1, harnessing robot-use agents through perception augmentation for improved task execution.",
+     "summary": "Introduces Robo-Harness K1, harnessing robot-use agents through perception augmentation.",
      "tags": [
       "robot-use",
       "perception",
@@ -742,430 +741,8 @@
   }
  ],
  "hot": {
-  "academic": [
-   {
-    "title": "LLM Agents for Optimization and Control",
-    "summary": "Multiple works integrate LLM agents with optimization, scheduling, and control pipelines, showing rapid convergence of agentic reasoning with classical solvers.",
-    "keywords": [
-     "LLM agents",
-     "optimization",
-     "control"
-    ]
-   },
-   {
-    "title": "Agentic Frameworks for Robot Learning",
-    "summary": "Robot manipulation, programming from demonstrations, and world-action rehearsal dominate, highlighting agents as policy learners and embodied planners.",
-    "keywords": [
-     "robot learning",
-     "embodied agents",
-     "manipulation"
-    ]
-   },
-   {
-    "title": "Safety, Monitoring, and Agent Reliability",
-    "summary": "Papers probe monitor evasion, duplicate side effects, honeypots, and specification sign-off, reflecting urgent concern for trustworthy agent deployment.",
-    "keywords": [
-     "safety",
-     "monitoring",
-     "reliability"
-    ]
-   },
-   {
-    "title": "Memory and Context Compression for Agents",
-    "summary": "Long-horizon agent context compression, memory for video generation, and reflective tutoring show memory as a central agent capability.",
-    "keywords": [
-     "memory",
-     "context compression",
-     "long-horizon"
-    ]
-   },
-   {
-    "title": "Benchmarks and Evaluation for Agentic Systems",
-    "summary": "ExplorationBench, Synthetic Hospital, and auditing frameworks provide verifiable, domain-grounded evaluation of agentic LLM behavior.",
-    "keywords": [
-     "benchmarks",
-     "evaluation",
-     "agentic systems"
-    ]
-   }
-  ],
-  "industry": [
-   {
-    "title": "AI Agent Frameworks and Ports",
-    "summary": "Imp ports DSPy to BEAM and TinyAIArena lets agents battle, signaling rapid experimentation with agent architectures and evaluation platforms.",
-    "keywords": [
-     "DSPy",
-     "BEAM",
-     "AI agents"
-    ]
-   },
-   {
-    "title": "LLM Inference Optimization Advances",
-    "summary": "Faster prompt lookup drafting in llama.cpp highlights ongoing work to speed up large-model inference, a critical bottleneck for applied AI deployment.",
-    "keywords": [
-     "llama.cpp",
-     "prompt lookup",
-     "inference"
-    ]
-   },
-   {
-    "title": "New Foundation Model Releases",
-    "summary": "Ember-1 debuts as a new model, reflecting the relentless cadence of foundation-model launches that drive industry practice and competition.",
-    "keywords": [
-     "Ember-1",
-     "foundation model"
-    ]
-   },
-   {
-    "title": "AI Reliability and Failure Normalization",
-    "summary": "The Normalization of Inexplicable Failures warns that accepting opaque AI failures erodes trust, a pressing concern as models enter production.",
-    "keywords": [
-     "reliability",
-     "failures",
-     "trust"
-    ]
-   },
-   {
-    "title": "Browser-Based Generative Experiences",
-    "summary": "Lofi Cities and Cartopolis show browser-generated 3D worlds and lofi audio, pointing to lightweight generative AI reaching consumer applications.",
-    "keywords": [
-     "browser",
-     "generative",
-     "3D world"
-    ]
-   }
-  ]
+  "academic": [],
+  "industry": []
  },
- "news": [
-  {
-   "id": "n:4539321283",
-   "kind": "news",
-   "title": "Lunar Terminator Paradox",
-   "url": "https://notes.secretsauce.net/notes/2026/09/27_lunar-terminator-paradox.html",
-   "source": "Hacker News",
-   "date": "2026-09-27",
-   "summary": "Speculative post on a lunar terminator paradox, likely astronomy curiosity with no AI relevance.",
-   "tags": [
-    "astronomy",
-    "speculation"
-   ],
-   "extra": "",
-   "importance": 1.0,
-   "module": "news"
-  },
-  {
-   "id": "n:4810779632",
-   "kind": "news",
-   "title": "My Recent Woodworking Projects",
-   "url": "https://notoriousbfg.com/recent-woodworking-projects/",
-   "source": "Hacker News",
-   "date": "2026-09-27",
-   "summary": "Personal woodworking project showcase, unrelated to AI research or industry.",
-   "tags": [
-    "personal",
-    "diy"
-   ],
-   "extra": "",
-   "importance": 0.0,
-   "module": "news"
-  },
-  {
-   "id": "n:9935127323",
-   "kind": "news",
-   "title": "Show HN: Cartopolis, interactive globe-sized 3D world",
-   "url": "https://code.garage44.eu/jeroen/cartopolis",
-   "source": "Hacker News",
-   "date": "2026-09-27",
-   "summary": "Show HN for an interactive globe-sized 3D world, relevant to browser graphics and spatial interfaces.",
-   "tags": [
-    "3d",
-    "webgl",
-    "show-hn"
-   ],
-   "extra": "",
-   "importance": 3.0,
-   "module": "news"
-  },
-  {
-   "id": "n:3928815178",
-   "kind": "news",
-   "title": "When did Google get so weird?",
-   "url": "https://sancho.bearblog.dev/google-weird/",
-   "source": "Hacker News",
-   "date": "2026-09-27",
-   "summary": "Opinion piece on Google's changing product direction, tangential to AI industry trends.",
-   "tags": [
-    "opinion",
-    "google"
-   ],
-   "extra": "",
-   "importance": 2.0,
-   "module": "news"
-  },
-  {
-   "id": "n:142395881",
-   "kind": "news",
-   "title": "Have an LLC",
-   "url": "https://zachholman.com/posts/you-should-have-an-llc",
-   "source": "Hacker News",
-   "date": "2026-09-27",
-   "summary": "Brief note about forming an LLC, practical startup advice with minimal research value.",
-   "tags": [
-    "startup",
-    "legal"
-   ],
-   "extra": "",
-   "importance": 1.0,
-   "module": "news"
-  },
-  {
-   "id": "n:6091438035",
-   "kind": "news",
-   "title": "Self-Hosting on the Dark Web",
-   "url": "https://david.alvarezrosa.com/posts/self-hosting-on-the-dark-web/",
-   "source": "Hacker News",
-   "date": "2026-09-27",
-   "summary": "Guide to self-hosting services on Tor hidden services, relevant to privacy and decentralized infra.",
-   "tags": [
-    "tor",
-    "self-hosting",
-    "privacy"
-   ],
-   "extra": "",
-   "importance": 3.0,
-   "module": "news"
-  },
-  {
-   "id": "n:4332314486",
-   "kind": "news",
-   "title": "Alan Kay's answer to “Did the ENIAC have a BIOS”?",
-   "url": "https://www.quora.com/Did-the-ENIAC-have-a-BIOS/answer/Alan-Kay-11",
-   "source": "Hacker News",
-   "date": "2026-09-27",
-   "summary": "Alan Kay discusses whether ENIAC had a BIOS, offering historical computing insight.",
-   "tags": [
-    "computing-history",
-    "alan-kay"
-   ],
-   "extra": "",
-   "importance": 4.0,
-   "module": "news"
-  },
-  {
-   "id": "n:814593977",
-   "kind": "news",
-   "title": "Imp is a full port of DSPy to the BEAM",
-   "url": "https://github.com/deepfates/imp",
-   "source": "Hacker News",
-   "date": "2026-09-27",
-   "summary": "Imp ports DSPy prompt optimization framework to Erlang BEAM, enabling functional-language LLM pipelines.",
-   "tags": [
-    "dspy",
-    "beam",
-    "llm-tooling"
-   ],
-   "extra": "",
-   "importance": 6.0,
-   "module": "news"
-  },
-  {
-   "id": "n:7504675871",
-   "kind": "news",
-   "title": "What I did at Recurse Center",
-   "url": "https://thill.me/2026/09/11/what-i-did-at-rc.html",
-   "source": "Hacker News",
-   "date": "2026-09-27",
-   "summary": "Personal reflection on time at Recurse Center, low technical or research content.",
-   "tags": [
-    "personal",
-    "recurse-center"
-   ],
-   "extra": "",
-   "importance": 2.0,
-   "module": "news"
-  },
-  {
-   "id": "n:2546094786",
-   "kind": "news",
-   "title": "Show HN: Lofi Cities – Pixel-art city nights with browser-generated lofi",
-   "url": "https://loficities.com/",
-   "source": "Hacker News",
-   "date": "2026-09-27",
-   "summary": "Show HN for browser-generated lofi music paired with pixel-art city visuals.",
-   "tags": [
-    "generative-audio",
-    "browser",
-    "show-hn"
-   ],
-   "extra": "",
-   "importance": 3.0,
-   "module": "news"
-  },
-  {
-   "id": "n:5725504860",
-   "kind": "news",
-   "title": "Oral history of John Chowning, inventor of FM synthesis [video]",
-   "url": "https://www.youtube.com/watch?v=e1Xn3030IvM",
-   "source": "Hacker News",
-   "date": "2026-09-27",
-   "summary": "Oral history of John Chowning, FM synthesis inventor, valuable for audio synthesis history.",
-   "tags": [
-    "audio",
-    "fm-synthesis",
-    "history"
-   ],
-   "extra": "",
-   "importance": 5.0,
-   "module": "news"
-  },
-  {
-   "id": "n:407068749",
-   "kind": "news",
-   "title": "Ember-1",
-   "url": "https://fireworks.ai/blog/ember-1",
-   "source": "Hacker News",
-   "date": "2026-09-27",
-   "summary": "Ember-1 appears to be a new model or tool release, but title lacks detail.",
-   "tags": [
-    "model-release",
-    "unknown"
-   ],
-   "extra": "",
-   "importance": 4.0,
-   "module": "news"
-  },
-  {
-   "id": "n:7553504592",
-   "kind": "news",
-   "title": "Don't couple your Go code to GitHub",
-   "url": "https://iain.rocks/blog/dont-couple-your-go-code-to-github",
-   "source": "Hacker News",
-   "date": "2026-09-27",
-   "summary": "Advice on decoupling Go code from GitHub, relevant to software supply chain resilience.",
-   "tags": [
-    "go",
-    "software-engineering",
-    "supply-chain"
-   ],
-   "extra": "",
-   "importance": 4.0,
-   "module": "news"
-  },
-  {
-   "id": "n:4377436655",
-   "kind": "news",
-   "title": "Show HN: TinyAIArena watch AI agents battle it out",
-   "url": "https://tinyaiarena.com/",
-   "source": "Hacker News",
-   "date": "2026-09-27",
-   "summary": "Show HN for TinyAIArena, a platform where AI agents compete in battles.",
-   "tags": [
-    "agents",
-    "benchmark",
-    "show-hn"
-   ],
-   "extra": "",
-   "importance": 5.0,
-   "module": "news"
-  },
-  {
-   "id": "n:8648840468",
-   "kind": "news",
-   "title": "The Normalization of Inexplicable Failures",
-   "url": "https://www.ihatethefuture.com/2026/09/the-normalization-of-inexplicable.html",
-   "source": "Hacker News",
-   "date": "2026-09-27",
-   "summary": "Essay on society normalizing inexplicable system failures, relevant to AI reliability and trust.",
-   "tags": [
-    "reliability",
-    "sociotechnical",
-    "essay"
-   ],
-   "extra": "",
-   "importance": 6.0,
-   "module": "news"
-  },
-  {
-   "id": "n:5520081972",
-   "kind": "news",
-   "title": "Fragment of oldest known peace treaty found in Turkey",
-   "url": "https://www.livescience.com/archaeology/ancient-egyptians/we-have-found-traces-of-peace-thousands-of-years-old-fragment-of-worlds-oldest-known-peace-treaty-found-in-turkey",
-   "source": "Hacker News",
-   "date": "2026-09-27",
-   "summary": "Archaeological find of oldest known peace treaty, unrelated to AI.",
-   "tags": [
-    "archaeology",
-    "history"
-   ],
-   "extra": "",
-   "importance": 2.0,
-   "module": "news"
-  },
-  {
-   "id": "n:4198769735",
-   "kind": "news",
-   "title": "In an $80 motel room, a discovery to shed light on the origins of life",
-   "url": "https://www.nytimes.com/2026/09/26/science/motel-science-discovery.html",
-   "source": "Hacker News",
-   "date": "2026-09-27",
-   "summary": "Story about origins-of-life discovery in a motel room, tangential to AI.",
-   "tags": [
-    "science",
-    "origins-of-life"
-   ],
-   "extra": "",
-   "importance": 2.0,
-   "module": "news"
-  },
-  {
-   "id": "n:5467364857",
-   "kind": "news",
-   "title": "Replacing the old battery on rechargeable bike lights",
-   "url": "https://jvns.ca/blog/2026/09/27/replacing-the-old-battery-on-rechargeable-bike-lights/",
-   "source": "Hacker News",
-   "date": "2026-09-27",
-   "summary": "Practical guide to replacing rechargeable bike light batteries, no AI relevance.",
-   "tags": [
-    "diy",
-    "hardware"
-   ],
-   "extra": "",
-   "importance": 1.0,
-   "module": "news"
-  },
-  {
-   "id": "n:509226745",
-   "kind": "news",
-   "title": "Faster prompt lookup drafting in llama.cpp",
-   "url": "https://jadidbourbaki.github.io/blog/prompt-lookup-llama-cpp/",
-   "source": "Hacker News",
-   "date": "2026-09-26",
-   "summary": "Optimization for faster prompt lookup drafting in llama.cpp, improving speculative decoding efficiency.",
-   "tags": [
-    "llama.cpp",
-    "speculative-decoding",
-    "inference"
-   ],
-   "extra": "",
-   "importance": 7.0,
-   "module": "news"
-  },
-  {
-   "id": "n:2598655109",
-   "kind": "news",
-   "title": "Video CDs Break Windows Explorer",
-   "url": "https://clydesnotes.blogspot.com/2026/08/video-cds-break-windows-explorer.html",
-   "source": "Hacker News",
-   "date": "2026-09-26",
-   "summary": "Bug report that Video CDs break Windows Explorer, minor OS compatibility issue.",
-   "tags": [
-    "windows",
-    "bug",
-    "media"
-   ],
-   "extra": "",
-   "importance": 2.0,
-   "module": "news"
-  }
- ]
+ "news": []
 }
