@@ -1,4 +1,4 @@
-## Updated on 2026.09.28
+## Updated on 2026.09.29
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -16,6 +16,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-26**|**Streamlined Reflective Evolution for Task-Adaptive Self-Refinement Pipelines**|Xiaofan Zhou et.al.|[2609.32458](http://arxiv.org/abs/2609.32458)|null|
 |**2026-08-28**|**Operator Packages, Proposer Strength, and Construction-Family Plateaus in Office-Scale Verified Search**|Roberto I. Ono Filho et.al.|[2609.29636](http://arxiv.org/abs/2609.29636)|null|
 |**2026-09-10**|**T-GADE: Thermodynamical Generative-AI-Driven Evolution of LLM Artifacts**|Kyoko Ogawa et.al.|[2609.12286](http://arxiv.org/abs/2609.12286)|null|
 |**2026-09-23**|**RideSkill: A Hierarchical Algorithm for Generalized Ride Sharing with LLM-Driven Automatic Evolution**|Zijian Zhao et.al.|[2609.02250](http://arxiv.org/abs/2609.02250)|null|
@@ -28,12 +29,15 @@
 |**2026-07-29**|**FunL2O: LLM-Guided Feature Function Design for Learning to Optimize**|Bingheng Li et.al.|[2607.27389](http://arxiv.org/abs/2607.27389)|null|
 |**2026-07-13**|**RefineEvo: Planning-Guided Heuristic Evolution with Bidirectional Experience**|Yang Wu et.al.|[2607.11358](http://arxiv.org/abs/2607.11358)|null|
 
-<p align=right>(<a href=#updated-on-20260928>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260929>back to top</a>)</p>
 
 ## LLM Auto-Formulation
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-25**|**TaiJi: State-Conditional Adaptive Combination of Machine-Learning and Physics-Based Global Weather Forecasts**|Jiale Wang et.al.|[2609.31972](http://arxiv.org/abs/2609.31972)|null|
+|**2026-09-25**|**End-to-end QP-based policies: A unified perspective on robust control and robot learning**|Fausto Vega et.al.|[2609.31905](http://arxiv.org/abs/2609.31905)|null|
+|**2026-09-25**|**Online Learning via Learned Latent Bayesian Tracking**|Guy Gerson et.al.|[2609.31559](http://arxiv.org/abs/2609.31559)|null|
 |**2026-09-24**|**Smooth Information Criterion for Variable Selection in Generalised Linear Models**|Andrew McInerney et.al.|[2609.30174](http://arxiv.org/abs/2609.30174)|null|
 |**2026-09-24**|**Schedules Are Solvable Symbols: Tuning-Free Compilation of Tile Programs on Dataflow Architectures**|Heru Wang et.al.|[2609.29219](http://arxiv.org/abs/2609.29219)|null|
 |**2026-09-23**|**Amplify: A Lightweight Library for Reproducible Nonlinear Programming Problems in Robotics**|Nelson Rosa et.al.|[2609.28377](http://arxiv.org/abs/2609.28377)|null|
@@ -49,12 +53,17 @@
 |**2026-09-16**|**From Corridor Selection to Earthwork: A Multi-Stage Framework for Automated Road Design via Steiner Trees and Convex Optimization**|Paavai Manimaran Vanjeenathammal et.al.|[2609.19350](http://arxiv.org/abs/2609.19350)|null|
 |**2026-09-16**|**Evidence-Grounded Agentic Formulation Development in an Autonomous Laboratory**|Michael M. Craig et.al.|[2609.19099](http://arxiv.org/abs/2609.19099)|null|
 
-<p align=right>(<a href=#updated-on-20260928>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260929>back to top</a>)</p>
 
 ## L2O / Learning to Optimize
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-26**|**PolyStepOR: Learning to Decide Without Optimal Decisions**|Viet The Nguyen et.al.|[2609.32465](http://arxiv.org/abs/2609.32465)|null|
+|**2026-09-25**|**Adaptive Dissipative State Preparation through Reinforcement Learning**|Nathan M. Myers et.al.|[2609.31370](http://arxiv.org/abs/2609.31370)|null|
+|**2026-09-25**|**Modeling quantum neural network gradient with reinforcement learning**|Nhan Trong Luu et.al.|[2609.31066](http://arxiv.org/abs/2609.31066)|null|
+|**2026-09-25**|**Concurrent Parameter Learning and Current Control for Large-scale Grid-following Inverter-based Resources**|Satish Vedula et.al.|[2609.30723](http://arxiv.org/abs/2609.30723)|null|
+|**2026-09-24**|**Spectral Feedback for Test-Time Alignment of Protein Diffusion Models**|Shai Dickman et.al.|[2609.30456](http://arxiv.org/abs/2609.30456)|null|
 |**2026-09-24**|**Proper Agnostic Learning of Matrix Product States and Tree Tensor Networks**|Constantin Cedillo Vayson de Pradenne et.al.|[2609.30148](http://arxiv.org/abs/2609.30148)|null|
 |**2026-09-24**|**Deep-learning-aided dismantling of interdependent networks**|Weiwei Gu et.al.|[2609.28977](http://arxiv.org/abs/2609.28977)|null|
 |**2026-09-23**|**Safe Receding Horizon Mixed-Integer Differentiable Predictive Control for Degradation-Aware Battery Dispatch**|Eshagh Safarzadeh Ravajiri et.al.|[2609.28698](http://arxiv.org/abs/2609.28698)|null|
@@ -70,12 +79,15 @@
 |**2026-09-17**|**MATCH: Model-Aware Tool Learning with Curriculum Scheduling and Hierarchically Gated Rewards**|Shihao Liu et.al.|[2609.20082](http://arxiv.org/abs/2609.20082)|null|
 |**2026-09-16**|**STUART: Sequence Triage and qUAntification of Read Transcripts for Rapid Ionizing Radiation Exposure Assessment**|Tomasz Strzoda et.al.|[2609.19139](http://arxiv.org/abs/2609.19139)|null|
 
-<p align=right>(<a href=#updated-on-20260928>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260929>back to top</a>)</p>
 
 ## VRP / Combinatorial Solving
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-26**|**MemAgent: Learning to Manage Heterogeneous Memory Providers for LLM Agents**|Yongxian Wei et.al.|[2609.32521](http://arxiv.org/abs/2609.32521)|null|
+|**2026-09-18**|**Disentangle and Drop: Robust Universal Removal of Image Watermarks via Reconstructive Grayscale Residual Decomposition**|Qi Li et.al.|[2609.31693](http://arxiv.org/abs/2609.31693)|null|
+|**2026-09-25**|**SPO: Discovering Adaptive Large Neighborhood Search Operators via Stackelberg Program Optimization**|Xinyi Ke et.al.|[2609.31179](http://arxiv.org/abs/2609.31179)|null|
 |**2026-09-24**|**One-shot Routing in Quantum Networks**|Nadav Lavi et.al.|[2609.29752](http://arxiv.org/abs/2609.29752)|null|
 |**2026-09-24**|**SARFusion: Scene-Aware Routing Fusion for Robust Camera-LiDAR 3D Object Detection**|Yuting Zhao et.al.|[2609.29235](http://arxiv.org/abs/2609.29235)|null|
 |**2026-09-22**|**When Should Dependency Updates Invoke Repair Agents? A Lightweight Routing Study**|Liheng Fan et.al.|[2609.25911](http://arxiv.org/abs/2609.25911)|null|
@@ -89,7 +101,7 @@
 |**2026-09-16**|**APGEM: Adaptive Policy-Guided Error Mitigation for Quantum Reinforcement Learning on a Real-World CVRP Case Study**|Shabir Ahmad Sofi et.al.|[2609.18219](http://arxiv.org/abs/2609.18219)|null|
 |**2026-09-15**|**Data-Driven Stress Testing of Intermodal Freight Networks Using GAN-Generated Disruption Scenarios**|Xudong Wang et.al.|[2609.17373](http://arxiv.org/abs/2609.17373)|null|
 
-<p align=right>(<a href=#updated-on-20260928>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260929>back to top</a>)</p>
 
 ## Solver Intelligence
 
@@ -107,5 +119,5 @@
 |**2026-09-09**|**Economic Evaluation of V2G-Enabled Fast Charging Stations Under Endogenous EV Adoption Dynamics**|Mingjian Tuo et.al.|[2609.10388](http://arxiv.org/abs/2609.10388)|null|
 |**2026-09-07**|**A New Perspective on Clustering: A Mixed-norm Model and its Solution by Progressive Integer Programming**|Junyi Liu et.al.|[2609.08002](http://arxiv.org/abs/2609.08002)|null|
 
-<p align=right>(<a href=#updated-on-20260928>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260929>back to top</a>)</p>
 
