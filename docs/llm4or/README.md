@@ -1,4 +1,4 @@
-## Updated on 2026.09.29
+## Updated on 2026.09.30
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -16,6 +16,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-28**|**Explainable Deep Learning for Probabilistic Nowcasting of Radar Reflectivity in Tornadic Storms**|Nathan Erickson et.al.|[2609.35675](http://arxiv.org/abs/2609.35675)|null|
 |**2026-09-26**|**Streamlined Reflective Evolution for Task-Adaptive Self-Refinement Pipelines**|Xiaofan Zhou et.al.|[2609.32458](http://arxiv.org/abs/2609.32458)|null|
 |**2026-08-28**|**Operator Packages, Proposer Strength, and Construction-Family Plateaus in Office-Scale Verified Search**|Roberto I. Ono Filho et.al.|[2609.29636](http://arxiv.org/abs/2609.29636)|null|
 |**2026-09-10**|**T-GADE: Thermodynamical Generative-AI-Driven Evolution of LLM Artifacts**|Kyoko Ogawa et.al.|[2609.12286](http://arxiv.org/abs/2609.12286)|null|
@@ -29,12 +30,22 @@
 |**2026-07-29**|**FunL2O: LLM-Guided Feature Function Design for Learning to Optimize**|Bingheng Li et.al.|[2607.27389](http://arxiv.org/abs/2607.27389)|null|
 |**2026-07-13**|**RefineEvo: Planning-Guided Heuristic Evolution with Bidirectional Experience**|Yang Wu et.al.|[2607.11358](http://arxiv.org/abs/2607.11358)|null|
 
-<p align=right>(<a href=#updated-on-20260929>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260930>back to top</a>)</p>
 
 ## LLM Auto-Formulation
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-29**|**MemEvo: Automatic Discovery of Streaming Video Memory Mechanisms**|Guohong Liu et.al.|[2609.36581](http://arxiv.org/abs/2609.36581)|null|
+|**2026-09-28**|**Collaborative Principle Evolution via Evidence Transfer for Scientific Discovery**|Yingming Pu et.al.|[2609.35315](http://arxiv.org/abs/2609.35315)|null|
+|**2026-09-28**|**When Do Model Internals Help? Exploring the Role of Representation Engineering in LLM Safety**|Tianyi Guan et.al.|[2609.34771](http://arxiv.org/abs/2609.34771)|null|
+|**2026-09-28**|**KiT: A Foundation Model for Financial Time-Series Forecasting using DiffusionTransformers**|Boyu Zhang et.al.|[2609.34507](http://arxiv.org/abs/2609.34507)|null|
+|**2026-09-28**|**A Comparative Study on Robust Topology Optimization of Design-Dependent Pressure-Actuated Compliant Mechanisms with Quadrilateral Elements**|Swagatam Islam Sarkar et.al.|[2609.34341](http://arxiv.org/abs/2609.34341)|null|
+|**2026-09-28**|**Learning to Optimize through Solver-Grounded Self-Play**|Xia Jiang et.al.|[2609.34205](http://arxiv.org/abs/2609.34205)|null|
+|**2026-09-27**|**Constraining Ultra-Light Vector Bosons via Solar Neutrino Oscillations: The Gauged $L_μ- L_τ$ Model and Prospects for JUNO and XLZD**|Ilídio Lopes et.al.|[2609.33877](http://arxiv.org/abs/2609.33877)|null|
+|**2026-09-27**|**E-CONAN (Entailment, CONtradition And Neutral) Diagnostics Dataset Investigating Linguistic Phenomena in Arabic Natural Language Understanding**|Khloud AL Jallad et.al.|[2609.33530](http://arxiv.org/abs/2609.33530)|null|
+|**2026-09-26**|**Relative Generalization Invariance of LLM Pretraining**|Fengzhuo Zhang et.al.|[2609.33016](http://arxiv.org/abs/2609.33016)|null|
+|**2026-09-26**|**The Impact of Stochasticity on the Rashomon Effect in Machine Learning**|Andrea Apicella et.al.|[2609.32934](http://arxiv.org/abs/2609.32934)|null|
 |**2026-09-25**|**TaiJi: State-Conditional Adaptive Combination of Machine-Learning and Physics-Based Global Weather Forecasts**|Jiale Wang et.al.|[2609.31972](http://arxiv.org/abs/2609.31972)|null|
 |**2026-09-25**|**End-to-end QP-based policies: A unified perspective on robust control and robot learning**|Fausto Vega et.al.|[2609.31905](http://arxiv.org/abs/2609.31905)|null|
 |**2026-09-25**|**Online Learning via Learned Latent Bayesian Tracking**|Guy Gerson et.al.|[2609.31559](http://arxiv.org/abs/2609.31559)|null|
@@ -53,12 +64,21 @@
 |**2026-09-16**|**From Corridor Selection to Earthwork: A Multi-Stage Framework for Automated Road Design via Steiner Trees and Convex Optimization**|Paavai Manimaran Vanjeenathammal et.al.|[2609.19350](http://arxiv.org/abs/2609.19350)|null|
 |**2026-09-16**|**Evidence-Grounded Agentic Formulation Development in an Autonomous Laboratory**|Michael M. Craig et.al.|[2609.19099](http://arxiv.org/abs/2609.19099)|null|
 
-<p align=right>(<a href=#updated-on-20260929>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260930>back to top</a>)</p>
 
 ## L2O / Learning to Optimize
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-28**|**Finite-Sample Theory for Fitted Q-Iteration When Actions Are Functions**|Gefei Lin et.al.|[2609.36390](http://arxiv.org/abs/2609.36390)|null|
+|**2026-09-28**|**Understanding Decision-Making Mechanisms in Neural Routing Solvers**|Fatemeh Askari et.al.|[2609.36063](http://arxiv.org/abs/2609.36063)|null|
+|**2026-09-28**|**Learned Preconditioning for a Primal-Dual Interior-Point Method**|Abhinav Madabhushi et.al.|[2609.35665](http://arxiv.org/abs/2609.35665)|null|
+|**2026-09-28**|**Elicitation and Decision Geometry in Single-Index Bandits**|Sakshi Arya et.al.|[2609.35622](http://arxiv.org/abs/2609.35622)|null|
+|**2026-09-28**|**Hyper Algorithm Design Agent: Evolving Learnable Optimizer from Zero**|Zipei Yu et.al.|[2609.35328](http://arxiv.org/abs/2609.35328)|null|
+|**2026-09-28**|**Automated feature engineering, AutoML, and decision-focused learning for improved energy consumption forecasting**|Nasser Alkhulaifi et.al.|[2609.35013](http://arxiv.org/abs/2609.35013)|null|
+|**2026-09-28**|**SOLAR: A State-Driven Online Learning Rate Scheduler for LLM Pretraining**|Qiulin Shang et.al.|[2609.34681](http://arxiv.org/abs/2609.34681)|null|
+|**2026-09-28**|**Learning to Optimize through Solver-Grounded Self-Play**|Xia Jiang et.al.|[2609.34205](http://arxiv.org/abs/2609.34205)|null|
+|**2026-09-29**|**Obtaining Game-Stationary Points for Smooth Nonconvex-Nonconcave Minimax Problems via First-Order Methods**|Mengxuan Dong et.al.|[2609.32970](http://arxiv.org/abs/2609.32970)|null|
 |**2026-09-26**|**PolyStepOR: Learning to Decide Without Optimal Decisions**|Viet The Nguyen et.al.|[2609.32465](http://arxiv.org/abs/2609.32465)|null|
 |**2026-09-25**|**Adaptive Dissipative State Preparation through Reinforcement Learning**|Nathan M. Myers et.al.|[2609.31370](http://arxiv.org/abs/2609.31370)|null|
 |**2026-09-25**|**Modeling quantum neural network gradient with reinforcement learning**|Nhan Trong Luu et.al.|[2609.31066](http://arxiv.org/abs/2609.31066)|null|
@@ -79,12 +99,16 @@
 |**2026-09-17**|**MATCH: Model-Aware Tool Learning with Curriculum Scheduling and Hierarchically Gated Rewards**|Shihao Liu et.al.|[2609.20082](http://arxiv.org/abs/2609.20082)|null|
 |**2026-09-16**|**STUART: Sequence Triage and qUAntification of Read Transcripts for Rapid Ionizing Radiation Exposure Assessment**|Tomasz Strzoda et.al.|[2609.19139](http://arxiv.org/abs/2609.19139)|null|
 
-<p align=right>(<a href=#updated-on-20260929>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260930>back to top</a>)</p>
 
 ## VRP / Combinatorial Solving
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-28**|**Understanding Decision-Making Mechanisms in Neural Routing Solvers**|Fatemeh Askari et.al.|[2609.36063](http://arxiv.org/abs/2609.36063)|null|
+|**2026-09-28**|**Just Initialize: A Training-Free Initialization Component for Large-Scale Routing Optimization**|Jiale Zhao et.al.|[2609.35443](http://arxiv.org/abs/2609.35443)|null|
+|**2026-09-28**|**Depot-Closed Multi-Component Construction for Neural Vehicle Routing**|Shinichiro Hamada et.al.|[2609.35066](http://arxiv.org/abs/2609.35066)|null|
+|**2026-09-26**|**On the T-Adaptive Segment Routing Problem**|Amal Benhamiche et.al.|[2609.32896](http://arxiv.org/abs/2609.32896)|null|
 |**2026-09-26**|**MemAgent: Learning to Manage Heterogeneous Memory Providers for LLM Agents**|Yongxian Wei et.al.|[2609.32521](http://arxiv.org/abs/2609.32521)|null|
 |**2026-09-18**|**Disentangle and Drop: Robust Universal Removal of Image Watermarks via Reconstructive Grayscale Residual Decomposition**|Qi Li et.al.|[2609.31693](http://arxiv.org/abs/2609.31693)|null|
 |**2026-09-25**|**SPO: Discovering Adaptive Large Neighborhood Search Operators via Stackelberg Program Optimization**|Xinyi Ke et.al.|[2609.31179](http://arxiv.org/abs/2609.31179)|null|
@@ -101,12 +125,16 @@
 |**2026-09-16**|**APGEM: Adaptive Policy-Guided Error Mitigation for Quantum Reinforcement Learning on a Real-World CVRP Case Study**|Shabir Ahmad Sofi et.al.|[2609.18219](http://arxiv.org/abs/2609.18219)|null|
 |**2026-09-15**|**Data-Driven Stress Testing of Intermodal Freight Networks Using GAN-Generated Disruption Scenarios**|Xudong Wang et.al.|[2609.17373](http://arxiv.org/abs/2609.17373)|null|
 
-<p align=right>(<a href=#updated-on-20260929>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260930>back to top</a>)</p>
 
 ## Solver Intelligence
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-28**|**HeurEvo: Agentic Evolution of Hybrid Solver-Augmented Heuristics for Time-Critical Mathematical Optimization**|Feijie Wu et.al.|[2609.36303](http://arxiv.org/abs/2609.36303)|null|
+|**2026-09-27**|**An Intersection Cutting Plane Algorithm for Chance-Constrained Programs with Finite Support**|Soumya Ranjan Pathy et.al.|[2609.33946](http://arxiv.org/abs/2609.33946)|null|
+|**2026-09-27**|**On the Relevance of Incorporating Decision Dependence in Distributional Ambiguity**|Hamed Rahimian et.al.|[2609.33926](http://arxiv.org/abs/2609.33926)|null|
+|**2026-09-27**|**ChemOPD: Multi-Teacher On-Policy Distillation for Multi-Task Chemical Reasoning**|Yaoyao Xu et.al.|[2609.33838](http://arxiv.org/abs/2609.33838)|null|
 |**2026-09-23**|**Safe Receding Horizon Mixed-Integer Differentiable Predictive Control for Degradation-Aware Battery Dispatch**|Eshagh Safarzadeh Ravajiri et.al.|[2609.28698](http://arxiv.org/abs/2609.28698)|null|
 |**2026-09-22**|**Neutral-Atom-based Quantum Optimization for Resource Allocation in NOMA Networks**|Patatchona Keyela et.al.|[2609.26556](http://arxiv.org/abs/2609.26556)|null|
 |**2026-09-20**|**Contextual Distributionally Robust Chance-Constrained Programs: Exact Reformulations and Valid Inequalities**|Hanbin Yang et.al.|[2609.23739](http://arxiv.org/abs/2609.23739)|null|
@@ -119,5 +147,5 @@
 |**2026-09-09**|**Economic Evaluation of V2G-Enabled Fast Charging Stations Under Endogenous EV Adoption Dynamics**|Mingjian Tuo et.al.|[2609.10388](http://arxiv.org/abs/2609.10388)|null|
 |**2026-09-07**|**A New Perspective on Clustering: A Mixed-norm Model and its Solution by Progressive Integer Programming**|Junyi Liu et.al.|[2609.08002](http://arxiv.org/abs/2609.08002)|null|
 
-<p align=right>(<a href=#updated-on-20260929>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260930>back to top</a>)</p>
 
