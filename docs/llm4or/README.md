@@ -1,4 +1,4 @@
-## Updated on 2026.09.30
+## Updated on 2026.10.01
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -30,12 +30,17 @@
 |**2026-07-29**|**FunL2O: LLM-Guided Feature Function Design for Learning to Optimize**|Bingheng Li et.al.|[2607.27389](http://arxiv.org/abs/2607.27389)|null|
 |**2026-07-13**|**RefineEvo: Planning-Guided Heuristic Evolution with Bidirectional Experience**|Yang Wu et.al.|[2607.11358](http://arxiv.org/abs/2607.11358)|null|
 
-<p align=right>(<a href=#updated-on-20260930>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261001>back to top</a>)</p>
 
 ## LLM Auto-Formulation
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-30**|**Right Answers, Costly Models: The Efficiency Gap in LLM-based Optimization Modeling**|Zhong Li et.al.|[2609.38884](http://arxiv.org/abs/2609.38884)|null|
+|**2026-09-29**|**TACIT: Optimization Models that Learn from Their Mistakes**|Maxime Bouscary et.al.|[2609.38434](http://arxiv.org/abs/2609.38434)|null|
+|**2026-09-29**|**TabFM: A Zero-Shot Foundation Model for Tabular Data**|Weihao Kong et.al.|[2609.37959](http://arxiv.org/abs/2609.37959)|null|
+|**2026-09-29**|**SemOPT: Fixing Semantic Errors in LLM-based Optimization Modeling via Reward-Guided Search**|Zetong Zhou et.al.|[2609.37361](http://arxiv.org/abs/2609.37361)|null|
+|**2026-09-29**|**Equally Good, Yet Different: Benchmarking Rashomon sets in AutoML packages**|Katarzyna Woźnica et.al.|[2609.36970](http://arxiv.org/abs/2609.36970)|null|
 |**2026-09-29**|**MemEvo: Automatic Discovery of Streaming Video Memory Mechanisms**|Guohong Liu et.al.|[2609.36581](http://arxiv.org/abs/2609.36581)|null|
 |**2026-09-28**|**Collaborative Principle Evolution via Evidence Transfer for Scientific Discovery**|Yingming Pu et.al.|[2609.35315](http://arxiv.org/abs/2609.35315)|null|
 |**2026-09-28**|**When Do Model Internals Help? Exploring the Role of Representation Engineering in LLM Safety**|Tianyi Guan et.al.|[2609.34771](http://arxiv.org/abs/2609.34771)|null|
@@ -64,12 +69,14 @@
 |**2026-09-16**|**From Corridor Selection to Earthwork: A Multi-Stage Framework for Automated Road Design via Steiner Trees and Convex Optimization**|Paavai Manimaran Vanjeenathammal et.al.|[2609.19350](http://arxiv.org/abs/2609.19350)|null|
 |**2026-09-16**|**Evidence-Grounded Agentic Formulation Development in an Autonomous Laboratory**|Michael M. Craig et.al.|[2609.19099](http://arxiv.org/abs/2609.19099)|null|
 
-<p align=right>(<a href=#updated-on-20260930>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261001>back to top</a>)</p>
 
 ## L2O / Learning to Optimize
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-29**|**Teaching LLMs to Generate Challenging MILP Instances via Solver Feedback**|Jitin Singla et.al.|[2609.37356](http://arxiv.org/abs/2609.37356)|null|
+|**2026-09-29**|**RL-PaO: Prediction as Action in Decision Making under Uncertainty**|Jiahui Feng et.al.|[2609.37065](http://arxiv.org/abs/2609.37065)|null|
 |**2026-09-28**|**Finite-Sample Theory for Fitted Q-Iteration When Actions Are Functions**|Gefei Lin et.al.|[2609.36390](http://arxiv.org/abs/2609.36390)|null|
 |**2026-09-28**|**Understanding Decision-Making Mechanisms in Neural Routing Solvers**|Fatemeh Askari et.al.|[2609.36063](http://arxiv.org/abs/2609.36063)|null|
 |**2026-09-28**|**Learned Preconditioning for a Primal-Dual Interior-Point Method**|Abhinav Madabhushi et.al.|[2609.35665](http://arxiv.org/abs/2609.35665)|null|
@@ -99,14 +106,19 @@
 |**2026-09-17**|**MATCH: Model-Aware Tool Learning with Curriculum Scheduling and Hierarchically Gated Rewards**|Shihao Liu et.al.|[2609.20082](http://arxiv.org/abs/2609.20082)|null|
 |**2026-09-16**|**STUART: Sequence Triage and qUAntification of Read Transcripts for Rapid Ionizing Radiation Exposure Assessment**|Tomasz Strzoda et.al.|[2609.19139](http://arxiv.org/abs/2609.19139)|null|
 
-<p align=right>(<a href=#updated-on-20260930>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261001>back to top</a>)</p>
 
 ## VRP / Combinatorial Solving
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-30**|**GeoNest: Learning to Select Failure-Aware Neighborhoods for the Irregular Knapsack Problem in a Circular Container**|Zhongman Du et.al.|[2609.38863](http://arxiv.org/abs/2609.38863)|null|
+|**2026-09-30**|**HALO: Heterogeneous Allocation Via Localized Observations for the Vehicle Routing Problem**|Andrew Meighan et.al.|[2609.38760](http://arxiv.org/abs/2609.38760)|null|
+|**2026-09-28**|**A Two-Echelon Covering Tour Vehicle Routing Problem with Drones for Post-Disaster Relief**|Dang Viet Anh Nguyen et.al.|[2609.38227](http://arxiv.org/abs/2609.38227)|null|
+|**2026-09-29**|**You Cannot Pick a Provider From the Price List: Market-Aware Routing for Open-Weight LLM Inference**|Liang He et.al.|[2609.37902](http://arxiv.org/abs/2609.37902)|null|
+|**2026-09-29**|**A Neutral Atom-Based Hybrid Classical-Quantum Approach for the Entanglement Routing Problem**|M. Yassine Naghmouchi et.al.|[2609.37900](http://arxiv.org/abs/2609.37900)|null|
 |**2026-09-28**|**Understanding Decision-Making Mechanisms in Neural Routing Solvers**|Fatemeh Askari et.al.|[2609.36063](http://arxiv.org/abs/2609.36063)|null|
-|**2026-09-28**|**Just Initialize: A Training-Free Initialization Component for Large-Scale Routing Optimization**|Jiale Zhao et.al.|[2609.35443](http://arxiv.org/abs/2609.35443)|null|
+|**2026-09-29**|**Just Initialize: A Training-Free Initialization Component for Large-Scale Routing Optimization**|Jiale Zhao et.al.|[2609.35443](http://arxiv.org/abs/2609.35443)|null|
 |**2026-09-28**|**Depot-Closed Multi-Component Construction for Neural Vehicle Routing**|Shinichiro Hamada et.al.|[2609.35066](http://arxiv.org/abs/2609.35066)|null|
 |**2026-09-26**|**On the T-Adaptive Segment Routing Problem**|Amal Benhamiche et.al.|[2609.32896](http://arxiv.org/abs/2609.32896)|null|
 |**2026-09-26**|**MemAgent: Learning to Manage Heterogeneous Memory Providers for LLM Agents**|Yongxian Wei et.al.|[2609.32521](http://arxiv.org/abs/2609.32521)|null|
@@ -125,15 +137,18 @@
 |**2026-09-16**|**APGEM: Adaptive Policy-Guided Error Mitigation for Quantum Reinforcement Learning on a Real-World CVRP Case Study**|Shabir Ahmad Sofi et.al.|[2609.18219](http://arxiv.org/abs/2609.18219)|null|
 |**2026-09-15**|**Data-Driven Stress Testing of Intermodal Freight Networks Using GAN-Generated Disruption Scenarios**|Xudong Wang et.al.|[2609.17373](http://arxiv.org/abs/2609.17373)|null|
 
-<p align=right>(<a href=#updated-on-20260930>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261001>back to top</a>)</p>
 
 ## Solver Intelligence
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-30**|**Defect-Aware Parallel Atom Reloading Protocol for Neutral-Atom Quantum Computers**|Koki Aoyama et.al.|[2609.38939](http://arxiv.org/abs/2609.38939)|null|
+|**2026-09-29**|**Robustness of Local Energy Markets to Cyberattacks: Case Study of False Data Injection**|Mehran Moradi et.al.|[2609.38258](http://arxiv.org/abs/2609.38258)|null|
+|**2026-09-29**|**Hybrid Joint-Selective Optimization: Reduced-Space Levenberg-Marquardt Refinement of Low-Dimensional Parameters of Interest**|Muhammad Luthfi Shahab et.al.|[2609.37308](http://arxiv.org/abs/2609.37308)|null|
 |**2026-09-28**|**HeurEvo: Agentic Evolution of Hybrid Solver-Augmented Heuristics for Time-Critical Mathematical Optimization**|Feijie Wu et.al.|[2609.36303](http://arxiv.org/abs/2609.36303)|null|
 |**2026-09-27**|**An Intersection Cutting Plane Algorithm for Chance-Constrained Programs with Finite Support**|Soumya Ranjan Pathy et.al.|[2609.33946](http://arxiv.org/abs/2609.33946)|null|
-|**2026-09-27**|**On the Relevance of Incorporating Decision Dependence in Distributional Ambiguity**|Hamed Rahimian et.al.|[2609.33926](http://arxiv.org/abs/2609.33926)|null|
+|**2026-09-29**|**On the Relevance of Incorporating Decision Dependence in Distributional Ambiguity**|Hamed Rahimian et.al.|[2609.33926](http://arxiv.org/abs/2609.33926)|null|
 |**2026-09-27**|**ChemOPD: Multi-Teacher On-Policy Distillation for Multi-Task Chemical Reasoning**|Yaoyao Xu et.al.|[2609.33838](http://arxiv.org/abs/2609.33838)|null|
 |**2026-09-23**|**Safe Receding Horizon Mixed-Integer Differentiable Predictive Control for Degradation-Aware Battery Dispatch**|Eshagh Safarzadeh Ravajiri et.al.|[2609.28698](http://arxiv.org/abs/2609.28698)|null|
 |**2026-09-22**|**Neutral-Atom-based Quantum Optimization for Resource Allocation in NOMA Networks**|Patatchona Keyela et.al.|[2609.26556](http://arxiv.org/abs/2609.26556)|null|
@@ -147,5 +162,5 @@
 |**2026-09-09**|**Economic Evaluation of V2G-Enabled Fast Charging Stations Under Endogenous EV Adoption Dynamics**|Mingjian Tuo et.al.|[2609.10388](http://arxiv.org/abs/2609.10388)|null|
 |**2026-09-07**|**A New Perspective on Clustering: A Mixed-norm Model and its Solution by Progressive Integer Programming**|Junyi Liu et.al.|[2609.08002](http://arxiv.org/abs/2609.08002)|null|
 
-<p align=right>(<a href=#updated-on-20260930>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261001>back to top</a>)</p>
 
