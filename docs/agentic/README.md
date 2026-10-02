@@ -1,4 +1,4 @@
-## Updated on 2026.10.01
+## Updated on 2026.10.02
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -16,6 +16,16 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-01**|**AbsorbEvo: An Agentic Framework for Autonomous Inverse Design of Microwave Absorbers**|Zhicheng Feng et.al.|[2610.01119](http://arxiv.org/abs/2610.01119)|null|
+|**2026-10-01**|**Role-aware Heuristic Episodic Attention for Conversational LLMs**|Wanyang Hong et.al.|[2610.00958](http://arxiv.org/abs/2610.00958)|null|
+|**2026-10-01**|**Automated Many-Body Simulations of Strongly Correlated Systems Using a Correlation-Aware Agentic Framework**|Tenghui Li et.al.|[2610.00943](http://arxiv.org/abs/2610.00943)|null|
+|**2026-10-01**|**ActiveSaddler: Automated Curriculum Learning for Agent Harness Optimization**|Sungho Park et.al.|[2610.00906](http://arxiv.org/abs/2610.00906)|null|
+|**2026-10-01**|**Cross-Benchmark Transfer from RL on Agentic Coding Tasks**|Sushant Mehta et.al.|[2610.00890](http://arxiv.org/abs/2610.00890)|null|
+|**2026-10-01**|**FORALL-LEAN-AGENT for Auditable Reasoning in Formal Mathematics and Software Verification**|Naing Oo Lwin et.al.|[2610.00885](http://arxiv.org/abs/2610.00885)|null|
+|**2026-09-30**|**LabBook: Harnessing Experimental History for Efficient LLM-Driven Discovery**|Bo Yuan et.al.|[2610.00675](http://arxiv.org/abs/2610.00675)|null|
+|**2026-09-30**|**Self-Evolving Coding Rules for AI Coding Agents**|Zhengyuan Jiang et.al.|[2610.00650](http://arxiv.org/abs/2610.00650)|null|
+|**2026-09-30**|**Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model**|Liming Lu et.al.|[2609.40358](http://arxiv.org/abs/2609.40358)|null|
+|**2026-09-30**|**Cogentic: Multi-Agent Orchestration for Automated Proof Discovery**|Yang Cai et.al.|[2609.40324](http://arxiv.org/abs/2609.40324)|null|
 |**2026-09-30**|**DAGent: Evaluate-then-Grow Planning for Deep Research Agents**|Hanwen Liu et.al.|[2609.39154](http://arxiv.org/abs/2609.39154)|null|
 |**2026-09-30**|**RefCon: Iterative Refinement and Contrastive Memory Extraction for Context-Evolving Agent**|Ubaidillah Ariq Prathama et.al.|[2609.39143](http://arxiv.org/abs/2609.39143)|null|
 |**2026-09-30**|**Schema: Discovering Unknown Environments via Agentic Program Induction**|Guanning Zeng et.al.|[2609.39140](http://arxiv.org/abs/2609.39140)|null|
@@ -67,12 +77,22 @@
 |**2026-09-22**|**GameDirector: Decoupling Gameplay Logic from Rendering for Player-Configurable Game World Models**|Zijun Lin et.al.|[2609.25652](http://arxiv.org/abs/2609.25652)|null|
 |**2026-09-22**|**Qwen3.8-Omni: Towards Native Omni-Modal Agents**|Qwen Team et.al.|[2609.25611](http://arxiv.org/abs/2609.25611)|null|
 
-<p align=right>(<a href=#updated-on-20261001>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261002>back to top</a>)</p>
 
 ## MCP / Tool Protocols
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-01**|**PACE: Provenance-Aware Capability Enforcement for Tool-Using LLM Agents**|Fengpeng Li et.al.|[2610.01349](http://arxiv.org/abs/2610.01349)|null|
+|**2026-10-01**|**Federated Agent Optimization**|Qiang Yang et.al.|[2610.01195](http://arxiv.org/abs/2610.01195)|null|
+|**2026-10-01**|**CineMR: Tool-Integrated Vision-Language Reasoning for Quantitative Cardiac MRI Assessment**|Kunyang Li et.al.|[2610.01166](http://arxiv.org/abs/2610.01166)|null|
+|**2026-10-01**|**PG-SFT: Balancing Capability Acquisition and Retention in Offline Agent Fine-Tuning**|Ronghua Li et.al.|[2610.00949](http://arxiv.org/abs/2610.00949)|null|
+|**2026-10-01**|**Finding the Right Fit: Model-Harness Interactions across Agent Tasks**|Yixuan Li et.al.|[2610.00917](http://arxiv.org/abs/2610.00917)|null|
+|**2026-09-30**|**Sapien: A Stateful Policy Engine for Autonomous AI Agents**|Corinn Tiffany et.al.|[2610.00797](http://arxiv.org/abs/2610.00797)|null|
+|**2026-09-30**|**Legal Research Bench: Measuring End-to-End Reliability in Long-Horizon Legal Research Agents**|Katrina Drozdov et.al.|[2610.00609](http://arxiv.org/abs/2610.00609)|null|
+|**2026-09-30**|**Make Sparse Rewards Count: Density-Aware Reward Aggregation for Multi-Reward RL**|Tong Zheng et.al.|[2610.00574](http://arxiv.org/abs/2610.00574)|null|
+|**2026-09-30**|**Skill-Based AI Agents for Power-System Studies**|Pavel Etingov et.al.|[2609.40272](http://arxiv.org/abs/2609.40272)|null|
+|**2026-09-30**|**Learning from Research: Toward Lifelong Agent Harness Evolution**|Jingbo Yang et.al.|[2609.40169](http://arxiv.org/abs/2609.40169)|null|
 |**2026-09-30**|**DAGent: Evaluate-then-Grow Planning for Deep Research Agents**|Hanwen Liu et.al.|[2609.39154](http://arxiv.org/abs/2609.39154)|null|
 |**2026-09-30**|**Explicit Trajectory Diversity for RL-Based Post-Training of LLM Agents**|Huaiyu Fu et.al.|[2609.38805](http://arxiv.org/abs/2609.38805)|null|
 |**2026-09-30**|**PathAnchor: Path-Structured Evidence for Scientific Agents**|Qiuhui Chen et.al.|[2609.38766](http://arxiv.org/abs/2609.38766)|null|
@@ -124,12 +144,22 @@
 |**2026-09-22**|**Knowledge-as-Skill: A Structural Design for Autonomous Knowledge-Base Use by LLM Agents**|Jiangxu Wu et.al.|[2609.25991](http://arxiv.org/abs/2609.25991)|null|
 |**2026-09-22**|**Governed AI-Agent Coordination for Dementia Care: Architecture, Safety Contracts, and Evidence-Derived Workflow Verification**|Francesca Medda et.al.|[2609.25956](http://arxiv.org/abs/2609.25956)|null|
 
-<p align=right>(<a href=#updated-on-20261001>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261002>back to top</a>)</p>
 
 ## A2A / Multi-Agent Orchestration
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-01**|**LLM-Driven Multi-Agent Control for Skill-Based Smart Manufacturing**|Kay Köhle et.al.|[2610.01364](http://arxiv.org/abs/2610.01364)|null|
+|**2026-10-01**|**Right Answers, Wrong States: Hidden Information Failures in Multi-Agent Collaboration**|Herun Wan et.al.|[2610.01244](http://arxiv.org/abs/2610.01244)|null|
+|**2026-10-01**|**Beyond Final Accuracy: Auditing Communication in LLM Multi-Agent Systems**|Shixuan Li et.al.|[2610.01042](http://arxiv.org/abs/2610.01042)|null|
+|**2026-10-01**|**Communication-aware Synthesis of Safe Controllers for Discrete-Time Linear Multi-Agent Systems with Distributed k-Hop Observation**|Yihan Liu et.al.|[2610.00925](http://arxiv.org/abs/2610.00925)|null|
+|**2026-10-01**|**Understanding Issues, Causes and Solutions in Open-Source LLM-based Multi-Agent Systems**|Asad Ur Rehman et.al.|[2610.00905](http://arxiv.org/abs/2610.00905)|null|
+|**2026-10-01**|**HakiCC: LLM-Driven Multi-Agent Design and Optimization of Concurrency Control Protocols**|Farzad Habibi et.al.|[2610.00889](http://arxiv.org/abs/2610.00889)|null|
+|**2026-09-30**|**Meta-Multi-Agent Reinforcement Learning for Fast Adaptation of Interactive Policies with Applications to Autonomous Driving**|Huiwen Yan et.al.|[2610.00705](http://arxiv.org/abs/2610.00705)|null|
+|**2026-09-30**|**ASAD: Adaptive Software Agents for Debugging**|Yacine Majdoub et.al.|[2610.00629](http://arxiv.org/abs/2610.00629)|null|
+|**2026-09-30**|**Multi-agent Auditory Scene Analysis: Improved Localization Speed and Robustness by Multi-beamformed Speech Quality Feedback**|Caleb Rascon et.al.|[2610.00538](http://arxiv.org/abs/2610.00538)|null|
+|**2026-09-30**|**Cogentic: Multi-Agent Orchestration for Automated Proof Discovery**|Yang Cai et.al.|[2609.40324](http://arxiv.org/abs/2609.40324)|null|
 |**2026-09-30**|**DAGent: Evaluate-then-Grow Planning for Deep Research Agents**|Hanwen Liu et.al.|[2609.39154](http://arxiv.org/abs/2609.39154)|null|
 |**2026-09-30**|**MASCRDM: Multi-Agent System for Compliance Risk Detection and Mitigation in Training Process of Large Language Models**|Yan Zhang et.al.|[2609.39107](http://arxiv.org/abs/2609.39107)|null|
 |**2026-09-30**|**Covert Assistance: Helpful LLM Agents Evade Oversight in Multi-Agent Systems**|Deema Alnuhait et.al.|[2609.39050](http://arxiv.org/abs/2609.39050)|null|
@@ -178,12 +208,19 @@
 |**2026-09-21**|**Proactive Incentive Regulation in Multi-Agent Systems with Environmental Feedback**|Xinyang Cao et.al.|[2609.24506](http://arxiv.org/abs/2609.24506)|null|
 |**2026-09-21**|**Mixed-integer flow formulations for motion planning and decision-making of networked multi-agent systems**|Angelo Caregnato-Neto et.al.|[2609.24474](http://arxiv.org/abs/2609.24474)|null|
 
-<p align=right>(<a href=#updated-on-20261001>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261002>back to top</a>)</p>
 
 ## Memory / Context
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-01**|**FlashBack: Knowing When to Remember in Streaming Vision-Language Models**|Yi Chen et.al.|[2610.01192](http://arxiv.org/abs/2610.01192)|null|
+|**2026-10-01**|**MemFit: Efficient Long-Term Agentic Memory**|Mitchell Piehl et.al.|[2610.00872](http://arxiv.org/abs/2610.00872)|null|
+|**2026-09-30**|**Learning from Research: Toward Lifelong Agent Harness Evolution**|Jingbo Yang et.al.|[2609.40169](http://arxiv.org/abs/2609.40169)|null|
+|**2026-09-30**|**Tide: Reclaiming Phased Memory in Agent MicroVMs**|Yiyang Wu et.al.|[2609.40082](http://arxiv.org/abs/2609.40082)|null|
+|**2026-09-30**|**NavHarness: Adaptive Goals for Agentic Vision-Language Navigation**|Haoxiang Shi et.al.|[2609.39915](http://arxiv.org/abs/2609.39915)|null|
+|**2026-09-30**|**MemCodex: Self-Programming Hierarchical Memory for Language Agents**|Xiaoqiang Wang et.al.|[2609.39765](http://arxiv.org/abs/2609.39765)|null|
+|**2026-09-30**|**Who Said What, and Will It Be Remembered? Evaluating Persistent Speaker Attribution Across Meetings**|Shantanu Vispute et.al.|[2609.39344](http://arxiv.org/abs/2609.39344)|null|
 |**2026-09-30**|**Action Conditioned Bisimulation For GUI Agent Memory**|Hongbo Zhang et.al.|[2609.38778](http://arxiv.org/abs/2609.38778)|null|
 |**2026-09-30**|**Memory in Behavioral Models as Motion on a Slow Invariant Manifold**|Nicholas B. Tufillaro et.al.|[2609.38771](http://arxiv.org/abs/2609.38771)|null|
 |**2026-09-30**|**Towards Efficient HPC Systems for Agents: Challenges and Opportunities**|Yunjia Zheng et.al.|[2609.38723](http://arxiv.org/abs/2609.38723)|null|
@@ -222,12 +259,22 @@
 |**2026-09-22**|**MemCalib: Benchmarking and Optimizing Memory Use in LLM Agents**|Ruike Cao et.al.|[2609.24259](http://arxiv.org/abs/2609.24259)|null|
 |**2026-09-21**|**Data Agents: Agentic Data Systems**|Guoliang Li et.al.|[2609.24137](http://arxiv.org/abs/2609.24137)|null|
 
-<p align=right>(<a href=#updated-on-20261001>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261002>back to top</a>)</p>
 
 ## Planning / Self-Evolution
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-01**|**PACE: Provenance-Aware Capability Enforcement for Tool-Using LLM Agents**|Fengpeng Li et.al.|[2610.01349](http://arxiv.org/abs/2610.01349)|null|
+|**2026-10-01**|**Science Utopia? Closed-Loop LLM Simulation of Academic Research Ecosystems**|Yiqiao Jin et.al.|[2610.01257](http://arxiv.org/abs/2610.01257)|null|
+|**2026-10-01**|**DeFA: Dependency-Guided Failure Attribution for LLM Agents**|Bo Deng et.al.|[2610.01256](http://arxiv.org/abs/2610.01256)|null|
+|**2026-10-01**|**Dependency-Aware Reward Shaping for Agentic Reinforcement Learning**|Ziyi Chen et.al.|[2610.01207](http://arxiv.org/abs/2610.01207)|null|
+|**2026-10-01**|**Federated Agent Optimization**|Qiang Yang et.al.|[2610.01195](http://arxiv.org/abs/2610.01195)|null|
+|**2026-10-01**|**My FAULT: Self-Diagnosis as Credit Assignment in Self-Evolving Agentic Reinforcement Learning**|Yihua Zhu et.al.|[2610.01161](http://arxiv.org/abs/2610.01161)|null|
+|**2026-10-01**|**Serving a Revisable World: Versioned Execution for Interruptible Agents**|Yanxin Zhang et.al.|[2610.01160](http://arxiv.org/abs/2610.01160)|null|
+|**2026-10-01**|**Auditing Action Settlement in LLM Agent Environments: Order, Progress, and Replay**|Haotian Chen et.al.|[2610.01138](http://arxiv.org/abs/2610.01138)|null|
+|**2026-10-01**|**MASkillBlender: Decentralized Whole-Body Coordination for Multi-Humanoid Loco-Manipulation via Skill Blending**|Yifan Hu et.al.|[2610.01102](http://arxiv.org/abs/2610.01102)|null|
+|**2026-10-01**|**OrbitTAMP: Grounding Language Models for Task and Motion Planning in Spacecraft Rendezvous**|Yuji Takubo et.al.|[2610.01093](http://arxiv.org/abs/2610.01093)|null|
 |**2026-09-30**|**Consensus and Factual Dynamics in Large Populations of Interacting Language Models**|Emanuele Ricco et.al.|[2609.39211](http://arxiv.org/abs/2609.39211)|null|
 |**2026-09-30**|**ASENA: Self-evolving Agents for Embodied Navigation**|An-Chieh Cheng et.al.|[2609.39207](http://arxiv.org/abs/2609.39207)|null|
 |**2026-09-30**|**Rep2Skill: Representation-Guided Skill Self-Evolution for LLM Agents**|Kaixing Zhang et.al.|[2609.39149](http://arxiv.org/abs/2609.39149)|null|
@@ -279,5 +326,5 @@
 |**2026-09-22**|**MotionForge: A Data Generation Pipeline and Large-Scale Benchmark for Long-Horizon Manipulation of Dynamic Objects with Domain Shifts**|Mohan Liu et.al.|[2609.25689](http://arxiv.org/abs/2609.25689)|null|
 |**2026-09-22**|**How Strongly Should Task State Influence an LLM Agent?**|Chenyu Zhang et.al.|[2609.25686](http://arxiv.org/abs/2609.25686)|null|
 
-<p align=right>(<a href=#updated-on-20261001>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261002>back to top</a>)</p>
 
