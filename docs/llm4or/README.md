@@ -1,4 +1,4 @@
-## Updated on 2026.10.01
+## Updated on 2026.10.03
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -16,6 +16,8 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-01**|**TRACE: Tackling Real-World Resource Assignment Problems via Agentic Heuristic Design**|Jose A. Ayala-Romero et.al.|[2610.01887](http://arxiv.org/abs/2610.01887)|null|
+|**2026-09-30**|**From Search to Signal: Online Post-Training in Automatic Heuristic Design**|Yilun Yuan et.al.|[2609.39383](http://arxiv.org/abs/2609.39383)|null|
 |**2026-09-28**|**Explainable Deep Learning for Probabilistic Nowcasting of Radar Reflectivity in Tornadic Storms**|Nathan Erickson et.al.|[2609.35675](http://arxiv.org/abs/2609.35675)|null|
 |**2026-09-26**|**Streamlined Reflective Evolution for Task-Adaptive Self-Refinement Pipelines**|Xiaofan Zhou et.al.|[2609.32458](http://arxiv.org/abs/2609.32458)|null|
 |**2026-08-28**|**Operator Packages, Proposer Strength, and Construction-Family Plateaus in Office-Scale Verified Search**|Roberto I. Ono Filho et.al.|[2609.29636](http://arxiv.org/abs/2609.29636)|null|
@@ -30,12 +32,19 @@
 |**2026-07-29**|**FunL2O: LLM-Guided Feature Function Design for Learning to Optimize**|Bingheng Li et.al.|[2607.27389](http://arxiv.org/abs/2607.27389)|null|
 |**2026-07-13**|**RefineEvo: Planning-Guided Heuristic Evolution with Bidirectional Experience**|Yang Wu et.al.|[2607.11358](http://arxiv.org/abs/2607.11358)|null|
 
-<p align=right>(<a href=#updated-on-20261001>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261003>back to top</a>)</p>
 
 ## LLM Auto-Formulation
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-01**|**SPHERE: Adaptive VR Indoor Scene Generation via LLM-Enhanced Spatial Preference Learning and Human-in-the-Loop RL**|Hyeonmin Lee et.al.|[2610.02023](http://arxiv.org/abs/2610.02023)|null|
+|**2026-10-01**|**OR for AI That Does OR: Routing LLMs up the Escalator inside the OSCAR Framework**|Jinzhi Bu et.al.|[2610.00912](http://arxiv.org/abs/2610.00912)|null|
+|**2026-09-30**|**Aging-Aware Online Distributed Scheduling for Lifecycle Carbon Reduction in Geo-Distributed Data Centers**|Junyu Lin et.al.|[2610.00605](http://arxiv.org/abs/2610.00605)|null|
+|**2026-09-30**|**From Task Mixtures to Specialized Experts**|Hojat Allah Salehi et.al.|[2610.00580](http://arxiv.org/abs/2610.00580)|null|
+|**2026-09-30**|**ScaffoldM3C: A Multimodal Sequential Monte Carlo Framework for Generative Stable Construction Planning**|Gadiel Sznaier Camps et.al.|[2610.00487](http://arxiv.org/abs/2610.00487)|null|
+|**2026-09-30**|**Designing Strongly Correlated Quantum Phases of Matter with Foundation Neural-Network Quantum States**|Alessandro Sinibaldi et.al.|[2609.40209](http://arxiv.org/abs/2609.40209)|null|
+|**2026-09-30**|**Nonlinear Trajectory Optimization Models for Uncrewed Aerial Vehicles with Mobile Charging Support**|Minsen Yuan et.al.|[2609.40201](http://arxiv.org/abs/2609.40201)|null|
 |**2026-09-30**|**Right Answers, Costly Models: The Efficiency Gap in LLM-based Optimization Modeling**|Zhong Li et.al.|[2609.38884](http://arxiv.org/abs/2609.38884)|null|
 |**2026-09-29**|**TACIT: Optimization Models that Learn from Their Mistakes**|Maxime Bouscary et.al.|[2609.38434](http://arxiv.org/abs/2609.38434)|null|
 |**2026-09-29**|**TabFM: A Zero-Shot Foundation Model for Tabular Data**|Weihao Kong et.al.|[2609.37959](http://arxiv.org/abs/2609.37959)|null|
@@ -69,12 +78,19 @@
 |**2026-09-16**|**From Corridor Selection to Earthwork: A Multi-Stage Framework for Automated Road Design via Steiner Trees and Convex Optimization**|Paavai Manimaran Vanjeenathammal et.al.|[2609.19350](http://arxiv.org/abs/2609.19350)|null|
 |**2026-09-16**|**Evidence-Grounded Agentic Formulation Development in an Autonomous Laboratory**|Michael M. Craig et.al.|[2609.19099](http://arxiv.org/abs/2609.19099)|null|
 
-<p align=right>(<a href=#updated-on-20261001>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261003>back to top</a>)</p>
 
 ## L2O / Learning to Optimize
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-01**|**The Curvature of Regret in Contextual Linear Optimization**|Konstantinos Ziliaskopoulos et.al.|[2610.01980](http://arxiv.org/abs/2610.01980)|null|
+|**2026-10-01**|**MiLoop: Selective Memory Propagation for Neural Combinatorial Optimization**|Changliang Zhou et.al.|[2610.01685](http://arxiv.org/abs/2610.01685)|null|
+|**2026-10-01**|**The Devil Is in the Reconstruction Loss Scale: Rethinking Optimization in LLM Quantization**|Chao Li et.al.|[2610.00983](http://arxiv.org/abs/2610.00983)|null|
+|**2026-09-30**|**Beyond Supra-Competitive Outcomes: Collusive Behaviour in Deep Reinforcement Learning for Optimal Execution Games**|Christos Spyridon Koulouris et.al.|[2610.00619](http://arxiv.org/abs/2610.00619)|null|
+|**2026-09-30**|**Learning to Cover Locally: Graph Neural Combinatorial Optimization under a Hard Information Horizon**|Johannes F. Loevenich et.al.|[2610.00422](http://arxiv.org/abs/2610.00422)|null|
+|**2026-09-30**|**MANET-GNN: Learned Decentralized Optimization of Power Allocation in Multi-Channel MANETs**|Tomer Alter et.al.|[2609.40170](http://arxiv.org/abs/2609.40170)|null|
+|**2026-09-30**|**Jacobian Rank Collapse in Decision-Focused Learning**|Aojie Yuan et.al.|[2609.39261](http://arxiv.org/abs/2609.39261)|null|
 |**2026-09-29**|**Teaching LLMs to Generate Challenging MILP Instances via Solver Feedback**|Jitin Singla et.al.|[2609.37356](http://arxiv.org/abs/2609.37356)|null|
 |**2026-09-29**|**RL-PaO: Prediction as Action in Decision Making under Uncertainty**|Jiahui Feng et.al.|[2609.37065](http://arxiv.org/abs/2609.37065)|null|
 |**2026-09-28**|**Finite-Sample Theory for Fitted Q-Iteration When Actions Are Functions**|Gefei Lin et.al.|[2609.36390](http://arxiv.org/abs/2609.36390)|null|
@@ -106,12 +122,14 @@
 |**2026-09-17**|**MATCH: Model-Aware Tool Learning with Curriculum Scheduling and Hierarchically Gated Rewards**|Shihao Liu et.al.|[2609.20082](http://arxiv.org/abs/2609.20082)|null|
 |**2026-09-16**|**STUART: Sequence Triage and qUAntification of Read Transcripts for Rapid Ionizing Radiation Exposure Assessment**|Tomasz Strzoda et.al.|[2609.19139](http://arxiv.org/abs/2609.19139)|null|
 
-<p align=right>(<a href=#updated-on-20261001>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261003>back to top</a>)</p>
 
 ## VRP / Combinatorial Solving
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-01**|**Routing in Line Networks with Handling Times**|Gabriel Deza et.al.|[2610.01666](http://arxiv.org/abs/2610.01666)|null|
+|**2026-10-01**|**Context-Aware Error Mitigation Orchestration for Hybrid Quantum Reinforcement Learning on NISQ Systems**|Bisma Majid et.al.|[2610.01253](http://arxiv.org/abs/2610.01253)|null|
 |**2026-09-30**|**GeoNest: Learning to Select Failure-Aware Neighborhoods for the Irregular Knapsack Problem in a Circular Container**|Zhongman Du et.al.|[2609.38863](http://arxiv.org/abs/2609.38863)|null|
 |**2026-09-30**|**HALO: Heterogeneous Allocation Via Localized Observations for the Vehicle Routing Problem**|Andrew Meighan et.al.|[2609.38760](http://arxiv.org/abs/2609.38760)|null|
 |**2026-09-28**|**A Two-Echelon Covering Tour Vehicle Routing Problem with Drones for Post-Disaster Relief**|Dang Viet Anh Nguyen et.al.|[2609.38227](http://arxiv.org/abs/2609.38227)|null|
@@ -137,12 +155,14 @@
 |**2026-09-16**|**APGEM: Adaptive Policy-Guided Error Mitigation for Quantum Reinforcement Learning on a Real-World CVRP Case Study**|Shabir Ahmad Sofi et.al.|[2609.18219](http://arxiv.org/abs/2609.18219)|null|
 |**2026-09-15**|**Data-Driven Stress Testing of Intermodal Freight Networks Using GAN-Generated Disruption Scenarios**|Xudong Wang et.al.|[2609.17373](http://arxiv.org/abs/2609.17373)|null|
 
-<p align=right>(<a href=#updated-on-20261001>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261003>back to top</a>)</p>
 
 ## Solver Intelligence
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-09-30**|**Reformulation-Contrastive Learning for Mixed Integer Programs**|Ousema Bouaneni et.al.|[2610.00730](http://arxiv.org/abs/2610.00730)|null|
+|**2026-09-30**|**Autoresearch in Mixed-Integer Linear and Nonlinear Programming**|Yuwei Gu et.al.|[2609.39360](http://arxiv.org/abs/2609.39360)|null|
 |**2026-09-30**|**Defect-Aware Parallel Atom Reloading Protocol for Neutral-Atom Quantum Computers**|Koki Aoyama et.al.|[2609.38939](http://arxiv.org/abs/2609.38939)|null|
 |**2026-09-29**|**Robustness of Local Energy Markets to Cyberattacks: Case Study of False Data Injection**|Mehran Moradi et.al.|[2609.38258](http://arxiv.org/abs/2609.38258)|null|
 |**2026-09-29**|**Hybrid Joint-Selective Optimization: Reduced-Space Levenberg-Marquardt Refinement of Low-Dimensional Parameters of Interest**|Muhammad Luthfi Shahab et.al.|[2609.37308](http://arxiv.org/abs/2609.37308)|null|
@@ -162,5 +182,5 @@
 |**2026-09-09**|**Economic Evaluation of V2G-Enabled Fast Charging Stations Under Endogenous EV Adoption Dynamics**|Mingjian Tuo et.al.|[2609.10388](http://arxiv.org/abs/2609.10388)|null|
 |**2026-09-07**|**A New Perspective on Clustering: A Mixed-norm Model and its Solution by Progressive Integer Programming**|Junyi Liu et.al.|[2609.08002](http://arxiv.org/abs/2609.08002)|null|
 
-<p align=right>(<a href=#updated-on-20261001>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261003>back to top</a>)</p>
 
