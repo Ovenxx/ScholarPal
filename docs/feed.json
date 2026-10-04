@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T01:17:29Z",
+ "generated_at": "2026-10-04T01:47:20Z",
  "model": "deepseek-v4-flash",
  "modules": [
   {
@@ -18,10 +18,10 @@
       "Automatic Algorithm Design / Hyper-heuristics"
      ],
      "importance": 8.0,
-     "summary": "Online post-training converts search signals into automatic heuristic design, enabling continual LLM-driven algorithm discovery.",
+     "summary": "Online post-training converts search signals into automatic heuristic design, advancing LLM-driven algorithm discovery.",
      "tags": [
       "heuristic-design",
-      "online-learning",
+      "post-training",
       "LLM"
      ],
      "module": "llm4or"
@@ -38,11 +38,31 @@
       "Automatic Algorithm Design / Hyper-heuristics"
      ],
      "importance": 8.0,
-     "summary": "Agentic LLM framework designs heuristics for real-world resource assignment, bridging LLM reasoning with OR practice.",
+     "summary": "Agentic LLM framework designs heuristics for real-world resource assignment problems, bridging LLM reasoning with OR practice.",
      "tags": [
       "agentic-LLM",
       "heuristic-design",
       "resource-assignment"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs261001980",
+     "kind": "paper",
+     "date": "2026-10-01",
+     "title": "The Curvature of Regret in Contextual Linear Optimization",
+     "authors": "Konstantinos Ziliaskopoulos et.al.",
+     "url": "http://arxiv.org/abs/2610.01980",
+     "topic": "L2O / Learning to Optimize",
+     "topics": [
+      "L2O / Learning to Optimize"
+     ],
+     "importance": 8.0,
+     "summary": "Analyzes curvature of regret in contextual linear optimization, offering theoretical insights for decision-focused learning.",
+     "tags": [
+      "contextual-optimization",
+      "regret",
+      "theory"
      ],
      "module": "llm4or"
     },
@@ -58,7 +78,7 @@
       "LLM Auto-Formulation"
      ],
      "importance": 7.0,
-     "summary": "Quantifies efficiency gap in LLM-based optimization modeling, showing costly models yield marginal accuracy gains.",
+     "summary": "Quantifies efficiency gap in LLM-based optimization modeling, showing costly models yield right answers but at high cost.",
      "tags": [
       "LLM",
       "optimization-modeling",
@@ -82,7 +102,7 @@
      "tags": [
       "neural-quantum-states",
       "foundation-models",
-      "physics"
+      "quantum-phases"
      ],
      "module": "llm4or"
     },
@@ -98,11 +118,11 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 7.0,
-     "summary": "Reveals collusive behavior in deep RL for optimal execution games, beyond supra-competitive outcomes.",
+     "summary": "Deep RL agents exhibit collusive behavior beyond supra-competitive outcomes in optimal execution games.",
      "tags": [
       "deep-RL",
-      "optimal-execution",
-      "collusion"
+      "collusion",
+      "optimal-execution"
      ],
      "module": "llm4or"
     },
@@ -118,11 +138,11 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 7.0,
-     "summary": "Graph neural combinatorial optimization under hard information horizon learns local covering strategies.",
+     "summary": "Graph neural combinatorial optimization under hard information horizon learns to cover locally with limited visibility.",
      "tags": [
       "GNN",
       "combinatorial-optimizati",
-      "decentralized"
+      "information-horizon"
      ],
      "module": "llm4or"
     },
@@ -143,26 +163,6 @@
       "LLM-routing",
       "OR-solvers",
       "framework"
-     ],
-     "module": "llm4or"
-    },
-    {
-     "id": "p:httparxivorgabs261001980",
-     "kind": "paper",
-     "date": "2026-10-01",
-     "title": "The Curvature of Regret in Contextual Linear Optimization",
-     "authors": "Konstantinos Ziliaskopoulos et.al.",
-     "url": "http://arxiv.org/abs/2610.01980",
-     "topic": "L2O / Learning to Optimize",
-     "topics": [
-      "L2O / Learning to Optimize"
-     ],
-     "importance": 7.0,
-     "summary": "Analyzes curvature of regret in contextual linear optimization, offering theoretical insights for L2O regret bounds.",
-     "tags": [
-      "contextual-optimization",
-      "regret",
-      "theory"
      ],
      "module": "llm4or"
     },
@@ -218,11 +218,11 @@
       "LLM Auto-Formulation"
      ],
      "importance": 6.0,
-     "summary": "Method to derive specialized experts from task mixtures, relevant for modular LLM training and routing.",
+     "summary": "Transforms task mixtures into specialized experts, likely via modular training or routing for multi-task learning.",
      "tags": [
-      "mixture-of-experts",
-      "specialization",
-      "training"
+      "multi-task",
+      "experts",
+      "specialization"
      ],
      "module": "llm4or"
     },
@@ -238,7 +238,7 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 6.0,
-     "summary": "MANET-GNN learns decentralized power allocation in multi-channel MANETs via graph neural networks.",
+     "summary": "MANET-GNN learns decentralized power allocation for multi-channel MANETs using graph neural networks.",
      "tags": [
       "GNN",
       "MANET",
@@ -258,7 +258,7 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 6.0,
-     "summary": "Reexamines reconstruction loss scaling in LLM quantization, revealing optimization pitfalls affecting post-training quality.",
+     "summary": "Reexamines reconstruction loss scaling in LLM quantization, revealing optimization pitfalls and proposing fixes.",
      "tags": [
       "quantization",
       "LLM",
@@ -278,7 +278,7 @@
       "VRP / Combinatorial Solving"
      ],
      "importance": 6.0,
-     "summary": "Context-aware error mitigation orchestration improves hybrid quantum RL performance on noisy NISQ hardware.",
+     "summary": "Context-aware error mitigation orchestration improves hybrid quantum RL on NISQ systems.",
      "tags": [
       "quantum-RL",
       "error-mitigation",
@@ -322,7 +322,7 @@
      "tags": [
       "trajectory-optimization",
       "UAV",
-      "charging"
+      "mobile-charging"
      ],
      "module": "llm4or"
     },
@@ -373,6 +373,26 @@
    "label": "Agentic AI",
    "items": [
     {
+     "id": "p:httparxivorgabs261000885",
+     "kind": "paper",
+     "date": "2026-10-01",
+     "title": "FORALL-LEAN-AGENT for Auditable Reasoning in Formal Mathematics and Software Verification",
+     "authors": "Naing Oo Lwin et.al.",
+     "url": "http://arxiv.org/abs/2610.00885",
+     "topic": "Agent Loop / Harness",
+     "topics": [
+      "Agent Loop / Harness"
+     ],
+     "importance": 8.0,
+     "summary": "Lean agent enables auditable formal reasoning for mathematics and software verification with verifiable proofs.",
+     "tags": [
+      "formal-verification",
+      "Lean",
+      "auditability"
+     ],
+     "module": "agentic"
+    },
+    {
      "id": "p:httparxivorgabs261001415",
      "kind": "paper",
      "date": "2026-10-01",
@@ -384,31 +404,32 @@
       "Agent Loop / Harness"
      ],
      "importance": 8.0,
-     "summary": "Introduces explicit belief states to enhance long-horizon agent memory and decision-making beyond implicit memory.",
+     "summary": "Introduces explicit belief states to enhance long-horizon agent reasoning beyond memory-based approaches.",
      "tags": [
       "belief-state",
       "long-horizon",
-      "memory"
+      "reasoning"
      ],
      "module": "agentic"
     },
     {
-     "id": "p:httparxivorgabs261000917",
+     "id": "p:httparxivorgabs261001349",
      "kind": "paper",
      "date": "2026-10-01",
-     "title": "Finding the Right Fit: Model-Harness Interactions across Agent Tasks",
-     "authors": "Yixuan Li et.al.",
-     "url": "http://arxiv.org/abs/2610.00917",
+     "title": "PACE: Provenance-Aware Capability Enforcement for Tool-Using LLM Agents",
+     "authors": "Fengpeng Li et.al.",
+     "url": "http://arxiv.org/abs/2610.01349",
      "topic": "MCP / Tool Protocols",
      "topics": [
-      "MCP / Tool Protocols"
+      "MCP / Tool Protocols",
+      "Planning / Self-Evolution"
      ],
      "importance": 8.0,
-     "summary": "Analyzes model-harness interactions to find optimal pairings across diverse agent tasks.",
+     "summary": "PACE enforces provenance-aware capability constraints for secure tool-using LLM agents.",
      "tags": [
-      "harness",
-      "model-selection",
-      "evaluation"
+      "security",
+      "provenance",
+      "tool-use"
      ],
      "module": "agentic"
     },
@@ -426,9 +447,9 @@
      "importance": 7.0,
      "summary": "Correlation-aware agentic framework automates many-body simulations for strongly correlated quantum systems.",
      "tags": [
-      "scientific-agents",
       "many-body",
-      "automation"
+      "quantum-simulation",
+      "agentic"
      ],
      "module": "agentic"
     },
@@ -444,31 +465,32 @@
       "Agent Loop / Harness"
      ],
      "importance": 7.0,
-     "summary": "Studies cross-benchmark transfer of RL-trained agentic coding policies to unseen tasks and benchmarks.",
+     "summary": "Studies cross-benchmark transfer of RL-trained agentic coding policies to unseen task distributions.",
      "tags": [
+      "transfer-learning",
       "RL",
-      "transfer",
       "coding-agents"
      ],
      "module": "agentic"
     },
     {
-     "id": "p:httparxivorgabs261000885",
+     "id": "p:httparxivorgabs261002181",
      "kind": "paper",
      "date": "2026-10-01",
-     "title": "FORALL-LEAN-AGENT for Auditable Reasoning in Formal Mathematics and Software Verification",
-     "authors": "Naing Oo Lwin et.al.",
-     "url": "http://arxiv.org/abs/2610.00885",
+     "title": "OmniSeek: Native Tool Integration for Multi-turn Audio-Visual Reasoning",
+     "authors": "Haibo Wang et.al.",
+     "url": "http://arxiv.org/abs/2610.02181",
      "topic": "Agent Loop / Harness",
      "topics": [
-      "Agent Loop / Harness"
+      "Agent Loop / Harness",
+      "MCP / Tool Protocols"
      ],
      "importance": 7.0,
-     "summary": "Lean agent enables auditable formal reasoning for mathematics and software verification with traceable proofs.",
+     "summary": "OmniSeek integrates native tools for multi-turn audio-visual reasoning in agentic settings.",
      "tags": [
-      "formal-verification",
-      "Lean",
-      "reasoning"
+      "multimodal",
+      "tool-use",
+      "audio-visual"
      ],
      "module": "agentic"
     },
@@ -486,30 +508,9 @@
      "importance": 7.0,
      "summary": "Local-first agent harness lets small open models complete real tasks without cloud dependency.",
      "tags": [
-      "local-models",
-      "harness",
-      "open-models"
-     ],
-     "module": "agentic"
-    },
-    {
-     "id": "p:httparxivorgabs261001349",
-     "kind": "paper",
-     "date": "2026-10-01",
-     "title": "PACE: Provenance-Aware Capability Enforcement for Tool-Using LLM Agents",
-     "authors": "Fengpeng Li et.al.",
-     "url": "http://arxiv.org/abs/2610.01349",
-     "topic": "MCP / Tool Protocols",
-     "topics": [
-      "MCP / Tool Protocols",
-      "Planning / Self-Evolution"
-     ],
-     "importance": 7.0,
-     "summary": "PACE enforces provenance-aware capability constraints for safer tool-using LLM agents.",
-     "tags": [
-      "safety",
-      "provenance",
-      "tool-use"
+      "local-inference",
+      "small-models",
+      "harness"
      ],
      "module": "agentic"
     },
@@ -526,11 +527,11 @@
       "Planning / Self-Evolution"
      ],
      "importance": 7.0,
-     "summary": "Federated agent optimization enables distributed training of agents across decentralized data sources.",
+     "summary": "Federated agent optimization enables distributed training of agentic policies across decentralized data.",
      "tags": [
       "federated-learning",
       "optimization",
-      "privacy"
+      "agents"
      ],
      "module": "agentic"
     },
@@ -546,11 +547,31 @@
       "MCP / Tool Protocols"
      ],
      "importance": 7.0,
-     "summary": "PG-SFT balances capability acquisition and retention during offline agent fine-tuning to avoid forgetting.",
+     "summary": "PG-SFT balances capability acquisition and retention during offline agent fine-tuning.",
      "tags": [
       "fine-tuning",
       "catastrophic-forgetting",
-      "SFT"
+      "offline-RL"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs261000917",
+     "kind": "paper",
+     "date": "2026-10-01",
+     "title": "Finding the Right Fit: Model-Harness Interactions across Agent Tasks",
+     "authors": "Yixuan Li et.al.",
+     "url": "http://arxiv.org/abs/2610.00917",
+     "topic": "MCP / Tool Protocols",
+     "topics": [
+      "MCP / Tool Protocols"
+     ],
+     "importance": 7.0,
+     "summary": "Analyzes model-harness interactions to find optimal pairings across diverse agent tasks.",
+     "tags": [
+      "harness",
+      "model-selection",
+      "evaluation"
      ],
      "module": "agentic"
     },
@@ -566,11 +587,11 @@
       "Agent Loop / Harness"
      ],
      "importance": 6.0,
-     "summary": "Agentic framework autonomously inverse-designs microwave absorbers, showing domain-specific scientific agent application.",
+     "summary": "Agentic framework autonomously inverse-designs microwave absorbers, applying LLM agents to electromagnetic engineering optimization.",
      "tags": [
-      "scientific-agents",
       "inverse-design",
-      "materials"
+      "agentic-framework",
+      "electromagnetics"
      ],
      "module": "agentic"
     },
@@ -595,27 +616,6 @@
      "module": "agentic"
     },
     {
-     "id": "p:httparxivorgabs261002181",
-     "kind": "paper",
-     "date": "2026-10-01",
-     "title": "OmniSeek: Native Tool Integration for Multi-turn Audio-Visual Reasoning",
-     "authors": "Haibo Wang et.al.",
-     "url": "http://arxiv.org/abs/2610.02181",
-     "topic": "Agent Loop / Harness",
-     "topics": [
-      "Agent Loop / Harness",
-      "MCP / Tool Protocols"
-     ],
-     "importance": 6.0,
-     "summary": "OmniSeek integrates native tools for multi-turn audio-visual reasoning in multimodal agents.",
-     "tags": [
-      "multimodal",
-      "tool-use",
-      "audio-visual"
-     ],
-     "module": "agentic"
-    },
-    {
      "id": "p:httparxivorgabs261001833",
      "kind": "paper",
      "date": "2026-10-01",
@@ -631,7 +631,7 @@
      "tags": [
       "evaluation",
       "enterprise",
-      "process-level"
+      "process-monitoring"
      ],
      "module": "agentic"
     },
@@ -649,9 +649,9 @@
      "importance": 6.0,
      "summary": "VideoEvolve evolves agent harnesses for improved video temporal grounding performance.",
      "tags": [
-      "video",
-      "temporal-grounding",
-      "harness"
+      "video-grounding",
+      "harness-evolution",
+      "temporal"
      ],
      "module": "agentic"
     },
@@ -689,9 +689,9 @@
      "importance": 6.0,
      "summary": "CineMR integrates tools with vision-language reasoning for quantitative cardiac MRI assessment.",
      "tags": [
-      "medical",
-      "vision-language",
-      "tool-use"
+      "medical-imaging",
+      "tool-integration",
+      "VLM"
      ],
      "module": "agentic"
     },
@@ -707,11 +707,11 @@
       "Agent Loop / Harness"
      ],
      "importance": 5.0,
-     "summary": "Proposes role-aware heuristic episodic attention to improve conversational LLM memory and role handling.",
+     "summary": "Proposes role-aware heuristic episodic attention to improve conversational LLM memory and role consistency.",
      "tags": [
       "attention",
       "dialogue",
-      "LLM"
+      "memory"
      ],
      "module": "agentic"
     },
@@ -742,366 +742,428 @@
   "academic": [
    {
     "title": "Agentic Heuristic Design for Optimization",
-    "summary": "LLM agents increasingly automate heuristic discovery and resource assignment, moving from search to online post-training. This promises autonomous optimization pipelines but raises efficiency and reliability concerns.",
+    "summary": "LLM agents increasingly automate heuristic discovery and resource assignment, moving from search to online post-training. This promises autonomous, real-world combinatorial optimization without hand-crafted solvers.",
     "keywords": [
      "agentic heuristic design",
-     "LLM optimization",
-     "automatic heuristic desi"
+     "automatic heuristic desi",
+     "LLM optimization"
     ]
    },
    {
-    "title": "Agent Harness Optimization and Evaluation",
-    "summary": "Harnesses—the scaffolding around LLM agents—are being optimized via curriculum learning, provenance enforcement, and process-level evaluation. This is hot because harness quality dominates real-world agent performance.",
+    "title": "Agent Harness Optimization and Evolution",
+    "summary": "Harnesses, not just models, drive agent performance. Works on harness-model fit, curriculum learning, and evolving harnesses for video and enterprise tasks make this a fast-rising theme.",
     "keywords": [
      "agent harness",
-     "tool-using agents",
-     "agent evaluation"
+     "curriculum learning",
+     "model-harness interactio"
     ]
    },
    {
-    "title": "Efficiency Gaps in LLM Optimization Modeling",
-    "summary": "Studies reveal that LLMs solving optimization problems produce correct but costly models, exposing a trade-off between accuracy and computational efficiency that limits practical deployment.",
+    "title": "Efficient and Cost-Aware LLM Optimization",
+    "summary": "Concerns about costly models, quantization reconstruction loss, and efficiency gaps push research toward cheaper, right-sized LLM optimization modeling and deployment.",
     "keywords": [
-     "LLM optimization modelin",
      "efficiency gap",
-     "costly models"
+     "LLM quantization",
+     "optimization modeling"
     ]
    },
    {
-    "title": "Neural Combinatorial Optimization with Memory",
-    "summary": "Graph neural and memory-augmented methods tackle combinatorial optimization under hard information horizons, with selective memory propagation improving solution quality across routing and assignment tasks.",
+    "title": "Tool-Using Agents with Provenance and Beliefs",
+    "summary": "Long-horizon agents need explicit belief states, provenance-aware capability enforcement, and native tool integration. Trust, auditability, and memory are central to reliable autonomy.",
+    "keywords": [
+     "tool-using agents",
+     "belief states",
+     "provenance"
+    ]
+   },
+   {
+    "title": "Neural Combinatorial Optimization with Graph Learning",
+    "summary": "Graph neural networks and selective memory propagation tackle combinatorial optimization under hard information horizons, advancing learned decentralized and covering methods.",
     "keywords": [
      "neural combinatorial opt",
      "graph neural networks",
      "memory propagation"
     ]
-   },
-   {
-    "title": "Agentic Frameworks for Scientific Discovery",
-    "summary": "Agentic systems now automate many-body simulations, inverse design of materials, and formal verification, accelerating scientific workflows by coupling LLM reasoning with domain-specific tools.",
-    "keywords": [
-     "agentic framework",
-     "scientific discovery",
-     "automated simulation"
-    ]
    }
   ],
-  "industry": []
+  "industry": [
+   {
+    "title": "OpenAI Safety Leader Quits, Culture Broken",
+    "summary": "A senior safety figure's exit and 'broken culture' warning spotlight governance risk at the frontier lab, fueling industry debate on safety versus shipping pressure.",
+    "keywords": [
+     "OpenAI",
+     "AI safety",
+     "governance"
+    ]
+   },
+   {
+    "title": "Default Hard Budget Caps for Everything",
+    "summary": "Rising compute and API costs push teams toward hard spending caps, making cost governance a first-class concern for applied AI and large-model deployments.",
+    "keywords": [
+     "budget caps",
+     "cost control",
+     "AI infrastructure"
+    ]
+   },
+   {
+    "title": "Getting Most Out of Opus 5.5",
+    "summary": "Practical guidance for squeezing performance from a leading frontier model in Claude and Claude Code signals intense practitioner focus on prompt and agent tuning.",
+    "keywords": [
+     "Opus 5.5",
+     "Claude Code",
+     "prompting"
+    ]
+   },
+   {
+    "title": "Agents Need Documentation, Not Memory",
+    "summary": "A contrarian take argues agent reliability comes from structured docs and context engineering rather than memory layers, resonating with builders of production agent systems.",
+    "keywords": [
+     "agents",
+     "documentation",
+     "context engineering"
+    ]
+   },
+   {
+    "title": "Docker Has Always Used MicroVMs",
+    "summary": "Clarifying Docker's long-standing microVM lineage reframes current sandboxing debates for AI code execution and cloud isolation, a hot topic for agent runtimes.",
+    "keywords": [
+     "Docker",
+     "microVMs",
+     "sandboxing"
+    ]
+   }
+  ]
  },
  "news": [
   {
-   "id": "n:8617613614",
+   "id": "n:4226198522",
    "kind": "news",
-   "title": "Where Is the Planet",
-   "url": "http://whereistheplanet.com",
+   "title": "Bob Cringely Has Died",
+   "url": "https://news.ycombinator.com/item?id=49949438",
    "source": "Hacker News",
-   "date": "2026-10-03",
-   "summary": "Unclear title likely unrelated to applied AI research.",
+   "date": "2026-10-04",
+   "summary": "Obituary for technology columnist Bob Cringely, marking the passing of a long-time industry commentator.",
    "tags": [
-    "misc"
+    "obituary",
+    "tech-journalism"
    ],
    "extra": "",
    "importance": 1.0,
    "module": "news"
   },
   {
-   "id": "n:9875432999",
+   "id": "n:1009126554",
    "kind": "news",
-   "title": "Things That Apparently Cause Cancer",
-   "url": "https://www.breakthroughjournal.org/p/things-that-apparently-cause-cancer",
+   "title": "We're going to need default hard budget caps on pretty much everything",
+   "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
    "source": "Hacker News",
-   "date": "2026-10-03",
-   "summary": "Unclear title likely unrelated to applied AI research.",
+   "date": "2026-10-04",
+   "summary": "Argument that default hard budget caps are needed across systems, relevant to compute and agent cost governance.",
    "tags": [
-    "misc"
-   ],
-   "extra": "",
-   "importance": 1.0,
-   "module": "news"
-  },
-  {
-   "id": "n:9903986154",
-   "kind": "news",
-   "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
-   "url": "https://allenai.org/blog/astabrief",
-   "source": "Hacker News",
-   "date": "2026-10-02",
-   "summary": "Open-sourced AstaBrief model accelerates automated report generation for research workflows.",
-   "tags": [
-    "LLM",
-    "report-generation",
-    "open-source"
-   ],
-   "extra": "",
-   "importance": 7.0,
-   "module": "news"
-  },
-  {
-   "id": "n:2327134042",
-   "kind": "news",
-   "title": "Every SaaS business will become a harness around a model",
-   "url": "https://blog.sshh.io/p/the-harness-is-the-company",
-   "source": "Hacker News",
-   "date": "2026-10-02",
-   "summary": "Argues SaaS products will become thin harnesses wrapping foundation models.",
-   "tags": [
-    "SaaS",
-    "LLM",
-    "business-model"
-   ],
-   "extra": "",
-   "importance": 6.0,
-   "module": "news"
-  },
-  {
-   "id": "n:9638138964",
-   "kind": "news",
-   "title": "Zig v0.17.0",
-   "url": "https://ziglang.org/download/0.17.0/release-notes.html",
-   "source": "Hacker News",
-   "date": "2026-10-02",
-   "summary": "Zig language release, tangential to applied AI.",
-   "tags": [
-    "programming-languages"
-   ],
-   "extra": "",
-   "importance": 2.0,
-   "module": "news"
-  },
-  {
-   "id": "n:9706757424",
-   "kind": "news",
-   "title": "Show HN: Made an open-source Lego AI generator",
-   "url": "https://github.com/anteloc/ldraw-nova",
-   "source": "Hacker News",
-   "date": "2026-10-02",
-   "summary": "Open-source Lego AI generator demonstrates generative design for physical bricks.",
-   "tags": [
-    "generative",
-    "3D",
-    "open-source"
-   ],
-   "extra": "",
-   "importance": 4.0,
-   "module": "news"
-  },
-  {
-   "id": "n:2787639531",
-   "kind": "news",
-   "title": "Updates to Full Disk Access in macOS",
-   "url": "https://developer.apple.com/news/?id=p6zjojqw",
-   "source": "Hacker News",
-   "date": "2026-10-02",
-   "summary": "macOS Full Disk Access changes affect local AI tooling permissions.",
-   "tags": [
-    "macOS",
-    "privacy"
+    "budgeting",
+    "resource-limits"
    ],
    "extra": "",
    "importance": 3.0,
    "module": "news"
   },
   {
-   "id": "n:6054274924",
+   "id": "n:8498882332",
    "kind": "news",
-   "title": "Muse Gadgets",
-   "url": "https://gadgets.muse.ai",
+   "title": "Apple's \"Clean Design\" Is Stupidity When It Comes to Hiding Fire Extinguishers",
+   "url": "https://www.gadgetreview.com/apples-clean-design-is-stupidity-when-it-comes-to-hiding-fire-extinguishers",
    "source": "Hacker News",
-   "date": "2026-10-02",
-   "summary": "Consumer gadget product, unclear AI relevance.",
+   "date": "2026-10-04",
+   "summary": "Critique of Apple's minimalist design philosophy using fire extinguisher visibility as an example.",
    "tags": [
-    "hardware"
+    "design",
+    "ux"
    ],
    "extra": "",
-   "importance": 2.0,
+   "importance": 1.0,
    "module": "news"
   },
   {
-   "id": "n:5914305581",
+   "id": "n:9305714148",
    "kind": "news",
-   "title": "Apple Pass Designer",
-   "url": "https://developer.apple.com/pass-designer/",
+   "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+   "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
    "source": "Hacker News",
-   "date": "2026-10-02",
-   "summary": "Apple design tool, not clearly AI-related.",
+   "date": "2026-10-03",
+   "summary": "OpenAI safety leader resigns, alleging a broken culture, raising governance concerns for frontier AI labs.",
    "tags": [
-    "design"
+    "ai-safety",
+    "governance",
+    "openai"
    ],
    "extra": "",
-   "importance": 2.0,
+   "importance": 8.0,
    "module": "news"
   },
   {
-   "id": "n:6945229690",
+   "id": "n:6200722468",
    "kind": "news",
-   "title": "From the creator of Redis; run LLM locally with ds4",
-   "url": "https://dwarfstar.sh/",
+   "title": "Federal judge calls Flock 'indiscriminate mass surveillance'",
+   "url": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
    "source": "Hacker News",
-   "date": "2026-10-02",
-   "summary": "Redis creator releases ds4 for running LLMs locally with efficient inference.",
+   "date": "2026-10-03",
+   "summary": "Federal judge characterizes Flock's license-plate surveillance network as indiscriminate mass surveillance.",
    "tags": [
-    "local-LLM",
-    "inference",
-    "systems"
-   ],
-   "extra": "",
-   "importance": 6.0,
-   "module": "news"
-  },
-  {
-   "id": "n:3293838964",
-   "kind": "news",
-   "title": "One month coding with GLM 5.3 Flash",
-   "url": "https://wagtail.org/blog/one-month-on-glm-53-flash/",
-   "source": "Hacker News",
-   "date": "2026-10-02",
-   "summary": "Practitioner report on one month of coding with GLM 5.3 Flash model.",
-   "tags": [
-    "LLM",
-    "coding",
-    "experience-report"
+    "surveillance",
+    "privacy",
+    "law"
    ],
    "extra": "",
    "importance": 5.0,
    "module": "news"
   },
   {
-   "id": "n:1239286763",
+   "id": "n:1581325105",
    "kind": "news",
-   "title": "The Forgetful CPU (Linux on M4)",
-   "url": "https://yuka.dev/blog-2026-10-02-linux-m4.html",
+   "title": "Reasons I didn't become an EMT, ranked",
+   "url": "https://ben.stolovitz.com/posts/reasons-not-emt-ranked/",
    "source": "Hacker News",
-   "date": "2026-10-02",
-   "summary": "Linux on M4 hardware exploration, tangential to applied AI.",
+   "date": "2026-10-03",
+   "summary": "Personal humorous essay ranking reasons the author did not pursue a career as an EMT.",
    "tags": [
-    "hardware",
-    "Linux"
+    "personal-essay"
    ],
    "extra": "",
-   "importance": 3.0,
+   "importance": 0.0,
    "module": "news"
   },
   {
-   "id": "n:6822061953",
+   "id": "n:9011940923",
    "kind": "news",
-   "title": "With most information hidden, the game Stratego had stumped AI until now",
-   "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+   "title": "Surely you have ultra-wideband radios on your bins too?",
+   "url": "https://sjg.io/writing/binrange-have-you-actually-put-the-bins-out/",
    "source": "Hacker News",
-   "date": "2026-10-02",
-   "summary": "AI surpasses humans at Stratego under imperfect information, advancing game AI.",
+   "date": "2026-10-03",
+   "summary": "Playful discussion of embedding ultra-wideband radios in waste bins for localization or tracking.",
    "tags": [
-    "game-AI",
-    "imperfect-information",
-    "RL"
-   ],
-   "extra": "",
-   "importance": 6.0,
-   "module": "news"
-  },
-  {
-   "id": "n:5838743990",
-   "kind": "news",
-   "title": "The Legend of von Neumann (1973) [pdf]",
-   "url": "https://gwern.net/doc/math/1973-halmos.pdf",
-   "source": "Hacker News",
-   "date": "2026-10-02",
-   "summary": "Historical von Neumann paper, foundational but not new.",
-   "tags": [
-    "history"
+    "uwb",
+    "iot"
    ],
    "extra": "",
    "importance": 2.0,
    "module": "news"
   },
   {
-   "id": "n:6672748074",
+   "id": "n:3589560283",
    "kind": "news",
-   "title": "Venice’s failed war against Constantinople led to the first bond market",
-   "url": "https://bigthink.com/books/a-fabulous-debt/",
+   "title": "We want you to build the next Git platform on Cloudflare",
+   "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
    "source": "Hacker News",
-   "date": "2026-10-02",
-   "summary": "Historical finance article, unrelated to AI.",
+   "date": "2026-10-03",
+   "summary": "Cloudflare invites developers to build the next Git hosting platform on its edge infrastructure.",
    "tags": [
-    "history"
-   ],
-   "extra": "",
-   "importance": 1.0,
-   "module": "news"
-  },
-  {
-   "id": "n:1767996936",
-   "kind": "news",
-   "title": "The first packet sent via RFC1149 avian carrier is up for auction at Christie's",
-   "url": "https://onlineonly.christies.com/s/fine-printed-books-manuscripts-science/carrier-pigeon-internet-protocol-150/325216",
-   "source": "Hacker News",
-   "date": "2026-10-02",
-   "summary": "Novelty networking artifact auction, unrelated to AI.",
-   "tags": [
-    "misc"
-   ],
-   "extra": "",
-   "importance": 1.0,
-   "module": "news"
-  },
-  {
-   "id": "n:7378410860",
-   "kind": "news",
-   "title": "Blogging with Gleam, Org-Mode and Pandoc",
-   "url": "https://byzantine-systems.github.io/blogging-with-gleam-org-mode-and-pandoc/",
-   "source": "Hacker News",
-   "date": "2026-10-02",
-   "summary": "Blogging toolchain post, not AI-focused.",
-   "tags": [
-    "tooling"
-   ],
-   "extra": "",
-   "importance": 2.0,
-   "module": "news"
-  },
-  {
-   "id": "n:5547214481",
-   "kind": "news",
-   "title": "Our Project Suncatcher prototype satellite is in orbit",
-   "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
-   "source": "Hacker News",
-   "date": "2026-10-02",
-   "summary": "Prototype satellite in orbit, potentially relevant to space-based compute.",
-   "tags": [
-    "satellite",
-    "hardware"
+    "cloudflare",
+    "git",
+    "edge-computing"
    ],
    "extra": "",
    "importance": 4.0,
    "module": "news"
   },
   {
-   "id": "n:8999626313",
+   "id": "n:9384478784",
    "kind": "news",
-   "title": "A 12-year sequence of telescope images of a star and four planets orbiting",
-   "url": "https://bsky.app/profile/theplanetaryguy.com/post/3mwucf5ert22f",
+   "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
+   "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
    "source": "Hacker News",
-   "date": "2026-10-02",
-   "summary": "Astronomy imaging sequence, not AI research.",
+   "date": "2026-10-03",
+   "summary": "Valve engineer Timur Kristóf improves Linux driver support and performance for older AMD GPUs.",
    "tags": [
-    "astronomy"
+    "linux",
+    "amd",
+    "gpu-drivers"
+   ],
+   "extra": "",
+   "importance": 4.0,
+   "module": "news"
+  },
+  {
+   "id": "n:3717170123",
+   "kind": "news",
+   "title": "RSS Feed Best Practices (2022)",
+   "url": "https://kevincox.ca/2022/05/06/rss-feed-best-practices/",
+   "source": "Hacker News",
+   "date": "2026-10-03",
+   "summary": "Best practices guide for publishing and maintaining RSS feeds, covering format and compatibility conventions.",
+   "tags": [
+    "rss",
+    "web-standards"
    ],
    "extra": "",
    "importance": 3.0,
    "module": "news"
   },
   {
-   "id": "n:7500610598",
+   "id": "n:2382323887",
    "kind": "news",
-   "title": "F.02 Decommission",
-   "url": "https://www.figure.ai/news/f-02-decommission",
+   "title": "How to hack time, with C2PA",
+   "url": "https://www.da.vidbuchanan.co.uk/blog/hacking-time.html",
    "source": "Hacker News",
-   "date": "2026-10-02",
-   "summary": "Unclear decommissioning notice, likely unrelated to AI.",
+   "date": "2026-10-03",
+   "summary": "Explores using C2PA content provenance standards to establish verifiable timestamps and authenticity.",
    "tags": [
-    "misc"
+    "c2pa",
+    "provenance",
+    "content-authenticity"
    ],
    "extra": "",
-   "importance": 1.0,
+   "importance": 5.0,
+   "module": "news"
+  },
+  {
+   "id": "n:3272779795",
+   "kind": "news",
+   "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
+   "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
+   "source": "Hacker News",
+   "date": "2026-10-03",
+   "summary": "Practical guidance on maximizing the Opus 5.5 model within Claude and Claude Code workflows.",
+   "tags": [
+    "llm",
+    "claude",
+    "prompting"
+   ],
+   "extra": "",
+   "importance": 6.0,
+   "module": "news"
+  },
+  {
+   "id": "n:4828829896",
+   "kind": "news",
+   "title": "Hole Punch: Sling your spaceship around gravitational fields",
+   "url": "https://notoriousbfg.com/hole-punch/",
+   "source": "Hacker News",
+   "date": "2026-10-03",
+   "summary": "Interactive toy simulating spacecraft trajectories using gravitational slingshot maneuvers around planets.",
+   "tags": [
+    "simulation",
+    "physics",
+    "game"
+   ],
+   "extra": "",
+   "importance": 2.0,
+   "module": "news"
+  },
+  {
+   "id": "n:6398055679",
+   "kind": "news",
+   "title": "Treachery in the Rodin Museum 3D scan verdict",
+   "url": "https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict",
+   "source": "Hacker News",
+   "date": "2026-10-03",
+   "summary": "Verdict on a disputed 3D scan of the Rodin Museum, touching on scanning fidelity and authenticity.",
+   "tags": [
+    "3d-scanning",
+    "cultural-heritage"
+   ],
+   "extra": "",
+   "importance": 3.0,
+   "module": "news"
+  },
+  {
+   "id": "n:3691243464",
+   "kind": "news",
+   "title": "Automating my 35mm film scanning pipeline",
+   "url": "https://shannadige.com/blog/darkroom/",
+   "source": "Hacker News",
+   "date": "2026-10-03",
+   "summary": "Describes an automated pipeline for scanning and processing 35mm film photographs.",
+   "tags": [
+    "automation",
+    "imaging",
+    "pipeline"
+   ],
+   "extra": "",
+   "importance": 3.0,
+   "module": "news"
+  },
+  {
+   "id": "n:9770799241",
+   "kind": "news",
+   "title": "Agents don't need memory, they need documentation",
+   "url": "https://liao.gg/blog/agents-dont-need-memory",
+   "source": "Hacker News",
+   "date": "2026-10-03",
+   "summary": "Argues LLM agents should rely on explicit documentation rather than memory mechanisms for reliable task execution.",
+   "tags": [
+    "agents",
+    "documentation",
+    "llm"
+   ],
+   "extra": "",
+   "importance": 7.0,
+   "module": "news"
+  },
+  {
+   "id": "n:1986310827",
+   "kind": "news",
+   "title": "RetailReady (YC W24) Is Hiring",
+   "url": "https://www.ycombinator.com/companies/retailready/jobs/bFcgIe4-implementations",
+   "source": "Hacker News",
+   "date": "2026-10-03",
+   "summary": "Hiring notice for RetailReady, a YC W24 startup, seeking candidates for retail technology roles.",
+   "tags": [
+    "hiring",
+    "startup"
+   ],
+   "extra": "",
+   "importance": 2.0,
+   "module": "news"
+  },
+  {
+   "id": "n:1360417449",
+   "kind": "news",
+   "title": "Docker has always used microVMs (well since 2016)",
+   "url": "https://dave.recoil.org/docker-has-always-used-microvms/",
+   "source": "Hacker News",
+   "date": "2026-10-03",
+   "summary": "Notes that Docker has relied on microVM-style isolation since 2016, clarifying common misconceptions.",
+   "tags": [
+    "docker",
+    "microvm",
+    "containers"
+   ],
+   "extra": "",
+   "importance": 5.0,
+   "module": "news"
+  },
+  {
+   "id": "n:1895545642",
+   "kind": "news",
+   "title": "FTL: A new operating system for clouds",
+   "url": "https://ftl-os.org/",
+   "source": "Hacker News",
+   "date": "2026-10-03",
+   "summary": "Introduces FTL, a new operating system design targeting cloud infrastructure and workload orchestration.",
+   "tags": [
+    "operating-systems",
+    "cloud",
+    "infrastructure"
+   ],
+   "extra": "",
+   "importance": 6.0,
+   "module": "news"
+  },
+  {
+   "id": "n:3562803061",
+   "kind": "news",
+   "title": "Watson Jr. memo about CDC 6600 (1963)",
+   "url": "https://www.computerhistory.org/revolution/supercomputers/10/33/62",
+   "source": "Hacker News",
+   "date": "2026-10-03",
+   "summary": "Historical memo from Watson Jr. regarding the CDC 6600, an early landmark in supercomputing.",
+   "tags": [
+    "history",
+    "supercomputing",
+    "ibm"
+   ],
+   "extra": "",
+   "importance": 4.0,
    "module": "news"
   }
  ]
