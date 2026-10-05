@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T01:47:20Z",
+ "generated_at": "2026-10-05T01:06:27Z",
  "model": "deepseek-v4-flash",
  "modules": [
   {
@@ -18,10 +18,10 @@
       "Automatic Algorithm Design / Hyper-heuristics"
      ],
      "importance": 8.0,
-     "summary": "Online post-training converts search signals into automatic heuristic design, advancing LLM-driven algorithm discovery.",
+     "summary": "Online post-training converts search signals into improved automatic heuristic design, closing the loop for LLM-based heuristics.",
      "tags": [
       "heuristic-design",
-      "post-training",
+      "online-learning",
       "LLM"
      ],
      "module": "llm4or"
@@ -47,26 +47,6 @@
      "module": "llm4or"
     },
     {
-     "id": "p:httparxivorgabs261001980",
-     "kind": "paper",
-     "date": "2026-10-01",
-     "title": "The Curvature of Regret in Contextual Linear Optimization",
-     "authors": "Konstantinos Ziliaskopoulos et.al.",
-     "url": "http://arxiv.org/abs/2610.01980",
-     "topic": "L2O / Learning to Optimize",
-     "topics": [
-      "L2O / Learning to Optimize"
-     ],
-     "importance": 8.0,
-     "summary": "Analyzes curvature of regret in contextual linear optimization, offering theoretical insights for decision-focused learning.",
-     "tags": [
-      "contextual-optimization",
-      "regret",
-      "theory"
-     ],
-     "module": "llm4or"
-    },
-    {
      "id": "p:httparxivorgabs260938884",
      "kind": "paper",
      "date": "2026-09-30",
@@ -78,7 +58,7 @@
       "LLM Auto-Formulation"
      ],
      "importance": 7.0,
-     "summary": "Quantifies efficiency gap in LLM-based optimization modeling, showing costly models yield right answers but at high cost.",
+     "summary": "Quantifies efficiency gap in LLM-based optimization modeling, showing correct answers often come from costly models.",
      "tags": [
       "LLM",
       "optimization-modeling",
@@ -102,27 +82,7 @@
      "tags": [
       "neural-quantum-states",
       "foundation-models",
-      "quantum-phases"
-     ],
-     "module": "llm4or"
-    },
-    {
-     "id": "p:httparxivorgabs261000619",
-     "kind": "paper",
-     "date": "2026-09-30",
-     "title": "Beyond Supra-Competitive Outcomes: Collusive Behaviour in Deep Reinforcement Learning for Optimal Execution Games",
-     "authors": "Christos Spyridon Koulouris et.al.",
-     "url": "http://arxiv.org/abs/2610.00619",
-     "topic": "L2O / Learning to Optimize",
-     "topics": [
-      "L2O / Learning to Optimize"
-     ],
-     "importance": 7.0,
-     "summary": "Deep RL agents exhibit collusive behavior beyond supra-competitive outcomes in optimal execution games.",
-     "tags": [
-      "deep-RL",
-      "collusion",
-      "optimal-execution"
+      "quantum-matter"
      ],
      "module": "llm4or"
     },
@@ -138,11 +98,11 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 7.0,
-     "summary": "Graph neural combinatorial optimization under hard information horizon learns to cover locally with limited visibility.",
+     "summary": "Graph neural combinatorial optimization under hard information horizon learns local covering strategies.",
      "tags": [
       "GNN",
       "combinatorial-optimizati",
-      "information-horizon"
+      "decentralized"
      ],
      "module": "llm4or"
     },
@@ -158,11 +118,31 @@
       "LLM Auto-Formulation"
      ],
      "importance": 7.0,
-     "summary": "OSCAR framework routes LLMs up an escalator to solve OR problems, combining LLM reasoning with OR solvers.",
+     "summary": "OSCAR framework routes LLMs up an escalator of OR solvers, using OR to improve LLM-based optimization modeling.",
      "tags": [
       "LLM-routing",
-      "OR-solvers",
-      "framework"
+      "OR-framework",
+      "optimization-modeling"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs261001980",
+     "kind": "paper",
+     "date": "2026-10-01",
+     "title": "The Curvature of Regret in Contextual Linear Optimization",
+     "authors": "Konstantinos Ziliaskopoulos et.al.",
+     "url": "http://arxiv.org/abs/2610.01980",
+     "topic": "L2O / Learning to Optimize",
+     "topics": [
+      "L2O / Learning to Optimize"
+     ],
+     "importance": 7.0,
+     "summary": "Analyzes curvature of regret in contextual linear optimization, offering theoretical insights for decision-focused learning.",
+     "tags": [
+      "contextual-optimization",
+      "regret",
+      "theory"
      ],
      "module": "llm4or"
     },
@@ -178,7 +158,7 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 7.0,
-     "summary": "MiLoop introduces selective memory propagation for neural combinatorial optimization, improving generalization across instances.",
+     "summary": "MiLoop introduces selective memory propagation to improve neural combinatorial optimization generalization.",
      "tags": [
       "neural-CO",
       "memory",
@@ -207,22 +187,42 @@
      "module": "llm4or"
     },
     {
-     "id": "p:httparxivorgabs261000580",
+     "id": "p:httparxivorgabs261000487",
      "kind": "paper",
      "date": "2026-09-30",
-     "title": "From Task Mixtures to Specialized Experts",
-     "authors": "Hojat Allah Salehi et.al.",
-     "url": "http://arxiv.org/abs/2610.00580",
+     "title": "ScaffoldM3C: A Multimodal Sequential Monte Carlo Framework for Generative Stable Construction Planning",
+     "authors": "Gadiel Sznaier Camps et.al.",
+     "url": "http://arxiv.org/abs/2610.00487",
      "topic": "LLM Auto-Formulation",
      "topics": [
       "LLM Auto-Formulation"
      ],
      "importance": 6.0,
-     "summary": "Transforms task mixtures into specialized experts, likely via modular training or routing for multi-task learning.",
+     "summary": "ScaffoldM3C uses multimodal sequential Monte Carlo for generative stable construction planning.",
      "tags": [
-      "multi-task",
-      "experts",
-      "specialization"
+      "SMC",
+      "construction-planning",
+      "multimodal"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs261000619",
+     "kind": "paper",
+     "date": "2026-09-30",
+     "title": "Beyond Supra-Competitive Outcomes: Collusive Behaviour in Deep Reinforcement Learning for Optimal Execution Games",
+     "authors": "Christos Spyridon Koulouris et.al.",
+     "url": "http://arxiv.org/abs/2610.00619",
+     "topic": "L2O / Learning to Optimize",
+     "topics": [
+      "L2O / Learning to Optimize"
+     ],
+     "importance": 6.0,
+     "summary": "Reveals collusive behavior in deep RL for optimal execution games, beyond supra-competitive outcomes.",
+     "tags": [
+      "deep-RL",
+      "optimal-execution",
+      "collusion"
      ],
      "module": "llm4or"
     },
@@ -238,7 +238,7 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 6.0,
-     "summary": "MANET-GNN learns decentralized power allocation for multi-channel MANETs using graph neural networks.",
+     "summary": "MANET-GNN learns decentralized power allocation for multi-channel MANETs via graph neural networks.",
      "tags": [
       "GNN",
       "MANET",
@@ -258,7 +258,7 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 6.0,
-     "summary": "Reexamines reconstruction loss scaling in LLM quantization, revealing optimization pitfalls and proposing fixes.",
+     "summary": "Reexamines reconstruction loss scaling in LLM quantization, revealing optimization pitfalls and improved scaling strategies.",
      "tags": [
       "quantization",
       "LLM",
@@ -278,7 +278,7 @@
       "VRP / Combinatorial Solving"
      ],
      "importance": 6.0,
-     "summary": "Context-aware error mitigation orchestration improves hybrid quantum RL on NISQ systems.",
+     "summary": "Context-aware error mitigation orchestration improves hybrid quantum RL performance on NISQ hardware.",
      "tags": [
       "quantum-RL",
       "error-mitigation",
@@ -287,22 +287,22 @@
      "module": "llm4or"
     },
     {
-     "id": "p:httparxivorgabs261000487",
+     "id": "p:httparxivorgabs261000580",
      "kind": "paper",
      "date": "2026-09-30",
-     "title": "ScaffoldM3C: A Multimodal Sequential Monte Carlo Framework for Generative Stable Construction Planning",
-     "authors": "Gadiel Sznaier Camps et.al.",
-     "url": "http://arxiv.org/abs/2610.00487",
+     "title": "From Task Mixtures to Specialized Experts",
+     "authors": "Hojat Allah Salehi et.al.",
+     "url": "http://arxiv.org/abs/2610.00580",
      "topic": "LLM Auto-Formulation",
      "topics": [
       "LLM Auto-Formulation"
      ],
      "importance": 5.0,
-     "summary": "ScaffoldM3C uses multimodal sequential Monte Carlo for generative stable construction planning.",
+     "summary": "Derives specialized experts from task mixtures, relevant to modular LLM training and routing.",
      "tags": [
-      "SMC",
-      "multimodal",
-      "construction-planning"
+      "mixture-of-experts",
+      "specialization",
+      "training"
      ],
      "module": "llm4or"
     },
@@ -318,7 +318,7 @@
       "LLM Auto-Formulation"
      ],
      "importance": 5.0,
-     "summary": "Nonlinear trajectory optimization for UAVs with mobile charging support addresses energy-constrained routing.",
+     "summary": "Nonlinear trajectory optimization for UAVs with mobile charging support addresses routing and energy constraints.",
      "tags": [
       "trajectory-optimization",
       "UAV",
@@ -358,11 +358,11 @@
       "VRP / Combinatorial Solving"
      ],
      "importance": 5.0,
-     "summary": "Studies routing in line networks with handling times, providing algorithmic results for queueing-based routing.",
+     "summary": "Studies routing in line networks with handling times, providing algorithmic results for queueing-style optimization.",
      "tags": [
       "routing",
-      "queueing",
-      "networks"
+      "line-networks",
+      "scheduling"
      ],
      "module": "llm4or"
     }
@@ -384,7 +384,7 @@
       "Agent Loop / Harness"
      ],
      "importance": 8.0,
-     "summary": "Lean agent enables auditable formal reasoning for mathematics and software verification with verifiable proofs.",
+     "summary": "Lean agent enables auditable formal reasoning for mathematics and software verification with verifiable proof traces.",
      "tags": [
       "formal-verification",
       "Lean",
@@ -404,11 +404,11 @@
       "Agent Loop / Harness"
      ],
      "importance": 8.0,
-     "summary": "Introduces explicit belief states to enhance long-horizon agent reasoning beyond memory-based approaches.",
+     "summary": "Introduces explicit belief states to enhance long-horizon agent reasoning beyond conventional memory mechanisms.",
      "tags": [
       "belief-state",
       "long-horizon",
-      "reasoning"
+      "memory"
      ],
      "module": "agentic"
     },
@@ -434,6 +434,26 @@
      "module": "agentic"
     },
     {
+     "id": "p:httparxivorgabs261000917",
+     "kind": "paper",
+     "date": "2026-10-01",
+     "title": "Finding the Right Fit: Model-Harness Interactions across Agent Tasks",
+     "authors": "Yixuan Li et.al.",
+     "url": "http://arxiv.org/abs/2610.00917",
+     "topic": "MCP / Tool Protocols",
+     "topics": [
+      "MCP / Tool Protocols"
+     ],
+     "importance": 8.0,
+     "summary": "Analyzes model-harness interactions to identify optimal pairings across diverse agent tasks.",
+     "tags": [
+      "harness",
+      "model-selection",
+      "evaluation"
+     ],
+     "module": "agentic"
+    },
+    {
      "id": "p:httparxivorgabs261000943",
      "kind": "paper",
      "date": "2026-10-01",
@@ -448,8 +468,8 @@
      "summary": "Correlation-aware agentic framework automates many-body simulations for strongly correlated quantum systems.",
      "tags": [
       "many-body",
-      "quantum-simulation",
-      "agentic"
+      "quantum",
+      "automation"
      ],
      "module": "agentic"
     },
@@ -465,7 +485,7 @@
       "Agent Loop / Harness"
      ],
      "importance": 7.0,
-     "summary": "Studies cross-benchmark transfer of RL-trained agentic coding policies to unseen task distributions.",
+     "summary": "Studies cross-benchmark transfer of RL-trained agentic coding policies across different evaluation suites.",
      "tags": [
       "transfer-learning",
       "RL",
@@ -486,7 +506,7 @@
       "MCP / Tool Protocols"
      ],
      "importance": 7.0,
-     "summary": "OmniSeek integrates native tools for multi-turn audio-visual reasoning in agentic settings.",
+     "summary": "OmniSeek integrates native tools for multi-turn audio-visual reasoning in multimodal agent settings.",
      "tags": [
       "multimodal",
       "tool-use",
@@ -506,7 +526,7 @@
       "Agent Loop / Harness"
      ],
      "importance": 7.0,
-     "summary": "Local-first agent harness lets small open models complete real tasks without cloud dependency.",
+     "summary": "Local-first agent harness enables small open models to complete real-world tasks without cloud dependency.",
      "tags": [
       "local-inference",
       "small-models",
@@ -527,7 +547,7 @@
       "Planning / Self-Evolution"
      ],
      "importance": 7.0,
-     "summary": "Federated agent optimization enables distributed training of agentic policies across decentralized data.",
+     "summary": "Federated agent optimization enables distributed training of agentic LLM systems across decentralized data.",
      "tags": [
       "federated-learning",
       "optimization",
@@ -547,31 +567,11 @@
       "MCP / Tool Protocols"
      ],
      "importance": 7.0,
-     "summary": "PG-SFT balances capability acquisition and retention during offline agent fine-tuning.",
+     "summary": "PG-SFT balances capability acquisition and retention during offline fine-tuning of agentic models.",
      "tags": [
       "fine-tuning",
       "catastrophic-forgetting",
-      "offline-RL"
-     ],
-     "module": "agentic"
-    },
-    {
-     "id": "p:httparxivorgabs261000917",
-     "kind": "paper",
-     "date": "2026-10-01",
-     "title": "Finding the Right Fit: Model-Harness Interactions across Agent Tasks",
-     "authors": "Yixuan Li et.al.",
-     "url": "http://arxiv.org/abs/2610.00917",
-     "topic": "MCP / Tool Protocols",
-     "topics": [
-      "MCP / Tool Protocols"
-     ],
-     "importance": 7.0,
-     "summary": "Analyzes model-harness interactions to find optimal pairings across diverse agent tasks.",
-     "tags": [
-      "harness",
-      "model-selection",
-      "evaluation"
+      "SFT"
      ],
      "module": "agentic"
     },
@@ -607,7 +607,7 @@
       "Agent Loop / Harness"
      ],
      "importance": 6.0,
-     "summary": "ActiveSaddler automates curriculum learning to optimize agent harness configurations across tasks.",
+     "summary": "ActiveSaddler automates curriculum learning to optimize agent harness configurations for improved task performance.",
      "tags": [
       "curriculum-learning",
       "harness",
@@ -650,8 +650,8 @@
      "summary": "VideoEvolve evolves agent harnesses for improved video temporal grounding performance.",
      "tags": [
       "video-grounding",
-      "harness-evolution",
-      "temporal"
+      "harness",
+      "evolution"
      ],
      "module": "agentic"
     },
@@ -690,8 +690,8 @@
      "summary": "CineMR integrates tools with vision-language reasoning for quantitative cardiac MRI assessment.",
      "tags": [
       "medical-imaging",
-      "tool-integration",
-      "VLM"
+      "VLM",
+      "tool-integration"
      ],
      "module": "agentic"
     },
@@ -742,425 +742,385 @@
   "academic": [
    {
     "title": "Agentic Heuristic Design for Optimization",
-    "summary": "LLM agents increasingly automate heuristic discovery and resource assignment, moving from search to online post-training. This promises autonomous, real-world combinatorial optimization without hand-crafted solvers.",
+    "summary": "LLM agents increasingly automate heuristic discovery and resource assignment, moving from search to online post-training. This promises autonomous, real-world combinatorial optimization without hand-crafted rules.",
     "keywords": [
      "agentic heuristic design",
      "automatic heuristic desi",
-     "LLM optimization"
+     "combinatorial optimizati"
     ]
    },
    {
-    "title": "Agent Harness Optimization and Evolution",
-    "summary": "Harnesses, not just models, drive agent performance. Works on harness-model fit, curriculum learning, and evolving harnesses for video and enterprise tasks make this a fast-rising theme.",
+    "title": "Agent Harness Optimization and Evaluation",
+    "summary": "Harnesses, curricula, and process-level evaluation are becoming central to making LLM agents reliable. Work spans video grounding, enterprise skills, and active curriculum learning for harness tuning.",
     "keywords": [
      "agent harness",
      "curriculum learning",
-     "model-harness interactio"
+     "process-level evaluation"
     ]
    },
    {
-    "title": "Efficient and Cost-Aware LLM Optimization",
-    "summary": "Concerns about costly models, quantization reconstruction loss, and efficiency gaps push research toward cheaper, right-sized LLM optimization modeling and deployment.",
+    "title": "Efficient LLM Optimization Modeling",
+    "summary": "Cost and efficiency gaps in LLM-based optimization modeling are under scrutiny, alongside quantization and routing frameworks that push cheaper models up the performance escalator.",
     "keywords": [
+     "optimization modeling",
      "efficiency gap",
-     "LLM quantization",
-     "optimization modeling"
+     "LLM routing"
     ]
    },
    {
-    "title": "Tool-Using Agents with Provenance and Beliefs",
-    "summary": "Long-horizon agents need explicit belief states, provenance-aware capability enforcement, and native tool integration. Trust, auditability, and memory are central to reliable autonomy.",
+    "title": "Memory, Belief, and Provenance in Agents",
+    "summary": "Long-horizon agents need explicit belief states, selective memory propagation, and provenance-aware capability enforcement to stay auditable and effective across tasks.",
     "keywords": [
-     "tool-using agents",
+     "long-horizon agents",
      "belief states",
      "provenance"
     ]
    },
    {
-    "title": "Neural Combinatorial Optimization with Graph Learning",
-    "summary": "Graph neural networks and selective memory propagation tackle combinatorial optimization under hard information horizons, advancing learned decentralized and covering methods.",
+    "title": "Neural and GNN Combinatorial Optimization",
+    "summary": "Graph neural networks and neural combinatorial optimization advance under hard information horizons, with memory mechanisms and decentralized power allocation for networked systems.",
     "keywords": [
-     "neural combinatorial opt",
      "graph neural networks",
-     "memory propagation"
+     "neural combinatorial opt",
+     "decentralized optimizati"
     ]
    }
   ],
-  "industry": [
-   {
-    "title": "OpenAI Safety Leader Quits, Culture Broken",
-    "summary": "A senior safety figure's exit and 'broken culture' warning spotlight governance risk at the frontier lab, fueling industry debate on safety versus shipping pressure.",
-    "keywords": [
-     "OpenAI",
-     "AI safety",
-     "governance"
-    ]
-   },
-   {
-    "title": "Default Hard Budget Caps for Everything",
-    "summary": "Rising compute and API costs push teams toward hard spending caps, making cost governance a first-class concern for applied AI and large-model deployments.",
-    "keywords": [
-     "budget caps",
-     "cost control",
-     "AI infrastructure"
-    ]
-   },
-   {
-    "title": "Getting Most Out of Opus 5.5",
-    "summary": "Practical guidance for squeezing performance from a leading frontier model in Claude and Claude Code signals intense practitioner focus on prompt and agent tuning.",
-    "keywords": [
-     "Opus 5.5",
-     "Claude Code",
-     "prompting"
-    ]
-   },
-   {
-    "title": "Agents Need Documentation, Not Memory",
-    "summary": "A contrarian take argues agent reliability comes from structured docs and context engineering rather than memory layers, resonating with builders of production agent systems.",
-    "keywords": [
-     "agents",
-     "documentation",
-     "context engineering"
-    ]
-   },
-   {
-    "title": "Docker Has Always Used MicroVMs",
-    "summary": "Clarifying Docker's long-standing microVM lineage reframes current sandboxing debates for AI code execution and cloud isolation, a hot topic for agent runtimes.",
-    "keywords": [
-     "Docker",
-     "microVMs",
-     "sandboxing"
-    ]
-   }
-  ]
+  "industry": []
  },
  "news": [
   {
-   "id": "n:4226198522",
+   "id": "n:4160476387",
    "kind": "news",
-   "title": "Bob Cringely Has Died",
-   "url": "https://news.ycombinator.com/item?id=49949438",
+   "title": "ArtCraft Apps – open-source Adobe compatible suite written in Rust",
+   "url": "https://getartcraft.com/apps",
    "source": "Hacker News",
    "date": "2026-10-04",
-   "summary": "Obituary for technology columnist Bob Cringely, marking the passing of a long-time industry commentator.",
+   "summary": "Open-source Rust reimplementation of Adobe creative suite apps, targeting compatibility and performance.",
    "tags": [
-    "obituary",
-    "tech-journalism"
-   ],
-   "extra": "",
-   "importance": 1.0,
-   "module": "news"
-  },
-  {
-   "id": "n:1009126554",
-   "kind": "news",
-   "title": "We're going to need default hard budget caps on pretty much everything",
-   "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
-   "source": "Hacker News",
-   "date": "2026-10-04",
-   "summary": "Argument that default hard budget caps are needed across systems, relevant to compute and agent cost governance.",
-   "tags": [
-    "budgeting",
-    "resource-limits"
-   ],
-   "extra": "",
-   "importance": 3.0,
-   "module": "news"
-  },
-  {
-   "id": "n:8498882332",
-   "kind": "news",
-   "title": "Apple's \"Clean Design\" Is Stupidity When It Comes to Hiding Fire Extinguishers",
-   "url": "https://www.gadgetreview.com/apples-clean-design-is-stupidity-when-it-comes-to-hiding-fire-extinguishers",
-   "source": "Hacker News",
-   "date": "2026-10-04",
-   "summary": "Critique of Apple's minimalist design philosophy using fire extinguisher visibility as an example.",
-   "tags": [
-    "design",
-    "ux"
-   ],
-   "extra": "",
-   "importance": 1.0,
-   "module": "news"
-  },
-  {
-   "id": "n:9305714148",
-   "kind": "news",
-   "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
-   "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
-   "source": "Hacker News",
-   "date": "2026-10-03",
-   "summary": "OpenAI safety leader resigns, alleging a broken culture, raising governance concerns for frontier AI labs.",
-   "tags": [
-    "ai-safety",
-    "governance",
-    "openai"
-   ],
-   "extra": "",
-   "importance": 8.0,
-   "module": "news"
-  },
-  {
-   "id": "n:6200722468",
-   "kind": "news",
-   "title": "Federal judge calls Flock 'indiscriminate mass surveillance'",
-   "url": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
-   "source": "Hacker News",
-   "date": "2026-10-03",
-   "summary": "Federal judge characterizes Flock's license-plate surveillance network as indiscriminate mass surveillance.",
-   "tags": [
-    "surveillance",
-    "privacy",
-    "law"
-   ],
-   "extra": "",
-   "importance": 5.0,
-   "module": "news"
-  },
-  {
-   "id": "n:1581325105",
-   "kind": "news",
-   "title": "Reasons I didn't become an EMT, ranked",
-   "url": "https://ben.stolovitz.com/posts/reasons-not-emt-ranked/",
-   "source": "Hacker News",
-   "date": "2026-10-03",
-   "summary": "Personal humorous essay ranking reasons the author did not pursue a career as an EMT.",
-   "tags": [
-    "personal-essay"
-   ],
-   "extra": "",
-   "importance": 0.0,
-   "module": "news"
-  },
-  {
-   "id": "n:9011940923",
-   "kind": "news",
-   "title": "Surely you have ultra-wideband radios on your bins too?",
-   "url": "https://sjg.io/writing/binrange-have-you-actually-put-the-bins-out/",
-   "source": "Hacker News",
-   "date": "2026-10-03",
-   "summary": "Playful discussion of embedding ultra-wideband radios in waste bins for localization or tracking.",
-   "tags": [
-    "uwb",
-    "iot"
-   ],
-   "extra": "",
-   "importance": 2.0,
-   "module": "news"
-  },
-  {
-   "id": "n:3589560283",
-   "kind": "news",
-   "title": "We want you to build the next Git platform on Cloudflare",
-   "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
-   "source": "Hacker News",
-   "date": "2026-10-03",
-   "summary": "Cloudflare invites developers to build the next Git hosting platform on its edge infrastructure.",
-   "tags": [
-    "cloudflare",
-    "git",
-    "edge-computing"
-   ],
-   "extra": "",
-   "importance": 4.0,
-   "module": "news"
-  },
-  {
-   "id": "n:9384478784",
-   "kind": "news",
-   "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
-   "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
-   "source": "Hacker News",
-   "date": "2026-10-03",
-   "summary": "Valve engineer Timur Kristóf improves Linux driver support and performance for older AMD GPUs.",
-   "tags": [
-    "linux",
-    "amd",
-    "gpu-drivers"
-   ],
-   "extra": "",
-   "importance": 4.0,
-   "module": "news"
-  },
-  {
-   "id": "n:3717170123",
-   "kind": "news",
-   "title": "RSS Feed Best Practices (2022)",
-   "url": "https://kevincox.ca/2022/05/06/rss-feed-best-practices/",
-   "source": "Hacker News",
-   "date": "2026-10-03",
-   "summary": "Best practices guide for publishing and maintaining RSS feeds, covering format and compatibility conventions.",
-   "tags": [
-    "rss",
-    "web-standards"
-   ],
-   "extra": "",
-   "importance": 3.0,
-   "module": "news"
-  },
-  {
-   "id": "n:2382323887",
-   "kind": "news",
-   "title": "How to hack time, with C2PA",
-   "url": "https://www.da.vidbuchanan.co.uk/blog/hacking-time.html",
-   "source": "Hacker News",
-   "date": "2026-10-03",
-   "summary": "Explores using C2PA content provenance standards to establish verifiable timestamps and authenticity.",
-   "tags": [
-    "c2pa",
-    "provenance",
-    "content-authenticity"
-   ],
-   "extra": "",
-   "importance": 5.0,
-   "module": "news"
-  },
-  {
-   "id": "n:3272779795",
-   "kind": "news",
-   "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
-   "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
-   "source": "Hacker News",
-   "date": "2026-10-03",
-   "summary": "Practical guidance on maximizing the Opus 5.5 model within Claude and Claude Code workflows.",
-   "tags": [
-    "llm",
-    "claude",
-    "prompting"
+    "rust",
+    "creative-tools",
+    "open-source"
    ],
    "extra": "",
    "importance": 6.0,
    "module": "news"
   },
   {
-   "id": "n:4828829896",
+   "id": "n:4538128705",
    "kind": "news",
-   "title": "Hole Punch: Sling your spaceship around gravitational fields",
-   "url": "https://notoriousbfg.com/hole-punch/",
+   "title": "Self-hosted HTTP tunnels with SSH and Nginx",
+   "url": "https://vincent.bernat.ch/en/blog/2026-http-over-ssh",
    "source": "Hacker News",
-   "date": "2026-10-03",
-   "summary": "Interactive toy simulating spacecraft trajectories using gravitational slingshot maneuvers around planets.",
+   "date": "2026-10-04",
+   "summary": "Guide to self-hosting HTTP tunnels using SSH and Nginx as an alternative to commercial services.",
    "tags": [
-    "simulation",
-    "physics",
-    "game"
+    "networking",
+    "self-hosting",
+    "nginx"
    ],
    "extra": "",
-   "importance": 2.0,
+   "importance": 4.0,
    "module": "news"
   },
   {
-   "id": "n:6398055679",
+   "id": "n:7588523008",
    "kind": "news",
-   "title": "Treachery in the Rodin Museum 3D scan verdict",
-   "url": "https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict",
+   "title": "In the wake of closure, a digital archive of animated materials appears online",
+   "url": "https://filmstories.co.uk/news/tippett-studios-in-the-wake-of-its-closure-a-digital-archive-of-animated-materials-appears-online/",
    "source": "Hacker News",
-   "date": "2026-10-03",
-   "summary": "Verdict on a disputed 3D scan of the Rodin Museum, touching on scanning fidelity and authenticity.",
+   "date": "2026-10-04",
+   "summary": "Digital archive of animated materials emerges online following a closure, preserving media history.",
    "tags": [
-    "3d-scanning",
-    "cultural-heritage"
-   ],
-   "extra": "",
-   "importance": 3.0,
-   "module": "news"
-  },
-  {
-   "id": "n:3691243464",
-   "kind": "news",
-   "title": "Automating my 35mm film scanning pipeline",
-   "url": "https://shannadige.com/blog/darkroom/",
-   "source": "Hacker News",
-   "date": "2026-10-03",
-   "summary": "Describes an automated pipeline for scanning and processing 35mm film photographs.",
-   "tags": [
-    "automation",
-    "imaging",
-    "pipeline"
+    "archive",
+    "animation",
+    "preservation"
    ],
    "extra": "",
    "importance": 3.0,
    "module": "news"
   },
   {
-   "id": "n:9770799241",
+   "id": "n:7634016405",
    "kind": "news",
-   "title": "Agents don't need memory, they need documentation",
-   "url": "https://liao.gg/blog/agents-dont-need-memory",
+   "title": "Homa: The end of TCP for AI clusters [video]",
+   "url": "https://www.youtube.com/watch?v=eZ8WWZzoaR0",
    "source": "Hacker News",
-   "date": "2026-10-03",
-   "summary": "Argues LLM agents should rely on explicit documentation rather than memory mechanisms for reliable task execution.",
+   "date": "2026-10-04",
+   "summary": "Talk on Homa transport protocol replacing TCP for low-latency AI cluster networking.",
    "tags": [
-    "agents",
-    "documentation",
-    "llm"
+    "networking",
+    "datacenter",
+    "transport-protocol"
    ],
    "extra": "",
    "importance": 7.0,
    "module": "news"
   },
   {
-   "id": "n:1986310827",
+   "id": "n:4621461609",
    "kind": "news",
-   "title": "RetailReady (YC W24) Is Hiring",
-   "url": "https://www.ycombinator.com/companies/retailready/jobs/bFcgIe4-implementations",
+   "title": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
+   "url": "https://github.com/omlahore/RemoveMacAI",
    "source": "Hacker News",
-   "date": "2026-10-03",
-   "summary": "Hiring notice for RetailReady, a YC W24 startup, seeking candidates for retail technology roles.",
+   "date": "2026-10-04",
+   "summary": "Guide to disabling Apple Intelligence on macOS 27 to reclaim disk space.",
    "tags": [
-    "hiring",
-    "startup"
+    "macos",
+    "apple-intelligence",
+    "storage"
    ],
    "extra": "",
-   "importance": 2.0,
+   "importance": 3.0,
    "module": "news"
   },
   {
-   "id": "n:1360417449",
+   "id": "n:1135167243",
    "kind": "news",
-   "title": "Docker has always used microVMs (well since 2016)",
-   "url": "https://dave.recoil.org/docker-has-always-used-microvms/",
+   "title": "Improper redaction reveals Google Data Center water and electricity usage",
+   "url": "https://www.1011now.com/2026/09/30/more-questions-than-answers-about-lincolns-google-data-center-water-electricity-usage/",
    "source": "Hacker News",
-   "date": "2026-10-03",
-   "summary": "Notes that Docker has relied on microVM-style isolation since 2016, clarifying common misconceptions.",
+   "date": "2026-10-04",
+   "summary": "Improper redaction exposed Google data center water and electricity consumption figures.",
    "tags": [
-    "docker",
-    "microvm",
-    "containers"
+    "datacenter",
+    "privacy",
+    "sustainability"
    ],
    "extra": "",
    "importance": 5.0,
    "module": "news"
   },
   {
-   "id": "n:1895545642",
+   "id": "n:8354553609",
    "kind": "news",
-   "title": "FTL: A new operating system for clouds",
-   "url": "https://ftl-os.org/",
+   "title": "Show HN: Build with Python – a beginner course where your code draws",
+   "url": "https://scimigo.com/en/learn/build-with-python/01-draw-with-python",
    "source": "Hacker News",
-   "date": "2026-10-03",
-   "summary": "Introduces FTL, a new operating system design targeting cloud infrastructure and workload orchestration.",
+   "date": "2026-10-04",
+   "summary": "Beginner Python course where learner code produces visual drawings as feedback.",
    "tags": [
-    "operating-systems",
-    "cloud",
-    "infrastructure"
+    "education",
+    "python",
+    "visualization"
+   ],
+   "extra": "",
+   "importance": 3.0,
+   "module": "news"
+  },
+  {
+   "id": "n:793457085",
+   "kind": "news",
+   "title": "A browser-native classic Visual Basic VB6 IDE",
+   "url": "https://wieslawsoltes.github.io/VB6/",
+   "source": "Hacker News",
+   "date": "2026-10-04",
+   "summary": "Browser-native Visual Basic 6 IDE enabling legacy VB6 development inside a web browser.",
+   "tags": [
+    "ide",
+    "webassembly",
+    "legacy"
+   ],
+   "extra": "",
+   "importance": 5.0,
+   "module": "news"
+  },
+  {
+   "id": "n:8905890729",
+   "kind": "news",
+   "title": "Incentives in Academic Research",
+   "url": "https://www.msoos.org/2026/10/incentives-in-academic-research/",
+   "source": "Hacker News",
+   "date": "2026-10-04",
+   "summary": "Analysis of incentive structures shaping academic research behavior and outcomes.",
+   "tags": [
+    "research-policy",
+    "incentives",
+    "academia"
    ],
    "extra": "",
    "importance": 6.0,
    "module": "news"
   },
   {
-   "id": "n:3562803061",
+   "id": "n:4792664395",
    "kind": "news",
-   "title": "Watson Jr. memo about CDC 6600 (1963)",
-   "url": "https://www.computerhistory.org/revolution/supercomputers/10/33/62",
+   "title": "Xray-core concealed a certificate verification bypass vulnerability",
+   "url": "https://github.com/net4people/bbs/issues/672",
+   "source": "Hacker News",
+   "date": "2026-10-04",
+   "summary": "Xray-core shipped a certificate verification bypass vulnerability, a serious security flaw.",
+   "tags": [
+    "security",
+    "vulnerability",
+    "tls"
+   ],
+   "extra": "",
+   "importance": 7.0,
+   "module": "news"
+  },
+  {
+   "id": "n:6721158117",
+   "kind": "news",
+   "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+   "url": "https://github.com/Niko1221/Strata",
+   "source": "Hacker News",
+   "date": "2026-10-04",
+   "summary": "Running Qwen 125B model on a single RTX 4090 at 100 tokens per second.",
+   "tags": [
+    "llm",
+    "inference",
+    "quantization"
+   ],
+   "extra": "",
+   "importance": 8.0,
+   "module": "news"
+  },
+  {
+   "id": "n:6444685110",
+   "kind": "news",
+   "title": "Bill Draper has died",
+   "url": "https://www.nytimes.com/2026/09/30/technology/william-draper-dead.html",
+   "source": "Hacker News",
+   "date": "2026-10-04",
+   "summary": "Obituary noting the death of venture capitalist Bill Draper.",
+   "tags": [
+    "obituary",
+    "venture-capital"
+   ],
+   "extra": "",
+   "importance": 2.0,
+   "module": "news"
+  },
+  {
+   "id": "n:2737254384",
+   "kind": "news",
+   "title": "Show HN: AI search for every photo and every frame of video on macOS",
+   "url": "https://github.com/allenv0/SCM",
+   "source": "Hacker News",
+   "date": "2026-10-04",
+   "summary": "macOS app providing AI-powered semantic search across all photos and video frames.",
+   "tags": [
+    "multimodal",
+    "search",
+    "macos"
+   ],
+   "extra": "",
+   "importance": 6.0,
+   "module": "news"
+  },
+  {
+   "id": "n:4842822579",
+   "kind": "news",
+   "title": "How to scale intent, quality, and artistry with AI [video]",
+   "url": "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
+   "source": "Hacker News",
+   "date": "2026-10-04",
+   "summary": "Talk on scaling intent, quality, and artistry in AI-assisted creative workflows.",
+   "tags": [
+    "generative-ai",
+    "creative-tools",
+    "workflow"
+   ],
+   "extra": "",
+   "importance": 5.0,
+   "module": "news"
+  },
+  {
+   "id": "n:6518535014",
+   "kind": "news",
+   "title": "Emitting metadata early makes building/checking Rust up to twice as fast",
+   "url": "https://github.com/PowderworksCode/headstart",
+   "source": "Hacker News",
+   "date": "2026-10-04",
+   "summary": "Emitting Rust metadata early speeds up builds and checks by up to 2x.",
+   "tags": [
+    "rust",
+    "compiler",
+    "build-systems"
+   ],
+   "extra": "",
+   "importance": 6.0,
+   "module": "news"
+  },
+  {
+   "id": "n:2253523565",
+   "kind": "news",
+   "title": "Why don't more developers “use the platform”?",
+   "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
+   "source": "Hacker News",
+   "date": "2026-10-04",
+   "summary": "Discussion on why developers avoid platform-native APIs and frameworks.",
+   "tags": [
+    "developer-experience",
+    "platforms"
+   ],
+   "extra": "",
+   "importance": 4.0,
+   "module": "news"
+  },
+  {
+   "id": "n:2698510117",
+   "kind": "news",
+   "title": "Tell HN: Bob Cringely has died",
+   "url": "https://news.ycombinator.com/item?id=49949438",
+   "source": "Hacker News",
+   "date": "2026-10-04",
+   "summary": "Obituary noting the death of technology journalist Bob Cringely.",
+   "tags": [
+    "obituary",
+    "journalism"
+   ],
+   "extra": "",
+   "importance": 2.0,
+   "module": "news"
+  },
+  {
+   "id": "n:9811878203",
+   "kind": "news",
+   "title": "Declaring a bird extinct: The median wait is 36 years after the last sighting",
+   "url": "https://birdshistory.com/how-long-to-declare-a-bird-extinct/",
    "source": "Hacker News",
    "date": "2026-10-03",
-   "summary": "Historical memo from Watson Jr. regarding the CDC 6600, an early landmark in supercomputing.",
+   "summary": "Study finds median 36-year wait between last bird sighting and official extinction declaration.",
    "tags": [
-    "history",
-    "supercomputing",
-    "ibm"
+    "conservation",
+    "statistics",
+    "biology"
+   ],
+   "extra": "",
+   "importance": 3.0,
+   "module": "news"
+  },
+  {
+   "id": "n:5138949813",
+   "kind": "news",
+   "title": "'Neanderthals Among Us' review",
+   "url": "https://www.historytoday.com/archive/review/neanderthals-among-us-peter-sahlins-review",
+   "source": "Hacker News",
+   "date": "2026-10-03",
+   "summary": "Review of 'Neanderthals Among Us', examining human-Neanderthal interbreeding and legacy.",
+   "tags": [
+    "paleoanthropology",
+    "genetics",
+    "book-review"
+   ],
+   "extra": "",
+   "importance": 3.0,
+   "module": "news"
+  },
+  {
+   "id": "n:7988033299",
+   "kind": "news",
+   "title": "Surely you have ultra-wideband radios on your bins too?",
+   "url": "https://sjg.io/writing/binrange-have-you-actually-put-the-bins-out/",
+   "source": "Hacker News",
+   "date": "2026-10-03",
+   "summary": "Humorous observation about ultra-wideband radios being embedded in everyday waste bins.",
+   "tags": [
+    "uwb",
+    "iot",
+    "privacy"
    ],
    "extra": "",
    "importance": 4.0,
