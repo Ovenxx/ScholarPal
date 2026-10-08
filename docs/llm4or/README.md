@@ -1,4 +1,4 @@
-## Updated on 2026.10.07
+## Updated on 2026.10.08
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -33,12 +33,15 @@
 |**2026-07-29**|**FunL2O: LLM-Guided Feature Function Design for Learning to Optimize**|Bingheng Li et.al.|[2607.27389](http://arxiv.org/abs/2607.27389)|null|
 |**2026-07-13**|**RefineEvo: Planning-Guided Heuristic Evolution with Bidirectional Experience**|Yang Wu et.al.|[2607.11358](http://arxiv.org/abs/2607.11358)|null|
 
-<p align=right>(<a href=#updated-on-20261007>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261008>back to top</a>)</p>
 
 ## LLM Auto-Formulation
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-07**|**VIS-Ground: Video Interactive Storytelling with Contextual Grounding**|Bingxuan Li et.al.|[2610.09326](http://arxiv.org/abs/2610.09326)|null|
+|**2026-10-06**|**Multi-Label Topic Assignment via LLM Distillation: A Comparative Analysis of Generative vs. Discriminative Student Models**|Sourabh Kasliwal et.al.|[2610.09063](http://arxiv.org/abs/2610.09063)|null|
+|**2026-10-06**|**Learning PDE solution operators with variable initial conditions via Latent Dynamics Networks**|Stefano Maria Pizzamiglio et.al.|[2610.08475](http://arxiv.org/abs/2610.08475)|null|
 |**2026-10-06**|**PLUTO: An Agentic AI Tool for Interactive Spacecraft Rendezvous Trajectory Design**|Eleanor Brosius et.al.|[2610.07573](http://arxiv.org/abs/2610.07573)|null|
 |**2026-10-03**|**Economic resources, sporting efficiency and uncertainty: a stochastic optimization model of football performance in Africa**|Thierno Thioune et.al.|[2610.06967](http://arxiv.org/abs/2610.06967)|null|
 |**2026-10-05**|**How to scale your HEP ML models: A recipe for robust architecture comparisons at scale**|Matthias Vigl et.al.|[2610.06784](http://arxiv.org/abs/2610.06784)|null|
@@ -89,12 +92,15 @@
 |**2026-09-16**|**From Corridor Selection to Earthwork: A Multi-Stage Framework for Automated Road Design via Steiner Trees and Convex Optimization**|Paavai Manimaran Vanjeenathammal et.al.|[2609.19350](http://arxiv.org/abs/2609.19350)|null|
 |**2026-09-16**|**Evidence-Grounded Agentic Formulation Development in an Autonomous Laboratory**|Michael M. Craig et.al.|[2609.19099](http://arxiv.org/abs/2609.19099)|null|
 
-<p align=right>(<a href=#updated-on-20261007>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261008>back to top</a>)</p>
 
 ## L2O / Learning to Optimize
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-06**|**FedRSPO+: A Heterogeneity-aware Algorithm for Decision-focused Federated Learning**|Konstantinos Ziliaskopoulos et.al.|[2610.09091](http://arxiv.org/abs/2610.09091)|null|
+|**2026-10-06**|**Optimal and Efficient Online Inverse Optimization**|Anupam Gupta et.al.|[2610.08735](http://arxiv.org/abs/2610.08735)|null|
+|**2026-10-06**|**Decision-Focused Learning in MDPs: An Occupancy Measure Approach**|Zihao Zhao et.al.|[2610.08384](http://arxiv.org/abs/2610.08384)|null|
 |**2026-10-06**|**A Decision-Focused Neural Optimization Framework for Personalized Route Reproduction from Vehicle Trajectories**|Gyeongjun Kim et.al.|[2610.07857](http://arxiv.org/abs/2610.07857)|null|
 |**2026-10-03**|**Near-Optimal Sample Complexity for Recursive Entropic Risk Reinforcement Learning with a Generative Model**|Amirparsa Bahrami et.al.|[2610.06931](http://arxiv.org/abs/2610.06931)|null|
 |**2026-10-02**|**Learning from Unreliable Trajectories: Adversarially-Robust Federated Q-Learning**|Sreejeet Maity et.al.|[2610.06918](http://arxiv.org/abs/2610.06918)|null|
@@ -143,12 +149,14 @@
 |**2026-09-17**|**MATCH: Model-Aware Tool Learning with Curriculum Scheduling and Hierarchically Gated Rewards**|Shihao Liu et.al.|[2609.20082](http://arxiv.org/abs/2609.20082)|null|
 |**2026-09-16**|**STUART: Sequence Triage and qUAntification of Read Transcripts for Rapid Ionizing Radiation Exposure Assessment**|Tomasz Strzoda et.al.|[2609.19139](http://arxiv.org/abs/2609.19139)|null|
 
-<p align=right>(<a href=#updated-on-20261007>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261008>back to top</a>)</p>
 
 ## VRP / Combinatorial Solving
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-06**|**Spatial Induction Heads: In-Context Learning of Multidimensional Cellular Automata**|Kimia Kazemian et.al.|[2610.09124](http://arxiv.org/abs/2610.09124)|null|
+|**2026-10-06**|**On the complexity of the single-move labeled token routing problem**|Nicolas Bousquet et.al.|[2610.09084](http://arxiv.org/abs/2610.09084)|null|
 |**2026-10-05**|**Computing Stable Matchings under Complementarities and Preference Misalignment**|Tatsuya Iwase et.al.|[2610.06337](http://arxiv.org/abs/2610.06337)|null|
 |**2026-10-04**|**Synergizing Drone Delivery Order Pooling and Road Network Monitoring through Monitoring-Task Orderization**|Yulong Hu et.al.|[2610.05270](http://arxiv.org/abs/2610.05270)|null|
 |**2026-10-04**|**EDISCO: Equivariant DIScrete Diffusion for Euclidean Combinatorial Optimization**|Ruogu Chen et.al.|[2610.04953](http://arxiv.org/abs/2610.04953)|null|
@@ -185,12 +193,13 @@
 |**2026-09-16**|**APGEM: Adaptive Policy-Guided Error Mitigation for Quantum Reinforcement Learning on a Real-World CVRP Case Study**|Shabir Ahmad Sofi et.al.|[2609.18219](http://arxiv.org/abs/2609.18219)|null|
 |**2026-09-15**|**Data-Driven Stress Testing of Intermodal Freight Networks Using GAN-Generated Disruption Scenarios**|Xudong Wang et.al.|[2609.17373](http://arxiv.org/abs/2609.17373)|null|
 
-<p align=right>(<a href=#updated-on-20261007>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261008>back to top</a>)</p>
 
 ## Solver Intelligence
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-06**|**Hours-of-service-aware siting of charging and battery-swapping stations for long-haul electric trucks under adoption uncertainty**|Elnaz Irannezhad et.al.|[2610.08187](http://arxiv.org/abs/2610.08187)|null|
 |**2026-10-02**|**Accelerated Benders decomposition for bi-objective mixed integer programming**|Duleabom An et.al.|[2610.04070](http://arxiv.org/abs/2610.04070)|null|
 |**2026-09-30**|**Reformulation-Contrastive Learning for Mixed Integer Programs**|Ousema Bouaneni et.al.|[2610.00730](http://arxiv.org/abs/2610.00730)|null|
 |**2026-10-01**|**Autoresearch in Mixed-Integer Linear and Nonlinear Programming**|Yuwei Gu et.al.|[2609.39360](http://arxiv.org/abs/2609.39360)|null|
@@ -213,5 +222,5 @@
 |**2026-09-09**|**Economic Evaluation of V2G-Enabled Fast Charging Stations Under Endogenous EV Adoption Dynamics**|Mingjian Tuo et.al.|[2609.10388](http://arxiv.org/abs/2609.10388)|null|
 |**2026-09-07**|**A New Perspective on Clustering: A Mixed-norm Model and its Solution by Progressive Integer Programming**|Junyi Liu et.al.|[2609.08002](http://arxiv.org/abs/2609.08002)|null|
 
-<p align=right>(<a href=#updated-on-20261007>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261008>back to top</a>)</p>
 
