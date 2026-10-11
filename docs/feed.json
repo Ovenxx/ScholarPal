@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T01:51:17Z",
+ "generated_at": "2026-10-11T01:07:15Z",
  "model": "deepseek-v4-flash",
  "modules": [
   {
@@ -18,7 +18,7 @@
       "LLM Auto-Formulation"
      ],
      "importance": 8.0,
-     "summary": "Assesses agentic AI-assisted modeling for production scheduling in constraint programming, evaluating LLM agents for combinatorial optimization.",
+     "summary": "Assesses agentic AI-assisted modeling for production scheduling within constraint programming, showing practical benefits.",
      "tags": [
       "agentic AI",
       "constraint programming",
@@ -38,10 +38,10 @@
       "Solver Intelligence"
      ],
      "importance": 8.0,
-     "summary": "Introduces operation-level round-aware dynamic ordering for MIP presolve, improving solver efficiency via learned ordering policies.",
+     "summary": "Introduces operation-level round-aware dynamic ordering for MIP presolve, improving solver efficiency.",
      "tags": [
       "MIP presolve",
-      "learning to optimize",
+      "optimization",
       "solver"
      ],
      "module": "llm4or"
@@ -58,31 +58,11 @@
       "LLM Auto-Formulation"
      ],
      "importance": 7.0,
-     "summary": "Presents an agentic AI tool for interactive spacecraft rendezvous trajectory design, enabling human-in-the-loop mission planning.",
+     "summary": "Presents an agentic AI tool for interactive spacecraft rendezvous trajectory design, aiding mission planning.",
      "tags": [
       "agentic AI",
       "trajectory design",
       "spacecraft"
-     ],
-     "module": "llm4or"
-    },
-    {
-     "id": "p:httparxivorgabs261010858",
-     "kind": "paper",
-     "date": "2026-10-07",
-     "title": "RFChipAgent: Multi-Agentic AI Flow for Analog/RF Chip Design",
-     "authors": "Awani Khodkumbhe et.al.",
-     "url": "http://arxiv.org/abs/2610.10858",
-     "topic": "LLM Auto-Formulation",
-     "topics": [
-      "LLM Auto-Formulation"
-     ],
-     "importance": 7.0,
-     "summary": "Develops a multi-agentic AI flow for analog/RF chip design, automating complex circuit design tasks via LLM agents.",
-     "tags": [
-      "multi-agent",
-      "chip design",
-      "LLM"
      ],
      "module": "llm4or"
     },
@@ -98,7 +78,7 @@
       "LLM Auto-Formulation"
      ],
      "importance": 7.0,
-     "summary": "Reveals temporal predictive multiplicity: equally accurate time series models produce divergent forecast trajectories, impacting decision reliability.",
+     "summary": "Reveals temporal predictive multiplicity: equally accurate time series models yield different forecast trajectories.",
      "tags": [
       "predictive multiplicity",
       "time series",
@@ -118,7 +98,7 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 7.0,
-     "summary": "Proposes MotherTree, using meta-learning on synthetic data to improve decision tree training, bridging meta-learning and interpretable models.",
+     "summary": "Uses meta-learning on synthetic data to improve decision tree training, bridging L2O and symbolic models.",
      "tags": [
       "meta-learning",
       "decision trees",
@@ -138,7 +118,7 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 7.0,
-     "summary": "Shows that optimizing a pedagogical metric can degrade LLM tutoring quality, revealing misalignment between metrics and learning outcomes.",
+     "summary": "Shows optimizing a pedagogical metric can degrade LLM tutoring quality, revealing misalignment between metrics and learning.",
      "tags": [
       "LLM tutoring",
       "metric misalignment",
@@ -158,11 +138,31 @@
       "Automatic Algorithm Design / Hyper-heuristics"
      ],
      "importance": 6.0,
-     "summary": "Uses ReEvo-designed memetic algorithm for secure fluid antenna systems, advancing LLM-driven evolutionary optimization for wireless design.",
+     "summary": "Uses ReEvo-designed memetic algorithm for secure fluid antenna systems, advancing LLM-driven algorithm design.",
      "tags": [
       "LLM-GA",
       "memetic algorithm",
       "antenna systems"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs261010858",
+     "kind": "paper",
+     "date": "2026-10-07",
+     "title": "RFChipAgent: Multi-Agentic AI Flow for Analog/RF Chip Design",
+     "authors": "Awani Khodkumbhe et.al.",
+     "url": "http://arxiv.org/abs/2610.10858",
+     "topic": "LLM Auto-Formulation",
+     "topics": [
+      "LLM Auto-Formulation"
+     ],
+     "importance": 6.0,
+     "summary": "Proposes a multi-agentic AI flow for analog/RF chip design, automating complex design tasks.",
+     "tags": [
+      "multi-agent",
+      "chip design",
+      "analog/RF"
      ],
      "module": "llm4or"
     },
@@ -178,7 +178,7 @@
       "LLM Auto-Formulation"
      ],
      "importance": 6.0,
-     "summary": "Examines how successive training stages (misalignment, SFT, preference optimization) affect LLM persuasion capabilities.",
+     "summary": "Examines how successive training stages and alignment methods affect LLM persuasion capabilities.",
      "tags": [
       "LLM persuasion",
       "fine-tuning",
@@ -198,7 +198,7 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 6.0,
-     "summary": "Studies policy learning with weak signals, addressing decision-making when feedback is sparse or noisy.",
+     "summary": "Studies policy learning with weak signals, addressing decision-making under limited information.",
      "tags": [
       "policy learning",
       "weak signals",
@@ -218,51 +218,11 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 6.0,
-     "summary": "Develops predefined-time integral reinforcement learning via inverse-optimal design for unknown nonlinear systems with guaranteed convergence.",
+     "summary": "Develops predefined-time integral reinforcement learning for unknown nonlinear systems via inverse-optimal control design.",
      "tags": [
       "reinforcement learning",
-      "control",
-      "inverse optimal"
-     ],
-     "module": "llm4or"
-    },
-    {
-     "id": "p:httparxivorgabs261006337",
-     "kind": "paper",
-     "date": "2026-10-08",
-     "title": "Computing Stable Matchings under Complementarities and Preference Misalignment",
-     "authors": "Tatsuya Iwase et.al.",
-     "url": "http://arxiv.org/abs/2610.06337",
-     "topic": "VRP / Combinatorial Solving",
-     "topics": [
-      "VRP / Combinatorial Solving"
-     ],
-     "importance": 6.0,
-     "summary": "Studies computing stable matchings under complementarities and preference misalignment, extending matching theory beyond substitutable preferences.",
-     "tags": [
-      "stable matching",
-      "complementarities",
-      "algorithms"
-     ],
-     "module": "llm4or"
-    },
-    {
-     "id": "p:httparxivorgabs261009326",
-     "kind": "paper",
-     "date": "2026-10-07",
-     "title": "VIS-Ground: Video Interactive Storytelling with Contextual Grounding",
-     "authors": "Bingxuan Li et.al.",
-     "url": "http://arxiv.org/abs/2610.09326",
-     "topic": "LLM Auto-Formulation",
-     "topics": [
-      "LLM Auto-Formulation"
-     ],
-     "importance": 5.0,
-     "summary": "Proposes VIS-Ground for video interactive storytelling with contextual grounding, linking narrative generation to visual context.",
-     "tags": [
-      "video storytelling",
-      "grounding",
-      "multimodal"
+      "optimal control",
+      "nonlinear systems"
      ],
      "module": "llm4or"
     },
@@ -278,11 +238,11 @@
       "LLM Auto-Formulation"
      ],
      "importance": 5.0,
-     "summary": "Presents LoomSC, a scalable deep subspace clustering method with projector factorization and exact spectral reduction.",
+     "summary": "Presents scalable deep subspace clustering with projector factorization and exact spectral reduction.",
      "tags": [
       "subspace clustering",
       "scalability",
-      "spectral"
+      "spectral methods"
      ],
      "module": "llm4or"
     },
@@ -298,7 +258,7 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 5.0,
-     "summary": "Applies reinforcement learning to strategic investment decision-making for value creation in energy transition.",
+     "summary": "Applies reinforcement learning to strategic investment decisions for value creation in energy transition.",
      "tags": [
       "reinforcement learning",
       "energy transition",
@@ -307,22 +267,22 @@
      "module": "llm4or"
     },
     {
-     "id": "p:httparxivorgabs261010948",
+     "id": "p:httparxivorgabs261006337",
      "kind": "paper",
-     "date": "2026-10-07",
-     "title": "Geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures",
-     "authors": "Ahmed Adel Mahmoud et.al.",
-     "url": "http://arxiv.org/abs/2610.10948",
+     "date": "2026-10-08",
+     "title": "Computing Stable Matchings under Complementarities and Preference Misalignment",
+     "authors": "Tatsuya Iwase et.al.",
+     "url": "http://arxiv.org/abs/2610.06337",
      "topic": "VRP / Combinatorial Solving",
      "topics": [
       "VRP / Combinatorial Solving"
      ],
      "importance": 5.0,
-     "summary": "Designs geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures, improving error correction.",
+     "summary": "Studies computing stable matchings under complementarities and preference misalignment, extending matching theory.",
      "tags": [
-      "quantum codes",
-      "fault tolerance",
-      "hyperbolic geometry"
+      "stable matching",
+      "complementarities",
+      "algorithms"
      ],
      "module": "llm4or"
     },
@@ -338,11 +298,51 @@
       "VRP / Combinatorial Solving"
      ],
      "importance": 5.0,
-     "summary": "Improves approximation algorithms for vehicle routing with nonuniform speeds, tightening bounds for heterogeneous fleet routing.",
+     "summary": "Provides improved approximation algorithms for vehicle routing problems with nonuniform vehicle speeds.",
      "tags": [
       "vehicle routing",
       "approximation",
       "algorithms"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs261009326",
+     "kind": "paper",
+     "date": "2026-10-07",
+     "title": "VIS-Ground: Video Interactive Storytelling with Contextual Grounding",
+     "authors": "Bingxuan Li et.al.",
+     "url": "http://arxiv.org/abs/2610.09326",
+     "topic": "LLM Auto-Formulation",
+     "topics": [
+      "LLM Auto-Formulation"
+     ],
+     "importance": 4.0,
+     "summary": "Develops video interactive storytelling with contextual grounding for narrative generation.",
+     "tags": [
+      "video storytelling",
+      "grounding",
+      "multimodal"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs261010948",
+     "kind": "paper",
+     "date": "2026-10-07",
+     "title": "Geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures",
+     "authors": "Ahmed Adel Mahmoud et.al.",
+     "url": "http://arxiv.org/abs/2610.10948",
+     "topic": "VRP / Combinatorial Solving",
+     "topics": [
+      "VRP / Combinatorial Solving"
+     ],
+     "importance": 4.0,
+     "summary": "Designs geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures.",
+     "tags": [
+      "quantum codes",
+      "hyperbolic geometry",
+      "fault tolerance"
      ],
      "module": "llm4or"
     },
@@ -357,8 +357,8 @@
      "topics": [
       "LLM Auto-Formulation"
      ],
-     "importance": 4.0,
-     "summary": "Proposes an efficient correlation-based method to evaluate the Gaussian Noise model for multi-span optical systems, reducing computation.",
+     "importance": 3.0,
+     "summary": "Proposes an efficient correlation-based method to evaluate the GN-model in multi-span optical systems, reducing computation.",
      "tags": [
       "optical networks",
       "GN-model",
@@ -730,7 +730,7 @@
       "MCP / Tool Protocols"
      ],
      "importance": 5.0,
-     "summary": "Surveys forms of LLM-integrated applications ranging from chat interfaces to autonomous AI agent systems.",
+     "summary": "Surveys forms of LLM-integrated applications ranging from simple chats to autonomous AI agent systems.",
      "tags": [
       "survey",
       "llm-applications",
@@ -745,16 +745,16 @@
   "academic": [
    {
     "title": "LLM Agents for Black-Box Optimization",
-    "summary": "Agentic BBO benchmarking and agent-assisted scheduling/design show LLMs increasingly drive optimization loops, a fast-rising bridge between agent research and classical solvers.",
+    "summary": "Agentic BBO benchmarks and agentic modeling for scheduling show LLM agents are becoming practical optimizers, driving intense interest in evaluation and real-world deployment.",
     "keywords": [
      "LLM agents",
      "black-box optimization",
-     "scheduling"
+     "benchmarking"
     ]
    },
    {
     "title": "Agentic AI for Engineering Design",
-    "summary": "Multi-agent flows for chip, RF, spacecraft, and navigation design demonstrate domain-specific agentic tooling moving from demos to real engineering pipelines.",
+    "summary": "Multi-agent flows for RF chip design, spacecraft rendezvous, and navigation demonstrate rapid expansion of agentic AI into complex engineering workflows.",
     "keywords": [
      "agentic AI",
      "chip design",
@@ -763,7 +763,7 @@
    },
    {
     "title": "Self-Improving and Evolving Agents",
-    "summary": "Self-evolution, recursive self-improvement, and RL scaling for agents signal growing interest in autonomous capability growth and program evolution.",
+    "summary": "Self-evolving resource allocation, embodied Turing machines, and RL scaling toward self-improvement highlight agents that recursively improve their own capabilities.",
     "keywords": [
      "self-improvement",
      "reinforcement learning",
@@ -771,399 +771,399 @@
     ]
    },
    {
-    "title": "Safety and Failure Attribution in Agents",
-    "summary": "Guardrail attacks, epistemic humility, skill conflicts, and failure attribution highlight urgent reliability concerns as multi-agent LLM systems deploy.",
+    "title": "Multi-Agent Failure and Safety",
+    "summary": "Error propagation, option-channel attacks, skill conflicts, and epistemic humility studies expose vulnerabilities in LLM multi-agent systems, a fast-growing safety concern.",
     "keywords": [
-     "agent safety",
+     "multi-agent systems",
      "failure attribution",
      "guardrails"
     ]
    },
    {
-    "title": "LLM Optimization Beyond Accuracy Metrics",
-    "summary": "Work on predictive multiplicity, degraded tutoring, and persuasion training reveals that optimizing proxy metrics can harm real-world LLM behavior.",
+    "title": "LLM Optimization and Presolve Advances",
+    "summary": "Round-aware dynamic ordering for MIP presolve and meta-learning for decision trees show LLM-era methods reshaping classical optimization pipelines.",
     "keywords": [
-     "predictive multiplicity",
-     "persuasion",
-     "metric optimization"
+     "MIP presolve",
+     "decision trees",
+     "meta-learning"
     ]
    }
   ],
   "industry": [
    {
-    "title": "AI Model Misinformation and Safety Risks",
-    "summary": "Anthropic's AI submitted a false murder tip, highlighting urgent concerns about model reliability, hallucination, and real-world harm as AI deployment accelerates.",
+    "title": "Nvidia Eyes Reflection AI Acquisition",
+    "summary": "Nvidia's reported talks to acquire open-model startup Reflection AI signal major consolidation in applied AI, highlighting the strategic value of open large models and intensifying competition for talent and infrastructure.",
     "keywords": [
-     "Anthropic",
-     "AI safety",
-     "misinformation"
+     "Nvidia",
+     "Reflection AI",
+     "open models"
     ]
    },
    {
-    "title": "Massive Funding for Applied AI Startups",
-    "summary": "Typesafe AI's $870M raise at $7.5B valuation signals explosive investor confidence in applied AI and large-model commercialization despite broader market uncertainty.",
+    "title": "Self-Hosted AI Agents on Free Tiers",
+    "summary": "Projects like Talorys show growing demand for running personal AI agents on cheap or free cloud infrastructure, making applied AI more accessible and reducing reliance on expensive proprietary APIs.",
     "keywords": [
-     "Typesafe AI",
-     "funding",
-     "valuation"
+     "self-hosted",
+     "AI agents",
+     "Cloudflare"
     ]
    },
    {
-    "title": "Microsoft's Fast Decision-Making AI Model",
-    "summary": "Microsoft-Decision-1 targets fast decision-making, reflecting the industry push toward specialized, efficient models for enterprise and real-time applications beyond general chatbots.",
+    "title": "AI Models Lag Human Algorithmic Innovation",
+    "summary": "Recent AI models failing to match a human algorithmic breakthrough underscores persistent limits in reasoning and invention, a hot topic for teams pushing large models toward genuine scientific and engineering discovery.",
     "keywords": [
-     "Microsoft",
-     "decision-making",
-     "model"
+     "AI models",
+     "algorithmic innovation",
+     "reasoning"
     ]
    },
    {
-    "title": "Lean Prover Meets AI for Math",
-    "summary": "Growing interest in Lean theorem prover reliability and AI integration shows formal verification and AI-assisted mathematics becoming practical for industry and research.",
+    "title": "DuckDB 2.0 Speed Gains for Analytics",
+    "summary": "DuckDB 2.0's performance improvements matter for applied AI pipelines, where fast local analytics and feature engineering are critical for prototyping and deploying large-model workflows without heavy infrastructure.",
     "keywords": [
-     "Lean",
-     "theorem prover",
-     "AI"
+     "DuckDB",
+     "analytics",
+     "performance"
     ]
    },
    {
-    "title": "Autonomous Trucking and Robotics Momentum",
-    "summary": "Questions about autonomous trucking's arrival and Rust-based agent rewrites signal renewed momentum in robotics, autonomous systems, and production-grade AI engineering.",
+    "title": "Build Your Own Decision Model",
+    "summary": "Interest in custom decision models reflects the shift from generic AI to tailored, domain-specific systems that encode business logic, a practical path for enterprises adopting large-model techniques.",
     "keywords": [
-     "autonomous trucking",
-     "Rust",
-     "robotics"
+     "decision model",
+     "applied AI",
+     "custom models"
     ]
    }
   ]
  },
  "news": [
   {
-   "id": "n:4981993677",
+   "id": "n:7113902629",
+   "kind": "news",
+   "title": "WallHop – 12ft.io is gone, so I built a replacement",
+   "url": "https://wallhop.io/",
+   "source": "Hacker News",
+   "date": "2026-10-11",
+   "summary": "A replacement tool for the defunct 12ft.io paywall bypass service.",
+   "tags": [
+    "web-scraping",
+    "paywall",
+    "tooling"
+   ],
+   "extra": "",
+   "importance": 3.0,
+   "module": "news"
+  },
+  {
+   "id": "n:388800736",
+   "kind": "news",
+   "title": "Ask HN: Why aren't Americans rising up against tipping?",
+   "url": "https://news.ycombinator.com/item?id=50038458",
+   "source": "Hacker News",
+   "date": "2026-10-11",
+   "summary": "Ask HN discussion on American tipping culture and consumer frustration.",
+   "tags": [
+    "social",
+    "discussion"
+   ],
+   "extra": "",
+   "importance": 1.0,
+   "module": "news"
+  },
+  {
+   "id": "n:222139231",
+   "kind": "news",
+   "title": "A minimal Rust TUI for managing GitHub repos and branches",
+   "url": "https://github.com/jorgeandrecastro/github-workflow",
+   "source": "Hacker News",
+   "date": "2026-10-11",
+   "summary": "A minimal Rust terminal UI for managing GitHub repositories and branches.",
+   "tags": [
+    "rust",
+    "tui",
+    "devtools"
+   ],
+   "extra": "",
+   "importance": 3.0,
+   "module": "news"
+  },
+  {
+   "id": "n:8163323933",
+   "kind": "news",
+   "title": "Build your own decision model",
+   "url": "https://nishtahir.com/build-your-own-decision-model/",
+   "source": "Hacker News",
+   "date": "2026-10-10",
+   "summary": "Guide on constructing custom decision models for analytical reasoning.",
+   "tags": [
+    "decision-making",
+    "modeling"
+   ],
+   "extra": "",
+   "importance": 4.0,
+   "module": "news"
+  },
+  {
+   "id": "n:2053524631",
+   "kind": "news",
+   "title": "A city-building game in which the city would prefer you didn't",
+   "url": "https://housing.over.pizza/",
+   "source": "Hacker News",
+   "date": "2026-10-10",
+   "summary": "A city-building game with an adversarial twist against the player.",
+   "tags": [
+    "game",
+    "simulation"
+   ],
+   "extra": "",
+   "importance": 2.0,
+   "module": "news"
+  },
+  {
+   "id": "n:1200839069",
+   "kind": "news",
+   "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+   "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+   "source": "Hacker News",
+   "date": "2026-10-10",
+   "summary": "Nvidia reportedly in talks to acquire open-model startup Reflection AI.",
+   "tags": [
+    "nvidia",
+    "acquisition",
+    "llm"
+   ],
+   "extra": "",
+   "importance": 8.0,
+   "module": "news"
+  },
+  {
+   "id": "n:5922769049",
+   "kind": "news",
+   "title": "Why DuckDB 2.0 is faster",
+   "url": "https://motherduck.com/blog/why-duckdb-20-is-faster/",
+   "source": "Hacker News",
+   "date": "2026-10-10",
+   "summary": "Technical explanation of performance improvements in DuckDB 2.0.",
+   "tags": [
+    "duckdb",
+    "database",
+    "performance"
+   ],
+   "extra": "",
+   "importance": 6.0,
+   "module": "news"
+  },
+  {
+   "id": "n:5006792759",
+   "kind": "news",
+   "title": "Knuth reward check",
+   "url": "https://www.thomas-huehn.com/knuth-reward-check/",
+   "source": "Hacker News",
+   "date": "2026-10-10",
+   "summary": "Knuth's reward check tradition for finding errors in his books.",
+   "tags": [
+    "knuth",
+    "history"
+   ],
+   "extra": "",
+   "importance": 3.0,
+   "module": "news"
+  },
+  {
+   "id": "n:6425070511",
+   "kind": "news",
+   "title": "Bitwarden Dual License Model",
+   "url": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
+   "source": "Hacker News",
+   "date": "2026-10-10",
+   "summary": "Bitwarden's dual license model and its implications for open source.",
+   "tags": [
+    "licensing",
+    "open-source",
+    "security"
+   ],
+   "extra": "",
+   "importance": 5.0,
+   "module": "news"
+  },
+  {
+   "id": "n:113045620",
+   "kind": "news",
+   "title": "Unikernels were hard. key word: were",
+   "url": "https://ghuntley.com/unikernels/",
+   "source": "Hacker News",
+   "date": "2026-10-10",
+   "summary": "Argues unikernels have overcome prior difficulties and are now viable.",
+   "tags": [
+    "unikernels",
+    "virtualization",
+    "systems"
+   ],
+   "extra": "",
+   "importance": 6.0,
+   "module": "news"
+  },
+  {
+   "id": "n:8018589075",
+   "kind": "news",
+   "title": "I would like the value of my home to rise, while my property taxes fall",
+   "url": "https://conversableeconomist.com/2026/09/28/i-would-like-the-value-of-my-home-to-rise-while-my-property-taxes-fall/",
+   "source": "Hacker News",
+   "date": "2026-10-10",
+   "summary": "A homeowner's contradictory wish for rising home value and falling taxes.",
+   "tags": [
+    "economics",
+    "discussion"
+   ],
+   "extra": "",
+   "importance": 1.0,
+   "module": "news"
+  },
+  {
+   "id": "n:8180121701",
+   "kind": "news",
+   "title": "Apple/macOS removed from official Unix registry",
+   "url": "https://www.opengroup.org//openbrand/register/",
+   "source": "Hacker News",
+   "date": "2026-10-10",
+   "summary": "Apple/macOS removed from the official Unix registry of certified systems.",
+   "tags": [
+    "unix",
+    "apple",
+    "standards"
+   ],
+   "extra": "",
+   "importance": 4.0,
+   "module": "news"
+  },
+  {
+   "id": "n:1841619089",
+   "kind": "news",
+   "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+   "url": "https://github.com/rociiu/talorys",
+   "source": "Hacker News",
+   "date": "2026-10-10",
+   "summary": "Self-hosted personal AI agent running on Cloudflare's free tier.",
+   "tags": [
+    "ai-agent",
+    "cloudflare",
+    "self-hosted"
+   ],
+   "extra": "",
+   "importance": 6.0,
+   "module": "news"
+  },
+  {
+   "id": "n:106632115",
+   "kind": "news",
+   "title": "`123456' password used in Danish CPR data breach",
+   "url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/",
+   "source": "Hacker News",
+   "date": "2026-10-10",
+   "summary": "Danish CPR data breach caused by weak password '123456'.",
+   "tags": [
+    "security",
+    "breach",
+    "passwords"
+   ],
+   "extra": "",
+   "importance": 5.0,
+   "module": "news"
+  },
+  {
+   "id": "n:4213145666",
+   "kind": "news",
+   "title": "Food processing influences metabolism and brain activity",
+   "url": "https://news.vt.edu/articles/2026/10/research_fralinbiomed_upfhutelin.html",
+   "source": "Hacker News",
+   "date": "2026-10-10",
+   "summary": "Study linking food processing to changes in metabolism and brain activity.",
+   "tags": [
+    "nutrition",
+    "neuroscience"
+   ],
+   "extra": "",
+   "importance": 4.0,
+   "module": "news"
+  },
+  {
+   "id": "n:417260315",
+   "kind": "news",
+   "title": "The Lightbulb Computer",
+   "url": "https://lightbulbcomputer.com/",
+   "source": "Hacker News",
+   "date": "2026-10-10",
+   "summary": "A conceptual or historical piece on the 'lightbulb computer'.",
+   "tags": [
+    "computing",
+    "history"
+   ],
+   "extra": "",
+   "importance": 3.0,
+   "module": "news"
+  },
+  {
+   "id": "n:3597294098",
+   "kind": "news",
+   "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+   "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+   "source": "Hacker News",
+   "date": "2026-10-10",
+   "summary": "Telegram Desktop vulnerability allowed theft of any user's files.",
+   "tags": [
+    "security",
+    "vulnerability",
+    "telegram"
+   ],
+   "extra": "",
+   "importance": 6.0,
+   "module": "news"
+  },
+  {
+   "id": "n:8157964893",
    "kind": "news",
    "title": "REA Reverse – Engineer Anything",
    "url": "https://rea.tools/",
    "source": "Hacker News",
    "date": "2026-10-10",
-   "summary": "Reverse-engineering framework or tool for reconstructing systems, likely of limited research novelty.",
+   "summary": "REA Reverse: a tool or method for reverse engineering anything.",
    "tags": [
     "reverse-engineering",
     "tooling"
    ],
    "extra": "",
-   "importance": 3.0,
-   "module": "news"
-  },
-  {
-   "id": "n:5424275844",
-   "kind": "news",
-   "title": "Has the Autonomous Trucking Revolution Arrived?",
-   "url": "https://phenomenalworld.org/analysis/has-the-autonomous-trucking-revolution-arrived/",
-   "source": "Hacker News",
-   "date": "2026-10-09",
-   "summary": "Overview of whether autonomous trucking has reached commercial deployment, relevant to applied AI logistics.",
-   "tags": [
-    "autonomous-driving",
-    "logistics"
-   ],
-   "extra": "",
-   "importance": 6.0,
-   "module": "news"
-  },
-  {
-   "id": "n:8363067741",
-   "kind": "news",
-   "title": "11 of 23 Core Open Source Projects Run on 1 or 2 People",
-   "url": "https://linuxstans.com/11-of-23-core-open-source-projects-run-on-1-or-2-people/",
-   "source": "Hacker News",
-   "date": "2026-10-09",
-   "summary": "Analysis showing most critical open-source infrastructure depends on one or two maintainers, a supply-chain risk.",
-   "tags": [
-    "open-source",
-    "sustainability",
-    "supply-chain"
-   ],
-   "extra": "",
-   "importance": 7.0,
-   "module": "news"
-  },
-  {
-   "id": "n:9889816746",
-   "kind": "news",
-   "title": "The logarithms of rational numbers have irrationality exponent 2 [pdf]",
-   "url": "https://jdb19937.github.io/log-irrationality-measure/logmeasure.pdf",
-   "source": "Hacker News",
-   "date": "2026-10-09",
-   "summary": "Number-theoretic result proving logarithms of rationals have irrationality exponent 2.",
-   "tags": [
-    "number-theory",
-    "irrationality"
-   ],
-   "extra": "",
-   "importance": 5.0,
-   "module": "news"
-  },
-  {
-   "id": "n:7633420890",
-   "kind": "news",
-   "title": "Compiling Rust to readable C with Eurydice",
-   "url": "https://lwn.net/Articles/1055211/",
-   "source": "Hacker News",
-   "date": "2026-10-09",
-   "summary": "Eurydice compiles Rust to readable C, aiding verification and portability of Rust code.",
-   "tags": [
-    "rust",
-    "compilers",
-    "formal-methods"
-   ],
-   "extra": "",
-   "importance": 6.0,
-   "module": "news"
-  },
-  {
-   "id": "n:1221111962",
-   "kind": "news",
-   "title": "Rewriting Prime Agent in Rust",
-   "url": "https://www.primeintellect.ai/blog/prime-agent-rust",
-   "source": "Hacker News",
-   "date": "2026-10-09",
-   "summary": "Engineering write-up on rewriting the Prime Agent system in Rust for performance or safety.",
-   "tags": [
-    "rust",
-    "systems",
-    "engineering"
-   ],
-   "extra": "",
    "importance": 4.0,
    "module": "news"
   },
   {
-   "id": "n:1070553964",
+   "id": "n:3683468597",
    "kind": "news",
-   "title": "Atari Falcon",
-   "url": "https://atarimuseum.nl/atari-falcon/",
+   "title": "How strong is the strong interaction?",
+   "url": "https://cerncourier.com/how-strong-is-the-strong-interaction/",
    "source": "Hacker News",
-   "date": "2026-10-09",
-   "summary": "Retrospective on the Atari Falcon computer, of historical rather than research interest.",
+   "date": "2026-10-10",
+   "summary": "Physics explainer on the strength of the strong nuclear interaction.",
    "tags": [
-    "retrocomputing",
-    "hardware"
-   ],
-   "extra": "",
-   "importance": 2.0,
-   "module": "news"
-  },
-  {
-   "id": "n:6497544776",
-   "kind": "news",
-   "title": "Taxing Entrepreneurial Wealth: Evidence from Norway, 2021–2025",
-   "url": "https://www.nber.org/papers/w35854",
-   "source": "Hacker News",
-   "date": "2026-10-09",
-   "summary": "Empirical study of wealth taxation effects on entrepreneurs using Norwegian data from 2021–2025.",
-   "tags": [
-    "economics",
-    "taxation",
-    "empirical"
-   ],
-   "extra": "",
-   "importance": 6.0,
-   "module": "news"
-  },
-  {
-   "id": "n:8789045527",
-   "kind": "news",
-   "title": "Anthropic AI model submits false tip on unsolved Philly murder",
-   "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
-   "source": "Hacker News",
-   "date": "2026-10-09",
-   "summary": "Anthropic model reportedly submitted a false tip in an unsolved murder case, raising AI misuse concerns.",
-   "tags": [
-    "AI-safety",
-    "misuse",
-    "LLM"
-   ],
-   "extra": "",
-   "importance": 7.0,
-   "module": "news"
-  },
-  {
-   "id": "n:9914606768",
-   "kind": "news",
-   "title": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
-   "url": "https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306",
-   "source": "Hacker News",
-   "date": "2026-10-09",
-   "summary": "DIY surveillance camera built to track police vehicles led to a visit from officers.",
-   "tags": [
-    "surveillance",
-    "privacy",
-    "civil-liberties"
-   ],
-   "extra": "",
-   "importance": 5.0,
-   "module": "news"
-  },
-  {
-   "id": "n:1820217066",
-   "kind": "news",
-   "title": "Microsoft-Decision-1, our model for fast decision-making",
-   "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
-   "source": "Hacker News",
-   "date": "2026-10-09",
-   "summary": "Microsoft's Decision-1 model targets fast decision-making tasks, relevant to applied AI agents.",
-   "tags": [
-    "decision-making",
-    "LLM",
-    "agents"
-   ],
-   "extra": "",
-   "importance": 7.0,
-   "module": "news"
-  },
-  {
-   "id": "n:3771018755",
-   "kind": "news",
-   "title": "M7.6 Earthquake in Panama",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/executive",
-   "source": "Hacker News",
-   "date": "2026-10-09",
-   "summary": "Report of a magnitude 7.6 earthquake in Panama, a natural disaster news item.",
-   "tags": [
-    "earthquake",
-    "news"
+    "physics",
+    "qcd"
    ],
    "extra": "",
    "importance": 3.0,
    "module": "news"
   },
   {
-   "id": "n:6998877181",
+   "id": "n:1139438452",
    "kind": "news",
-   "title": "Ideas aren't getting harder to find (2022)",
-   "url": "https://www.experimental-history.com/p/ideas-arent-getting-harder-to-find",
+   "title": "Recent AI models struggled to match a human algorithmic innovation",
+   "url": "https://epoch.ai/publications/innovationeval",
    "source": "Hacker News",
    "date": "2026-10-09",
-   "summary": "Argument that research ideas are not becoming harder to find, countering stagnation narratives.",
+   "summary": "Recent AI models struggled to replicate a human algorithmic innovation.",
    "tags": [
-    "science-of-science",
-    "innovation"
-   ],
-   "extra": "",
-   "importance": 5.0,
-   "module": "news"
-  },
-  {
-   "id": "n:9021278780",
-   "kind": "news",
-   "title": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
-   "url": "https://carrierexplode.com/",
-   "source": "Hacker News",
-   "date": "2026-10-09",
-   "summary": "Tool decoding iPhone, Pixel, and Galaxy carrier settings for inspection and customization.",
-   "tags": [
-    "mobile",
-    "reverse-engineering",
-    "tooling"
-   ],
-   "extra": "",
-   "importance": 4.0,
-   "module": "news"
-  },
-  {
-   "id": "n:960326324",
-   "kind": "news",
-   "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
-   "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
-   "source": "Hacker News",
-   "date": "2026-10-09",
-   "summary": "Discussion of Lean theorem prover reliability and AI integration for mathematicians.",
-   "tags": [
-    "Lean",
-    "formal-methods",
-    "AI-for-math"
-   ],
-   "extra": "",
-   "importance": 7.0,
-   "module": "news"
-  },
-  {
-   "id": "n:1110227035",
-   "kind": "news",
-   "title": "Show HN: The rarest tech books and docs you've probably never read",
-   "url": "https://readrare.com/",
-   "source": "Hacker News",
-   "date": "2026-10-09",
-   "summary": "Curated collection of rare technical books and documentation for enthusiasts.",
-   "tags": [
-    "resources",
-    "documentation"
-   ],
-   "extra": "",
-   "importance": 3.0,
-   "module": "news"
-  },
-  {
-   "id": "n:1682805164",
-   "kind": "news",
-   "title": "Scam American companies are using to manipulate ingredient lists",
-   "url": "https://twitter.com/WallStreetApes/status/2108594998656807078",
-   "source": "Hacker News",
-   "date": "2026-10-09",
-   "summary": "Investigation into deceptive practices used by US companies to obscure ingredient lists.",
-   "tags": [
-    "consumer-protection",
-    "regulation"
-   ],
-   "extra": "",
-   "importance": 4.0,
-   "module": "news"
-  },
-  {
-   "id": "n:6787355700",
-   "kind": "news",
-   "title": "Typesafe AI raises $870M at $7.5B",
-   "url": "https://typesafe.ai/blog/series-ai",
-   "source": "Hacker News",
-   "date": "2026-10-09",
-   "summary": "Typesafe AI raises $870M at $7.5B valuation, signaling strong investor interest in AI safety tooling.",
-   "tags": [
-    "funding",
-    "AI-safety",
-    "industry"
-   ],
-   "extra": "",
-   "importance": 6.0,
-   "module": "news"
-  },
-  {
-   "id": "n:4168748907",
-   "kind": "news",
-   "title": "Triple-A Minesweeper",
-   "url": "https://minesweeper.mikelacher.com/",
-   "source": "Hacker News",
-   "date": "2026-10-09",
-   "summary": "Triple-A Minesweeper, likely a polished game implementation, of minimal research relevance.",
-   "tags": [
-    "games",
-    "software"
-   ],
-   "extra": "",
-   "importance": 2.0,
-   "module": "news"
-  },
-  {
-   "id": "n:2844213625",
-   "kind": "news",
-   "title": "Can you use autoregressive diffusion to generate market data?",
-   "url": "https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/",
-   "source": "Hacker News",
-   "date": "2026-10-09",
-   "summary": "Explores whether autoregressive diffusion models can generate realistic synthetic market data.",
-   "tags": [
-    "diffusion",
-    "finance",
-    "generative-models"
+    "llm",
+    "reasoning",
+    "benchmark"
    ],
    "extra": "",
    "importance": 7.0,
