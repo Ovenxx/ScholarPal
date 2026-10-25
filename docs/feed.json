@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T00:55:09Z",
+ "generated_at": "2026-10-25T00:26:53Z",
  "model": "deepseek-v4-flash",
  "modules": [
   {
@@ -78,7 +78,7 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 7.0,
-     "summary": "Proposes MotherTree, using meta-learning on synthetic data to improve decision tree training and generalization.",
+     "summary": "Introduces MotherTree, using meta-learning on synthetic data to improve decision tree training and generalization.",
      "tags": [
       "meta-learning",
       "decision trees",
@@ -118,7 +118,7 @@
       "LLM Auto-Formulation"
      ],
      "importance": 6.0,
-     "summary": "Introduces temporal predictive multiplicity, showing equally accurate time series models produce divergent forecast trajectories.",
+     "summary": "Reveals temporal predictive multiplicity: equally accurate time series models produce divergent forecast trajectories, raising reliability concerns.",
      "tags": [
       "time series",
       "predictive multiplicity",
@@ -138,7 +138,7 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 6.0,
-     "summary": "Studies policy learning from weak signals, addressing decision-making when feedback is sparse or noisy.",
+     "summary": "Studies policy learning under weak signals, addressing decision-making when informative feedback is sparse or noisy.",
      "tags": [
       "policy learning",
       "weak signals",
@@ -198,11 +198,11 @@
       "Automatic Algorithm Design / Hyper-heuristics"
      ],
      "importance": 5.0,
-     "summary": "Uses ReEvo-designed memetic algorithm to secure fluid antenna systems, moving beyond LLM-GA approaches for physical-layer security.",
+     "summary": "Uses ReEvo-designed memetic algorithm to secure fluid antenna systems, moving beyond LLM-GA approaches for antenna optimization.",
      "tags": [
       "memetic algorithm",
-      "fluid antenna",
-      "LLM"
+      "LLM",
+      "antenna systems"
      ],
      "module": "llm4or"
     },
@@ -218,10 +218,10 @@
       "LLM Auto-Formulation"
      ],
      "importance": 5.0,
-     "summary": "Examines how successive training stages—misalignment, SFT, and preference optimization—affect LLM persuasion capabilities.",
+     "summary": "Examines how successive training stages—misalignment, supervised fine-tuning, and preference optimization—affect LLM persuasion capabilities.",
      "tags": [
-      "LLM persuasion",
-      "fine-tuning",
+      "LLM training",
+      "persuasion",
       "alignment"
      ],
      "module": "llm4or"
@@ -238,11 +238,31 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 5.0,
-     "summary": "Applies reinforcement learning to strategic investment decisions for value creation in the energy transition.",
+     "summary": "Applies reinforcement learning to strategic investment decision-making for value creation in energy transition scenarios.",
      "tags": [
       "reinforcement learning",
       "energy",
       "investment"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs261010948",
+     "kind": "paper",
+     "date": "2026-10-07",
+     "title": "Geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures",
+     "authors": "Ahmed Adel Mahmoud et.al.",
+     "url": "http://arxiv.org/abs/2610.10948",
+     "topic": "VRP / Combinatorial Solving",
+     "topics": [
+      "VRP / Combinatorial Solving"
+     ],
+     "importance": 5.0,
+     "summary": "Designs geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures, improving error correction efficiency.",
+     "tags": [
+      "quantum codes",
+      "fault tolerance",
+      "hyperbolic"
      ],
      "module": "llm4or"
     },
@@ -301,8 +321,8 @@
      "summary": "Proposes VIS-Ground for video interactive storytelling with contextual grounding, linking narrative generation to visual context.",
      "tags": [
       "video",
-      "grounding",
-      "storytelling"
+      "storytelling",
+      "grounding"
      ],
      "module": "llm4or"
     },
@@ -323,26 +343,6 @@
       "subspace clustering",
       "scalability",
       "spectral"
-     ],
-     "module": "llm4or"
-    },
-    {
-     "id": "p:httparxivorgabs261010948",
-     "kind": "paper",
-     "date": "2026-10-07",
-     "title": "Geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures",
-     "authors": "Ahmed Adel Mahmoud et.al.",
-     "url": "http://arxiv.org/abs/2610.10948",
-     "topic": "VRP / Combinatorial Solving",
-     "topics": [
-      "VRP / Combinatorial Solving"
-     ],
-     "importance": 4.0,
-     "summary": "Designs geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures, improving error correction efficiency.",
-     "tags": [
-      "quantum codes",
-      "fault tolerance",
-      "hyperbolic"
      ],
      "module": "llm4or"
     },
@@ -487,7 +487,7 @@
       "MCP / Tool Protocols"
      ],
      "importance": 7.0,
-     "summary": "Proposes adaptive skill granularity with runtime routing and macro-to-micro recovery for coding agents.",
+     "summary": "Studies adaptive skill granularity for coding agents via runtime routing and macro-to-micro recovery.",
      "tags": [
       "coding-agents",
       "skill-routing",
@@ -528,7 +528,7 @@
       "Planning / Self-Evolution"
      ],
      "importance": 6.0,
-     "summary": "Presents a vision-language-action agent using human-interface control for open-world game environments.",
+     "summary": "Presents a vision-language-action agent leveraging human-interface controls to play open-world games.",
      "tags": [
       "VLA",
       "game-agents",
@@ -608,7 +608,7 @@
       "MCP / Tool Protocols"
      ],
      "importance": 6.0,
-     "summary": "Explores an AI agent for early-stage structural design co-design tasks.",
+     "summary": "Explores whether an AI agent can co-design structures for early-stage structural engineering.",
      "tags": [
       "design-agents",
       "structural-engineering",
@@ -628,7 +628,7 @@
       "MCP / Tool Protocols"
      ],
      "importance": 6.0,
-     "summary": "Presents contract-constrained LLM agents for seismic data processing workflows.",
+     "summary": "Proposes contract-constrained LLM agents for seismic data processing workflows.",
      "tags": [
       "LLM-agents",
       "constraints",
@@ -648,7 +648,7 @@
       "MCP / Tool Protocols"
      ],
      "importance": 6.0,
-     "summary": "Adapts general-purpose AI agents as interactive 3D image annotators.",
+     "summary": "Adapts general-purpose AI agents as interactive 3D image annotators for medical imaging.",
      "tags": [
       "annotation",
       "3D-imaging",
@@ -668,11 +668,11 @@
       "MCP / Tool Protocols"
      ],
      "importance": 6.0,
-     "summary": "Introduces chat-assisted reinforcement learning for agent training via conversational feedback.",
+     "summary": "Presents chat-assisted reinforcement learning where conversational agents guide RL training.",
      "tags": [
       "reinforcement-learning",
       "chat",
-      "training"
+      "agents"
      ],
      "module": "agentic"
     },
@@ -688,7 +688,7 @@
       "MCP / Tool Protocols"
      ],
      "importance": 5.0,
-     "summary": "Analyzes prompt sensitivity in comparisons of tool-augmented models.",
+     "summary": "Analyzes prompt sensitivity in comparisons of tool-augmented language models.",
      "tags": [
       "prompt-sensitivity",
       "tool-use",
@@ -708,7 +708,7 @@
       "MCP / Tool Protocols"
      ],
      "importance": 5.0,
-     "summary": "Compares semantic retrieval and LLM-based approaches for multi-tool selection in robotic systems.",
+     "summary": "Compares semantic retrieval and LLM-based selection of tools for robotic systems.",
      "tags": [
       "tool-selection",
       "robotics",
@@ -742,8 +742,8 @@
  "hot": {
   "academic": [
    {
-    "title": "Agentic AI for Scientific Optimization",
-    "summary": "Multiple papers present multi-agent systems for self-evolving scientific optimization, scheduling, and design, signaling a surge in agentic frameworks that automate complex engineering and science workflows.",
+    "title": "Multi-agent frameworks for scientific optimization",
+    "summary": "Several papers propose multi-agent LLM systems for self-evolving scientific optimization, scheduling, chip design, and structural design, signaling rapid growth of agentic optimization pipelines.",
     "keywords": [
      "multi-agent",
      "scientific optimization",
@@ -751,423 +751,411 @@
     ]
    },
    {
-    "title": "LLM Agents for Engineering Design",
-    "summary": "Agents are being applied to spacecraft rendezvous, RF chip design, structural design, and film cinematography, showing rapid expansion of LLM agents into specialized engineering domains.",
+    "title": "LLM agents for engineering design workflows",
+    "summary": "Agents are applied to spacecraft rendezvous, RF chip design, seismic processing, and structural design, showing LLMs moving into domain-specific engineering optimization.",
     "keywords": [
      "LLM agents",
-     "design automation",
-     "engineering"
+     "engineering design",
+     "domain applications"
     ]
    },
    {
-    "title": "Agentic Tooling and Infrastructure",
-    "summary": "Shared memory buffers, binary-to-IR lifting, skill granularity routing, and tool selection studies address the infrastructure and orchestration needs of increasingly complex agent systems.",
+    "title": "Agentic tooling and infrastructure for agents",
+    "summary": "Shared memory buffers, binary-to-IR lifting, skill granularity routing, and tool selection studies address infrastructure bottlenecks for deploying reliable LLM agents.",
     "keywords": [
      "agent infrastructure",
      "tool selection",
-     "orchestration"
+     "coding agents"
     ]
    },
    {
-    "title": "LLM Optimization and Meta-Learning",
-    "summary": "Work on meta-learning for decision trees, LLM-GA hybrids, chat-assisted reinforcement learning, and policy learning shows LLMs being embedded into optimization and learning loops.",
+    "title": "LLM-guided metaheuristics and policy learning",
+    "summary": "Work combines LLMs with evolutionary algorithms, reinforcement learning, and weak-signal policy learning, highlighting LLMs as optimizers and controllers for search.",
     "keywords": [
-     "meta-learning",
-     "LLM optimization",
-     "reinforcement learning"
+     "LLM-GA",
+     "reinforcement learning",
+     "policy learning"
     ]
    },
    {
-    "title": "Safety and Evaluation of LLM Agents",
-    "summary": "Benchmarks for evidence recovery under missing evidence, corpus auditing, and prompt sensitivity highlight growing attention to safety, reliability, and rigorous evaluation of agentic systems.",
+    "title": "Safety and evaluation of LLM agents",
+    "summary": "Benchmarks and audits probe agent safety under missing evidence, corpus debugging, prompt sensitivity, and persuasion effects, reflecting rising concern for trustworthy agentic optimization.",
     "keywords": [
-     "safety",
-     "evaluation",
-     "LLM agents"
+     "agent safety",
+     "benchmarking",
+     "evaluation"
     ]
    }
   ],
   "industry": [
    {
-    "title": "Frontier Model Training Security Hardened",
-    "summary": "Securing frontier model training environments is a top concern as AI labs face sophisticated threats, making infrastructure security a core applied-AI practice.",
+    "title": "AI job losses beyond tech sector",
+    "summary": "Reports of 200k media/arts jobs lost and no AI payoff outside tech raise alarm about real economic disruption from AI adoption.",
     "keywords": [
-     "frontier model",
-     "training security",
-     "AI infrastructure"
+     "AI jobs",
+     "media",
+     "economy"
     ]
    },
    {
-    "title": "Efficient Gemma-4 Cuts Reasoning Cost",
-    "summary": "Gemma-4-26B-A4B delivers 39-69% less thinking at same accuracy, signaling a hot race toward cheaper, more efficient large-model inference.",
+    "title": "Agentic security operations platforms emerge",
+    "summary": "Argus, a free open-source agentic SecOps platform, signals growing momentum for LLM-driven autonomous security tooling in industry.",
     "keywords": [
-     "Gemma-4",
-     "efficiency",
-     "reasoning"
+     "agentic",
+     "security",
+     "open-source"
     ]
    },
    {
-    "title": "Kimi K3.1 Pro Model Release",
-    "summary": "Kimi K3.1 Pro and Highspeed variants push frontier model competition, drawing attention for performance and speed in applied large-model practice.",
+    "title": "GPU instruction-level optimization for AI",
+    "summary": "GPU-unlock work on FP/BF16 issue rates for Nvidia 3000 cards highlights grassroots performance tuning for cheaper large-model inference.",
     "keywords": [
-     "Kimi",
-     "large model",
-     "release"
+     "GPU",
+     "BF16",
+     "Nvidia"
     ]
    },
    {
-    "title": "Full-Duplex Speech Model Dessa Debuts",
-    "summary": "Dessa claims the most authentic full-duplex speech model, highlighting rapid progress in real-time conversational AI for industry deployment.",
+    "title": "Community revising OpenAI math write-ups",
+    "summary": "Oai-math-revised shows community-driven correction of model math reasoning, reflecting pressure to improve LLM reliability in practice.",
     "keywords": [
-     "Dessa",
-     "speech model",
-     "full-duplex"
+     "OpenAI",
+     "math",
+     "community"
     ]
    },
    {
-    "title": "Agent Terminal Multiplexer Corgi Launches",
-    "summary": "Show HN's Corgi, a helpful agent-terminal multiplexer, reflects surging practitioner interest in tooling that operationalizes AI agents in developer workflows.",
+    "title": "Neural chips decode brain region interactions",
+    "summary": "Neural chip advances decoding brain-region interactions point to applied AI hardware progress bridging neuroscience and industry use cases.",
     "keywords": [
-     "agent",
-     "terminal",
-     "tooling"
+     "neural chip",
+     "brain",
+     "hardware"
     ]
    }
   ]
  },
  "news": [
   {
-   "id": "n:6199653353",
+   "id": "n:2789584347",
    "kind": "news",
-   "title": "Evolving Threat: http2shell is an RCE in node, Python, and more",
-   "url": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
+   "title": "Why Gopher in 2026?",
+   "url": "https://gopher.muffinlabs.com/sdf.org/users/nervtoji/phlog/001.txt",
    "source": "Hacker News",
-   "date": "2026-10-23",
-   "summary": "http2shell enables remote code execution via HTTP/2 across Node, Python, and other runtimes, exposing a broad new attack surface.",
+   "date": "2026-10-24",
+   "summary": "Reflective piece on the relevance and legacy of the Go programming language's design choices heading into 2026.",
    "tags": [
-    "RCE",
-    "HTTP/2",
-    "security"
+    "Go",
+    "language-design"
+   ],
+   "extra": "",
+   "importance": 3.0,
+   "module": "news"
+  },
+  {
+   "id": "n:6916691469",
+   "kind": "news",
+   "title": "Google has officially turned these Nest thermostats back into dumb thermostats",
+   "url": "https://www.makeuseof.com/google-nest-thermostats-unsupported/",
+   "source": "Hacker News",
+   "date": "2026-10-24",
+   "summary": "Google remotely disabled features on older Nest thermostats, illustrating risks of cloud-dependent smart devices.",
+   "tags": [
+    "IoT",
+    "cloud-dependency"
+   ],
+   "extra": "",
+   "importance": 4.0,
+   "module": "news"
+  },
+  {
+   "id": "n:9820989388",
+   "kind": "news",
+   "title": "America Has Lost 200k of Jobs in Media, Film and the Arts. How Much Is AI?",
+   "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+   "source": "Hacker News",
+   "date": "2026-10-24",
+   "summary": "Analysis estimating AI's contribution to roughly 200k job losses across media, film, and arts sectors.",
+   "tags": [
+    "labor-economics",
+    "generative-AI"
+   ],
+   "extra": "",
+   "importance": 7.0,
+   "module": "news"
+  },
+  {
+   "id": "n:1590386121",
+   "kind": "news",
+   "title": "Argus – a free, open-source agentic security operations platform – MIT",
+   "url": "https://thomasunise.com/argus",
+   "source": "Hacker News",
+   "date": "2026-10-24",
+   "summary": "Open-source MIT-licensed agentic platform for security operations, automating SOC workflows with LLM agents.",
+   "tags": [
+    "agentic-AI",
+    "security-ops",
+    "open-source"
+   ],
+   "extra": "",
+   "importance": 7.0,
+   "module": "news"
+  },
+  {
+   "id": "n:1982286914",
+   "kind": "news",
+   "title": "We should be more ambitious with the software we build",
+   "url": "https://danluu.com/ambitious/",
+   "source": "Hacker News",
+   "date": "2026-10-24",
+   "summary": "Opinion arguing engineers should pursue more ambitious software projects rather than settling for incremental work.",
+   "tags": [
+    "software-engineering",
+    "opinion"
+   ],
+   "extra": "",
+   "importance": 4.0,
+   "module": "news"
+  },
+  {
+   "id": "n:7144904616",
+   "kind": "news",
+   "title": "Small Programs and Languages",
+   "url": "https://ratfactor.com/cards/pl-small",
+   "source": "Hacker News",
+   "date": "2026-10-24",
+   "summary": "Essay on the value of small programs and small languages in software design and pedagogy.",
+   "tags": [
+    "programming-languages",
+    "software-design"
+   ],
+   "extra": "",
+   "importance": 4.0,
+   "module": "news"
+  },
+  {
+   "id": "n:8065616513",
+   "kind": "news",
+   "title": "The Importance of Limitations for Creativity and Learning",
+   "url": "https://ratfactor.com/cards/limitations",
+   "source": "Hacker News",
+   "date": "2026-10-24",
+   "summary": "Discussion of how constraints and limitations can foster creativity and improve learning outcomes.",
+   "tags": [
+    "creativity",
+    "learning"
+   ],
+   "extra": "",
+   "importance": 3.0,
+   "module": "news"
+  },
+  {
+   "id": "n:7901232385",
+   "kind": "news",
+   "title": "Show HN: Steal My Bitcoin",
+   "url": "https://stealmybitcoin.com/",
+   "source": "Hacker News",
+   "date": "2026-10-24",
+   "summary": "Show HN project demonstrating a Bitcoin-related challenge or puzzle for users to solve.",
+   "tags": [
+    "bitcoin",
+    "show-hn"
+   ],
+   "extra": "",
+   "importance": 3.0,
+   "module": "news"
+  },
+  {
+   "id": "n:9820530323",
+   "kind": "news",
+   "title": "No signs of AI payoff outside the tech sector",
+   "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+   "source": "Hacker News",
+   "date": "2026-10-24",
+   "summary": "Report finding little evidence of AI-driven productivity or economic payoff outside the technology sector.",
+   "tags": [
+    "AI-economics",
+    "productivity"
    ],
    "extra": "",
    "importance": 8.0,
    "module": "news"
   },
   {
-   "id": "n:7581545560",
+   "id": "n:2265176641",
    "kind": "news",
-   "title": "German court calls Google aerial imagery 'spying'",
-   "url": "https://www.courthousenews.com/german-court-calls-google-aerial-imagery-spying/",
+   "title": "Listen and read USA nuclear forces Emergency Action Messages, heard on 11175 kHz",
+   "url": "https://missileer.watch",
    "source": "Hacker News",
-   "date": "2026-10-23",
-   "summary": "German court rules Google's aerial imagery constitutes spying, setting a privacy precedent for geospatial data collection.",
+   "date": "2026-10-24",
+   "summary": "Recording and transcript of US nuclear Emergency Action Messages intercepted on HF radio frequency 11175 kHz.",
    "tags": [
-    "privacy",
-    "regulation",
-    "geospatial"
+    "radio",
+    "signals"
    ],
    "extra": "",
    "importance": 3.0,
    "module": "news"
   },
   {
-   "id": "n:4089230779",
+   "id": "n:3751124600",
    "kind": "news",
-   "title": "CVE Tracker",
-   "url": "https://cve.0xosprey.com/",
+   "title": "SpeedCrunch 1.1",
+   "url": "https://www.speedcrunch.org/",
    "source": "Hacker News",
-   "date": "2026-10-23",
-   "summary": "A CVE tracking resource aggregating vulnerability disclosures for security monitoring and research.",
+   "date": "2026-10-24",
+   "summary": "Release of SpeedCrunch 1.1, an open-source scientific calculator application with updated features.",
    "tags": [
-    "vulnerabilities",
-    "CVE",
-    "security"
-   ],
-   "extra": "",
-   "importance": 2.0,
-   "module": "news"
-  },
-  {
-   "id": "n:5631229329",
-   "kind": "news",
-   "title": "No Source Code? No Problem",
-   "url": "https://queue.acm.org/doi/10.1145/945131.945155",
-   "source": "Hacker News",
-   "date": "2026-10-23",
-   "summary": "Techniques for analyzing or reverse-engineering software when source code is unavailable, useful for security and legacy systems.",
-   "tags": [
-    "reverse-engineering",
-    "binary-analysis"
-   ],
-   "extra": "",
-   "importance": 5.0,
-   "module": "news"
-  },
-  {
-   "id": "n:5892927457",
-   "kind": "news",
-   "title": "A whirlwind tour of systemd-nspawn containers",
-   "url": "https://quantum5.ca/2025/03/22/whirlwind-tour-of-systemd-nspawn-containers/",
-   "source": "Hacker News",
-   "date": "2026-10-23",
-   "summary": "Overview of systemd-nspawn containers, covering their isolation model and practical use for lightweight Linux environments.",
-   "tags": [
-    "containers",
-    "systemd",
-    "Linux"
-   ],
-   "extra": "",
-   "importance": 4.0,
-   "module": "news"
-  },
-  {
-   "id": "n:1436027091",
-   "kind": "news",
-   "title": "Securing our frontier model training environment",
-   "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
-   "source": "Hacker News",
-   "date": "2026-10-23",
-   "summary": "Describes security hardening for frontier model training infrastructure, addressing threats to large-scale ML compute environments.",
-   "tags": [
-    "ML-security",
-    "infrastructure",
-    "training"
-   ],
-   "extra": "",
-   "importance": 7.0,
-   "module": "news"
-  },
-  {
-   "id": "n:2225151436",
-   "kind": "news",
-   "title": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
-   "url": "https://corgi.computer/",
-   "source": "Hacker News",
-   "date": "2026-10-23",
-   "summary": "Corgi is an agent and terminal multiplexer tool aimed at improving developer workflows with AI agents.",
-   "tags": [
-    "agents",
-    "terminal",
-    "tooling"
-   ],
-   "extra": "",
-   "importance": 5.0,
-   "module": "news"
-  },
-  {
-   "id": "n:7835836661",
-   "kind": "news",
-   "title": "Rune 1.3: adds TypeScript, a Helix editor, Kitty graphics and OSC-7501",
-   "url": "https://rune.build/blog/rune-1-3-release",
-   "source": "Hacker News",
-   "date": "2026-10-23",
-   "summary": "Rune 1.3 adds TypeScript support, Helix editor integration, Kitty graphics, and OSC-7501 terminal features.",
-   "tags": [
-    "TypeScript",
-    "editor",
-    "terminal"
-   ],
-   "extra": "",
-   "importance": 4.0,
-   "module": "news"
-  },
-  {
-   "id": "n:4173907161",
-   "kind": "news",
-   "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
-   "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
-   "source": "Hacker News",
-   "date": "2026-10-23",
-   "summary": "Google signals possible use of Gmail and Photos data for ad targeting, raising privacy concerns for users.",
-   "tags": [
-    "privacy",
-    "ads",
-    "Google"
-   ],
-   "extra": "",
-   "importance": 4.0,
-   "module": "news"
-  },
-  {
-   "id": "n:4308465821",
-   "kind": "news",
-   "title": "Dessa: the most authentic full-duplex speech model ever built",
-   "url": "https://block.xyz/dessa",
-   "source": "Hacker News",
-   "date": "2026-10-23",
-   "summary": "Dessa claims a highly authentic full-duplex speech model, advancing real-time conversational speech synthesis.",
-   "tags": [
-    "speech",
-    "full-duplex",
-    "TTS"
-   ],
-   "extra": "",
-   "importance": 7.0,
-   "module": "news"
-  },
-  {
-   "id": "n:3561133381",
-   "kind": "news",
-   "title": "DNS: A Replacement for Finger",
-   "url": "https://altchan.org/sh/42",
-   "source": "Hacker News",
-   "date": "2026-10-23",
-   "summary": "Proposes DNS as a replacement for the legacy Finger protocol for user information lookup.",
-   "tags": [
-    "DNS",
-    "protocols"
+    "open-source",
+    "tools"
    ],
    "extra": "",
    "importance": 3.0,
    "module": "news"
   },
   {
-   "id": "n:2389204462",
+   "id": "n:1265189602",
    "kind": "news",
-   "title": "I turned my TV into a Game Boy Color with a Pokemon town as my home screen",
-   "url": "https://twitter.com/robbietilton/status/2111936458923851923",
+   "title": "The Goose Programming Language",
+   "url": "https://aardappel.github.io/goose/",
    "source": "Hacker News",
-   "date": "2026-10-23",
-   "summary": "A hobby project turning a TV into a Game Boy Color emulator with a Pokemon town home screen.",
+   "date": "2026-10-24",
+   "summary": "Introduction to the Goose programming language, covering its design goals and features.",
    "tags": [
-    "emulation",
-    "retro",
-    "hobby"
+    "programming-languages"
+   ],
+   "extra": "",
+   "importance": 4.0,
+   "module": "news"
+  },
+  {
+   "id": "n:5088356553",
+   "kind": "news",
+   "title": "Bbtree: Fastest Ordered Map",
+   "url": "https://bbtree.xiangpeng.systems/post/",
+   "source": "Hacker News",
+   "date": "2026-10-24",
+   "summary": "Bbtree claims to be the fastest ordered map data structure, with benchmarks comparing it to alternatives.",
+   "tags": [
+    "data-structures",
+    "performance"
+   ],
+   "extra": "",
+   "importance": 5.0,
+   "module": "news"
+  },
+  {
+   "id": "n:970686249",
+   "kind": "news",
+   "title": "The St. Helena 5 pence coin shows Jonathan, a roughly 190 year old tortoise",
+   "url": "https://de.numista.com/9866",
+   "source": "Hacker News",
+   "date": "2026-10-24",
+   "summary": "A St. Helena coin features Jonathan, a roughly 190-year-old tortoise, highlighting an unusual numismatic subject.",
+   "tags": [
+    "trivia"
    ],
    "extra": "",
    "importance": 2.0,
    "module": "news"
   },
   {
-   "id": "n:5894087053",
+   "id": "n:9143875879",
    "kind": "news",
-   "title": "Air Purifiers as White Noise Machines",
-   "url": "https://www.jefftk.com/p/air-purifiers-as-white-noise-machines",
+   "title": "Roku developer repositories moved from GitHub to GitLab",
+   "url": "https://blog.roku.com/developer/gitlab-move",
    "source": "Hacker News",
-   "date": "2026-10-23",
-   "summary": "Discusses using air purifiers as white noise machines for sleep and focus.",
+   "date": "2026-10-24",
+   "summary": "Roku migrated its developer repositories from GitHub to GitLab, signaling platform shifts in developer tooling.",
    "tags": [
+    "devops",
+    "gitlab"
+   ],
+   "extra": "",
+   "importance": 5.0,
+   "module": "news"
+  },
+  {
+   "id": "n:5906268275",
+   "kind": "news",
+   "title": "Neural chip decodes interactions between brain regions",
+   "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
+   "source": "Hacker News",
+   "date": "2026-10-24",
+   "summary": "Neural chip decodes interactions between brain regions, advancing implantable neural interface research.",
+   "tags": [
+    "neural-interface",
     "hardware",
-    "lifestyle"
+    "neuroscience"
    ],
    "extra": "",
-   "importance": 1.0,
+   "importance": 7.0,
    "module": "news"
   },
   {
-   "id": "n:7095027361",
+   "id": "n:7386454220",
    "kind": "news",
-   "title": "Animations for System Builders",
-   "url": "https://brooker.co.za/blog/2026/10/23/animations.html",
+   "title": "Oai-math-revised: a community hub for revising OpenAI's math write-ups",
+   "url": "https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/",
    "source": "Hacker News",
-   "date": "2026-10-23",
-   "summary": "Explores animation techniques for system builders to visualize architecture and data flows.",
+   "date": "2026-10-24",
+   "summary": "Community hub for revising and improving OpenAI's published math write-ups and proofs.",
    "tags": [
-    "visualization",
-    "animation"
+    "math",
+    "openai",
+    "community"
+   ],
+   "extra": "",
+   "importance": 5.0,
+   "module": "news"
+  },
+  {
+   "id": "n:6032347643",
+   "kind": "news",
+   "title": "FreeDNS",
+   "url": "https://freedns.afraid.org/",
+   "source": "Hacker News",
+   "date": "2026-10-24",
+   "summary": "FreeDNS offers free dynamic DNS services for mapping domain names to changing IP addresses.",
+   "tags": [
+    "dns",
+    "networking"
    ],
    "extra": "",
    "importance": 3.0,
    "module": "news"
   },
   {
-   "id": "n:3093119388",
+   "id": "n:2206611885",
    "kind": "news",
-   "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
-   "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+   "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
+   "url": "https://github.com/Zagitta/gpu-unlock",
    "source": "Hacker News",
-   "date": "2026-10-23",
-   "summary": "Kimi K3.1 Pro and Highspeed variants release, offering improved LLM performance and faster inference options.",
+   "date": "2026-10-24",
+   "summary": "Investigation into unlocking FP/BF16 instruction issue rates on Nvidia RTX 3000 GPUs for higher throughput.",
    "tags": [
-    "LLM",
-    "Kimi",
-    "inference"
+    "GPU",
+    "nvidia",
+    "performance"
    ],
    "extra": "",
    "importance": 6.0,
    "module": "news"
   },
   {
-   "id": "n:1085191873",
+   "id": "n:1147734330",
    "kind": "news",
-   "title": "UUIDv7 doesn't have the properties you think it does",
-   "url": "https://alexsci.com/blog/uuidv7-is-weird/",
+   "title": "I don't understand quantum physics (2018)",
+   "url": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
    "source": "Hacker News",
-   "date": "2026-10-23",
-   "summary": "Argues UUIDv7 lacks commonly assumed properties, cautioning against misuse in distributed systems.",
+   "date": "2026-10-24",
+   "summary": "Accessible 2018 explainer on quantum physics concepts aimed at readers who find the topic confusing.",
    "tags": [
-    "UUIDv7",
-    "distributed-systems",
-    "identifiers"
+    "quantum-physics",
+    "education"
    ],
    "extra": "",
-   "importance": 5.0,
-   "module": "news"
-  },
-  {
-   "id": "n:8407866221",
-   "kind": "news",
-   "title": "The Missed Opportunities of Sonic 06 (2025)",
-   "url": "https://isaacmarovitz.com/posts/sonic-06/",
-   "source": "Hacker News",
-   "date": "2026-10-23",
-   "summary": "A retrospective on missed design opportunities in the 2006 game Sonic 06.",
-   "tags": [
-    "gaming",
-    "retrospective"
-   ],
-   "extra": "",
-   "importance": 1.0,
-   "module": "news"
-  },
-  {
-   "id": "n:8758601286",
-   "kind": "news",
-   "title": "Today, we hacked what we'd set out to hack: the iPhone",
-   "url": "https://blog.calif.io/p/iphone",
-   "source": "Hacker News",
-   "date": "2026-10-23",
-   "summary": "Researchers report successfully hacking an iPhone, demonstrating a working exploit chain against iOS.",
-   "tags": [
-    "iOS",
-    "exploit",
-    "security"
-   ],
-   "extra": "",
-   "importance": 7.0,
-   "module": "news"
-  },
-  {
-   "id": "n:7484432915",
-   "kind": "news",
-   "title": "Reforming English Spelling",
-   "url": "https://blog.oup.com/2026/10/reforming-english-spelling/",
-   "source": "Hacker News",
-   "date": "2026-10-23",
-   "summary": "Proposal to reform English spelling for consistency and learnability.",
-   "tags": [
-    "linguistics",
-    "language"
-   ],
-   "extra": "",
-   "importance": 2.0,
-   "module": "news"
-  },
-  {
-   "id": "n:6199673766",
-   "kind": "news",
-   "title": "Gemma-4-26B-A4B with 39-69% less thinking at same accuracy",
-   "url": "https://bottlecapai.com/post/thinkingcap-gemma-4-26b/",
-   "source": "Hacker News",
-   "date": "2026-10-23",
-   "summary": "Gemma-4-26B-A4B reduces thinking tokens by 39-69% at equal accuracy, improving LLM inference efficiency.",
-   "tags": [
-    "LLM",
-    "efficiency",
-    "Gemma"
-   ],
-   "extra": "",
-   "importance": 8.0,
+   "importance": 3.0,
    "module": "news"
   }
  ]
