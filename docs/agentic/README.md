@@ -1,4 +1,4 @@
-## Updated on 2026.10.29
+## Updated on 2026.10.31
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -16,6 +16,16 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-29**|**The Athlete as a Scientist of One: Agentic Bayesian Experimental Design for Individualized Physiology from Consumer Wearables**|Behnam Moradi et.al.|[2610.40370](http://arxiv.org/abs/2610.40370)|null|
+|**2026-10-29**|**Wizard: Manipulate Any World in Real Time via Agentic Control**|Yuzhe Wu et.al.|[2610.40339](http://arxiv.org/abs/2610.40339)|null|
+|**2026-10-29**|**Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement**|Liaoyuan Fan et.al.|[2610.40191](http://arxiv.org/abs/2610.40191)|null|
+|**2026-10-29**|**AdMuse: Skill-Guided Creative Advertising Image Generation**|Minyan Luo et.al.|[2610.40190](http://arxiv.org/abs/2610.40190)|null|
+|**2026-10-29**|**Hybrid AI Patterns: Thirteen Ways to Couple Language Models with Rules, and How to Choose Among Them**|Siegfried Handschuh et.al.|[2610.40036](http://arxiv.org/abs/2610.40036)|null|
+|**2026-10-29**|**From Intent to Improvement: Agentic Dataset Search for Better Model Training**|Qiaosheng Chen et.al.|[2610.39608](http://arxiv.org/abs/2610.39608)|null|
+|**2026-10-29**|**MRC-MMAgent: Reinforcement Learning for Multi-Role Collaboration in Multimodal Tool-Using Agents**|Shengqin Wang et.al.|[2610.39324](http://arxiv.org/abs/2610.39324)|null|
+|**2026-10-29**|**Beyond LLM Wrappers: Context Engineering and the Three-Engine Architecture for Reliable Financial AI**|Pradeep Kumar GS et.al.|[2610.39230](http://arxiv.org/abs/2610.39230)|null|
+|**2026-10-28**|**Context Compaction for World Models**|Hayder Tirmazi et.al.|[2610.38980](http://arxiv.org/abs/2610.38980)|null|
+|**2026-10-28**|**Routed Continual Learning**|Michael Philip et.al.|[2610.38796](http://arxiv.org/abs/2610.38796)|null|
 |**2026-10-27**|**Your Policy Is Secretly a Harness: The Decision Geometry of Agent Interfaces**|Jian Mu et.al.|[2610.37255](http://arxiv.org/abs/2610.37255)|null|
 |**2026-10-27**|**AutoRSE: Evaluating LLM Agents as Recommendation Engineers for Self-Evolving Recommender Systems**|Rui Tian et.al.|[2610.37228](http://arxiv.org/abs/2610.37228)|null|
 |**2026-10-27**|**Evolving Agent Teams**|Shiyi Cao et.al.|[2610.36848](http://arxiv.org/abs/2610.36848)|null|
@@ -227,12 +237,22 @@
 |**2026-09-22**|**GameDirector: Decoupling Gameplay Logic from Rendering for Player-Configurable Game World Models**|Zijun Lin et.al.|[2609.25652](http://arxiv.org/abs/2609.25652)|null|
 |**2026-09-22**|**Qwen3.8-Omni: Towards Native Omni-Modal Agents**|Qwen Team et.al.|[2609.25611](http://arxiv.org/abs/2609.25611)|null|
 
-<p align=right>(<a href=#updated-on-20261029>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261031>back to top</a>)</p>
 
 ## MCP / Tool Protocols
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-29**|**Prefix Executability: Evaluating Tool-Using Agents Beyond Final Success**|Amir H. Rezaeian et.al.|[2610.40444](http://arxiv.org/abs/2610.40444)|null|
+|**2026-10-29**|**Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement**|Liaoyuan Fan et.al.|[2610.40191](http://arxiv.org/abs/2610.40191)|null|
+|**2026-10-29**|**Locating and Closing Information Gaps in Multi-Agent Systems**|Yaxin Gong et.al.|[2610.40186](http://arxiv.org/abs/2610.40186)|null|
+|**2026-10-29**|**Agentic process evidence**|Yuval Kainan et.al.|[2610.40071](http://arxiv.org/abs/2610.40071)|null|
+|**2026-10-29**|**PhysAg3D: Bridging 3D Generative and Agentic Models for High-Fidelity and Physically-Interactive Assets**|Bi'an Du et.al.|[2610.39924](http://arxiv.org/abs/2610.39924)|null|
+|**2026-10-29**|**InferD: A Honeypot Framework for AI Inference Infrastructure**|Hicham Hammouchi et.al.|[2610.39807](http://arxiv.org/abs/2610.39807)|null|
+|**2026-10-29**|**Sandman: Building and Operating Sandboxes for Agentic Reinforcement Learning on Shared Kubernetes**|Yiming Yan et.al.|[2610.39711](http://arxiv.org/abs/2610.39711)|null|
+|**2026-10-29**|**Evaluating Conversational Explainability in Healthcare: Comparing the Explainability Assistant and a Traditional XAI Dashboard**|Eduard Barbu et.al.|[2610.39634](http://arxiv.org/abs/2610.39634)|null|
+|**2026-10-29**|**From Intent to Improvement: Agentic Dataset Search for Better Model Training**|Qiaosheng Chen et.al.|[2610.39608](http://arxiv.org/abs/2610.39608)|null|
+|**2026-10-29**|**Does Scaling Toward AGI Depend on What System-1 Lets System-2 Execute?**|Qi Wang et.al.|[2610.39497](http://arxiv.org/abs/2610.39497)|null|
 |**2026-10-27**|**Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness**|Igor Shilov et.al.|[2610.37657](http://arxiv.org/abs/2610.37657)|null|
 |**2026-10-27**|**Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis**|Andrew Szot et.al.|[2610.37648](http://arxiv.org/abs/2610.37648)|null|
 |**2026-10-27**|**Which Hand Was Late? Diagnosis for Robot Failure Recovery in Bimanual Tool Use**|Baptiste Bonin et.al.|[2610.37533](http://arxiv.org/abs/2610.37533)|null|
@@ -449,12 +469,22 @@
 |**2026-09-22**|**Knowledge-as-Skill: A Structural Design for Autonomous Knowledge-Base Use by LLM Agents**|Jiangxu Wu et.al.|[2609.25991](http://arxiv.org/abs/2609.25991)|null|
 |**2026-09-22**|**Governed AI-Agent Coordination for Dementia Care: Architecture, Safety Contracts, and Evidence-Derived Workflow Verification**|Francesca Medda et.al.|[2609.25956](http://arxiv.org/abs/2609.25956)|null|
 
-<p align=right>(<a href=#updated-on-20261029>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261031>back to top</a>)</p>
 
 ## A2A / Multi-Agent Orchestration
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-29**|**MAServeBench: Benchmarking Multi-Agent LLM Serving Systems with Hierarchical Collaboration Workloads**|Shengxuan Qiu et.al.|[2610.40293](http://arxiv.org/abs/2610.40293)|null|
+|**2026-10-29**|**Who Says What: Strategic Communication in Networks**|Anuj Bhowmik et.al.|[2610.40230](http://arxiv.org/abs/2610.40230)|null|
+|**2026-10-29**|**Locating and Closing Information Gaps in Multi-Agent Systems**|Yaxin Gong et.al.|[2610.40186](http://arxiv.org/abs/2610.40186)|null|
+|**2026-10-29**|**Learning Calibrated Confidence for Multi-Agent Collaboration**|Chenxiao Fan et.al.|[2610.39927](http://arxiv.org/abs/2610.39927)|null|
+|**2026-10-29**|**EvoTeam: Multi-Agent Collaboration via Evolving Teams**|Qinuo Cao et.al.|[2610.39813](http://arxiv.org/abs/2610.39813)|null|
+|**2026-10-29**|**Can AI Agents Interface Clinicians and Complex Models?**|Giulio Colombini et.al.|[2610.39681](http://arxiv.org/abs/2610.39681)|null|
+|**2026-10-29**|**Judging Before Propagation: Task-Graph Contextual Integrity for Multi-Agent Privacy**|Hengyu Wu et.al.|[2610.39532](http://arxiv.org/abs/2610.39532)|null|
+|**2026-10-29**|**Federated Recommender Agents**|Jaehyung Lim et.al.|[2610.39289](http://arxiv.org/abs/2610.39289)|null|
+|**2026-10-29**|**Goal-Aware Dynamic Multi-Agent Collaboration for Long-Horizon Tasks**|Xu Shen et.al.|[2610.39193](http://arxiv.org/abs/2610.39193)|null|
+|**2026-10-29**|**PCM: A Proof-Carrying Message Protocol for Verifiable Multi-Agent Communication**|Bravish Ghosh et.al.|[2610.39109](http://arxiv.org/abs/2610.39109)|null|
 |**2026-10-27**|**Aligning Institutional Power and Operational Ability**|Andrea Marino et.al.|[2610.37342](http://arxiv.org/abs/2610.37342)|null|
 |**2026-10-27**|**Remembering Is Not Enough: Refining Memories and Learning When to Use Them in Multi-Agent Systems**|Yipeng Hao et.al.|[2610.36652](http://arxiv.org/abs/2610.36652)|null|
 |**2026-10-27**|**Benchmarking Task Takeover Across Agent Handoffs**|Wenyuan Li et.al.|[2610.36523](http://arxiv.org/abs/2610.36523)|null|
@@ -651,12 +681,22 @@
 |**2026-09-21**|**Proactive Incentive Regulation in Multi-Agent Systems with Environmental Feedback**|Xinyang Cao et.al.|[2609.24506](http://arxiv.org/abs/2609.24506)|null|
 |**2026-09-21**|**Mixed-integer flow formulations for motion planning and decision-making of networked multi-agent systems**|Angelo Caregnato-Neto et.al.|[2609.24474](http://arxiv.org/abs/2609.24474)|null|
 
-<p align=right>(<a href=#updated-on-20261029>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261031>back to top</a>)</p>
 
 ## Memory / Context
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-29**|**Don't Lose the Thread: Empowering Long-Horizon LLM Agents with Cognitive Resource Self-Allocation**|Zheng Zhu et.al.|[2610.40350](http://arxiv.org/abs/2610.40350)|null|
+|**2026-10-29**|**Rimuru: Unified Memory Management for Modern LLM Serving via Elastic Expert Offloading**|Zhiyuan Fang et.al.|[2610.40305](http://arxiv.org/abs/2610.40305)|null|
+|**2026-10-29**|**Long-Term Agent Memory through Complementary Curation and Consolidation**|Abhishek Gupta et.al.|[2610.39790](http://arxiv.org/abs/2610.39790)|null|
+|**2026-10-29**|**Finding Is Not Returning, Returning Is Not Reconstructing: A Multi-Dimensional Evaluation of Agent Social Re-entry**|Sheng Wan et.al.|[2610.39781](http://arxiv.org/abs/2610.39781)|null|
+|**2026-10-29**|**Sticky Collusion: Persistence of LLM Agent Collusion after Incentive Removal and Partner Replacement**|Joshua Adrian Cahyono et.al.|[2610.39660](http://arxiv.org/abs/2610.39660)|null|
+|**2026-10-29**|**Calibrating Attention-Based Token Pruning for Efficient Multi-Image Synthesis in UMMs**|Zimeng Wu et.al.|[2610.39467](http://arxiv.org/abs/2610.39467)|null|
+|**2026-10-29**|**MemoryFusion: Cross-Temporal Memory Learning for Multimodal Video Fusion**|Meiqi Gong et.al.|[2610.39322](http://arxiv.org/abs/2610.39322)|null|
+|**2026-10-29**|**MemSteer: Turning User Histories into Supervision for Agent Memory Optimization**|Jie Huang et.al.|[2610.39276](http://arxiv.org/abs/2610.39276)|null|
+|**2026-10-28**|**Contextual Embeddings Beyond the Gold Chunk**|Sedigheh Eslami et.al.|[2610.38854](http://arxiv.org/abs/2610.38854)|null|
+|**2026-10-28**|**Episodic looking - using reinforcement learning to bias perception enhances few-shot and continual learning with protection from forgetting**|David Rawlinson et.al.|[2610.38577](http://arxiv.org/abs/2610.38577)|null|
 |**2026-10-27**|**ETAMem: Decoupling and Aligning Heterogeneous Memory for Long-Term Conversational Agents**|Xinying Qian et.al.|[2610.37443](http://arxiv.org/abs/2610.37443)|null|
 |**2026-10-27**|**TrawMem: Reframing Agent Memory as Task-Oriented Role-Adaptive Workspaces**|Mingyu Zhang et.al.|[2610.36918](http://arxiv.org/abs/2610.36918)|null|
 |**2026-10-27**|**Monitor Accuracy Isn't the Answer: A Decision-Value Framework for Evaluating AI Agent Restart Monitors**|Siddharth Jain et.al.|[2610.36544](http://arxiv.org/abs/2610.36544)|null|
@@ -824,12 +864,22 @@
 |**2026-09-22**|**MemCalib: Benchmarking and Optimizing Memory Use in LLM Agents**|Ruike Cao et.al.|[2609.24259](http://arxiv.org/abs/2609.24259)|null|
 |**2026-09-21**|**Data Agents: Agentic Data Systems**|Guoliang Li et.al.|[2609.24137](http://arxiv.org/abs/2609.24137)|null|
 
-<p align=right>(<a href=#updated-on-20261029>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261031>back to top</a>)</p>
 
 ## Planning / Self-Evolution
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-29**|**Agentic LLM reasoning in pediatric diabetes outcome prediction from multimodal medical records**|Daniel Palacios et.al.|[2610.40379](http://arxiv.org/abs/2610.40379)|null|
+|**2026-10-29**|**The Athlete as a Scientist of One: Agentic Bayesian Experimental Design for Individualized Physiology from Consumer Wearables**|Behnam Moradi et.al.|[2610.40370](http://arxiv.org/abs/2610.40370)|null|
+|**2026-10-29**|**Don't Lose the Thread: Empowering Long-Horizon LLM Agents with Cognitive Resource Self-Allocation**|Zheng Zhu et.al.|[2610.40350](http://arxiv.org/abs/2610.40350)|null|
+|**2026-10-29**|**The Price of a Chance in Artificial Societies**|Shuqi Zhao et.al.|[2610.40259](http://arxiv.org/abs/2610.40259)|null|
+|**2026-10-29**|**EpiAgent: Epistemic Self-Play for LLM Agents**|Xuanfa Jin et.al.|[2610.40227](http://arxiv.org/abs/2610.40227)|null|
+|**2026-10-29**|**Locating and Closing Information Gaps in Multi-Agent Systems**|Yaxin Gong et.al.|[2610.40186](http://arxiv.org/abs/2610.40186)|null|
+|**2026-10-29**|**Dual-Agent Reinforcement Learning for Vehicle Scheduling and Multi-Energy Dispatch in Electric-Hydrogen-Transport Systems**|Fulong Yao et.al.|[2610.40116](http://arxiv.org/abs/2610.40116)|null|
+|**2026-10-29**|**Finding Is Not Returning, Returning Is Not Reconstructing: A Multi-Dimensional Evaluation of Agent Social Re-entry**|Sheng Wan et.al.|[2610.39781](http://arxiv.org/abs/2610.39781)|null|
+|**2026-10-29**|**SEAL: Sealed Queries for Local Sanitization against Indirect Prompt Injection**|Doohyun Kim et.al.|[2610.39758](http://arxiv.org/abs/2610.39758)|null|
+|**2026-10-29**|**Sandman: Building and Operating Sandboxes for Agentic Reinforcement Learning on Shared Kubernetes**|Yiming Yan et.al.|[2610.39711](http://arxiv.org/abs/2610.39711)|null|
 |**2026-10-27**|**Can LLMs Uncover Hidden Physical Laws through Free Exploration?**|Zhen Yang et.al.|[2610.37649](http://arxiv.org/abs/2610.37649)|null|
 |**2026-10-27**|**EnvSched: Environment-Aware Scheduling for Rollout-Efficient Agent Reinforcement Learning**|Sihan Yang et.al.|[2610.37609](http://arxiv.org/abs/2610.37609)|null|
 |**2026-10-27**|**TANDEM: Balancing Centralized and Decentralized Critics to Address the Information Gap in Complex Multi-Agent Environments**|Alireza Saleh Abadi et.al.|[2610.37592](http://arxiv.org/abs/2610.37592)|null|
@@ -1055,5 +1105,5 @@
 |**2026-09-22**|**MotionForge: A Data Generation Pipeline and Large-Scale Benchmark for Long-Horizon Manipulation of Dynamic Objects with Domain Shifts**|Mohan Liu et.al.|[2609.25689](http://arxiv.org/abs/2609.25689)|null|
 |**2026-09-22**|**How Strongly Should Task State Influence an LLM Agent?**|Chenyu Zhang et.al.|[2609.25686](http://arxiv.org/abs/2609.25686)|null|
 
-<p align=right>(<a href=#updated-on-20261029>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261031>back to top</a>)</p>
 
