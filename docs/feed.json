@@ -1,31 +1,11 @@
 {
- "generated_at": "2026-11-01T01:20:23Z",
+ "generated_at": "2026-11-02T01:41:59Z",
  "model": "deepseek-v4-flash",
  "modules": [
   {
    "id": "llm4or",
    "label": "LLM4OR / L2O",
    "items": [
-    {
-     "id": "p:httparxivorgabs261010184",
-     "kind": "paper",
-     "date": "2026-10-07",
-     "title": "Agentic AI-Assisted Modeling for Production Scheduling: Assessment in Constraint Programming",
-     "authors": "Ángel Sánchez-Fernández et.al.",
-     "url": "http://arxiv.org/abs/2610.10184",
-     "topic": "LLM Auto-Formulation",
-     "topics": [
-      "LLM Auto-Formulation"
-     ],
-     "importance": 8.0,
-     "summary": "Assesses agentic AI for modeling production scheduling in constraint programming, evaluating LLM agents on real scheduling tasks.",
-     "tags": [
-      "agentic AI",
-      "constraint programming",
-      "scheduling"
-     ],
-     "module": "llm4or"
-    },
     {
      "id": "p:httparxivorgabs261011294",
      "kind": "paper",
@@ -38,11 +18,11 @@
       "Solver Intelligence"
      ],
      "importance": 8.0,
-     "summary": "Introduces ORDO, an operation-level round-aware dynamic ordering method for MIP presolve that improves solver efficiency.",
+     "summary": "Introduces operation-level round-aware dynamic ordering for MIP presolve, improving solver efficiency via learned ordering policies.",
      "tags": [
       "MIP presolve",
-      "ordering",
-      "optimization"
+      "learning to optimize",
+      "ordering"
      ],
      "module": "llm4or"
     },
@@ -58,7 +38,7 @@
       "LLM Auto-Formulation"
      ],
      "importance": 7.0,
-     "summary": "Presents PLUTO, an agentic AI tool enabling interactive spacecraft rendezvous trajectory design through natural language interaction.",
+     "summary": "Presents an agentic AI tool enabling interactive spacecraft rendezvous trajectory design, combining LLM agents with orbital mechanics.",
      "tags": [
       "agentic AI",
       "trajectory design",
@@ -67,22 +47,22 @@
      "module": "llm4or"
     },
     {
-     "id": "p:httparxivorgabs261010858",
+     "id": "p:httparxivorgabs261010184",
      "kind": "paper",
      "date": "2026-10-07",
-     "title": "RFChipAgent: Multi-Agentic AI Flow for Analog/RF Chip Design",
-     "authors": "Awani Khodkumbhe et.al.",
-     "url": "http://arxiv.org/abs/2610.10858",
+     "title": "Agentic AI-Assisted Modeling for Production Scheduling: Assessment in Constraint Programming",
+     "authors": "Ángel Sánchez-Fernández et.al.",
+     "url": "http://arxiv.org/abs/2610.10184",
      "topic": "LLM Auto-Formulation",
      "topics": [
       "LLM Auto-Formulation"
      ],
      "importance": 7.0,
-     "summary": "Develops RFChipAgent, a multi-agent AI flow automating analog/RF chip design tasks through coordinated LLM agents.",
+     "summary": "Assesses agentic AI-assisted modeling for production scheduling in constraint programming, evaluating automation of model formulation.",
      "tags": [
-      "multi-agent",
-      "chip design",
-      "LLM"
+      "agentic AI",
+      "constraint programming",
+      "scheduling"
      ],
      "module": "llm4or"
     },
@@ -98,7 +78,7 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 7.0,
-     "summary": "Proposes MotherTree, meta-learning on synthetic data to improve decision tree training, bridging meta-learning and interpretable models.",
+     "summary": "Proposes MotherTree, using meta-learning on synthetic data to improve decision tree training and generalization.",
      "tags": [
       "meta-learning",
       "decision trees",
@@ -107,22 +87,22 @@
      "module": "llm4or"
     },
     {
-     "id": "p:httparxivorgabs261010235",
+     "id": "p:httparxivorgabs261010858",
      "kind": "paper",
      "date": "2026-10-07",
-     "title": "Beyond LLM-GA: Secure Fluid Antenna Systems with ReEvo-Designed Memetic Algorithm",
-     "authors": "Hanyong Xu et.al.",
-     "url": "http://arxiv.org/abs/2610.10235",
-     "topic": "Automatic Algorithm Design / Hyper-heuristics",
+     "title": "RFChipAgent: Multi-Agentic AI Flow for Analog/RF Chip Design",
+     "authors": "Awani Khodkumbhe et.al.",
+     "url": "http://arxiv.org/abs/2610.10858",
+     "topic": "LLM Auto-Formulation",
      "topics": [
-      "Automatic Algorithm Design / Hyper-heuristics"
+      "LLM Auto-Formulation"
      ],
      "importance": 6.0,
-     "summary": "Uses ReEvo-designed memetic algorithm to secure fluid antenna systems, advancing LLM-driven evolutionary optimization for wireless design.",
+     "summary": "Develops a multi-agentic AI flow for analog/RF chip design, automating complex design stages via coordinated LLM agents.",
      "tags": [
-      "LLM-GA",
-      "memetic algorithm",
-      "antenna systems"
+      "multi-agent",
+      "chip design",
+      "analog RF"
      ],
      "module": "llm4or"
     },
@@ -140,29 +120,9 @@
      "importance": 6.0,
      "summary": "Reveals temporal predictive multiplicity: equally accurate time series models produce divergent forecast trajectories, raising reliability concerns.",
      "tags": [
-      "predictive multiplicity",
       "time series",
+      "predictive multiplicity",
       "forecasting"
-     ],
-     "module": "llm4or"
-    },
-    {
-     "id": "p:httparxivorgabs261009964",
-     "kind": "paper",
-     "date": "2026-10-07",
-     "title": "Successive Training Stages and Large Language Model Persuasion: Effects of Misalignment, Supervised Fine-Tuning, and Preference Optimization",
-     "authors": "Antony Dalmiere et.al.",
-     "url": "http://arxiv.org/abs/2610.09964",
-     "topic": "LLM Auto-Formulation",
-     "topics": [
-      "LLM Auto-Formulation"
-     ],
-     "importance": 6.0,
-     "summary": "Examines how successive training stages—misalignment, SFT, and preference optimization—affect LLM persuasion capabilities.",
-     "tags": [
-      "LLM persuasion",
-      "fine-tuning",
-      "alignment"
      ],
      "module": "llm4or"
     },
@@ -178,7 +138,7 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 6.0,
-     "summary": "Studies policy learning under weak signals, addressing decision-making when informative feedback is sparse or noisy.",
+     "summary": "Studies policy learning under weak signals, addressing decision-making when feedback is sparse or noisy.",
      "tags": [
       "policy learning",
       "weak signals",
@@ -198,7 +158,7 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 6.0,
-     "summary": "Shows that optimizing a pedagogical metric can degrade LLM tutoring quality, revealing misalignment in educational LLM optimization.",
+     "summary": "Shows optimizing a pedagogical metric can degrade LLM tutoring quality, revealing misalignment between proxy metrics and learning outcomes.",
      "tags": [
       "LLM tutoring",
       "metric misalignment",
@@ -223,6 +183,46 @@
       "stable matching",
       "complementarities",
       "algorithms"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs261010235",
+     "kind": "paper",
+     "date": "2026-10-07",
+     "title": "Beyond LLM-GA: Secure Fluid Antenna Systems with ReEvo-Designed Memetic Algorithm",
+     "authors": "Hanyong Xu et.al.",
+     "url": "http://arxiv.org/abs/2610.10235",
+     "topic": "Automatic Algorithm Design / Hyper-heuristics",
+     "topics": [
+      "Automatic Algorithm Design / Hyper-heuristics"
+     ],
+     "importance": 5.0,
+     "summary": "Uses ReEvo-designed memetic algorithm to secure fluid antenna systems, moving beyond LLM-GA approaches for antenna optimization.",
+     "tags": [
+      "memetic algorithm",
+      "LLM",
+      "antenna design"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs261009964",
+     "kind": "paper",
+     "date": "2026-10-07",
+     "title": "Successive Training Stages and Large Language Model Persuasion: Effects of Misalignment, Supervised Fine-Tuning, and Preference Optimization",
+     "authors": "Antony Dalmiere et.al.",
+     "url": "http://arxiv.org/abs/2610.09964",
+     "topic": "LLM Auto-Formulation",
+     "topics": [
+      "LLM Auto-Formulation"
+     ],
+     "importance": 5.0,
+     "summary": "Examines how successive training stages—misalignment, SFT, and preference optimization—affect LLM persuasion capabilities.",
+     "tags": [
+      "LLM persuasion",
+      "fine-tuning",
+      "alignment"
      ],
      "module": "llm4or"
     },
@@ -258,7 +258,7 @@
       "VRP / Combinatorial Solving"
      ],
      "importance": 5.0,
-     "summary": "Designs geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures, improving quantum error correction layouts.",
+     "summary": "Designs geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures, improving error correction efficiency.",
      "tags": [
       "quantum codes",
       "fault tolerance",
@@ -298,7 +298,7 @@
       "VRP / Combinatorial Solving"
      ],
      "importance": 5.0,
-     "summary": "Improves approximation algorithms for vehicle routing with nonuniform speeds, tightening guarantees for heterogeneous fleet routing.",
+     "summary": "Provides improved approximation algorithms for vehicle routing with nonuniform speeds, tightening guarantees for heterogeneous fleet routing.",
      "tags": [
       "vehicle routing",
       "approximation",
@@ -338,7 +338,7 @@
       "LLM Auto-Formulation"
      ],
      "importance": 4.0,
-     "summary": "Introduces LoomSC, a scalable deep subspace clustering method using projector factorization and exact spectral reduction.",
+     "summary": "Introduces LoomSC, a scalable deep subspace clustering method with projector factorization and exact spectral reduction.",
      "tags": [
       "subspace clustering",
       "scalability",
@@ -358,10 +358,10 @@
       "LLM Auto-Formulation"
      ],
      "importance": 3.0,
-     "summary": "Proposes an efficient correlation-based evaluation method for the GN model in multi-span optical systems, reducing computation cost.",
+     "summary": "Proposes an efficient correlation-based method to evaluate the Gaussian Noise model in multi-span optical systems, reducing computation.",
      "tags": [
       "optical networks",
-      "GN model",
+      "GN-model",
       "evaluation"
      ],
      "module": "llm4or"
@@ -405,11 +405,31 @@
       "MCP / Tool Protocols"
      ],
      "importance": 8.0,
-     "summary": "Introduces prefix executability as an evaluation metric for tool-using agents that captures partial progress beyond final success.",
+     "summary": "Introduces prefix executability as a metric evaluating tool-using agents on intermediate step validity, not just final success.",
      "tags": [
       "evaluation",
       "tool use",
       "executability"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs261039497",
+     "kind": "paper",
+     "date": "2026-10-29",
+     "title": "Does Scaling Toward AGI Depend on What System-1 Lets System-2 Execute?",
+     "authors": "Qi Wang et.al.",
+     "url": "http://arxiv.org/abs/2610.39497",
+     "topic": "MCP / Tool Protocols",
+     "topics": [
+      "MCP / Tool Protocols"
+     ],
+     "importance": 8.0,
+     "summary": "Asks whether scaling toward AGI depends on what System-1 processes let System-2 execute, linking dual-process theory to agent capability.",
+     "tags": [
+      "System-1/System-2",
+      "AGI scaling",
+      "cognition"
      ],
      "module": "agentic"
     },
@@ -426,7 +446,7 @@
       "Planning / Self-Evolution"
      ],
      "importance": 7.0,
-     "summary": "Applies agentic Bayesian experimental design to personalize physiological models from consumer wearables, treating individuals as self-experimenting scientists.",
+     "summary": "Applies agentic Bayesian experimental design to personalize physiological models from consumer wearable data, treating the athlete as a self-scientist.",
      "tags": [
       "Bayesian experimental de",
       "wearables",
@@ -467,10 +487,10 @@
       "MCP / Tool Protocols"
      ],
      "importance": 7.0,
-     "summary": "Proposes agentic dataset search that iteratively finds training data to improve downstream model performance from stated intent.",
+     "summary": "Proposes agentic dataset search that translates training intent into dataset improvements for better model training outcomes.",
      "tags": [
       "dataset search",
-      "data-centric",
+      "data-centric AI",
       "agents"
      ],
      "module": "agentic"
@@ -532,8 +552,8 @@
      "summary": "Bridges 3D generative and agentic models to produce high-fidelity, physically interactive 3D assets.",
      "tags": [
       "3D generation",
-      "agentic",
-      "physics"
+      "physics",
+      "agentic"
      ],
      "module": "agentic"
     },
@@ -559,26 +579,6 @@
      "module": "agentic"
     },
     {
-     "id": "p:httparxivorgabs261039497",
-     "kind": "paper",
-     "date": "2026-10-29",
-     "title": "Does Scaling Toward AGI Depend on What System-1 Lets System-2 Execute?",
-     "authors": "Qi Wang et.al.",
-     "url": "http://arxiv.org/abs/2610.39497",
-     "topic": "MCP / Tool Protocols",
-     "topics": [
-      "MCP / Tool Protocols"
-     ],
-     "importance": 7.0,
-     "summary": "Asks whether scaling toward AGI depends on what System-1 processes let System-2 execute, probing dual-process agent architectures.",
-     "tags": [
-      "System-1/System-2",
-      "AGI",
-      "scaling"
-     ],
-     "module": "agentic"
-    },
-    {
      "id": "p:httparxivorgabs261040293",
      "kind": "paper",
      "date": "2026-10-29",
@@ -592,7 +592,7 @@
      "importance": 7.0,
      "summary": "Introduces MAServeBench, a benchmark for multi-agent LLM serving systems using hierarchical collaboration workloads.",
      "tags": [
-      "serving",
+      "serving systems",
       "benchmark",
       "multi-agent"
      ],
@@ -613,8 +613,8 @@
      "summary": "Surveys thirteen patterns for coupling language models with rule-based systems and offers guidance on selecting among them.",
      "tags": [
       "hybrid AI",
-      "rules",
-      "LLM"
+      "LLM+symbolic",
+      "design patterns"
      ],
      "module": "agentic"
     },
@@ -630,7 +630,7 @@
       "Agent Loop / Harness"
      ],
      "importance": 6.0,
-     "summary": "Argues beyond LLM wrappers toward context engineering and a three-engine architecture for reliable financial AI systems.",
+     "summary": "Argues beyond LLM wrappers toward context engineering and a three-engine architecture for reliable financial AI agents.",
      "tags": [
       "context engineering",
       "architecture",
@@ -650,7 +650,7 @@
       "MCP / Tool Protocols"
      ],
      "importance": 6.0,
-     "summary": "Presents InferD, a honeypot framework for AI inference infrastructure to detect and study attacks on model serving.",
+     "summary": "Presents InferD, a honeypot framework for AI inference infrastructure to detect and study attacks on deployed models.",
      "tags": [
       "honeypot",
       "inference security",
@@ -670,7 +670,7 @@
       "A2A / Multi-Agent Orchestration"
      ],
      "importance": 6.0,
-     "summary": "Analyzes strategic communication in networks, examining who says what and how information is strategically shared.",
+     "summary": "Analyzes strategic communication in networks, examining who says what and how information strategically propagates among agents.",
      "tags": [
       "strategic communication",
       "networks",
@@ -713,8 +713,8 @@
      "summary": "Examines agentic process evidence, likely addressing how to capture and validate evidence of agent reasoning and actions.",
      "tags": [
       "process evidence",
-      "agents",
-      "auditing"
+      "auditing",
+      "agents"
      ],
      "module": "agentic"
     },
@@ -730,7 +730,7 @@
       "MCP / Tool Protocols"
      ],
      "importance": 5.0,
-     "summary": "Evaluates conversational explainability in healthcare by comparing an explainability assistant against a traditional XAI dashboard.",
+     "summary": "Evaluates conversational explainability in healthcare, comparing an explainability assistant against a traditional XAI dashboard.",
      "tags": [
       "explainability",
       "healthcare",
@@ -744,420 +744,419 @@
  "hot": {
   "academic": [
    {
-    "title": "Agentic AI for Optimization Modeling",
-    "summary": "Multiple papers apply LLM agents to constraint programming, MIP presolve, and scheduling, signaling a surge in agentic optimization pipelines that automate modeling and solver tuning.",
+    "title": "Agentic AI for Engineering and Design",
+    "summary": "Multiple papers apply agentic LLM frameworks to spacecraft trajectory design, RF chip design, and 3D asset generation, signaling rapid domain expansion of agentic optimization.",
     "keywords": [
      "agentic AI",
-     "optimization",
-     "constraint programming"
+     "design automation",
+     "LLM agents"
     ]
    },
    {
-    "title": "Multi-Agent Systems for Engineering Design",
-    "summary": "Agentic flows target spacecraft rendezvous, RF chip design, and 3D asset generation, showing multi-agent LLM architectures moving into specialized engineering domains.",
+    "title": "Multi-Agent LLM Serving and Collaboration",
+    "summary": "Benchmarks and methods for multi-agent LLM systems—serving workloads, role collaboration, and closing information gaps—address scalability and coordination bottlenecks in deployed agent systems.",
     "keywords": [
-     "multi-agent",
-     "design",
-     "LLM"
-    ]
-   },
-   {
-    "title": "Benchmarking and Evaluating Tool-Using Agents",
-    "summary": "New benchmarks like Prefix Executability and MAServeBench probe agent reliability beyond final success, addressing a key gap in rigorous agent evaluation.",
-    "keywords": [
-     "benchmarking",
-     "tool-using agents",
-     "evaluation"
+     "multi-agent systems",
+     "LLM serving",
+     "collaboration"
     ]
    },
    {
     "title": "Agentic Reinforcement Learning Infrastructure",
-    "summary": "Sandman and related work build scalable sandboxes and serving systems for agentic RL on Kubernetes, tackling infrastructure bottlenecks for training agent policies.",
+    "summary": "Sandboxing on Kubernetes and tool-use evaluation beyond final success highlight growing focus on reliable, reproducible infrastructure and rigorous evaluation for agentic RL training.",
     "keywords": [
      "agentic RL",
-     "infrastructure",
-     "sandboxing"
+     "sandboxing",
+     "evaluation"
     ]
    },
    {
-    "title": "LLM Alignment and Persuasion Dynamics",
-    "summary": "Studies on training stages, persuasion effects, and pedagogical metric optimization reveal risks of misalignment and degradation when optimizing LLM behavior.",
+    "title": "LLM-Guided Optimization and Metaheuristics",
+    "summary": "LLM-driven evolutionary algorithm design and agentic modeling for constraint programming scheduling show LLMs increasingly steering combinatorial optimization and metaheuristic search.",
     "keywords": [
-     "alignment",
-     "persuasion",
-     "fine-tuning"
+     "LLM optimization",
+     "metaheuristics",
+     "constraint programming"
+    ]
+   },
+   {
+    "title": "Context Engineering and Hybrid AI Architectures",
+    "summary": "Papers on coupling LLMs with rules and context-engineering architectures for reliable financial AI reflect a shift from naive LLM wrappers toward structured, dependable hybrid systems.",
+    "keywords": [
+     "context engineering",
+     "hybrid AI",
+     "reliability"
     ]
    }
   ],
   "industry": [
    {
-    "title": "Multi-model ensembles beat frontier models",
-    "summary": "A team of five smaller Qwen models outperforming a frontier model on LiveCodeBench Hard signals practical ensemble strategies for applied AI, drawing intense interest from practitioners.",
+    "title": "AI ROI doubts hit enterprises",
+    "summary": "Apollo economist claims most companies see zero financial payoff from AI, fueling debate on enterprise AI value and adoption strategy.",
     "keywords": [
-     "Qwen",
-     "LiveCodeBench",
-     "ensembles"
+     "AI ROI",
+     "enterprise AI",
+     "economist"
     ]
    },
    {
-    "title": "AI watermarking and quality tradeoffs",
-    "summary": "Debate over AI text watermarking and its quality costs is heating up as enterprises need provenance and compliance without degrading model output.",
+    "title": "Data center backlash grows locally",
+    "summary": "10k city council comments on America's data centers signal rising community resistance to AI infrastructure expansion and energy demands.",
     "keywords": [
-     "watermarking",
-     "quality",
-     "provenance"
+     "data centers",
+     "AI infrastructure",
+     "community"
     ]
    },
    {
-    "title": "Anthropic blocks training-adjacent users",
-    "summary": "Anthropic blocking users for anything touching training larger models raises hot questions about provider terms, access control, and competitive boundaries in LLM practice.",
+    "title": "AI cost of JS frameworks",
+    "summary": "Analysis of JavaScript frameworks' AI-related costs highlights how frontend choices affect LLM token usage and applied AI economics.",
     "keywords": [
-     "Anthropic",
-     "access control",
-     "training"
+     "JavaScript",
+     "AI cost",
+     "frameworks"
     ]
    },
    {
-    "title": "LLMs in extreme constrained environments",
-    "summary": "A language model running in a boot sector showcases tiny-footprint inference, fueling interest in edge deployment and minimal-resource applied AI.",
+    "title": "Platonic representation hypothesis tested",
+    "summary": "Proving and improving the Platonic Representation Hypothesis with JEPAs advances theory of convergent representations in large models.",
     "keywords": [
-     "boot sector",
-     "edge",
-     "inference"
+     "Platonic Representation",
+     "JEPA",
+     "representations"
     ]
    },
    {
-    "title": "Account takeover via LLM math",
-    "summary": "Taking over ChatGPT accounts through prompt-driven arithmetic exploits spotlights urgent security risks in deployed large-model products.",
+    "title": "Grid outages meet bidirectional charging",
+    "summary": "Bidirectional charging during grid outages spotlights vehicle-to-grid tech as resilience solution amid power system synchronization issues.",
     "keywords": [
-     "ChatGPT",
-     "security",
-     "account takeover"
+     "bidirectional charging",
+     "grid outages",
+     "V2G"
     ]
    }
   ]
  },
  "news": [
   {
-   "id": "n:9046725265",
+   "id": "n:6344744052",
    "kind": "news",
-   "title": "When electric cars were for women",
-   "url": "https://spectrum.ieee.org/early-electric-vehicles",
+   "title": "America on Data Centers: 10k city council comments",
+   "url": "https://www.americansentiment.com/datacenters",
    "source": "Hacker News",
-   "date": "2026-10-31",
-   "summary": "Historical piece on early electric car marketing to women, offering little technical or research value.",
+   "date": "2026-11-02",
+   "summary": "Analysis of 10k city council comments on data centers reveals local concerns shaping AI infrastructure siting and regulation.",
    "tags": [
-    "history",
-    "EV"
+    "data centers",
+    "policy",
+    "infrastructure"
    ],
    "extra": "",
-   "importance": 2.0,
+   "importance": 6.0,
    "module": "news"
   },
   {
-   "id": "n:744520250",
+   "id": "n:940687345",
    "kind": "news",
-   "title": "Altoids Project",
-   "url": "https://uvdn7.github.io/altoids-project/",
+   "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
+   "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
    "source": "Hacker News",
-   "date": "2026-10-31",
-   "summary": "Unclear project reference with insufficient context to assess research relevance.",
+   "date": "2026-11-01",
+   "summary": "Apollo economist reports most companies see zero financial payoff from AI, challenging enterprise AI ROI narratives.",
    "tags": [
-    "unclear"
+    "enterprise AI",
+    "ROI",
+    "economics"
+   ],
+   "extra": "",
+   "importance": 7.0,
+   "module": "news"
+  },
+  {
+   "id": "n:7253389591",
+   "kind": "news",
+   "title": "Ask HN: Which TV do you recommend for privacy?",
+   "url": "https://news.ycombinator.com/item?id=50328896",
+   "source": "Hacker News",
+   "date": "2026-11-01",
+   "summary": "Hacker News thread asking for privacy-respecting TV recommendations, tangential to applied AI research.",
+   "tags": [
+    "privacy",
+    "consumer"
+   ],
+   "extra": "",
+   "importance": 1.0,
+   "module": "news"
+  },
+  {
+   "id": "n:3390067640",
+   "kind": "news",
+   "title": "Mathematics has changed. Let's act like it",
+   "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+   "source": "Hacker News",
+   "date": "2026-11-01",
+   "summary": "Essay arguing mathematics has transformed and the field should adapt its practices accordingly.",
+   "tags": [
+    "mathematics",
+    "research culture"
+   ],
+   "extra": "",
+   "importance": 5.0,
+   "module": "news"
+  },
+  {
+   "id": "n:7833567433",
+   "kind": "news",
+   "title": "Patrick Stewart taught us what good men do with power",
+   "url": "https://www.vox.com/politics/508526/patrick-stewart-jean-luc-picard-star-trek-liberalism",
+   "source": "Hacker News",
+   "date": "2026-11-01",
+   "summary": "Commentary on Patrick Stewart and leadership lessons about power, unrelated to applied AI.",
+   "tags": [
+    "culture"
+   ],
+   "extra": "",
+   "importance": 1.0,
+   "module": "news"
+  },
+  {
+   "id": "n:4993211294",
+   "kind": "news",
+   "title": "Frontier Airlines Likely Breached",
+   "url": "https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/",
+   "source": "Hacker News",
+   "date": "2026-11-01",
+   "summary": "Report that Frontier Airlines likely suffered a data breach, relevant to security and AI governance contexts.",
+   "tags": [
+    "security",
+    "breach"
    ],
    "extra": "",
    "importance": 3.0,
    "module": "news"
   },
   {
-   "id": "n:6240302709",
+   "id": "n:6605761111",
    "kind": "news",
-   "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
-   "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+   "title": "Seoul Viosys begins production of rare-earth-free white light emitter",
+   "url": "https://www.semiconductor-today.com/news_items/2026/oct/seoul-291026.shtml",
    "source": "Hacker News",
-   "date": "2026-10-31",
-   "summary": "Ensemble of five Qwen3-27B models reportedly surpasses Fable 5 on LiveCodeBench Hard, suggesting multi-agent gains.",
+   "date": "2026-11-01",
+   "summary": "Seoul Viosys starts producing rare-earth-free white LEDs, relevant to hardware supply chains for AI devices.",
    "tags": [
-    "LLM",
-    "ensembling",
-    "code-generation"
+    "hardware",
+    "materials"
+   ],
+   "extra": "",
+   "importance": 4.0,
+   "module": "news"
+  },
+  {
+   "id": "n:9590163029",
+   "kind": "news",
+   "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+   "url": "https://hackerbooks.org",
+   "source": "Hacker News",
+   "date": "2026-11-01",
+   "summary": "Show HN project surfacing books mentioned on Hacker News, a community tool with no direct AI research relevance.",
+   "tags": [
+    "tooling",
+    "community"
+   ],
+   "extra": "",
+   "importance": 2.0,
+   "module": "news"
+  },
+  {
+   "id": "n:8612956243",
+   "kind": "news",
+   "title": "Landline phones will switch off across Britland in 100 days, no extensions",
+   "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
+   "source": "Hacker News",
+   "date": "2026-11-01",
+   "summary": "UK landline phones will be switched off within 100 days with no extensions, an infrastructure transition story.",
+   "tags": [
+    "telecom",
+    "infrastructure"
+   ],
+   "extra": "",
+   "importance": 2.0,
+   "module": "news"
+  },
+  {
+   "id": "n:6124503757",
+   "kind": "news",
+   "title": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
+   "url": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
+   "source": "Hacker News",
+   "date": "2026-11-01",
+   "summary": "Lenovo's 'encrypted' fingerprint USB is reportedly just an unencrypted SD card, a security marketing failure.",
+   "tags": [
+    "security",
+    "hardware"
+   ],
+   "extra": "",
+   "importance": 3.0,
+   "module": "news"
+  },
+  {
+   "id": "n:5906857521",
+   "kind": "news",
+   "title": "Novellas with Groff",
+   "url": "https://movq.de/blog/postings/2026-10-31/0/POSTING-en.html",
+   "source": "Hacker News",
+   "date": "2026-11-01",
+   "summary": "Literary piece about novellas and Groff, unrelated to applied AI or industry research.",
+   "tags": [
+    "literature"
+   ],
+   "extra": "",
+   "importance": 1.0,
+   "module": "news"
+  },
+  {
+   "id": "n:802097004",
+   "kind": "news",
+   "title": "Proving and improving the Platonic Representation Hypothesis with JEPAs",
+   "url": "https://arxiv.org/abs/2610.39302",
+   "source": "Hacker News",
+   "date": "2026-11-01",
+   "summary": "Paper proving and improving the Platonic Representation Hypothesis using JEPAs, advancing representation alignment theory.",
+   "tags": [
+    "representation learning",
+    "JEPA",
+    "theory"
    ],
    "extra": "",
    "importance": 8.0,
    "module": "news"
   },
   {
-   "id": "n:3822339428",
+   "id": "n:9965065431",
+   "kind": "news",
+   "title": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
+   "url": "https://github.com/ivankovic/omnidiff",
+   "source": "Hacker News",
+   "date": "2026-11-01",
+   "summary": "OmniDiff is an open-source Rust content-aware Git difftool, a developer tooling release.",
+   "tags": [
+    "tooling",
+    "rust"
+   ],
+   "extra": "",
+   "importance": 3.0,
+   "module": "news"
+  },
+  {
+   "id": "n:9398083765",
+   "kind": "news",
+   "title": "Domain hacks with unusual Unicode characters (2018)",
+   "url": "https://shkspr.mobi/blog/2018/11/domain-hacks-with-unusual-unicode-characters/",
+   "source": "Hacker News",
+   "date": "2026-11-01",
+   "summary": "Exploration of domain hacks using unusual Unicode characters, a web/IDN curiosity from 2018.",
+   "tags": [
+    "unicode",
+    "web"
+   ],
+   "extra": "",
+   "importance": 2.0,
+   "module": "news"
+  },
+  {
+   "id": "n:4452696257",
+   "kind": "news",
+   "title": "The AI cost of JavaScript frameworks",
+   "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+   "source": "Hacker News",
+   "date": "2026-11-01",
+   "summary": "Analysis of the AI-related cost overhead of JavaScript frameworks, relevant to web performance and AI tooling.",
+   "tags": [
+    "javascript",
+    "performance",
+    "web"
+   ],
+   "extra": "",
+   "importance": 6.0,
+   "module": "news"
+  },
+  {
+   "id": "n:3943887665",
    "kind": "news",
    "title": "An Italian farmer found some unknown seeds in his attic and planted them",
    "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
    "source": "Hacker News",
    "date": "2026-10-31",
-   "summary": "Human-interest story about an Italian farmer planting unknown attic seeds; no AI relevance.",
+   "summary": "Italian farmer plants unknown seeds found in attic, a human-interest story with no AI relevance.",
    "tags": [
-    "off-topic"
+    "agriculture"
    ],
    "extra": "",
    "importance": 2.0,
    "module": "news"
   },
   {
-   "id": "n:4247208702",
+   "id": "n:6059310516",
    "kind": "news",
-   "title": "AI text watermarking and quality loss",
-   "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
+   "title": "Bidirectional charging during grid outages",
+   "url": "https://www.jefftk.com/p/bidirectional-charging-during-grid-outages",
    "source": "Hacker News",
    "date": "2026-10-31",
-   "summary": "Discusses tradeoffs between AI text watermarking robustness and degradation of generated text quality.",
+   "summary": "Discussion of bidirectional EV charging during grid outages, relevant to energy systems and AI-driven grid management.",
    "tags": [
-    "watermarking",
-    "LLM",
-    "evaluation"
+    "energy",
+    "grid",
+    "EV"
    ],
    "extra": "",
-   "importance": 7.0,
+   "importance": 5.0,
    "module": "news"
   },
   {
-   "id": "n:2744552154",
-   "kind": "news",
-   "title": "Distributed Proofreaders",
-   "url": "https://www.pgdp.net/c/",
-   "source": "Hacker News",
-   "date": "2026-10-31",
-   "summary": "Distributed Proofreaders crowdsourcing project; tangential relevance to human-in-the-loop data work.",
-   "tags": [
-    "crowdsourcing"
-   ],
-   "extra": "",
-   "importance": 3.0,
-   "module": "news"
-  },
-  {
-   "id": "n:7628710918",
-   "kind": "news",
-   "title": "With 86% of the words, you might understand only 38% of an anime's lines",
-   "url": "https://learnfromx.com/research/anime-word-coverage-vs-lines-understood",
-   "source": "Hacker News",
-   "date": "2026-10-31",
-   "summary": "Analysis showing vocabulary coverage poorly predicts comprehension, relevant to tokenization and evaluation metrics.",
-   "tags": [
-    "tokenization",
-    "evaluation"
-   ],
-   "extra": "",
-   "importance": 4.0,
-   "module": "news"
-  },
-  {
-   "id": "n:8912875045",
-   "kind": "news",
-   "title": "Surviving \"The Graduate\"",
-   "url": "https://www.newyorker.com/culture/the-weekend-essay/dustin-hoffman-on-surviving-the-graduate",
-   "source": "Hacker News",
-   "date": "2026-10-31",
-   "summary": "Personal essay on post-graduation life; no technical or AI research content.",
-   "tags": [
-    "off-topic"
-   ],
-   "extra": "",
-   "importance": 2.0,
-   "module": "news"
-  },
-  {
-   "id": "n:5910836302",
+   "id": "n:4964910836",
    "kind": "news",
    "title": "HackerTube: YouTube built from videos recommended by HN",
    "url": "https://karpathy.bearblog.dev/hacker-tube/",
    "source": "Hacker News",
    "date": "2026-10-31",
-   "summary": "Hacker News-curated YouTube frontend; minor interest for recommendation and ranking research.",
+   "summary": "HackerTube builds a YouTube-like site from HN-recommended videos, a community curation project.",
    "tags": [
-    "recommendation",
-    "web"
-   ],
-   "extra": "",
-   "importance": 4.0,
-   "module": "news"
-  },
-  {
-   "id": "n:5091635287",
-   "kind": "news",
-   "title": "Anthropic blocks users for anything touching training larger models",
-   "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
-   "source": "Hacker News",
-   "date": "2026-10-31",
-   "summary": "Report of Anthropic banning users for activity resembling training larger models, raising API policy questions.",
-   "tags": [
-    "policy",
-    "LLM",
-    "API"
-   ],
-   "extra": "",
-   "importance": 7.0,
-   "module": "news"
-  },
-  {
-   "id": "n:851552209",
-   "kind": "news",
-   "title": "Show HN: NES Contra (1987) port (ASM –> C and then C –> WebAssembly)",
-   "url": "https://epoyraz.github.io/nes-contra-us/",
-   "source": "Hacker News",
-   "date": "2026-10-31",
-   "summary": "NES Contra ported from assembly to C then WebAssembly, illustrating legacy code transpilation pipelines.",
-   "tags": [
-    "WebAssembly",
-    "transpilation"
-   ],
-   "extra": "",
-   "importance": 4.0,
-   "module": "news"
-  },
-  {
-   "id": "n:1269542878",
-   "kind": "news",
-   "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
-   "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
-   "source": "Hacker News",
-   "date": "2026-10-31",
-   "summary": "Critical TCP use-after-free vulnerability with CVSS 9.8, relevant to systems security and infrastructure.",
-   "tags": [
-    "security",
-    "CVE",
-    "networking"
-   ],
-   "extra": "",
-   "importance": 6.0,
-   "module": "news"
-  },
-  {
-   "id": "n:4160455420",
-   "kind": "news",
-   "title": "The Duty of a Scholar",
-   "url": "https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html",
-   "source": "Hacker News",
-   "date": "2026-10-31",
-   "summary": "Essay on scholarly duty; opinion piece with limited direct research applicability.",
-   "tags": [
-    "opinion"
-   ],
-   "extra": "",
-   "importance": 3.0,
-   "module": "news"
-  },
-  {
-   "id": "n:5155306933",
-   "kind": "news",
-   "title": "It's the memory latency, stupid",
-   "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
-   "source": "Hacker News",
-   "date": "2026-10-31",
-   "summary": "Argues memory latency, not bandwidth, dominates modern workload performance, relevant to ML systems design.",
-   "tags": [
-    "memory",
-    "systems",
-    "performance"
-   ],
-   "extra": "",
-   "importance": 6.0,
-   "module": "news"
-  },
-  {
-   "id": "n:8261724617",
-   "kind": "news",
-   "title": "William Nordhaus has died",
-   "url": "https://news.yale.edu/2026/10/31/william-nordhaus-nobel-laureate-who-integrated-economics-and-climate-change-devoted-yale",
-   "source": "Hacker News",
-   "date": "2026-10-31",
-   "summary": "Obituary of climate economist William Nordhaus, noting contributions to integrated assessment modeling.",
-   "tags": [
-    "economics",
-    "climate"
-   ],
-   "extra": "",
-   "importance": 5.0,
-   "module": "news"
-  },
-  {
-   "id": "n:5788252525",
-   "kind": "news",
-   "title": "Jepsen: ParticleDB 1.1.4",
-   "url": "https://jepsen.io/analyses/particledb-1.1.4",
-   "source": "Hacker News",
-   "date": "2026-10-31",
-   "summary": "Jepsen analysis of ParticleDB 1.1.4 testing distributed consistency guarantees under failure.",
-   "tags": [
-    "distributed-systems",
-    "consistency",
-    "testing"
-   ],
-   "extra": "",
-   "importance": 5.0,
-   "module": "news"
-  },
-  {
-   "id": "n:3336136011",
-   "kind": "news",
-   "title": "Show HN: A language model that lives in a boot sector",
-   "url": "https://github.com/kerlenton/bootgpt",
-   "source": "Hacker News",
-   "date": "2026-10-31",
-   "summary": "Demo of a tiny language model running in a boot sector, showcasing extreme model compression and deployment.",
-   "tags": [
-    "model-compression",
-    "edge",
-    "LLM"
-   ],
-   "extra": "",
-   "importance": 6.0,
-   "module": "news"
-  },
-  {
-   "id": "n:3151433867",
-   "kind": "news",
-   "title": "Do the math: How we took over ChatGPT accounts",
-   "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-   "source": "Hacker News",
-   "date": "2026-10-31",
-   "summary": "Account takeover of ChatGPT users via mathematical/technical exploit, highlighting LLM platform security risks.",
-   "tags": [
-    "security",
-    "LLM",
-    "exploit"
-   ],
-   "extra": "",
-   "importance": 7.0,
-   "module": "news"
-  },
-  {
-   "id": "n:569053184",
-   "kind": "news",
-   "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
-   "url": "https://piefed.world/post/1503394",
-   "source": "Hacker News",
-   "date": "2026-10-31",
-   "summary": "Signal fork Molly unmaintained for three months and vulnerable, relevant to secure messaging maintenance.",
-   "tags": [
-    "security",
-    "messaging"
-   ],
-   "extra": "",
-   "importance": 5.0,
-   "module": "news"
-  },
-  {
-   "id": "n:9137960760",
-   "kind": "news",
-   "title": "Serbia just elected the world's brainiest parliament",
-   "url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
-   "source": "Hacker News",
-   "date": "2026-10-31",
-   "summary": "Lighthearted piece on Serbia's parliament education levels; no AI or technical research relevance.",
-   "tags": [
-    "off-topic"
+    "community",
+    "tooling"
    ],
    "extra": "",
    "importance": 2.0,
+   "module": "news"
+  },
+  {
+   "id": "n:4414073283",
+   "kind": "news",
+   "title": "The She-Wolves of Jülich",
+   "url": "https://www.historytoday.com/archive/history-matters/she-wolves-julich",
+   "source": "Hacker News",
+   "date": "2026-10-31",
+   "summary": "Historical piece on the She-Wolves of Jülich, unrelated to applied AI.",
+   "tags": [
+    "history"
+   ],
+   "extra": "",
+   "importance": 1.0,
+   "module": "news"
+  },
+  {
+   "id": "n:9911850900",
+   "kind": "news",
+   "title": "One-minute frequency disturbances from synchronization in power systems",
+   "url": "https://www.nature.com/articles/s41560-026-02144-0",
+   "source": "Hacker News",
+   "date": "2026-10-31",
+   "summary": "Study of one-minute frequency disturbances from synchronization in power systems, relevant to grid stability and AI monitoring.",
+   "tags": [
+    "power systems",
+    "synchronization"
+   ],
+   "extra": "",
+   "importance": 5.0,
    "module": "news"
   }
  ]
