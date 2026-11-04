@@ -1,31 +1,11 @@
 {
- "generated_at": "2026-11-03T03:34:10Z",
+ "generated_at": "2026-11-04T02:31:50Z",
  "model": "deepseek-v4-flash",
  "modules": [
   {
    "id": "llm4or",
    "label": "LLM4OR / L2O",
    "items": [
-    {
-     "id": "p:httparxivorgabs261010184",
-     "kind": "paper",
-     "date": "2026-10-07",
-     "title": "Agentic AI-Assisted Modeling for Production Scheduling: Assessment in Constraint Programming",
-     "authors": "Ángel Sánchez-Fernández et.al.",
-     "url": "http://arxiv.org/abs/2610.10184",
-     "topic": "LLM Auto-Formulation",
-     "topics": [
-      "LLM Auto-Formulation"
-     ],
-     "importance": 8.0,
-     "summary": "Assesses agentic AI for modeling production scheduling in constraint programming, evaluating LLM agents on real scheduling tasks.",
-     "tags": [
-      "agentic AI",
-      "scheduling",
-      "constraint programming"
-     ],
-     "module": "llm4or"
-    },
     {
      "id": "p:httparxivorgabs261011294",
      "kind": "paper",
@@ -38,11 +18,11 @@
       "Solver Intelligence"
      ],
      "importance": 8.0,
-     "summary": "Introduces operation-level round-aware dynamic ordering for MIP presolve, improving solver efficiency via learned ordering policies.",
+     "summary": "Introduces ORDO, an operation-level round-aware dynamic ordering method to improve MIP presolve efficiency.",
      "tags": [
       "MIP presolve",
-      "LLM4OR",
-      "ordering"
+      "ordering",
+      "optimization"
      ],
      "module": "llm4or"
     },
@@ -58,11 +38,31 @@
       "LLM Auto-Formulation"
      ],
      "importance": 7.0,
-     "summary": "Presents an agentic AI tool enabling interactive spacecraft rendezvous trajectory design, integrating LLM agents with orbital mechanics.",
+     "summary": "Presents PLUTO, an agentic AI tool for interactive spacecraft rendezvous trajectory design.",
      "tags": [
       "agentic AI",
       "trajectory design",
       "spacecraft"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs261010184",
+     "kind": "paper",
+     "date": "2026-10-07",
+     "title": "Agentic AI-Assisted Modeling for Production Scheduling: Assessment in Constraint Programming",
+     "authors": "Ángel Sánchez-Fernández et.al.",
+     "url": "http://arxiv.org/abs/2610.10184",
+     "topic": "LLM Auto-Formulation",
+     "topics": [
+      "LLM Auto-Formulation"
+     ],
+     "importance": 7.0,
+     "summary": "Assesses agentic AI-assisted modeling for production scheduling within constraint programming.",
+     "tags": [
+      "agentic AI",
+      "scheduling",
+      "constraint programming"
      ],
      "module": "llm4or"
     },
@@ -78,7 +78,7 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 7.0,
-     "summary": "Proposes MotherTree, using meta-learning on synthetic data to improve decision tree training, bridging meta-learning and interpretable models.",
+     "summary": "Introduces MotherTree, using meta-learning on synthetic data to improve decision tree training.",
      "tags": [
       "meta-learning",
       "decision trees",
@@ -98,7 +98,7 @@
       "LLM Auto-Formulation"
      ],
      "importance": 6.0,
-     "summary": "Develops a multi-agentic AI flow for analog/RF chip design, automating complex design tasks through coordinated LLM agents.",
+     "summary": "Develops RFChipAgent, a multi-agentic AI flow for analog/RF chip design.",
      "tags": [
       "multi-agent",
       "chip design",
@@ -118,7 +118,7 @@
       "LLM Auto-Formulation"
      ],
      "importance": 6.0,
-     "summary": "Reveals temporal predictive multiplicity: equally accurate time series models produce divergent forecast trajectories, questioning model selection.",
+     "summary": "Reveals temporal predictive multiplicity: equally accurate time series models produce different forecast trajectories.",
      "tags": [
       "time series",
       "predictive multiplicity",
@@ -138,11 +138,11 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 6.0,
-     "summary": "Studies policy learning under weak signals, addressing decision-making when informative cues are sparse or noisy.",
+     "summary": "Studies policy learning under weak signals, addressing learning with limited informative feedback.",
      "tags": [
       "policy learning",
       "weak signals",
-      "decision"
+      "decision making"
      ],
      "module": "llm4or"
     },
@@ -158,11 +158,11 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 6.0,
-     "summary": "Shows optimizing a pedagogical metric can degrade LLM tutoring quality, revealing misalignment between proxy metrics and learning outcomes.",
+     "summary": "Shows that optimizing a pedagogical metric can degrade LLM tutoring quality, revealing misalignment in educational LLM optimization.",
      "tags": [
       "LLM tutoring",
       "metric misalignment",
-      "pedagogy"
+      "education"
      ],
      "module": "llm4or"
     },
@@ -178,7 +178,7 @@
       "VRP / Combinatorial Solving"
      ],
      "importance": 6.0,
-     "summary": "Studies computing stable matchings under complementarities and preference misalignment, extending matching theory beyond substitutable preferences.",
+     "summary": "Studies computing stable matchings under complementarities and preference misalignment, extending matching theory.",
      "tags": [
       "stable matching",
       "complementarities",
@@ -198,11 +198,11 @@
       "Automatic Algorithm Design / Hyper-heuristics"
      ],
      "importance": 5.0,
-     "summary": "Uses ReEvo-designed memetic algorithm to secure fluid antenna systems, advancing LLM-driven evolutionary optimization for wireless design.",
+     "summary": "Uses ReEvo-designed memetic algorithm for secure fluid antenna systems, moving beyond LLM-GA approaches.",
      "tags": [
-      "LLM-GA",
       "memetic algorithm",
-      "antenna"
+      "LLM",
+      "antenna systems"
      ],
      "module": "llm4or"
     },
@@ -218,7 +218,7 @@
       "LLM Auto-Formulation"
      ],
      "importance": 5.0,
-     "summary": "Examines how successive training stages (misalignment, SFT, preference optimization) affect LLM persuasion capabilities.",
+     "summary": "Studies how successive training stages and misalignment affect LLM persuasion via SFT and preference optimization.",
      "tags": [
       "LLM persuasion",
       "fine-tuning",
@@ -238,7 +238,7 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 5.0,
-     "summary": "Applies reinforcement learning to strategic investment decisions for value creation in energy transition scenarios.",
+     "summary": "Applies reinforcement learning to strategic investment decision making for value creation in energy transition.",
      "tags": [
       "reinforcement learning",
       "energy",
@@ -258,7 +258,7 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 5.0,
-     "summary": "Develops predefined-time integral reinforcement learning via inverse-optimal design for unknown nonlinear systems with guaranteed convergence.",
+     "summary": "Develops predefined-time integral reinforcement learning for unknown nonlinear systems via inverse-optimal design.",
      "tags": [
       "reinforcement learning",
       "control",
@@ -278,7 +278,7 @@
       "VRP / Combinatorial Solving"
      ],
      "importance": 5.0,
-     "summary": "Provides improved approximation algorithms for vehicle routing with nonuniform speeds, tightening guarantees for heterogeneous fleet routing.",
+     "summary": "Provides improved approximation algorithms for vehicle routing with nonuniform speeds.",
      "tags": [
       "vehicle routing",
       "approximation",
@@ -298,7 +298,7 @@
       "LLM Auto-Formulation"
      ],
      "importance": 4.0,
-     "summary": "Proposes VIS-Ground for video interactive storytelling with contextual grounding, linking narrative generation to visual context.",
+     "summary": "Proposes VIS-Ground for video interactive storytelling with contextual grounding.",
      "tags": [
       "video",
       "grounding",
@@ -318,7 +318,7 @@
       "LLM Auto-Formulation"
      ],
      "importance": 4.0,
-     "summary": "Introduces LoomSC, a scalable deep subspace clustering method with projector factorization and exact spectral reduction.",
+     "summary": "Presents LoomSC, a scalable deep subspace clustering method with projector factorization and exact spectral reduction.",
      "tags": [
       "subspace clustering",
       "scalability",
@@ -338,11 +338,11 @@
       "VRP / Combinatorial Solving"
      ],
      "importance": 4.0,
-     "summary": "Designs geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures, improving quantum error correction layouts.",
+     "summary": "Designs geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures.",
      "tags": [
       "quantum codes",
-      "hyperbolic",
-      "fault-tolerant"
+      "fault tolerance",
+      "hyperbolic"
      ],
      "module": "llm4or"
     },
@@ -358,10 +358,10 @@
       "LLM Auto-Formulation"
      ],
      "importance": 3.0,
-     "summary": "Proposes an efficient correlation-based evaluation method for the GN model in multi-span optical systems, reducing computation cost.",
+     "summary": "Proposes an efficient correlation-based method to evaluate the Gaussian Noise model for multi-span optical systems.",
      "tags": [
       "optical networks",
-      "GN model",
+      "GN-model",
       "evaluation"
      ],
      "module": "llm4or"
@@ -373,367 +373,365 @@
    "label": "Agentic AI",
    "items": [
     {
-     "id": "p:httparxivorgabs261100544",
+     "id": "p:httparxivorgabs261103939",
      "kind": "paper",
-     "date": "2026-10-31",
-     "title": "Skill++: Towards Lifelong Agents via Routing-Aware Skill Refinement",
-     "authors": "Hanrong Zhang et.al.",
-     "url": "http://arxiv.org/abs/2611.00544",
+     "date": "2026-11-02",
+     "title": "From Benchmarks to Behaviors: A Framework for Auditing AI Agents",
+     "authors": "Nick Hagar et.al.",
+     "url": "http://arxiv.org/abs/2611.03939",
      "topic": "Agent Loop / Harness",
      "topics": [
-      "Agent Loop / Harness",
+      "Agent Loop / Harness"
+     ],
+     "importance": 8.0,
+     "summary": "Proposes a framework for auditing AI agents that moves from benchmarks to behaviors, addressing evaluation gaps in deployed agent systems.",
+     "tags": [
+      "auditing",
+      "evaluation",
+      "governance"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs261104299",
+     "kind": "paper",
+     "date": "2026-11-03",
+     "title": "Can Benign Skills Induce Misaligned Behavior in LLM Agents?",
+     "authors": "Xuanye Zhang et.al.",
+     "url": "http://arxiv.org/abs/2611.04299",
+     "topic": "Planning / Self-Evolution",
+     "topics": [
       "Planning / Self-Evolution"
      ],
      "importance": 8.0,
-     "summary": "Introduces routing-aware skill refinement enabling lifelong agents to continuously improve and reuse skills over time.",
+     "summary": "Investigates whether benign skills can induce misaligned behavior in LLM agents, probing emergent safety risks from skill composition.",
      "tags": [
-      "lifelong-learning",
-      "skill-routing",
-      "agents"
+      "safety",
+      "misalignment",
+      "skills"
      ],
      "module": "agentic"
     },
     {
-     "id": "p:httparxivorgabs261101001",
+     "id": "p:httparxivorgabs261104087",
      "kind": "paper",
-     "date": "2026-10-31",
-     "title": "GURU: A Hierarchical Neuro-Symbolic Multi-Agent System for Verification-Aware Automation of Mission-Critical Digital Engineering and Operations",
-     "authors": "Allan Grosvenor et.al.",
-     "url": "http://arxiv.org/abs/2611.01001",
-     "topic": "A2A / Multi-Agent Orchestration",
-     "topics": [
-      "A2A / Multi-Agent Orchestration"
-     ],
-     "importance": 8.0,
-     "summary": "Presents a hierarchical neuro-symbolic multi-agent system for verification-aware automation of mission-critical digital engineering operations.",
-     "tags": [
-      "neuro-symbolic",
-      "multi-agent",
-      "verification"
-     ],
-     "module": "agentic"
-    },
-    {
-     "id": "p:httparxivorgabs261101112",
-     "kind": "paper",
-     "date": "2026-10-31",
-     "title": "Auriga Technical Report: A Task-Agnostic Agent Harness for Zero-Shot Embodied Manipulation",
-     "authors": "Chengcheng Wang et.al.",
-     "url": "http://arxiv.org/abs/2611.01112",
+     "date": "2026-11-02",
+     "title": "ScienceVision: Can AI Observe and Reason Like a Scientist?",
+     "authors": "Tianyi Ma et.al.",
+     "url": "http://arxiv.org/abs/2611.04087",
      "topic": "Agent Loop / Harness",
      "topics": [
       "Agent Loop / Harness",
       "MCP / Tool Protocols"
      ],
      "importance": 7.0,
-     "summary": "Presents a task-agnostic agent harness enabling zero-shot embodied manipulation across diverse tasks without task-specific tuning.",
+     "summary": "ScienceVision benchmarks whether AI can observe and reason like a scientist, probing multimodal scientific reasoning capabilities.",
      "tags": [
-      "embodied-agents",
-      "zero-shot",
+      "benchmark",
+      "scientific reasoning",
+      "multimodal"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs261103832",
+     "kind": "paper",
+     "date": "2026-11-02",
+     "title": "El Agente Fármaco: A Scalable AI Scientist for Drug Discovery",
+     "authors": "Marcel Müller et.al.",
+     "url": "http://arxiv.org/abs/2611.03832",
+     "topic": "Agent Loop / Harness",
+     "topics": [
+      "Agent Loop / Harness",
+      "MCP / Tool Protocols"
+     ],
+     "importance": 7.0,
+     "summary": "El Agente Fármaco presents a scalable AI scientist for drug discovery, automating multi-stage pharmaceutical research workflows.",
+     "tags": [
+      "drug discovery",
+      "AI scientist",
+      "automation"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs261103772",
+     "kind": "paper",
+     "date": "2026-11-02",
+     "title": "RuntimeTickets: Source-Grounded Security Obligations for Agent Skills",
+     "authors": "Kuiyi Gao et.al.",
+     "url": "http://arxiv.org/abs/2611.03772",
+     "topic": "Agent Loop / Harness",
+     "topics": [
+      "Agent Loop / Harness"
+     ],
+     "importance": 7.0,
+     "summary": "RuntimeTickets introduces source-grounded security obligations for agent skills, enforcing verifiable security constraints at runtime.",
+     "tags": [
+      "security",
+      "runtime",
+      "skills"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs261104196",
+     "kind": "paper",
+     "date": "2026-11-03",
+     "title": "DoGNAVY-Exploit: Harnessing Parallel Open-Weight Agents for Stage-Aware Vulnerability Exploitation",
+     "authors": "Yuxuan Wang et.al.",
+     "url": "http://arxiv.org/abs/2611.04196",
+     "topic": "Agent Loop / Harness",
+     "topics": [
+      "Agent Loop / Harness",
+      "Planning / Self-Evolution"
+     ],
+     "importance": 7.0,
+     "summary": "Parallel open-weight agents are harnessed for stage-aware vulnerability exploitation, advancing automated offensive security research.",
+     "tags": [
+      "security",
+      "multi-agent",
+      "exploitation"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs261104180",
+     "kind": "paper",
+     "date": "2026-11-03",
+     "title": "Validation-Gated ML Pipeline Synthesis with Expert-Grounded Self-Evolving Skills",
+     "authors": "Zixiao Zhao et.al.",
+     "url": "http://arxiv.org/abs/2611.04180",
+     "topic": "Agent Loop / Harness",
+     "topics": [
+      "Agent Loop / Harness"
+     ],
+     "importance": 7.0,
+     "summary": "A validation-gated pipeline synthesizes ML workflows using expert-grounded self-evolving skills, improving reliability of autonomous ML engineering.",
+     "tags": [
+      "ML engineering",
+      "self-evolving",
+      "validation"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs261104255",
+     "kind": "paper",
+     "date": "2026-11-03",
+     "title": "ActOR: Ambient AI-Based Agentic Orchestration for Humanoid Autonomy in Operating Rooms",
+     "authors": "Han Zhang et.al.",
+     "url": "http://arxiv.org/abs/2611.04255",
+     "topic": "Planning / Self-Evolution",
+     "topics": [
+      "Planning / Self-Evolution"
+     ],
+     "importance": 7.0,
+     "summary": "ActOR uses ambient AI-based agentic orchestration to enable humanoid autonomy in operating rooms, targeting surgical assistance.",
+     "tags": [
+      "robotics",
+      "orchestration",
+      "healthcare"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs261104228",
+     "kind": "paper",
+     "date": "2026-11-03",
+     "title": "DualWorldBench: Can Agents Plan Deliveries across Symbolic and Grounded Worlds?",
+     "authors": "Yang Chen et.al.",
+     "url": "http://arxiv.org/abs/2611.04228",
+     "topic": "Planning / Self-Evolution",
+     "topics": [
+      "Planning / Self-Evolution"
+     ],
+     "importance": 7.0,
+     "summary": "DualWorldBench evaluates whether agents can plan deliveries across both symbolic and grounded worlds, testing cross-representation transfer.",
+     "tags": [
+      "benchmark",
+      "planning",
+      "grounding"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs261104182",
+     "kind": "paper",
+     "date": "2026-11-03",
+     "title": "When the Consumer Is an Agent: Execution-Grounded Service-Level Agreements",
+     "authors": "Michal Orzechowski et.al.",
+     "url": "http://arxiv.org/abs/2611.04182",
+     "topic": "Planning / Self-Evolution",
+     "topics": [
+      "Planning / Self-Evolution"
+     ],
+     "importance": 7.0,
+     "summary": "Proposes execution-grounded service-level agreements for agent consumers, formalizing reliability contracts when agents act on behalf of users.",
+     "tags": [
+      "SLAs",
+      "reliability",
+      "agents"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs261104104",
+     "kind": "paper",
+     "date": "2026-11-03",
+     "title": "ModelBlaster: Closing the Performance Gap through Learning-Augmented Agents Across Models, Kernels and Hardware Backends",
+     "authors": "Shengjun Kris Dong et.al.",
+     "url": "http://arxiv.org/abs/2611.04104",
+     "topic": "Planning / Self-Evolution",
+     "topics": [
+      "Planning / Self-Evolution"
+     ],
+     "importance": 7.0,
+     "summary": "ModelBlaster uses learning-augmented agents to close performance gaps across models, kernels, and hardware backends.",
+     "tags": [
+      "performance",
+      "systems",
+      "optimization"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs261104005",
+     "kind": "paper",
+     "date": "2026-11-02",
+     "title": "Characterizing Adversarial GEO via Implicit Brand Injection",
+     "authors": "Shobhnik Kriplani et.al.",
+     "url": "http://arxiv.org/abs/2611.04005",
+     "topic": "Agent Loop / Harness",
+     "topics": [
+      "Agent Loop / Harness"
+     ],
+     "importance": 6.0,
+     "summary": "Characterizes adversarial generative engine optimization via implicit brand injection, exposing manipulation risks in AI-mediated search.",
+     "tags": [
+      "adversarial",
+      "GEO",
       "manipulation"
      ],
      "module": "agentic"
     },
     {
-     "id": "p:httparxivorgabs261100518",
+     "id": "p:httparxivorgabs261103983",
      "kind": "paper",
-     "date": "2026-10-31",
-     "title": "Agentic Context Management for Multi-Turn Human-AI Conversations",
-     "authors": "Matthew Ho et.al.",
-     "url": "http://arxiv.org/abs/2611.00518",
-     "topic": "Agent Loop / Harness",
-     "topics": [
-      "Agent Loop / Harness",
-      "MCP / Tool Protocols"
-     ],
-     "importance": 7.0,
-     "summary": "Studies agentic context management strategies for maintaining coherence in multi-turn human-AI conversations.",
-     "tags": [
-      "context-management",
-      "multi-turn",
-      "agents"
-     ],
-     "module": "agentic"
-    },
-    {
-     "id": "p:httparxivorgabs261101145",
-     "kind": "paper",
-     "date": "2026-10-31",
-     "title": "CivicBench: A Benchmark and Memory Framework for Web-Based Civic Data Analytics",
-     "authors": "Yangyu Wu et.al.",
-     "url": "http://arxiv.org/abs/2611.01145",
-     "topic": "MCP / Tool Protocols",
-     "topics": [
-      "MCP / Tool Protocols"
-     ],
-     "importance": 7.0,
-     "summary": "Introduces a benchmark and memory framework for evaluating agents on web-based civic data analytics tasks.",
-     "tags": [
-      "benchmark",
-      "memory",
-      "web-agents"
-     ],
-     "module": "agentic"
-    },
-    {
-     "id": "p:httparxivorgabs261100923",
-     "kind": "paper",
-     "date": "2026-10-31",
-     "title": "Illusion: Safeguarding Topology Confidentiality in LLM Multi-Agent Systems via Behavior-Preserving Obfuscation",
-     "authors": "Yiu-Fai Cheung et.al.",
-     "url": "http://arxiv.org/abs/2611.00923",
-     "topic": "A2A / Multi-Agent Orchestration",
-     "topics": [
-      "A2A / Multi-Agent Orchestration"
-     ],
-     "importance": 7.0,
-     "summary": "Proposes behavior-preserving obfuscation to safeguard topology confidentiality in LLM multi-agent systems.",
-     "tags": [
-      "privacy",
-      "multi-agent",
-      "obfuscation"
-     ],
-     "module": "agentic"
-    },
-    {
-     "id": "p:httparxivorgabs261100988",
-     "kind": "paper",
-     "date": "2026-10-31",
-     "title": "Pulse: Long-Horizon Tasks Need Streaming Personalization",
-     "authors": "Qijia Zhuang et.al.",
-     "url": "http://arxiv.org/abs/2611.00988",
-     "topic": "Memory / Context",
-     "topics": [
-      "Memory / Context",
-      "Planning / Self-Evolution"
-     ],
-     "importance": 7.0,
-     "summary": "Argues long-horizon tasks require streaming personalization and introduces Pulse to adapt agents continuously.",
-     "tags": [
-      "personalization",
-      "long-horizon",
-      "agents"
-     ],
-     "module": "agentic"
-    },
-    {
-     "id": "p:httparxivorgabs261100779",
-     "kind": "paper",
-     "date": "2026-10-31",
-     "title": "Who Schedules Agent Memory? A Sidecar Approach to Long-Horizon Tasks",
-     "authors": "Qijia Zhuang et.al.",
-     "url": "http://arxiv.org/abs/2611.00779",
-     "topic": "Memory / Context",
-     "topics": [
-      "Memory / Context",
-      "Planning / Self-Evolution"
-     ],
-     "importance": 7.0,
-     "summary": "Proposes a sidecar approach to scheduling agent memory for long-horizon tasks, decoupling memory management from execution.",
-     "tags": [
-      "memory",
-      "scheduling",
-      "long-horizon"
-     ],
-     "module": "agentic"
-    },
-    {
-     "id": "p:httparxivorgabs261101115",
-     "kind": "paper",
-     "date": "2026-10-31",
-     "title": "CompSkill: Compiling Execution Experience for Skill Retrieval",
-     "authors": "Qi Shen et.al.",
-     "url": "http://arxiv.org/abs/2611.01115",
-     "topic": "Planning / Self-Evolution",
-     "topics": [
-      "Planning / Self-Evolution"
-     ],
-     "importance": 7.0,
-     "summary": "Compiles execution experience into retrievable skills, improving skill retrieval and reuse for agents.",
-     "tags": [
-      "skill-retrieval",
-      "experience",
-      "agents"
-     ],
-     "module": "agentic"
-    },
-    {
-     "id": "p:httparxivorgabs261100723",
-     "kind": "paper",
-     "date": "2026-10-31",
-     "title": "Architecting Fairness-Aware LLM Interactions",
-     "authors": "Alessandra Parziale et.al.",
-     "url": "http://arxiv.org/abs/2611.00723",
+     "date": "2026-11-02",
+     "title": "A Guideline-Grounded Multi-Agent Framework for Personalized Exercise Prescription from Clinical and Wearable Data",
+     "authors": "Xintong Li et.al.",
+     "url": "http://arxiv.org/abs/2611.03983",
      "topic": "Agent Loop / Harness",
      "topics": [
       "Agent Loop / Harness"
      ],
      "importance": 6.0,
-     "summary": "Proposes an architecture for fairness-aware LLM interactions, addressing bias in agentic conversational systems.",
+     "summary": "A guideline-grounded multi-agent framework generates personalized exercise prescriptions from clinical and wearable data.",
      "tags": [
-      "fairness",
-      "LLM",
-      "interaction"
+      "multi-agent",
+      "healthcare",
+      "personalization"
      ],
      "module": "agentic"
     },
     {
-     "id": "p:httparxivorgabs261100783",
+     "id": "p:httparxivorgabs261103882",
      "kind": "paper",
-     "date": "2026-10-31",
-     "title": "A Tool in the Forward Pass: Frozen Tape Modules as Layers of a Small Language Model",
-     "authors": "Michael Granitzer et.al.",
-     "url": "http://arxiv.org/abs/2611.00783",
+     "date": "2026-11-02",
+     "title": "ProofPaths: An AI Agent Framework for Assessing Student Reasoning",
+     "authors": "Mohsen Hariri et.al.",
+     "url": "http://arxiv.org/abs/2611.03882",
+     "topic": "Agent Loop / Harness",
+     "topics": [
+      "Agent Loop / Harness"
+     ],
+     "importance": 6.0,
+     "summary": "ProofPaths is an AI agent framework for assessing student reasoning, targeting automated evaluation of mathematical and logical arguments.",
+     "tags": [
+      "education",
+      "reasoning",
+      "assessment"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs261103534",
+     "kind": "paper",
+     "date": "2026-11-02",
+     "title": "An Agentic Framework for Automated Power System Studies and Grid Connection Assessment",
+     "authors": "MaoXun Huang et.al.",
+     "url": "http://arxiv.org/abs/2611.03534",
+     "topic": "Agent Loop / Harness",
+     "topics": [
+      "Agent Loop / Harness"
+     ],
+     "importance": 6.0,
+     "summary": "An agentic framework automates power system studies and grid connection assessments, applying agents to energy infrastructure engineering.",
+     "tags": [
+      "energy",
+      "automation",
+      "engineering"
+     ],
+     "module": "agentic"
+    },
+    {
+     "id": "p:httparxivorgabs261104114",
+     "kind": "paper",
+     "date": "2026-11-03",
+     "title": "SciPhi-Chat: Training a Spatial Audio Agent for Question Answering, Dialogue, and Tool Use",
+     "authors": "Gijs Wijngaard et.al.",
+     "url": "http://arxiv.org/abs/2611.04114",
      "topic": "MCP / Tool Protocols",
      "topics": [
       "MCP / Tool Protocols"
      ],
      "importance": 6.0,
-     "summary": "Embeds frozen tape modules as layers within a small language model, treating tools as part of the forward pass.",
+     "summary": "SciPhi-Chat trains a spatial audio agent for question answering, dialogue, and tool use in embodied auditory settings.",
      "tags": [
-      "tool-use",
-      "SLM",
-      "architecture"
+      "spatial audio",
+      "tool use",
+      "dialogue"
      ],
      "module": "agentic"
     },
     {
-     "id": "p:httparxivorgabs261100627",
+     "id": "p:httparxivorgabs261104183",
      "kind": "paper",
-     "date": "2026-10-31",
-     "title": "Autonomous Analysis of Thermoelectric Materials Big Data by Multi-Agentic AI and Construction of a Knowledge Base and Specialized AI",
-     "authors": "Yusuke Hashimoto et.al.",
-     "url": "http://arxiv.org/abs/2611.00627",
+     "date": "2026-11-03",
+     "title": "Agentic Path Maps: Exposing an Agent's Traversal Through the Garden of Forking Paths",
+     "authors": "Madeleine Grunde-McLaughlin et.al.",
+     "url": "http://arxiv.org/abs/2611.04183",
      "topic": "A2A / Multi-Agent Orchestration",
      "topics": [
       "A2A / Multi-Agent Orchestration"
      ],
      "importance": 6.0,
-     "summary": "Uses multi-agentic AI to autonomously analyze thermoelectric materials big data and build a specialized knowledge base.",
+     "summary": "Agentic Path Maps visualize an agent's traversal through branching decision trees, improving interpretability of agent behavior.",
      "tags": [
-      "multi-agent",
-      "materials",
-      "knowledge-base"
+      "interpretability",
+      "visualization",
+      "planning"
      ],
      "module": "agentic"
     },
     {
-     "id": "p:httparxivorgabs261101236",
+     "id": "p:httparxivorgabs261104301",
      "kind": "paper",
-     "date": "2026-10-31",
-     "title": "RiskReason: A Benchmark for Verifiable Financial Risk Reasoning",
-     "authors": "Nazanin Yousefi et.al.",
-     "url": "http://arxiv.org/abs/2611.01236",
+     "date": "2026-11-03",
+     "title": "OSGR: Observation-Support Graph Reasoning for Earth Observation Question Answering",
+     "authors": "Dazhou Yu et.al.",
+     "url": "http://arxiv.org/abs/2611.04301",
      "topic": "Planning / Self-Evolution",
      "topics": [
       "Planning / Self-Evolution"
      ],
      "importance": 6.0,
-     "summary": "Presents a benchmark for verifiable financial risk reasoning, evaluating agents on auditable risk analysis tasks.",
+     "summary": "OSGR introduces observation-support graph reasoning for Earth observation question answering, grounding agent reasoning in geospatial evidence.",
      "tags": [
-      "benchmark",
-      "finance",
-      "reasoning"
-     ],
-     "module": "agentic"
-    },
-    {
-     "id": "p:httparxivorgabs261101276",
-     "kind": "paper",
-     "date": "2026-10-31",
-     "title": "OntoDoc: Automatically Generating Ontology Resource Descriptions",
-     "authors": "Juan Guajardo Gutierrez et.al.",
-     "url": "http://arxiv.org/abs/2611.01276",
-     "topic": "Agent Loop / Harness",
-     "topics": [
-      "Agent Loop / Harness"
-     ],
-     "importance": 5.0,
-     "summary": "Automatically generates ontology resource descriptions to improve semantic documentation and reuse of ontology artifacts.",
-     "tags": [
-      "ontology",
-      "generation",
-      "semantic-web"
-     ],
-     "module": "agentic"
-    },
-    {
-     "id": "p:httparxivorgabs261100877",
-     "kind": "paper",
-     "date": "2026-10-31",
-     "title": "What Breaks and What Comes Back: Capability Damage and Recovery in Depth-Pruned Small Language Models",
-     "authors": "Piyush Dhoka et.al.",
-     "url": "http://arxiv.org/abs/2611.00877",
-     "topic": "MCP / Tool Protocols",
-     "topics": [
-      "MCP / Tool Protocols"
-     ],
-     "importance": 5.0,
-     "summary": "Analyzes capability degradation and recovery in depth-pruned small language models, characterizing what breaks and returns.",
-     "tags": [
-      "pruning",
-      "SLM",
-      "robustness"
-     ],
-     "module": "agentic"
-    },
-    {
-     "id": "p:httparxivorgabs261100546",
-     "kind": "paper",
-     "date": "2026-10-31",
-     "title": "Low-Margin Branch Points in Deterministic LLM Deliberatio",
-     "authors": "Hajime Shimao et.al.",
-     "url": "http://arxiv.org/abs/2611.00546",
-     "topic": "A2A / Multi-Agent Orchestration",
-     "topics": [
-      "A2A / Multi-Agent Orchestration"
-     ],
-     "importance": 5.0,
-     "summary": "Investigates low-margin branch points in deterministic LLM deliberation, where small differences alter reasoning outcomes.",
-     "tags": [
-      "deliberation",
-      "LLM",
-      "reasoning"
-     ],
-     "module": "agentic"
-    },
-    {
-     "id": "p:httparxivorgabs261100769",
-     "kind": "paper",
-     "date": "2026-10-31",
-     "title": "DramaVQA: Probing Detailed Understanding of Ultra-Long TV Dramas",
-     "authors": "Xinyue Huo et.al.",
-     "url": "http://arxiv.org/abs/2611.00769",
-     "topic": "Memory / Context",
-     "topics": [
-      "Memory / Context"
-     ],
-     "importance": 5.0,
-     "summary": "Introduces DramaVQA, a benchmark probing detailed understanding of ultra-long TV drama video content.",
-     "tags": [
-      "benchmark",
-      "video-QA",
-      "long-context"
-     ],
-     "module": "agentic"
-    },
-    {
-     "id": "p:httparxivorgabs261101054",
-     "kind": "paper",
-     "date": "2026-10-31",
-     "title": "Finite-Time Tracking Success or Failure in the Pursuer--Evader Model",
-     "authors": "Woojoo Shim et.al.",
-     "url": "http://arxiv.org/abs/2611.01054",
-     "topic": "A2A / Multi-Agent Orchestration",
-     "topics": [
-      "A2A / Multi-Agent Orchestration"
-     ],
-     "importance": 3.0,
-     "summary": "Studies finite-time tracking success or failure conditions in a pursuer-evader model.",
-     "tags": [
-      "control",
-      "pursuit-evasion",
-      "tracking"
+      "graph reasoning",
+      "Earth observation",
+      "QA"
      ],
      "module": "agentic"
     }
@@ -743,44 +741,44 @@
  "hot": {
   "academic": [
    {
-    "title": "Agentic AI for Optimization Modeling",
-    "summary": "Multiple works apply LLM agents to constraint programming, MIP presolve, and scheduling, signaling agentic optimization as the dominant hot direction.",
+    "title": "Agentic AI for Engineering Design",
+    "summary": "Multiple papers apply multi-agent LLM frameworks to spacecraft, chip, scheduling, and power grid design, showing agents moving from benchmarks into high-stakes engineering workflows.",
     "keywords": [
      "agentic AI",
-     "optimization",
+     "design automation",
+     "LLM agents"
+    ]
+   },
+   {
+    "title": "Auditing and Securing LLM Agents",
+    "summary": "Growing focus on agent safety: auditing frameworks, benign-skill misalignment, security obligations for agent skills, and adversarial exploitation reveal trust gaps as agents deploy.",
+    "keywords": [
+     "agent safety",
+     "misalignment",
+     "security"
+    ]
+   },
+   {
+    "title": "LLMs Meet Combinatorial Optimization",
+    "summary": "Work integrates LLMs with MIP presolve, genetic algorithms, constraint programming, and routing, signaling LLMs as optimization components rather than pure text generators.",
+    "keywords": [
+     "LLM optimization",
+     "MIP",
      "constraint programming"
     ]
    },
    {
-    "title": "Multi-Agent Systems for Engineering Design",
-    "summary": "Agentic flows target chip design, spacecraft trajectories, and mission-critical operations, showing rapid expansion into specialized engineering domains.",
+    "title": "Agentic AI Scientists and Discovery",
+    "summary": "Agent frameworks target scientific reasoning and discovery—drug discovery, scientific observation, student reasoning assessment—pushing autonomous research pipelines forward.",
     "keywords": [
-     "multi-agent",
-     "chip design",
-     "engineering automation"
-    ]
-   },
-   {
-    "title": "Long-Horizon Agent Memory and Skills",
-    "summary": "Memory scheduling, skill retrieval, and lifelong refinement address the bottleneck of agents operating over extended tasks and conversations.",
-    "keywords": [
-     "agent memory",
-     "skill retrieval",
-     "long-horizon tasks"
-    ]
-   },
-   {
-    "title": "LLM Alignment and Persuasion Risks",
-    "summary": "Studies on persuasion training stages, pedagogical metric gaming, and fairness reveal growing concern over misaligned LLM behavior.",
-    "keywords": [
-     "alignment",
-     "persuasion",
-     "fine-tuning"
+     "AI scientist",
+     "drug discovery",
+     "reasoning"
     ]
    },
    {
     "title": "Reinforcement Learning for Decision Making",
-    "summary": "RL approaches span energy investment, predefined-time control, and policy learning under weak signals, reflecting sustained interest in sequential decisions.",
+    "summary": "RL appears across energy investment, control of unknown systems, and weak-signal policy learning, reflecting sustained interest in learning-based sequential decisions.",
     "keywords": [
      "reinforcement learning",
      "policy learning",
@@ -790,127 +788,261 @@
   ],
   "industry": [
    {
-    "title": "Anthropic IPO Security and Ethics Debate",
-    "summary": "A call to block Anthropic's IPO raises governance, safety, and public-interest questions around leading AI labs going public, making it a hot industry and policy flashpoint.",
+    "title": "AI debt surge raises industry risk",
+    "summary": "US tech giants' hidden AI debt jumped 90% to $3.2T in six months, signaling mounting financial leverage behind the AI buildout and raising systemic risk concerns.",
     "keywords": [
-     "Anthropic",
-     "IPO",
-     "AI governance"
+     "AI debt",
+     "tech giants",
+     "financing"
     ]
    },
    {
-    "title": "Astra Reads and Writes Model Weights",
-    "summary": "Direct weight read/write for Qwen signals a shift toward practical model editing and customization, a hot capability for applied LLM deployment and fine-tuning workflows.",
+    "title": "Model weight interpretability and editing claims",
+    "summary": "Debate over whether models like Qwen can read or write their own weights, plus laptop-scale weight interpretation, spotlights emerging weight-level model control and its hype.",
     "keywords": [
-     "Astra",
+     "model weights",
      "Qwen",
-     "model weights"
+     "interpretability"
     ]
    },
    {
-    "title": "Scaling Git at OpenAI",
-    "summary": "OpenAI's Git scaling experience highlights infrastructure challenges behind large-scale AI development, resonating with teams building and operating model-heavy engineering organizations.",
+    "title": "AI tooling privacy and auto-install backlash",
+    "summary": "Postman silently installing AI plugins and sharing API data highlights growing scrutiny of AI features embedded in developer tools and enterprise data privacy risks.",
     "keywords": [
-     "OpenAI",
-     "Git",
-     "infrastructure"
+     "Postman",
+     "privacy",
+     "AI plugins"
     ]
    },
    {
-    "title": "Egoless Mathematics in AI Era",
-    "summary": "AI's growing role in mathematical discovery sparks debate about credit, collaboration, and research culture, making it a hot topic at the AI-science intersection.",
+    "title": "Open-source AI decisioning and robotics",
+    "summary": "Kairos' open-source risk and fraud decisioning platform and an $800 open-source gripper robot show applied AI and cheap hardware lowering barriers for practical deployments.",
     "keywords": [
-     "mathematics",
-     "AI research",
-     "collaboration"
+     "open source",
+     "fraud decisioning",
+     "robotics"
     ]
    },
    {
-    "title": "Momentic Agents Catch App Bugs",
-    "summary": "A YC-backed launch of agents that test apps by using them reflects strong industry momentum toward autonomous QA and practical agentic AI in software workflows.",
+    "title": "Generative AI foundations and practical use",
+    "summary": "A mathematical primer on generative AI foundations alongside personal AI workflows reflects strong demand for grounded understanding and real-world large-model practice.",
     "keywords": [
-     "Momentic",
-     "agents",
-     "QA"
+     "generative AI",
+     "foundations",
+     "practice"
     ]
    }
   ]
  },
  "news": [
   {
-   "id": "n:2606487695",
+   "id": "n:3143840807",
    "kind": "news",
-   "title": "Show HN: Hacker Times, a New York Times-Inspired Version Hacker News",
-   "url": "https://hackertimes.ca/",
+   "title": "Giant Canyon on Mars Is Still Tectonically Active Today",
+   "url": "https://lamont.columbia.edu/news/giant-canyon-mars-still-tectonically-active-today",
    "source": "Hacker News",
-   "date": "2026-11-03",
-   "summary": "A Hacker News front-end styled like the New York Times, a design experiment rather than a technical contribution.",
+   "date": "2026-11-04",
+   "summary": "Mars canyon shows ongoing tectonic activity, relevant to planetary science but not applied AI.",
    "tags": [
-    "web-ui",
-    "design"
-   ],
-   "extra": "",
-   "importance": 1.0,
-   "module": "news"
-  },
-  {
-   "id": "n:3620984817",
-   "kind": "news",
-   "title": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
-   "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
-   "source": "Hacker News",
-   "date": "2026-11-03",
-   "summary": "Tool for burning visible artwork onto optical disc surfaces, a niche hardware-hobby utility.",
-   "tags": [
-    "optical-media",
-    "tooling"
+    "planetary-science",
+    "geology"
    ],
    "extra": "",
    "importance": 2.0,
    "module": "news"
   },
   {
-   "id": "n:5929101249",
+   "id": "n:3096986607",
    "kind": "news",
-   "title": "Ask HN: Does anyone have a contact with Cleveland-area Ham club?",
-   "url": "https://news.ycombinator.com/item?id=50346164",
+   "title": "The Internals of PostgreSQL",
+   "url": "https://www.interdb.jp/pg/index.html",
    "source": "Hacker News",
    "date": "2026-11-03",
-   "summary": "A request for contacts with a Cleveland amateur radio club, unrelated to AI research.",
+   "summary": "Deep dive into PostgreSQL internals, useful reference for database and systems engineers.",
    "tags": [
-    "community"
+    "databases",
+    "postgresql",
+    "systems"
    ],
    "extra": "",
-   "importance": 0.0,
+   "importance": 3.0,
    "module": "news"
   },
   {
-   "id": "n:8524410316",
+   "id": "n:7403221505",
    "kind": "news",
-   "title": "Intel stock collapse worsens as $3.5T chip rout spreads",
-   "url": "https://finance.yahoo.com/markets/article/the-intel-stock-collapse-is-getting-worse--and-the-37-trillion-chip-rout-is-spreading-212154947.html",
+   "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+   "url": "https://arxiv.org/abs/2605.29713",
    "source": "Hacker News",
    "date": "2026-11-03",
-   "summary": "Intel shares fall amid a broad $3.5T semiconductor selloff, signaling market stress in the chip sector.",
+   "summary": "Intuitive mathematical primer on generative AI foundations, useful for researchers seeking rigorous grounding.",
    "tags": [
-    "semiconductors",
-    "markets"
+    "generative-ai",
+    "mathematics",
+    "education"
+   ],
+   "extra": "",
+   "importance": 5.0,
+   "module": "news"
+  },
+  {
+   "id": "n:2464769783",
+   "kind": "news",
+   "title": "Safari introduces Adaptive Dark Mode in 27.3",
+   "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+   "source": "Hacker News",
+   "date": "2026-11-03",
+   "summary": "Safari adds adaptive dark mode, a minor browser UI feature with little research relevance.",
+   "tags": [
+    "browser",
+    "ui"
+   ],
+   "extra": "",
+   "importance": 2.0,
+   "module": "news"
+  },
+  {
+   "id": "n:1852377480",
+   "kind": "news",
+   "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+   "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+   "source": "Hacker News",
+   "date": "2026-11-03",
+   "summary": "Hidden AI-related debt at US tech giants reportedly surged 90% to $3.2T, signaling financial risk in AI buildout.",
+   "tags": [
+    "ai-economics",
+    "finance",
+    "industry"
+   ],
+   "extra": "",
+   "importance": 6.0,
+   "module": "news"
+  },
+  {
+   "id": "n:8117729550",
+   "kind": "news",
+   "title": "Show HN: Kairos – Open-source risk and fraud decisioning platform",
+   "url": "https://github.com/finic-ai/kairos",
+   "source": "Hacker News",
+   "date": "2026-11-03",
+   "summary": "Open-source platform for risk and fraud decisioning, relevant to applied ML in fintech.",
+   "tags": [
+    "fraud-detection",
+    "decisioning",
+    "open-source"
+   ],
+   "extra": "",
+   "importance": 6.0,
+   "module": "news"
+  },
+  {
+   "id": "n:5841293043",
+   "kind": "news",
+   "title": "Pratt parsing is a black box",
+   "url": "https://vinipsmaker.github.io/blog/article/pratt-parsing-is-a-black-box/",
+   "source": "Hacker News",
+   "date": "2026-11-03",
+   "summary": "Explains Pratt parsing as a black box, a useful programming languages and compiler technique note.",
+   "tags": [
+    "parsing",
+    "compilers"
    ],
    "extra": "",
    "importance": 4.0,
    "module": "news"
   },
   {
-   "id": "n:3549964513",
+   "id": "n:8268855037",
    "kind": "news",
-   "title": "Scaling Git at OpenAI",
-   "url": "https://openai.com/index/scaling-git-at-openai/",
+   "title": "Preparing for the Flipper One Kickstarter and opening pre-orders",
+   "url": "https://flipper.net/pages/flipper-one",
    "source": "Hacker News",
-   "date": "2026-11-02",
-   "summary": "OpenAI describes engineering work to scale Git for very large monorepos and high developer throughput.",
+   "date": "2026-11-03",
+   "summary": "Flipper One Kickstarter and pre-orders, hardware hacking news with limited research relevance.",
    "tags": [
-    "git",
-    "infrastructure",
+    "hardware",
+    "security"
+   ],
+   "extra": "",
+   "importance": 3.0,
+   "module": "news"
+  },
+  {
+   "id": "n:5648404672",
+   "kind": "news",
+   "title": "macOS 27 does not support CoreStorage volumes",
+   "url": "https://wadetregaskis.com/macos-27-golden-gate-does-not-actually-support-corestorage-or-hfs-volumes/",
+   "source": "Hacker News",
+   "date": "2026-11-03",
+   "summary": "macOS 27 drops CoreStorage volume support, a minor platform compatibility change.",
+   "tags": [
+    "macos",
+    "storage"
+   ],
+   "extra": "",
+   "importance": 2.0,
+   "module": "news"
+  },
+  {
+   "id": "n:7779005640",
+   "kind": "news",
+   "title": "Introduction to Programming in ATS",
+   "url": "https://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/book1.html",
+   "source": "Hacker News",
+   "date": "2026-11-03",
+   "summary": "Introduction to programming in ATS, a niche language with dependent types.",
+   "tags": [
+    "programming-languages",
+    "types"
+   ],
+   "extra": "",
+   "importance": 3.0,
+   "module": "news"
+  },
+  {
+   "id": "n:7313287971",
+   "kind": "news",
+   "title": "How I use AI (Oct 2026)",
+   "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
+   "source": "Hacker News",
+   "date": "2026-11-03",
+   "summary": "Personal account of using AI in daily workflows, offering practitioner perspective on tooling.",
+   "tags": [
+    "ai-workflow",
+    "practitioner"
+   ],
+   "extra": "",
+   "importance": 5.0,
+   "module": "news"
+  },
+  {
+   "id": "n:6179162631",
+   "kind": "news",
+   "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+   "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+   "source": "Hacker News",
+   "date": "2026-11-03",
+   "summary": "Claims a 27B Qwen model on a laptop can interpret its own weights, relevant to interpretability research.",
+   "tags": [
+    "interpretability",
+    "llm",
+    "local-inference"
+   ],
+   "extra": "",
+   "importance": 6.0,
+   "module": "news"
+  },
+  {
+   "id": "n:4546451507",
+   "kind": "news",
+   "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+   "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+   "source": "Hacker News",
+   "date": "2026-11-03",
+   "summary": "Postman reportedly auto-installs AI plugins and attempts to share API data, raising privacy and supply-chain concerns.",
+   "tags": [
+    "privacy",
+    "supply-chain",
     "devtools"
    ],
    "extra": "",
@@ -918,250 +1050,118 @@
    "module": "news"
   },
   {
-   "id": "n:3279144727",
+   "id": "n:5659277797",
    "kind": "news",
-   "title": "GUI64 – GUI for the Commodore 64 running on top of the built-in ROM",
-   "url": "https://www.c64-wiki.com/wiki/GUI64",
+   "title": "Ashby (YC W19) Is Hiring EMs",
+   "url": "https://www.ashbyhq.com/careers?ashby_jid=695b1ce6-c375-4fad-94ef-61b50a3fbd28&utm_source=hn",
    "source": "Hacker News",
-   "date": "2026-11-02",
-   "summary": "A GUI layer for the Commodore 64 built atop the stock ROM, a retrocomputing curiosity.",
-   "tags": [
-    "retrocomputing",
-    "gui"
-   ],
-   "extra": "",
-   "importance": 2.0,
-   "module": "news"
-  },
-  {
-   "id": "n:4698856742",
-   "kind": "news",
-   "title": "WorkOS reports security breach",
-   "url": "https://news.ycombinator.com/item?id=50345712",
-   "source": "Hacker News",
-   "date": "2026-11-02",
-   "summary": "WorkOS discloses a security breach, relevant to teams relying on its enterprise auth and SSO services.",
-   "tags": [
-    "security",
-    "auth"
-   ],
-   "extra": "",
-   "importance": 5.0,
-   "module": "news"
-  },
-  {
-   "id": "n:9630936963",
-   "kind": "news",
-   "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
-   "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
-   "source": "Hacker News",
-   "date": "2026-11-02",
-   "summary": "An opinion piece arguing regulators should block Anthropic's IPO, touching AI governance and market debate.",
-   "tags": [
-    "ai-policy",
-    "governance"
-   ],
-   "extra": "",
-   "importance": 5.0,
-   "module": "news"
-  },
-  {
-   "id": "n:188993231",
-   "kind": "news",
-   "title": "V100 SXM2 pinout and NVLink reference",
-   "url": "https://github.com/pigeon-labs-stack/v100-sxm2-reference",
-   "source": "Hacker News",
-   "date": "2026-11-02",
-   "summary": "Reference documentation on V100 SXM2 pinouts and NVLink wiring, useful for GPU cluster hardware work.",
-   "tags": [
-    "gpu",
-    "hardware",
-    "nvlink"
-   ],
-   "extra": "",
-   "importance": 4.0,
-   "module": "news"
-  },
-  {
-   "id": "n:9218954771",
-   "kind": "news",
-   "title": "SLAC researchers find proof of altermagnetism, a new magnetic phase",
-   "url": "https://www6.slac.stanford.edu/news/2026-10-29-slac-researchers-find-proof-altermagnetism-new-magnetic-phase",
-   "source": "Hacker News",
-   "date": "2026-11-02",
-   "summary": "SLAC researchers report evidence of altermagnetism, a newly confirmed magnetic phase with potential spintronics implications.",
-   "tags": [
-    "physics",
-    "materials",
-    "spintronics"
-   ],
-   "extra": "",
-   "importance": 7.0,
-   "module": "news"
-  },
-  {
-   "id": "n:7503360646",
-   "kind": "news",
-   "title": "Egoless Mathematics in the AI Era",
-   "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
-   "source": "Hacker News",
-   "date": "2026-11-02",
-   "summary": "Essay on doing mathematics without ego in an era of AI-assisted proof and discovery.",
-   "tags": [
-    "math",
-    "ai-research",
-    "culture"
-   ],
-   "extra": "",
-   "importance": 5.0,
-   "module": "news"
-  },
-  {
-   "id": "n:8919731650",
-   "kind": "news",
-   "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
-   "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
-   "source": "Hacker News",
-   "date": "2026-11-02",
-   "summary": "Ubuntu has left a Linux zero-day remote code execution vulnerability unpatched for nearly three weeks.",
-   "tags": [
-    "security",
-    "linux",
-    "vulnerability"
-   ],
-   "extra": "",
-   "importance": 6.0,
-   "module": "news"
-  },
-  {
-   "id": "n:2627776866",
-   "kind": "news",
-   "title": "Astra can read and write weights to improve Qwen",
-   "url": "https://rikiyat.github.io/blog/weight-space-programming/",
-   "source": "Hacker News",
-   "date": "2026-11-02",
-   "summary": "Astra reportedly reads and writes model weights to improve Qwen, suggesting weight-level model editing techniques.",
-   "tags": [
-    "model-editing",
-    "llm",
-    "weights"
-   ],
-   "extra": "",
-   "importance": 7.0,
-   "module": "news"
-  },
-  {
-   "id": "n:5160814163",
-   "kind": "news",
-   "title": "Sneaking into the auditorium for the Windows 2000 launch rehearsal",
-   "url": "https://devblogs.microsoft.com/oldnewthing/20261102-00/?p=112818/",
-   "source": "Hacker News",
-   "date": "2026-11-02",
-   "summary": "Anecdote about sneaking into the Windows 2000 launch rehearsal, a nostalgic industry story.",
-   "tags": [
-    "history"
-   ],
-   "extra": "",
-   "importance": 1.0,
-   "module": "news"
-  },
-  {
-   "id": "n:3481657302",
-   "kind": "news",
-   "title": "Skill to Create Product Videos",
-   "url": "https://github.com/aaitor/skill-video-studio",
-   "source": "Hacker News",
-   "date": "2026-11-02",
-   "summary": "A skill or guide for producing product videos, a content-creation workflow rather than research.",
-   "tags": [
-    "video",
-    "workflow"
-   ],
-   "extra": "",
-   "importance": 2.0,
-   "module": "news"
-  },
-  {
-   "id": "n:5905756847",
-   "kind": "news",
-   "title": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
-   "url": "https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you",
-   "source": "Hacker News",
-   "date": "2026-11-02",
-   "summary": "NIST publishes a cybersecurity guide aimed at self-employed workers and solopreneurs.",
-   "tags": [
-    "security",
-    "nist",
-    "guidance"
-   ],
-   "extra": "",
-   "importance": 3.0,
-   "module": "news"
-  },
-  {
-   "id": "n:7741804651",
-   "kind": "news",
-   "title": "Polyend releases the Tracker firmware source code",
-   "url": "https://polyend.com/whats-up/tracker-the-biggest-update-yet/",
-   "source": "Hacker News",
-   "date": "2026-11-02",
-   "summary": "Polyend open-sources the firmware for its Tracker music hardware, enabling community modification.",
-   "tags": [
-    "open-source",
-    "firmware",
-    "audio"
-   ],
-   "extra": "",
-   "importance": 3.0,
-   "module": "news"
-  },
-  {
-   "id": "n:6148198792",
-   "kind": "news",
-   "title": "Show HN: Subvocal – Talk to your computer without making noise",
-   "url": "https://news.ycombinator.com/item?id=50340088",
-   "source": "Hacker News",
-   "date": "2026-11-02",
-   "summary": "Subvocal lets users silently communicate with a computer via subvocalization sensing, an emerging silent-input interface.",
-   "tags": [
-    "hci",
-    "input",
-    "biosignals"
-   ],
-   "extra": "",
-   "importance": 6.0,
-   "module": "news"
-  },
-  {
-   "id": "n:6956486176",
-   "kind": "news",
-   "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
-   "url": "https://momentic.ai/",
-   "source": "Hacker News",
-   "date": "2026-11-02",
-   "summary": "Momentic launches AI agents that test applications by interacting with them like users to catch bugs.",
-   "tags": [
-    "agents",
-    "testing",
-    "qa"
-   ],
-   "extra": "",
-   "importance": 6.0,
-   "module": "news"
-  },
-  {
-   "id": "n:6247413787",
-   "kind": "news",
-   "title": "Bitmovin (YC S15) Is Hiring Technical Graduates in Denver (Engineering/CS Focus)",
-   "url": "https://bitmovin.com/careers/8660599002/",
-   "source": "Hacker News",
-   "date": "2026-11-02",
-   "summary": "Bitmovin is hiring technical graduates in Denver for engineering and computer science roles.",
+   "date": "2026-11-03",
+   "summary": "Startup hiring engineering managers, not research-relevant.",
    "tags": [
     "hiring"
    ],
    "extra": "",
    "importance": 1.0,
+   "module": "news"
+  },
+  {
+   "id": "n:9418533323",
+   "kind": "news",
+   "title": "Stringman, an $800 open-source room scale gripper robot",
+   "url": "https://neufangled.com/",
+   "source": "Hacker News",
+   "date": "2026-11-03",
+   "summary": "Low-cost open-source room-scale gripper robot, relevant to robotics and embodied AI research.",
+   "tags": [
+    "robotics",
+    "open-source",
+    "manipulation"
+   ],
+   "extra": "",
+   "importance": 5.0,
+   "module": "news"
+  },
+  {
+   "id": "n:9228468421",
+   "kind": "news",
+   "title": "Mac at any scale",
+   "url": "https://namespace.so/blog/mac-at-any-scale",
+   "source": "Hacker News",
+   "date": "2026-11-03",
+   "summary": "Discussion of scaling Mac infrastructure, useful for practitioners but not research-novel.",
+   "tags": [
+    "infrastructure",
+    "macos"
+   ],
+   "extra": "",
+   "importance": 3.0,
+   "module": "news"
+  },
+  {
+   "id": "n:857228757",
+   "kind": "news",
+   "title": "There is no posttraining data commons",
+   "url": "https://openathena.ai/blog/there-is-no-posttraining-data-commons/",
+   "source": "Hacker News",
+   "date": "2026-11-03",
+   "summary": "Argues there is no posttraining data commons, highlighting a key gap in open AI data resources.",
+   "tags": [
+    "data-commons",
+    "posttraining",
+    "open-data"
+   ],
+   "extra": "",
+   "importance": 7.0,
+   "module": "news"
+  },
+  {
+   "id": "n:1536271776",
+   "kind": "news",
+   "title": "Microsoft fixes a Windows 11 annoyance as PC revenue declines",
+   "url": "https://arstechnica.com/gadgets/2026/10/windows-11-gets-right-click-menu-improvements-as-pc-revenue-slides/",
+   "source": "Hacker News",
+   "date": "2026-11-03",
+   "summary": "Microsoft fixes a Windows 11 annoyance amid declining PC revenue, minor industry news.",
+   "tags": [
+    "microsoft",
+    "industry"
+   ],
+   "extra": "",
+   "importance": 2.0,
+   "module": "news"
+  },
+  {
+   "id": "n:1325483150",
+   "kind": "news",
+   "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+   "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+   "source": "Hacker News",
+   "date": "2026-11-03",
+   "summary": "Critique argues a viral claim about Astra reading and writing Qwen weights is misleading, relevant to interpretability discourse.",
+   "tags": [
+    "interpretability",
+    "llm",
+    "critique"
+   ],
+   "extra": "",
+   "importance": 6.0,
+   "module": "news"
+  },
+  {
+   "id": "n:644123086",
+   "kind": "news",
+   "title": "Could a modern chess engine on a Pentium have defeated Kasparov in 1996?",
+   "url": "https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html",
+   "source": "Hacker News",
+   "date": "2026-11-03",
+   "summary": "Counterfactual analysis of whether a modern chess engine on a Pentium could beat Kasparov in 1996.",
+   "tags": [
+    "chess",
+    "game-ai",
+    "history"
+   ],
+   "extra": "",
+   "importance": 4.0,
    "module": "news"
   }
  ]
