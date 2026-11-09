@@ -1,31 +1,11 @@
 {
- "generated_at": "2026-11-08T01:41:11Z",
+ "generated_at": "2026-11-09T01:49:40Z",
  "model": "deepseek-v4-flash",
  "modules": [
   {
    "id": "llm4or",
    "label": "LLM4OR / L2O",
    "items": [
-    {
-     "id": "p:httparxivorgabs261007573",
-     "kind": "paper",
-     "date": "2026-10-07",
-     "title": "PLUTO: An Agentic AI Tool for Interactive Spacecraft Rendezvous Trajectory Design",
-     "authors": "Eleanor Brosius et.al.",
-     "url": "http://arxiv.org/abs/2610.07573",
-     "topic": "LLM Auto-Formulation",
-     "topics": [
-      "LLM Auto-Formulation"
-     ],
-     "importance": 7.0,
-     "summary": "Presents PLUTO, an agentic AI tool enabling interactive spacecraft rendezvous trajectory design through natural language and visualization.",
-     "tags": [
-      "agentic AI",
-      "trajectory design",
-      "spacecraft"
-     ],
-     "module": "llm4or"
-    },
     {
      "id": "p:httparxivorgabs261010184",
      "kind": "paper",
@@ -37,8 +17,8 @@
      "topics": [
       "LLM Auto-Formulation"
      ],
-     "importance": 7.0,
-     "summary": "Assesses agentic AI for modeling production scheduling problems in constraint programming, evaluating automation of model formulation.",
+     "importance": 8.0,
+     "summary": "Assesses agentic AI-assisted modeling for production scheduling in constraint programming, evaluating practical utility.",
      "tags": [
       "agentic AI",
       "constraint programming",
@@ -57,8 +37,8 @@
      "topics": [
       "Solver Intelligence"
      ],
-     "importance": 7.0,
-     "summary": "Introduces ORDO, an operation-level round-aware dynamic ordering method for MIP presolve that improves solver efficiency.",
+     "importance": 8.0,
+     "summary": "Introduces ORDO, an operation-level round-aware dynamic ordering method for MIP presolve, improving solver efficiency.",
      "tags": [
       "MIP presolve",
       "ordering",
@@ -67,22 +47,22 @@
      "module": "llm4or"
     },
     {
-     "id": "p:httparxivorgabs261010858",
+     "id": "p:httparxivorgabs261007573",
      "kind": "paper",
      "date": "2026-10-07",
-     "title": "RFChipAgent: Multi-Agentic AI Flow for Analog/RF Chip Design",
-     "authors": "Awani Khodkumbhe et.al.",
-     "url": "http://arxiv.org/abs/2610.10858",
+     "title": "PLUTO: An Agentic AI Tool for Interactive Spacecraft Rendezvous Trajectory Design",
+     "authors": "Eleanor Brosius et.al.",
+     "url": "http://arxiv.org/abs/2610.07573",
      "topic": "LLM Auto-Formulation",
      "topics": [
       "LLM Auto-Formulation"
      ],
-     "importance": 6.0,
-     "summary": "Describes RFChipAgent, a multi-agent AI flow automating analog/RF chip design tasks through coordinated LLM agents.",
+     "importance": 7.0,
+     "summary": "Presents PLUTO, an agentic AI tool for interactive spacecraft rendezvous trajectory design.",
      "tags": [
-      "multi-agent",
-      "chip design",
-      "LLM"
+      "agentic AI",
+      "trajectory design",
+      "spacecraft"
      ],
      "module": "llm4or"
     },
@@ -97,11 +77,11 @@
      "topics": [
       "LLM Auto-Formulation"
      ],
-     "importance": 6.0,
-     "summary": "Reveals temporal predictive multiplicity: equally accurate time series models produce divergent forecast trajectories, raising reliability concerns.",
+     "importance": 7.0,
+     "summary": "Reveals temporal predictive multiplicity: equally accurate time series models yield divergent forecast trajectories.",
      "tags": [
-      "time series",
       "predictive multiplicity",
+      "time series",
       "forecasting"
      ],
      "module": "llm4or"
@@ -117,12 +97,72 @@
      "topics": [
       "L2O / Learning to Optimize"
      ],
-     "importance": 6.0,
-     "summary": "Proposes MotherTree, using meta-learning on synthetic data to improve decision tree training and generalization.",
+     "importance": 7.0,
+     "summary": "Proposes MotherTree, using meta-learning on synthetic data to improve decision tree training.",
      "tags": [
-      "decision trees",
       "meta-learning",
+      "decision trees",
       "synthetic data"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs261010235",
+     "kind": "paper",
+     "date": "2026-10-07",
+     "title": "Beyond LLM-GA: Secure Fluid Antenna Systems with ReEvo-Designed Memetic Algorithm",
+     "authors": "Hanyong Xu et.al.",
+     "url": "http://arxiv.org/abs/2610.10235",
+     "topic": "Automatic Algorithm Design / Hyper-heuristics",
+     "topics": [
+      "Automatic Algorithm Design / Hyper-heuristics"
+     ],
+     "importance": 6.0,
+     "summary": "Uses ReEvo-designed memetic algorithm for secure fluid antenna systems, advancing LLM-driven algorithm design.",
+     "tags": [
+      "LLM-GA",
+      "memetic algorithm",
+      "antenna systems"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs261010858",
+     "kind": "paper",
+     "date": "2026-10-07",
+     "title": "RFChipAgent: Multi-Agentic AI Flow for Analog/RF Chip Design",
+     "authors": "Awani Khodkumbhe et.al.",
+     "url": "http://arxiv.org/abs/2610.10858",
+     "topic": "LLM Auto-Formulation",
+     "topics": [
+      "LLM Auto-Formulation"
+     ],
+     "importance": 6.0,
+     "summary": "Develops RFChipAgent, a multi-agentic AI flow for analog/RF chip design.",
+     "tags": [
+      "multi-agent",
+      "chip design",
+      "agentic AI"
+     ],
+     "module": "llm4or"
+    },
+    {
+     "id": "p:httparxivorgabs261009964",
+     "kind": "paper",
+     "date": "2026-10-07",
+     "title": "Successive Training Stages and Large Language Model Persuasion: Effects of Misalignment, Supervised Fine-Tuning, and Preference Optimization",
+     "authors": "Antony Dalmiere et.al.",
+     "url": "http://arxiv.org/abs/2610.09964",
+     "topic": "LLM Auto-Formulation",
+     "topics": [
+      "LLM Auto-Formulation"
+     ],
+     "importance": 6.0,
+     "summary": "Studies how successive training stages (misalignment, SFT, preference optimization) affect LLM persuasion.",
+     "tags": [
+      "LLM persuasion",
+      "fine-tuning",
+      "alignment"
      ],
      "module": "llm4or"
     },
@@ -138,11 +178,11 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 6.0,
-     "summary": "Studies policy learning under weak signals, addressing settings where reward or state information is sparse or noisy.",
+     "summary": "Studies policy learning under weak signals, addressing learning with limited informative feedback.",
      "tags": [
       "policy learning",
       "weak signals",
-      "RL"
+      "decision making"
      ],
      "module": "llm4or"
     },
@@ -158,7 +198,7 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 6.0,
-     "summary": "Shows that optimizing a pedagogical metric can degrade LLM tutoring quality, revealing misalignment between proxy metrics and learning outcomes.",
+     "summary": "Shows optimizing a pedagogical metric can degrade LLM tutoring quality, revealing misalignment in educational LLM optimization.",
      "tags": [
       "LLM tutoring",
       "metric misalignment",
@@ -178,51 +218,11 @@
       "VRP / Combinatorial Solving"
      ],
      "importance": 6.0,
-     "summary": "Studies computing stable matchings under complementarities and preference misalignment, extending matching theory beyond substitutable preferences.",
+     "summary": "Studies computing stable matchings under complementarities and preference misalignment, extending matching theory.",
      "tags": [
       "stable matching",
       "complementarities",
       "algorithms"
-     ],
-     "module": "llm4or"
-    },
-    {
-     "id": "p:httparxivorgabs261010235",
-     "kind": "paper",
-     "date": "2026-10-07",
-     "title": "Beyond LLM-GA: Secure Fluid Antenna Systems with ReEvo-Designed Memetic Algorithm",
-     "authors": "Hanyong Xu et.al.",
-     "url": "http://arxiv.org/abs/2610.10235",
-     "topic": "Automatic Algorithm Design / Hyper-heuristics",
-     "topics": [
-      "Automatic Algorithm Design / Hyper-heuristics"
-     ],
-     "importance": 5.0,
-     "summary": "Uses ReEvo-designed memetic algorithms to secure fluid antenna systems, moving beyond LLM-GA approaches for physical-layer security.",
-     "tags": [
-      "memetic algorithm",
-      "LLM",
-      "antenna systems"
-     ],
-     "module": "llm4or"
-    },
-    {
-     "id": "p:httparxivorgabs261009964",
-     "kind": "paper",
-     "date": "2026-10-07",
-     "title": "Successive Training Stages and Large Language Model Persuasion: Effects of Misalignment, Supervised Fine-Tuning, and Preference Optimization",
-     "authors": "Antony Dalmiere et.al.",
-     "url": "http://arxiv.org/abs/2610.09964",
-     "topic": "LLM Auto-Formulation",
-     "topics": [
-      "LLM Auto-Formulation"
-     ],
-     "importance": 5.0,
-     "summary": "Examines how successive training stages—misalignment, supervised fine-tuning, and preference optimization—affect LLM persuasion capabilities.",
-     "tags": [
-      "LLM persuasion",
-      "fine-tuning",
-      "alignment"
      ],
      "module": "llm4or"
     },
@@ -238,7 +238,7 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 5.0,
-     "summary": "Applies reinforcement learning to strategic investment decisions for value creation in energy transition scenarios.",
+     "summary": "Applies reinforcement learning to strategic investment decisions for value creation in energy transition.",
      "tags": [
       "reinforcement learning",
       "energy",
@@ -258,11 +258,11 @@
       "VRP / Combinatorial Solving"
      ],
      "importance": 5.0,
-     "summary": "Designs geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures, improving error correction efficiency.",
+     "summary": "Designs geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures.",
      "tags": [
       "quantum codes",
-      "fault tolerance",
-      "hyperbolic"
+      "hyperbolic geometry",
+      "fault tolerance"
      ],
      "module": "llm4or"
     },
@@ -278,7 +278,7 @@
       "L2O / Learning to Optimize"
      ],
      "importance": 5.0,
-     "summary": "Develops predefined-time integral reinforcement learning for unknown nonlinear systems via inverse-optimal design, guaranteeing convergence within a fixed time.",
+     "summary": "Develops predefined-time integral reinforcement learning for unknown nonlinear systems via inverse-optimal design.",
      "tags": [
       "reinforcement learning",
       "control",
@@ -298,7 +298,7 @@
       "VRP / Combinatorial Solving"
      ],
      "importance": 5.0,
-     "summary": "Presents improved approximation algorithms for vehicle routing problems with nonuniform speeds, tightening performance guarantees.",
+     "summary": "Improves approximation algorithms for vehicle routing with nonuniform speeds.",
      "tags": [
       "vehicle routing",
       "approximation",
@@ -318,11 +318,11 @@
       "LLM Auto-Formulation"
      ],
      "importance": 4.0,
-     "summary": "Proposes VIS-Ground for video interactive storytelling with contextual grounding, linking narrative generation to visual context.",
+     "summary": "Proposes VIS-Ground for video interactive storytelling with contextual grounding.",
      "tags": [
       "video",
-      "storytelling",
-      "grounding"
+      "grounding",
+      "storytelling"
      ],
      "module": "llm4or"
     },
@@ -338,7 +338,7 @@
       "LLM Auto-Formulation"
      ],
      "importance": 4.0,
-     "summary": "Introduces LoomSC, a scalable deep subspace clustering method using projector factorization and exact spectral reduction.",
+     "summary": "Presents LoomSC, a scalable deep subspace clustering method with projector factorization and exact spectral reduction.",
      "tags": [
       "subspace clustering",
       "scalability",
@@ -358,7 +358,7 @@
       "LLM Auto-Formulation"
      ],
      "importance": 3.0,
-     "summary": "Proposes an efficient correlation-based method to evaluate the Gaussian Noise model in multi-span optical systems, reducing computation.",
+     "summary": "Proposes an efficient correlation-based method to evaluate the Gaussian Noise model for multi-span optical systems.",
      "tags": [
       "optical networks",
       "GN-model",
@@ -404,11 +404,11 @@
       "Agent Loop / Harness"
      ],
      "importance": 7.0,
-     "summary": "Introduces executable state abstractions to ground visual reasoning, enabling verifiable intermediate representations for agents.",
+     "summary": "Proposes visual reasoning via executable state abstractions, bridging perception and programmatic reasoning for agents.",
      "tags": [
       "visual-reasoning",
       "state-abstraction",
-      "executability"
+      "executable"
      ],
      "module": "agentic"
     },
@@ -425,7 +425,7 @@
       "MCP / Tool Protocols"
      ],
      "importance": 7.0,
-     "summary": "Coarse-to-fine search with context management improves deep research agents' efficiency and answer quality.",
+     "summary": "CORE combines coarse-to-fine search with context management for deep research agents, addressing long-horizon information tasks.",
      "tags": [
       "deep-research",
       "context-management",
@@ -445,11 +445,11 @@
       "Agent Loop / Harness"
      ],
      "importance": 7.0,
-     "summary": "Evolver converts agent exploration trajectories into evolving reusable capabilities, advancing self-improving agent design.",
+     "summary": "Evolver converts agent exploration into evolving capabilities, proposing a mechanism for continual agent self-improvement.",
      "tags": [
-      "self-improvement",
-      "capability-evolution",
-      "exploration"
+      "self-evolution",
+      "exploration",
+      "capabilities"
      ],
      "module": "agentic"
     },
@@ -465,11 +465,11 @@
       "MCP / Tool Protocols"
      ],
      "importance": 7.0,
-     "summary": "Scales agents for realistic productivity work via real-source data synthesis, addressing data scarcity for agent training.",
+     "summary": "Agent-R2 scales agents for realistic productivity work via real-source data synthesis, addressing data scarcity for agent training.",
      "tags": [
       "data-synthesis",
-      "productivity",
-      "scaling"
+      "scaling",
+      "productivity"
      ],
      "module": "agentic"
     },
@@ -485,7 +485,7 @@
       "Agent Loop / Harness"
      ],
      "importance": 6.0,
-     "summary": "Agentic reasoning framework improves multimodal LLMs' dynamic visual perception for panoptic scene graph generation.",
+     "summary": "Agentic reasoning framework improves multimodal LLM dynamic visual perception for panoptic scene graph generation.",
      "tags": [
       "MLLM",
       "scene-graph",
@@ -505,11 +505,11 @@
       "Agent Loop / Harness"
      ],
      "importance": 6.0,
-     "summary": "ManimCode learns visual self-correction for generating educational animations, combining code generation with visual feedback.",
+     "summary": "ManimCode learns visual self-correction for generating educational animations, improving agentic code generation with visual feedback.",
      "tags": [
       "self-correction",
-      "code-generation",
-      "animation"
+      "animation",
+      "code-generation"
      ],
      "module": "agentic"
     },
@@ -525,7 +525,7 @@
       "Agent Loop / Harness"
      ],
      "importance": 6.0,
-     "summary": "Proposes state-based multi-agent reasoning traces to support verification-oriented problem solving.",
+     "summary": "SMART uses state-based multi-agent reasoning traces to improve verification-oriented problem solving.",
      "tags": [
       "multi-agent",
       "verification",
@@ -546,7 +546,7 @@
       "Memory / Context"
      ],
      "importance": 6.0,
-     "summary": "Graph-based dual memory system supports repository-oriented conversations, improving long-context code assistance.",
+     "summary": "ReConMem introduces a graph-based dual memory system for repository-oriented conversations, improving code agent context handling.",
      "tags": [
       "memory",
       "graph",
@@ -567,7 +567,7 @@
       "A2A / Multi-Agent Orchestration"
      ],
      "importance": 6.0,
-     "summary": "Evidence-guided multi-agent retrieval pipeline targets enzyme-reaction discovery in scientific literature.",
+     "summary": "RIVER applies evidence-guided multi-agent retrieval to enzyme-reaction discovery, demonstrating agentic AI in scientific domains.",
      "tags": [
       "multi-agent",
       "retrieval",
@@ -588,11 +588,11 @@
       "MCP / Tool Protocols"
      ],
      "importance": 6.0,
-     "summary": "Selective knowledge-informed masking prunes LLM agents, reducing cost while preserving task performance.",
+     "summary": "SKIM prunes LLM agents via selective knowledge-informed masking, improving efficiency of agentic systems.",
      "tags": [
       "pruning",
-      "efficiency",
-      "masking"
+      "masking",
+      "efficiency"
      ],
      "module": "agentic"
     },
@@ -608,10 +608,10 @@
       "MCP / Tool Protocols"
      ],
      "importance": 6.0,
-     "summary": "Secure formal raising protects AI development through executable properties, linking formal methods with agent safety.",
+     "summary": "Secure Formal Raising protects AI development through executable properties, connecting formal methods with agentic AI safety.",
      "tags": [
       "formal-methods",
-      "security",
+      "safety",
       "executable-properties"
      ],
      "module": "agentic"
@@ -628,7 +628,7 @@
       "MCP / Tool Protocols"
      ],
      "importance": 6.0,
-     "summary": "Shows how non-evidential context degrades language model performance via an intrusion pathway, highlighting context hygiene.",
+     "summary": "Shows how non-evidential context degrades language model performance via an intrusion pathway, relevant to agent reliability.",
      "tags": [
       "context-degradation",
       "robustness",
@@ -648,10 +648,10 @@
       "Agent Loop / Harness"
      ],
      "importance": 5.0,
-     "summary": "ReferClaw disambiguates user intent for egocentric assistance, addressing referential ambiguity in embodied settings.",
+     "summary": "ReferClaw disambiguates user intent for egocentric assistance, tackling referential ambiguity in embodied agent settings.",
      "tags": [
-      "egocentric",
       "intent-disambiguation",
+      "egocentric",
       "assistance"
      ],
      "module": "agentic"
@@ -668,10 +668,11 @@
       "Agent Loop / Harness"
      ],
      "importance": 5.0,
-     "summary": "Critically examines overlooked aspects of agent evolution, offering a reflective perspective on capability growth.",
+     "summary": "Critically examines overlooked aspects of agent evolution, offering reflective perspective on agent capability development.",
      "tags": [
       "agent-evolution",
-      "position-paper"
+      "position",
+      "analysis"
      ],
      "module": "agentic"
     },
@@ -687,10 +688,11 @@
       "Agent Loop / Harness"
      ],
      "importance": 4.0,
-     "summary": "Explores meta access in future software, illustrated through LLM chat UIs and chat AI systems.",
+     "summary": "Discusses meta access in future software, illustrated through LLM chat UIs and chat AI systems.",
      "tags": [
       "meta-access",
-      "LLM-UX"
+      "LLM-UIs",
+      "software"
      ],
      "module": "agentic"
     },
@@ -706,7 +708,7 @@
       "MCP / Tool Protocols"
      ],
      "importance": 4.0,
-     "summary": "Defines a textual concrete syntax for BPMN and DMN usable by humans and AI agents.",
+     "summary": "Defines a textual concrete syntax for BPMN and DMN aimed at both humans and AI agents.",
      "tags": [
       "BPMN",
       "DSL",
@@ -726,7 +728,7 @@
       "MCP / Tool Protocols"
      ],
      "importance": 3.0,
-     "summary": "Three-year experience report on scaffolding GenAI use for ethical essay writing in introductory computing courses.",
+     "summary": "Three-year experience report on scaffolding GenAI use for ethical essay writing in introductory computing education.",
      "tags": [
       "education",
       "GenAI",
@@ -740,420 +742,426 @@
  "hot": {
   "academic": [
    {
-    "title": "Agentic AI for Optimization Workflows",
-    "summary": "Multiple papers apply agentic LLM frameworks to scheduling, MIP presolve, chip design, and spacecraft trajectory design, showing agents becoming a general interface for optimization pipelines.",
+    "title": "Agentic AI for Optimization Modeling",
+    "summary": "Multiple papers apply LLM agents to constraint programming, MIP presolve, and scheduling, showing agents are becoming practical optimization co-pilots.",
     "keywords": [
      "agentic AI",
-     "optimization",
-     "scheduling"
+     "constraint programming",
+     "MIP presolve"
     ]
    },
    {
-    "title": "LLM Agents for Software and Research",
-    "summary": "Agents are being harnessed for code migration, deep research, repository conversations, and enzyme discovery, signaling rapid expansion into real productivity and scientific tasks.",
-    "keywords": [
-     "LLM agents",
-     "deep research",
-     "code migration"
-    ]
-   },
-   {
-    "title": "Multi-Agent Reasoning and Verification",
-    "summary": "SMART, RIVER, and RFChipAgent show multi-agent traces and evidence-guided retrieval improving verification-oriented problem solving and complex design flows.",
+    "title": "Multi-Agent Systems for Engineering Design",
+    "summary": "Agentic flows target RF chip design, spacecraft rendezvous, and code migration, signaling rapid expansion into specialized engineering workflows.",
     "keywords": [
      "multi-agent",
+     "chip design",
+     "trajectory design"
+    ]
+   },
+   {
+    "title": "Evolving and Self-Improving Agents",
+    "summary": "Papers on agent exploration evolving into capabilities, state-based reasoning traces, and agent evolution critique push agents toward continual self-improvement.",
+    "keywords": [
+     "agent evolution",
      "reasoning traces",
-     "verification"
+     "exploration"
     ]
    },
    {
-    "title": "Meta-Learning and Evolved Agent Capabilities",
-    "summary": "Evolver, MotherTree, and ReEvo-designed algorithms show agents and meta-learning turning exploration into evolving, transferable capabilities across optimization tasks.",
+    "title": "LLM Alignment and Persuasion Risks",
+    "summary": "Studies on training stages affecting persuasion, non-evidential context degrading performance, and metric-optimizing tutors failing reveal alignment fragility.",
     "keywords": [
-     "meta-learning",
-     "evolution",
-     "agents"
-    ]
-   },
-   {
-    "title": "Risks of Optimizing LLM Metrics",
-    "summary": "Papers on pedagogical metric degradation, persuasion misalignment, and non-evidential context intrusions warn that optimizing proxy metrics can harm LLM behavior and trustworthiness.",
-    "keywords": [
-     "metric optimization",
+     "persuasion",
      "misalignment",
-     "LLM safety"
+     "preference optimization"
+    ]
+   },
+   {
+    "title": "Memory and Context for Deep Research",
+    "summary": "Graph-based dual memory, coarse-to-fine context management, and knowledge masking address scaling agents to long-horizon research and repository tasks.",
+    "keywords": [
+     "context management",
+     "memory",
+     "deep research"
     ]
    }
   ],
   "industry": [
    {
-    "title": "Claude Code leaks passwords on GitHub",
-    "summary": "A 'Don't Ask Again' feature in Claude Code exposed credentials in 1,122 public GitHub files, highlighting serious security risks in AI coding assistants.",
+    "title": "AI bubble debate intensifies",
+    "summary": "Skepticism and analysis around whether an AI bubble exists dominate discussion, reflecting market anxiety over valuations and sustainability of the AI boom.",
+    "keywords": [
+     "AI bubble",
+     "market",
+     "valuation"
+    ]
+   },
+   {
+    "title": "Enterprise AI tool rollbacks",
+    "summary": "Goldman Sachs pulling Claude Code from bankers signals enterprises reassessing AI coding tools over risk, compliance, and ROI concerns.",
     "keywords": [
      "Claude Code",
-     "security",
-     "GitHub"
+     "enterprise",
+     "Goldman Sachs"
     ]
    },
    {
-    "title": "Microsoft Research AI Frontiers group ends",
-    "summary": "The shutdown of Microsoft Research's AI Frontiers group signals a strategic shift in how big tech organizes applied AI research, drawing industry attention.",
+    "title": "Nvidia leadership turmoil",
+    "summary": "Board investigation and Jensen Huang's letter to staff over an affair put Nvidia governance and leadership stability in the spotlight.",
     "keywords": [
-     "Microsoft Research",
-     "AI Frontiers",
-     "layoffs"
+     "Nvidia",
+     "Jensen Huang",
+     "governance"
     ]
    },
    {
-    "title": "MaxxBench questions DeepSWE benchmark validity",
-    "summary": "MaxxBench challenges inflated DeepSWE scores, fueling debate over benchmark reliability and evaluation practices for large-model coding agents.",
+    "title": "Local LLM inference breakthroughs",
+    "summary": "Running a 284B DeepSeek model on 64GB RAM without GPU shows rapid progress in efficient local inference, lowering barriers to large-model practice.",
     "keywords": [
-     "MaxxBench",
-     "DeepSWE",
-     "benchmarks"
+     "DeepSeek",
+     "local inference",
+     "quantization"
     ]
    },
    {
-    "title": "GitHub previews new pull request overview",
-    "summary": "GitHub's redesigned PR overview page in public preview affects developer workflows across AI-assisted coding pipelines and CI integrations.",
+    "title": "AI fatigue and brain fry",
+    "summary": "Growing discussion of cognitive overload from AI tools highlights practitioner burnout and the need for sustainable applied AI workflows.",
     "keywords": [
-     "GitHub",
-     "pull request",
-     "developer tools"
-    ]
-   },
-   {
-    "title": "Honeypot poses as supermarket fridge controller",
-    "summary": "Coldframe, a Show HN honeypot mimicking an IoT fridge controller, showcases applied AI-adjacent security experimentation and threat detection.",
-    "keywords": [
-     "Coldframe",
-     "honeypot",
-     "IoT security"
+     "AI fatigue",
+     "productivity",
+     "workflow"
     ]
    }
   ]
  },
  "news": [
   {
-   "id": "n:6687197765",
+   "id": "n:1660654881",
    "kind": "news",
-   "title": "Commodore PET – The Worlds First Personal Computer",
-   "url": "https://www.commodore.ca/commodore-products/commodore-pet-the-worlds-first-personal-computer/",
+   "title": "Unlocking any car from X brand in most of the world",
+   "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
    "source": "Hacker News",
-   "date": "2026-11-07",
-   "summary": "Retrospective on the Commodore PET, the first mass-market personal computer, with historical context.",
+   "date": "2026-11-09",
+   "summary": "Security research on unlocking any car from a major brand worldwide, highlighting automotive access vulnerabilities.",
    "tags": [
-    "history",
-    "hardware"
-   ],
-   "extra": "",
-   "importance": 1.0,
-   "module": "news"
-  },
-  {
-   "id": "n:7201121589",
-   "kind": "news",
-   "title": "GitHub New pull request overview page in public preview",
-   "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
-   "source": "Hacker News",
-   "date": "2026-11-07",
-   "summary": "GitHub previews a redesigned pull request overview page aimed at improving code review workflows.",
-   "tags": [
-    "devtools",
-    "github"
-   ],
-   "extra": "",
-   "importance": 3.0,
-   "module": "news"
-  },
-  {
-   "id": "n:6663806961",
-   "kind": "news",
-   "title": "IRA Velinsky – Commodore's Industrial Designer",
-   "url": "https://www.commodore.ca/commodore-history/ira-velinsky-commodores-amazing-industrial-designer/",
-   "source": "Hacker News",
-   "date": "2026-11-07",
-   "summary": "Profile of IRA Velinsky, the industrial designer behind Commodore's iconic computer hardware.",
-   "tags": [
-    "history",
-    "design"
-   ],
-   "extra": "",
-   "importance": 1.0,
-   "module": "news"
-  },
-  {
-   "id": "n:2244192982",
-   "kind": "news",
-   "title": "Making any integer with four 2s (2025)",
-   "url": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/",
-   "source": "Hacker News",
-   "date": "2026-11-07",
-   "summary": "Recreational math puzzle showing how to express any integer using exactly four 2s.",
-   "tags": [
-    "math",
-    "puzzle"
-   ],
-   "extra": "",
-   "importance": 2.0,
-   "module": "news"
-  },
-  {
-   "id": "n:5009900824",
-   "kind": "news",
-   "title": "Show HN: An offline desktop companion to help maintain a healthy blink rhythm",
-   "url": "https://eyesrhythm.com/",
-   "source": "Hacker News",
-   "date": "2026-11-07",
-   "summary": "Show HN project: an offline desktop app that reminds users to blink regularly for eye health.",
-   "tags": [
-    "desktop",
-    "health"
-   ],
-   "extra": "",
-   "importance": 2.0,
-   "module": "news"
-  },
-  {
-   "id": "n:7025691995",
-   "kind": "news",
-   "title": "Shadow of the Sun (2021)",
-   "url": "https://mattlakeman.org/2021/07/27/shadow-of-the-sun/",
-   "source": "Hacker News",
-   "date": "2026-11-07",
-   "summary": "Essay or article titled Shadow of the Sun from 2021, content unclear from title alone.",
-   "tags": [
-    "misc"
-   ],
-   "extra": "",
-   "importance": 1.0,
-   "module": "news"
-  },
-  {
-   "id": "n:1991105235",
-   "kind": "news",
-   "title": "Show HN: Where Were We",
-   "url": "https://wherewerewe.app/",
-   "source": "Hacker News",
-   "date": "2026-11-07",
-   "summary": "Show HN tool helping users recall where they were or what they were doing previously.",
-   "tags": [
-    "productivity",
-    "showhn"
-   ],
-   "extra": "",
-   "importance": 2.0,
-   "module": "news"
-  },
-  {
-   "id": "n:2117622122",
-   "kind": "news",
-   "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
-   "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-   "source": "Hacker News",
-   "date": "2026-11-07",
-   "summary": "Claude Code's 'Don't Ask Again' option leaked passwords into 1,122 public GitHub files, highlighting agent security risks.",
-   "tags": [
-    "security",
-    "llm-agents",
-    "privacy"
+    "automotive security",
+    "vulnerability",
+    "IoT"
    ],
    "extra": "",
    "importance": 6.0,
    "module": "news"
   },
   {
-   "id": "n:5419062228",
+   "id": "n:2316639532",
    "kind": "news",
-   "title": "What I run on my $10 USD OpenStick homelab",
-   "url": "https://blog.bosscher.ch/posts/openstick/",
+   "title": "I'm Not Convinced the AI Bubble Exists",
+   "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
    "source": "Hacker News",
-   "date": "2026-11-07",
-   "summary": "Homelab setup built on a $10 OpenStick USB stick running Linux, with services described.",
+   "date": "2026-11-08",
+   "summary": "Skeptical analysis questioning whether the AI investment bubble narrative is justified.",
    "tags": [
-    "homelab",
-    "linux"
-   ],
-   "extra": "",
-   "importance": 3.0,
-   "module": "news"
-  },
-  {
-   "id": "n:42773122",
-   "kind": "news",
-   "title": "The end of Microsoft Research's AI Frontiers group",
-   "url": "https://hunch.net/?p=13764006",
-   "source": "Hacker News",
-   "date": "2026-11-07",
-   "summary": "Microsoft Research disbands its AI Frontiers group, signaling a shift in corporate AI research strategy.",
-   "tags": [
-    "industry",
-    "research-org",
-    "ai"
-   ],
-   "extra": "",
-   "importance": 7.0,
-   "module": "news"
-  },
-  {
-   "id": "n:299571004",
-   "kind": "news",
-   "title": "GeoWorks, Microsoft Windows' Upstart '90s Competitor (2016)",
-   "url": "https://www.atlasobscura.com/articles/the-history-of-geoworks-microsoft-windows-upstart-90s-competitor",
-   "source": "Hacker News",
-   "date": "2026-11-07",
-   "summary": "Retrospective on GeoWorks, a 1990s GUI competitor to Microsoft Windows, and its decline.",
-   "tags": [
-    "history",
-    "os"
-   ],
-   "extra": "",
-   "importance": 2.0,
-   "module": "news"
-  },
-  {
-   "id": "n:44415927",
-   "kind": "news",
-   "title": "Five memorable books about programming (2008)",
-   "url": "https://prog21.dadgum.com/19.html",
-   "source": "Hacker News",
-   "date": "2026-11-07",
-   "summary": "List of five memorable programming books recommended in a 2008 article.",
-   "tags": [
-    "books",
-    "programming"
-   ],
-   "extra": "",
-   "importance": 1.0,
-   "module": "news"
-  },
-  {
-   "id": "n:225834329",
-   "kind": "news",
-   "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
-   "url": "https://github.com/hedgerow-dev/coldframe",
-   "source": "Hacker News",
-   "date": "2026-11-07",
-   "summary": "Coldframe is a honeypot disguised as a supermarket fridge controller to attract and study attackers.",
-   "tags": [
-    "security",
-    "honeypot",
-    "iot"
-   ],
-   "extra": "",
-   "importance": 4.0,
-   "module": "news"
-  },
-  {
-   "id": "n:3945652985",
-   "kind": "news",
-   "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
-   "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-   "source": "Hacker News",
-   "date": "2026-11-07",
-   "summary": "MaxxBench questions whether DeepSWE benchmark scores reflect genuine capability, probing benchmark validity.",
-   "tags": [
-    "benchmark",
-    "evaluation",
-    "llm"
+    "AI economics",
+    "industry analysis"
    ],
    "extra": "",
    "importance": 5.0,
    "module": "news"
   },
   {
-   "id": "n:7818448546",
+   "id": "n:3269716333",
    "kind": "news",
-   "title": "Apple’s grey list: Words and phrases your iPhone won’t help you spell",
-   "url": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
+   "title": "Herb Sutter: When a language's creator and its owners strongly disagree [pdf]",
+   "url": "https://isocpp.org/files/papers/P4454R0.pdf",
    "source": "Hacker News",
-   "date": "2026-11-07",
-   "summary": "Apple maintains a grey list of words and phrases its iPhone autocorrect and spellcheck refuse to help with.",
+   "date": "2026-11-08",
+   "summary": "Herb Sutter's account of conflict between a language creator and its corporate owners, relevant to governance.",
    "tags": [
-    "apple",
-    "nlp"
+    "language governance",
+    "C++",
+    "open standards"
    ],
    "extra": "",
-   "importance": 2.0,
+   "importance": 7.0,
    "module": "news"
   },
   {
-   "id": "n:6856520252",
+   "id": "n:788286845",
    "kind": "news",
-   "title": "How Long Can Life Wait?",
-   "url": "https://mceglowski.substack.com/p/how-long-can-life-wait",
+   "title": "Chimera Vocal Synth",
+   "url": "https://chimera-vocal-synth.vercel.app/",
    "source": "Hacker News",
-   "date": "2026-11-07",
-   "summary": "Explores the limits of how long biological life can remain dormant before becoming viable again.",
+   "date": "2026-11-08",
+   "summary": "Chimera Vocal Synth, a tool for vocal synthesis, relevant to generative audio applications.",
    "tags": [
-    "biology"
+    "audio synthesis",
+    "generative audio"
+   ],
+   "extra": "",
+   "importance": 4.0,
+   "module": "news"
+  },
+  {
+   "id": "n:8026167186",
+   "kind": "news",
+   "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
+   "url": "https://ketchup3d.github.io/app/",
+   "source": "Hacker News",
+   "date": "2026-11-08",
+   "summary": "Open-source SketchUp alternative built with Rust and WebGPU, showcasing browser-based 3D modeling.",
+   "tags": [
+    "WebGPU",
+    "Rust",
+    "3D modeling"
+   ],
+   "extra": "",
+   "importance": 6.0,
+   "module": "news"
+  },
+  {
+   "id": "n:3672652320",
+   "kind": "news",
+   "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+   "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company",
+   "source": "Hacker News",
+   "date": "2026-11-08",
+   "summary": "Report on Jensen Huang's letter to staff regarding a personal affair, corporate governance news.",
+   "tags": [
+    "corporate governance",
+    "Nvidia"
    ],
    "extra": "",
    "importance": 3.0,
    "module": "news"
   },
   {
-   "id": "n:6571544330",
+   "id": "n:8345976149",
    "kind": "news",
-   "title": "Every processor die anyone has photographed and given away",
-   "url": "https://sheets.works/data-viz/cpu-dies",
+   "title": "Ask HN: What are you working on? (November 2026)",
+   "url": "https://news.ycombinator.com/item?id=50417407",
    "source": "Hacker News",
-   "date": "2026-11-07",
-   "summary": "Archive of photographed processor dies contributed by enthusiasts, useful for hardware reverse engineering.",
+   "date": "2026-11-08",
+   "summary": "Community thread sharing current projects, useful for surveying practitioner interests and trends.",
    "tags": [
-    "hardware",
-    "archive"
+    "community",
+    "projects"
+   ],
+   "extra": "",
+   "importance": 4.0,
+   "module": "news"
+  },
+  {
+   "id": "n:7333913501",
+   "kind": "news",
+   "title": "Nvidia Board of Directors Is Investigating Jensen Huang",
+   "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+   "source": "Hacker News",
+   "date": "2026-11-08",
+   "summary": "Nvidia board investigating CEO Jensen Huang, significant corporate governance development for a key AI firm.",
+   "tags": [
+    "corporate governance",
+    "Nvidia"
+   ],
+   "extra": "",
+   "importance": 6.0,
+   "module": "news"
+  },
+  {
+   "id": "n:6325619418",
+   "kind": "news",
+   "title": "Starship Flight 15 on 11/13 plans to catch both booster and ship",
+   "url": "https://www.spacex.com/launches/starship-flight-15",
+   "source": "Hacker News",
+   "date": "2026-11-08",
+   "summary": "SpaceX Starship Flight 15 plans to catch both booster and ship, advancing reusable launch capability.",
+   "tags": [
+    "spaceflight",
+    "reusability"
+   ],
+   "extra": "",
+   "importance": 5.0,
+   "module": "news"
+  },
+  {
+   "id": "n:4659826917",
+   "kind": "news",
+   "title": "The Web Is More Than Enough, by Paul Ford",
+   "url": "https://ftrain.com/aboard-the-web-is-more-than-enough",
+   "source": "Hacker News",
+   "date": "2026-11-08",
+   "summary": "Paul Ford essay arguing the web remains sufficient despite platform shifts and AI hype.",
+   "tags": [
+    "web",
+    "essay"
+   ],
+   "extra": "",
+   "importance": 4.0,
+   "module": "news"
+  },
+  {
+   "id": "n:3039323489",
+   "kind": "news",
+   "title": "How I Fight AI Brain Fry",
+   "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+   "source": "Hacker News",
+   "date": "2026-11-08",
+   "summary": "Personal strategies for mitigating cognitive fatigue from heavy AI tool usage.",
+   "tags": [
+    "human-AI interaction",
+    "productivity"
+   ],
+   "extra": "",
+   "importance": 5.0,
+   "module": "news"
+  },
+  {
+   "id": "n:4120708464",
+   "kind": "news",
+   "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
+   "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+   "source": "Hacker News",
+   "date": "2026-11-08",
+   "summary": "Outlook.com quietly rejecting email from domains lacking DMARC, tightening email authentication enforcement.",
+   "tags": [
+    "email security",
+    "DMARC",
+    "deliverability"
+   ],
+   "extra": "",
+   "importance": 6.0,
+   "module": "news"
+  },
+  {
+   "id": "n:9027659124",
+   "kind": "news",
+   "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
+   "url": "https://duxlabs.dev/",
+   "source": "Hacker News",
+   "date": "2026-11-08",
+   "summary": "Dux, a free open-source Wayland desktop shell with file manager and theming, advancing Linux desktop stacks.",
+   "tags": [
+    "Wayland",
+    "Linux desktop",
+    "open source"
+   ],
+   "extra": "",
+   "importance": 5.0,
+   "module": "news"
+  },
+  {
+   "id": "n:3136647976",
+   "kind": "news",
+   "title": "Playing with the STM32MP2",
+   "url": "https://serd.es/2026/11/08/playing-with-stm32mp2.html",
+   "source": "Hacker News",
+   "date": "2026-11-08",
+   "summary": "Hands-on exploration of the STM32MP2 microcontroller, relevant to embedded systems practitioners.",
+   "tags": [
+    "embedded",
+    "STM32"
+   ],
+   "extra": "",
+   "importance": 4.0,
+   "module": "news"
+  },
+  {
+   "id": "n:6950435691",
+   "kind": "news",
+   "title": "Playing Zork 1 on a CP/M emulator on Linux (2021)",
+   "url": "https://kevinboone.me/cpmzork.html",
+   "source": "Hacker News",
+   "date": "2026-11-08",
+   "summary": "Running Zork 1 on a CP/M emulator under Linux, a retrocomputing demonstration.",
+   "tags": [
+    "emulation",
+    "retrocomputing"
    ],
    "extra": "",
    "importance": 3.0,
    "module": "news"
   },
   {
-   "id": "n:791334354",
+   "id": "n:9818768741",
    "kind": "news",
-   "title": "Terry Pratchett's Study",
-   "url": "https://www.sussi.dk/terry-pratchetts-study",
+   "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+   "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
    "source": "Hacker News",
-   "date": "2026-11-07",
-   "summary": "Photo tour or description of Terry Pratchett's study and writing space.",
+   "date": "2026-11-08",
+   "summary": "Goldman Sachs withdrawing Claude Code from bankers and traders, notable signal on enterprise AI deployment friction.",
    "tags": [
-    "misc"
+    "enterprise AI",
+    "deployment",
+    "finance"
    ],
    "extra": "",
-   "importance": 1.0,
+   "importance": 7.0,
    "module": "news"
   },
   {
-   "id": "n:9936699867",
+   "id": "n:4986485614",
    "kind": "news",
-   "title": "Retro Song Bird: Plug in any Game Boy cartridge to hear the soundtrack",
-   "url": "https://www.retrosongbird.com/",
+   "title": "A Little Snitch for Windows",
+   "url": "https://packethound.app/",
    "source": "Hacker News",
-   "date": "2026-11-07",
-   "summary": "Retro Song Bird project lets users plug any Game Boy cartridge into hardware to hear its soundtrack.",
+   "date": "2026-11-08",
+   "summary": "A Little Snitch-style network monitor for Windows, improving host-based network visibility.",
    "tags": [
-    "retro",
-    "hardware",
-    "audio"
+    "network security",
+    "Windows",
+    "monitoring"
    ],
    "extra": "",
-   "importance": 2.0,
+   "importance": 5.0,
    "module": "news"
   },
   {
-   "id": "n:6796537768",
+   "id": "n:5201594046",
    "kind": "news",
-   "title": "The $8 Linux Computer (2022)",
-   "url": "http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html",
+   "title": "I'm not a fan of Deno's security model (2024)",
+   "url": "https://goldstein.lol/posts/deno-security/",
    "source": "Hacker News",
-   "date": "2026-11-07",
-   "summary": "Overview of an $8 Linux computer, exploring ultra-low-cost computing hardware options.",
+   "date": "2026-11-08",
+   "summary": "Critique of Deno's security model, relevant to runtime permission design discussions.",
    "tags": [
-    "hardware",
-    "linux"
+    "runtime security",
+    "Deno"
    ],
    "extra": "",
-   "importance": 3.0,
+   "importance": 5.0,
+   "module": "news"
+  },
+  {
+   "id": "n:3507066309",
+   "kind": "news",
+   "title": "Writing as a thinking tool",
+   "url": "http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html",
+   "source": "Hacker News",
+   "date": "2026-11-08",
+   "summary": "Essay on writing as a tool for thinking, relevant to knowledge work and reasoning practices.",
+   "tags": [
+    "writing",
+    "cognition"
+   ],
+   "extra": "",
+   "importance": 4.0,
+   "module": "news"
+  },
+  {
+   "id": "n:3627953957",
+   "kind": "news",
+   "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+   "url": "https://github.com/synchopate/llama-modchip",
+   "source": "Hacker News",
+   "date": "2026-11-08",
+   "summary": "Running a 284B DeepSeek model on 64GB RAM without GPU via modchip-style optimization, notable efficiency result.",
+   "tags": [
+    "LLM inference",
+    "quantization",
+    "efficiency"
+   ],
+   "extra": "",
+   "importance": 8.0,
    "module": "news"
   }
  ]
