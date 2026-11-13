@@ -1,4 +1,4 @@
-## Updated on 2026.11.12
+## Updated on 2026.11.13
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -16,7 +16,16 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
-|**2026-11-10**|**Continual-ARC: Measuring Skill Acquisition over a Working Lifetime**|Daniel Lenton et.al.|[2611.14505](http://arxiv.org/abs/2611.14505)|null|
+|**2026-11-11**|**TDMOpt: LLM-Driven Cross-layer Dispatch for Transmission-Distribution-Microgrid Systems**|Jiayang Tu et.al.|[2611.15012](http://arxiv.org/abs/2611.15012)|null|
+|**2026-11-11**|**EvoX: Rethinking the Agent Harness as a Runtime Policy**|Haoyang Zhang et.al.|[2611.15006](http://arxiv.org/abs/2611.15006)|null|
+|**2026-11-11**|**Termination Lag: Coding Agents Solve Early but Stop Late**|Musa Cim et.al.|[2611.14960](http://arxiv.org/abs/2611.14960)|null|
+|**2026-11-11**|**JoyFrontBench: Evaluating Front-End Coding Agents through Goal-Oriented Acceptance Contracts**|Xiaoyi Qiao et.al.|[2611.14952](http://arxiv.org/abs/2611.14952)|null|
+|**2026-11-11**|**RSI-PDEbench: A Benchmark for Self-Improving Agents in PDE Solving**|Binghang Lu et.al.|[2611.14949](http://arxiv.org/abs/2611.14949)|null|
+|**2026-11-10**|**OverServe: Resource Amplification Attacks on SaaS Agents via Tool--Prompt Co-Design**|Ruiheng Yu et.al.|[2611.14808](http://arxiv.org/abs/2611.14808)|null|
+|**2026-11-10**|**Harmony: Bridging Audio Understanding and Editing through Agentic Collaboration**|Zhongyi Tong et.al.|[2611.14724](http://arxiv.org/abs/2611.14724)|null|
+|**2026-11-10**|**Together Compiler: Continual Compilation for AI Inference**|Reyna Abhyankar et.al.|[2611.14681](http://arxiv.org/abs/2611.14681)|null|
+|**2026-11-10**|**KernelMosaic: An Open Dataset and Agentic Framework for CUDA Kernel Generation**|Ningyuan Xi et.al.|[2611.14604](http://arxiv.org/abs/2611.14604)|null|
+|**2026-11-11**|**Continual-ARC: Measuring Skill Acquisition over a Working Lifetime**|Daniel Lenton et.al.|[2611.14505](http://arxiv.org/abs/2611.14505)|null|
 |**2026-11-10**|**Verifiable Agentic Traffic Class: A Policed Quality-of-Service Mechanism for Agentic AI Traffic, Evaluated from Simulation to Real-Kernel Adversarial Testing**|Naveen Babu Narayanan Nair et.al.|[2611.14211](http://arxiv.org/abs/2611.14211)|null|
 |**2026-11-10**|**WAM is capable in BEHAVIOR-1K: the 2nd-place solution to the 2026 BEHAVIOR Challenge**|Yelin He et.al.|[2611.13818](http://arxiv.org/abs/2611.13818)|null|
 |**2026-11-10**|**Toward Autonomous RTL and Synthesis Optimization: Benchmarking and Self-Improving Agents**|Wenji Fang et.al.|[2611.13713](http://arxiv.org/abs/2611.13713)|null|
@@ -314,12 +323,18 @@
 |**2026-09-22**|**GameDirector: Decoupling Gameplay Logic from Rendering for Player-Configurable Game World Models**|Zijun Lin et.al.|[2609.25652](http://arxiv.org/abs/2609.25652)|null|
 |**2026-09-22**|**Qwen3.8-Omni: Towards Native Omni-Modal Agents**|Qwen Team et.al.|[2609.25611](http://arxiv.org/abs/2609.25611)|null|
 
-<p align=right>(<a href=#updated-on-20261112>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261113>back to top</a>)</p>
 
 ## MCP / Tool Protocols
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-11-11**|**EvoX: Rethinking the Agent Harness as a Runtime Policy**|Haoyang Zhang et.al.|[2611.15006](http://arxiv.org/abs/2611.15006)|null|
+|**2026-11-11**|**ToolTurns: Benchmarking LLM Agents in Multi-Turn Dialogue**|Milad Gholami et.al.|[2611.14925](http://arxiv.org/abs/2611.14925)|null|
+|**2026-11-11**|**When Safety Becomes an Attack Surface: Manipulating Abstention in Tool-Using AI Agents**|Charles Xiao et.al.|[2611.14864](http://arxiv.org/abs/2611.14864)|null|
+|**2026-11-10**|**OverServe: Resource Amplification Attacks on SaaS Agents via Tool--Prompt Co-Design**|Ruiheng Yu et.al.|[2611.14808](http://arxiv.org/abs/2611.14808)|null|
+|**2026-11-10**|**Where Should the Code Go? Locating Foundation-Model Errors in Bitemporal Inventory Simulation**|Durga Sandeep Saluru et.al.|[2611.14671](http://arxiv.org/abs/2611.14671)|null|
+|**2026-11-10**|**Cleaning an Agent's History Hurts When the World Still Holds the Error**|Egor Pakhomov et.al.|[2611.14654](http://arxiv.org/abs/2611.14654)|null|
 |**2026-11-10**|**ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows**|Kaiyuan Hou et.al.|[2611.14492](http://arxiv.org/abs/2611.14492)|null|
 |**2026-11-10**|**When Should Agents Remember? Falsification-Gated Self-Evolution for LLM Agents**|Runxuan Tang et.al.|[2611.14326](http://arxiv.org/abs/2611.14326)|null|
 |**2026-11-10**|**Flagged Grothendieck enumerators and ribbon decomposition determinants**|Alibek Adilzhan et.al.|[2611.14298](http://arxiv.org/abs/2611.14298)|null|
@@ -625,12 +640,16 @@
 |**2026-09-22**|**Knowledge-as-Skill: A Structural Design for Autonomous Knowledge-Base Use by LLM Agents**|Jiangxu Wu et.al.|[2609.25991](http://arxiv.org/abs/2609.25991)|null|
 |**2026-09-22**|**Governed AI-Agent Coordination for Dementia Care: Architecture, Safety Contracts, and Evidence-Derived Workflow Verification**|Francesca Medda et.al.|[2609.25956](http://arxiv.org/abs/2609.25956)|null|
 
-<p align=right>(<a href=#updated-on-20261112>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261113>back to top</a>)</p>
 
 ## A2A / Multi-Agent Orchestration
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-11-11**|**CoLFA: Collaboration-Guided Lightweight Failure Attribution for LLM-Based Multi-Agent Systems**|Yufei Luo et.al.|[2611.14980](http://arxiv.org/abs/2611.14980)|null|
+|**2026-11-11**|**Inverse-Optimal Fixed-Time Integral Reinforcement Learning for Unknown Nonlinear Leader-Follower Multi-Agent Systems**|Tien Dat Vu et.al.|[2611.14927](http://arxiv.org/abs/2611.14927)|null|
+|**2026-11-10**|**Open Challenges and Opportunities in Human-Agent Systems**|Reuth Mirsky et.al.|[2611.14846](http://arxiv.org/abs/2611.14846)|null|
+|**2026-11-10**|**Harmony: Bridging Audio Understanding and Editing through Agentic Collaboration**|Zhongyi Tong et.al.|[2611.14724](http://arxiv.org/abs/2611.14724)|null|
 |**2026-11-10**|**PARLEY: Evaluating LLM Collaboration Through Cooperative Asymmetric Puzzles**|Javier Hernandez et.al.|[2611.14242](http://arxiv.org/abs/2611.14242)|null|
 |**2026-11-10**|**Safety and Connectivity Certificates for Finite-Time Formation Transitions**|Yash Purswani et.al.|[2611.13927](http://arxiv.org/abs/2611.13927)|null|
 |**2026-11-10**|**Online Adaptive Clustering in Robust Distributed Model Predictive Control**|Stefan van Dijk et.al.|[2611.13923](http://arxiv.org/abs/2611.13923)|null|
@@ -906,12 +925,13 @@
 |**2026-09-21**|**Proactive Incentive Regulation in Multi-Agent Systems with Environmental Feedback**|Xinyang Cao et.al.|[2609.24506](http://arxiv.org/abs/2609.24506)|null|
 |**2026-09-21**|**Mixed-integer flow formulations for motion planning and decision-making of networked multi-agent systems**|Angelo Caregnato-Neto et.al.|[2609.24474](http://arxiv.org/abs/2609.24474)|null|
 
-<p align=right>(<a href=#updated-on-20261112>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261113>back to top</a>)</p>
 
 ## Memory / Context
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-11-10**|**Tideway: Phase-Aware Tiered Memory Management for MoE Inference on Consumer Devices**|Yifei Wang et.al.|[2611.14848](http://arxiv.org/abs/2611.14848)|null|
 |**2026-11-10**|**When Should Agents Remember? Falsification-Gated Self-Evolution for LLM Agents**|Runxuan Tang et.al.|[2611.14326](http://arxiv.org/abs/2611.14326)|null|
 |**2026-11-10**|**Coding Agent Memory Post-Training II: Unlocking the Memory Potential of Pre-trained File Operations for Long-Horizon Tasks via On-Policy Distillation**|Lirui Luo et.al.|[2611.14009](http://arxiv.org/abs/2611.14009)|null|
 |**2026-11-10**|**BioMem: Agentic Memory for Biomedical LLM Agents**|Mingchen Li et.al.|[2611.13426](http://arxiv.org/abs/2611.13426)|null|
@@ -1140,12 +1160,18 @@
 |**2026-09-22**|**MemCalib: Benchmarking and Optimizing Memory Use in LLM Agents**|Ruike Cao et.al.|[2609.24259](http://arxiv.org/abs/2609.24259)|null|
 |**2026-09-21**|**Data Agents: Agentic Data Systems**|Guoliang Li et.al.|[2609.24137](http://arxiv.org/abs/2609.24137)|null|
 
-<p align=right>(<a href=#updated-on-20261112>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261113>back to top</a>)</p>
 
 ## Planning / Self-Evolution
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-11-11**|**EvoX: Rethinking the Agent Harness as a Runtime Policy**|Haoyang Zhang et.al.|[2611.15006](http://arxiv.org/abs/2611.15006)|null|
+|**2026-11-11**|**Breaking Bad: "Going Badly" Activations Drive Reward Hacking**|Natalia Fischl-Lanzoni et.al.|[2611.14996](http://arxiv.org/abs/2611.14996)|null|
+|**2026-11-11**|**RSI-PDEbench: A Benchmark for Self-Improving Agents in PDE Solving**|Binghang Lu et.al.|[2611.14949](http://arxiv.org/abs/2611.14949)|null|
+|**2026-11-11**|**Auriga: Harness-Governed LLM Agents for Effective Throughput Optimization in Execute-Order-Validate Permissioned Blockchains**|Xiao Zhang et.al.|[2611.14945](http://arxiv.org/abs/2611.14945)|null|
+|**2026-11-11**|**ToolTurns: Benchmarking LLM Agents in Multi-Turn Dialogue**|Milad Gholami et.al.|[2611.14925](http://arxiv.org/abs/2611.14925)|null|
+|**2026-11-10**|**Tideway: Phase-Aware Tiered Memory Management for MoE Inference on Consumer Devices**|Yifei Wang et.al.|[2611.14848](http://arxiv.org/abs/2611.14848)|null|
 |**2026-11-10**|**Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations**|Ziang Liu et.al.|[2611.14514](http://arxiv.org/abs/2611.14514)|null|
 |**2026-11-10**|**ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows**|Kaiyuan Hou et.al.|[2611.14492](http://arxiv.org/abs/2611.14492)|null|
 |**2026-11-10**|**When Should Agents Remember? Falsification-Gated Self-Evolution for LLM Agents**|Runxuan Tang et.al.|[2611.14326](http://arxiv.org/abs/2611.14326)|null|
@@ -1461,5 +1487,5 @@
 |**2026-09-22**|**MotionForge: A Data Generation Pipeline and Large-Scale Benchmark for Long-Horizon Manipulation of Dynamic Objects with Domain Shifts**|Mohan Liu et.al.|[2609.25689](http://arxiv.org/abs/2609.25689)|null|
 |**2026-09-22**|**How Strongly Should Task State Influence an LLM Agent?**|Chenyu Zhang et.al.|[2609.25686](http://arxiv.org/abs/2609.25686)|null|
 
-<p align=right>(<a href=#updated-on-20261112>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261113>back to top</a>)</p>
 
